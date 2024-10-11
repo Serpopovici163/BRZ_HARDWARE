@@ -1,0 +1,64 @@
+Removed Member From Class: ClassName=100DIFF Member=NetC15_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC16_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC17_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC18_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC19_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC20_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC23_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC24_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC25_GMSL_DESERIALIZER_1_1
+Removed Member From Class: ClassName=100DIFF Member=NetC28_GMSL_DESERIALIZER_1_1
+Added Component: Designator=TP65(New footprint 1)
+Added Component: Designator=TP66(New footprint 1)
+Added Component: Designator=TP67(New footprint 1)
+Added Component: Designator=TP68(New footprint 1)
+Added Component: Designator=TP69(New footprint 1)
+Added Component: Designator=TP70(New footprint 1)
+Added Component: Designator=TP71(New footprint 1)
+Added Component: Designator=TP72(New footprint 1)
+Added Component: Designator=TP73(New footprint 1)
+Added Component: Designator=TP74(New footprint 1)
+Added Pin To Net: NetName=CSI1_CK_N Pin=C28_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_CK_N Pin=TP74-1
+Added Net: Name=CSI1_CK_N
+Added Pin To Net: NetName=CSI1_CK_P Pin=C25_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_CK_P Pin=TP73-1
+Added Net: Name=CSI1_CK_P
+Add Net: Net with name "CSI1_D0_N" already exists
+Add Net: Net with name "CSI1_D0_P" already exists
+Add Net: Net with name "CSI1_D1_N" already exists
+Add Net: Net with name "CSI1_D1_P" already exists
+Added Pin To Net: NetName=CSI1_D2_N Pin=C20_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_D2_N Pin=TP70-1
+Added Net: Name=CSI1_D2_N
+Added Pin To Net: NetName=CSI1_D2_P Pin=C19_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_D2_P Pin=TP69-1
+Added Net: Name=CSI1_D2_P
+Added Pin To Net: NetName=CSI1_D3_N Pin=C24_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_D3_N Pin=TP72-1
+Added Net: Name=CSI1_D3_N
+Added Pin To Net: NetName=CSI1_D3_P Pin=C23_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CSI1_D3_P Pin=TP71-1
+Added Net: Name=CSI1_D3_P
+Added Differential Pair: Name=CSI1_CK
+Added Differential Pair: Name=CSI1_D2
+Added Differential Pair: Name=CSI1_D3
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP65 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP66 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP67 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP68 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP69 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP70 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP71 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP72 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP73 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP74 TPAD6R
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_CK_N
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_CK_P
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_D2_N
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_D2_P
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_D3_N
+Added Member To Class: ClassName=100DIFF Member=Wire CSI1_D3_P
+Added Member To Class: ClassName=100DIFF Member=CSI1_CK
+Added Member To Class: ClassName=100DIFF Member=CSI1_D2
+Added Member To Class: ClassName=100DIFF Member=CSI1_D3

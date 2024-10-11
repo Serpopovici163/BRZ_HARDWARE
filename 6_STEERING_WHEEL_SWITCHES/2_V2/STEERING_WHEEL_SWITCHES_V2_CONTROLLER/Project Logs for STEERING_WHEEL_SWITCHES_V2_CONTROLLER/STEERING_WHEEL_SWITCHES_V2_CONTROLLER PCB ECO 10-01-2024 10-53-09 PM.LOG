@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=nLED_TRIG_6 Pin=U1-67
+Removed Pin From Net: NetName=nLED_TRIG_7 Pin=U1-68
+Removed Pin From Net: NetName=GRN_ENABLE_LED_ARRAY_02 Pin=U1-70
+Added Pin To Net: NetName=nLED_TRIG_4 Pin=U1-67
+Added Pin To Net: NetName=GRN_ENABLE_LED_ARRAY_02 Pin=U1-68
+Added Pin To Net: NetName=nLED_TRIG_5 Pin=U1-69
+Added Pin To Net: NetName=nLED_TRIG_6 Pin=U1-70
+Added Pin To Net: NetName=nLED_TRIG_7 Pin=U1-71

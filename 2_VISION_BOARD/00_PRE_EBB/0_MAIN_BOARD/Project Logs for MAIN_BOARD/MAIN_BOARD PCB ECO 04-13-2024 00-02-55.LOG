@@ -1,0 +1,27 @@
+Removed Member From Class: ClassName=100DIFF Member=CSI1_D0_N
+Removed Member From Class: ClassName=100DIFF Member=CSI1_D0_P
+Added Pin To Net: NetName=NetC5_CAMIF_1_1 Pin=C5_CAMIF_1-1
+Added Pin To Net: NetName=NetC5_CAMIF_1_1 Pin=R2-2
+Added Net: Name=NetC5_CAMIF_1_1
+Added Pin To Net: NetName=NetC6_CAMIF_1_1 Pin=C6_CAMIF_1-1
+Added Pin To Net: NetName=NetC6_CAMIF_1_1 Pin=R1-2
+Added Net: Name=NetC6_CAMIF_1_1
+Add Net: Net with name "PCIE_WAKE" already exists
+Added Pin To Net: NetName=PRE_CSI1_D0_N Pin=D7-1
+Added Pin To Net: NetName=PRE_CSI1_D0_N Pin=D7-10
+Added Pin To Net: NetName=PRE_CSI1_D0_N Pin=J1-3
+Added Pin To Net: NetName=PRE_CSI1_D0_N Pin=R1-1
+Added Net: Name=PRE_CSI1_D0_N
+Added Pin To Net: NetName=PRE_CSI1_D0_P Pin=D7-2
+Added Pin To Net: NetName=PRE_CSI1_D0_P Pin=D7-9
+Added Pin To Net: NetName=PRE_CSI1_D0_P Pin=J1-5
+Added Pin To Net: NetName=PRE_CSI1_D0_P Pin=R2-1
+Added Net: Name=PRE_CSI1_D0_P
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC5_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC6_CAMIF_1_1 is 1 instead of 2
+Added Member To Class: ClassName=100DIFF Member=Wire NetC5_CAMIF_1_1
+Added Member To Class: ClassName=100DIFF Member=Wire NetC6_CAMIF_1_1
+Added Member To Class: ClassName=100DIFF Member=Wire PRE_CSI1_D0_N
+Added Member To Class: ClassName=100DIFF Member=Wire PRE_CSI1_D0_P

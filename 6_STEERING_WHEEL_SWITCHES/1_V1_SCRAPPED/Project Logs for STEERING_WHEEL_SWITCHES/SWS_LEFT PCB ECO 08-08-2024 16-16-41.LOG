@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=D10 NewDesignator=D11
+Added Pin To Net: NetName=NetD11_4 Pin=D11-4
+Added Pin To Net: NetName=NetD11_4 Pin=R49-2
+Added Net: Name=NetD11_4
+Added Member To Class: ClassName=LED_ARRAY Member=Component D11 LTST-C19HE1WT

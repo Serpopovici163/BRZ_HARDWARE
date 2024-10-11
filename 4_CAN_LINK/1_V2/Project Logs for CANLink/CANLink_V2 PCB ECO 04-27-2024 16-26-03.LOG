@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetR40_2 Pin=U1-1
+Removed Pin From Net: NetName=DIFF_AMP_OUT Pin=U1-12
+Removed Pin From Net: NetName=NetR88_1 Pin=U1-13
+Removed Pin From Net: NetName=NetR91_2 Pin=U1-14
+Removed Pin From Net: NetName=CAN_H_BUF Pin=U1-15
+Removed Pin From Net: NetName=CAN_H_BUF Pin=U1-16
+Added Pin To Net: NetName=DIFF_AMP_OUT Pin=U1-1
+Added Pin To Net: NetName=NetR40_2 Pin=U1-12
+Added Pin To Net: NetName=CAN_H_BUF Pin=U1-13
+Added Pin To Net: NetName=CAN_H_BUF Pin=U1-14
+Added Pin To Net: NetName=NetR91_2 Pin=U1-15
+Added Pin To Net: NetName=NetR88_1 Pin=U1-16

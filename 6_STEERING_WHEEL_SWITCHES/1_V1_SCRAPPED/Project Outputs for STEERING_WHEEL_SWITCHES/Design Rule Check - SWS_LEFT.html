@@ -1,0 +1,427 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">08/12/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">09:26:45</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc" class="file"><acronym title="C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc">C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">25</td></tr>
+</table>
+</td>
+</table><a name="IDYNGB4DPW1OXLPKIMOESDXPU0AC0WPSP0RPH1KKO2EFBIPYL3FXJP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLB2TSX4GW33FDAONR4DV3EPXYIXP4J4HK3R5P2FM3MW20O4NKJ3G">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF4DDXPWPHAZ0PXXGM4MMIVVW1JBHVEHZJJA2N2JUPWV01PXJGADJ">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJIAV31WZS0F3MNJ01FPE3N2NSBYDB2HHCKLMTGPEZHDQS4VLPRD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBWYYVNZD0CQQBNZYDPUOJGDFKMH35AGMDEX5NKE2U4G3O2MUNZ1">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLC2GW2DTTMTXCTA2Q2QAUTNJPOBJX4ZYXLHIKGJA4PE0ID3UAZBB">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRGGLBV51B0TSOEW510FR0AHLGJWK4CG0B50RXRNB5VYTGPF51VGI">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCELYG1BKEAE3L4LJA4MSMMQBGBOFVYE2QRA5AKJNXLECRDWWRGVI">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRADXCJ1CEQ3ZG3EE54PA0ZMSXBRYHESH1SYV1JJAV5DKK4R4KCOF">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMHBOACI2VJJ4KZ350EULWS41UMXESPIYP453HMCWWVPWT2KXUXCO">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNRPFOLWZCAMTFLP132U4A01VAH2MSAUKW5FI5RK1QPHUOXX3XZG">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLBR2I5EV3Y5VL53ASBD5WQJDNETE5OJSBUU10IFZGMIYXCWORKMI">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEAJQSDVWQPJSGPTINZMCNVSL1CNAAO51ED0SLNG4H1G1ZI4GZVJ">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX4DKCMLPYQH0W5QDN01Z132NDO2WQICFHG5QFP2DDSNZTDTOKEM">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMDXORFTA41MFKYCBRDTYTIG5CBZ5Z3YPFXOXN2HLLJG2AVSDTADM">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEDXXRZYBQ54GJADDQXXZ3BEQIOOZSNCVN3JNE1EDBFAZTIJZTUFK">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVPCVIIDF1O3VEYB2AO4HUB0P5IILALZEAW5XWYECNLMJLXVB52E">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">25</td>
+</tr>
+</table><br><a name="IDJIAV31WZS0F3MNJ01FPE3N2NSBYDB2HHCKLMTGPEZHDQS4VLPRD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34368.701mil|Location2.X=37976.397mil|Location1.Y=26214.583mil|Location2.Y=29773.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34368.701mil|Location2.X=37976.397mil|Location1.Y=26214.583mil|Location2.Y=29773.032mil|Absolute=True">Un-Routed Net Constraint: Net NetC32_2 Between Pad C32-2(28.225mm,29.975mm) on Bottom Layer And Pad TP5-1(119.225mm,-59.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35009.842mil|Location2.X=35153.543mil|Location1.Y=29506.89mil|Location2.Y=30289.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35009.842mil|Location2.X=35153.543mil|Location1.Y=29506.89mil|Location2.Y=30289.37mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R6-1(44.75mm,23.925mm) on Bottom Layer And Pad TP3-1(47.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34921.26mil|Location2.X=35389.764mil|Location1.Y=29460.63mil|Location2.Y=30289.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34921.26mil|Location2.X=35389.764mil|Location1.Y=29460.63mil|Location2.Y=30289.37mil|Absolute=True">Un-Routed Net Constraint: Net NRESET Between Via (42.325mm,22.625mm) from Top Layer to Bottom Layer And Pad TP2-1(53.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34652.548mil|Location2.X=34917.322mil|Location1.Y=29987.196mil|Location2.Y=30289.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34652.548mil|Location2.X=34917.322mil|Location1.Y=29987.196mil|Location2.Y=30289.37mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Via (35.5mm,36mm) from Top Layer to Bottom Layer And Pad TP4-1(41.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34711.603mil|Location2.X=37740.176mil|Location1.Y=26214.583mil|Location2.Y=28713.574mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34711.603mil|Location2.X=37740.176mil|Location1.Y=26214.583mil|Location2.Y=28713.574mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Via (37mm,3mm) from Top Layer to Bottom Layer And Pad TP6-1(113.225mm,-59.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRADXCJ1CEQ3ZG3EE54PA0ZMSXBRYHESH1SYV1JJAV5DKK4R4KCOF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.076mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33817.398mil|Location2.X=33820.398mil|Location1.Y=29053.618mil|Location2.Y=29056.618mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33817.398mil|Location2.X=33820.398mil|Location1.Y=29053.618mil|Location2.Y=29056.618mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad Free-22(14mm,12mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34565.429mil|Location2.X=34568.429mil|Location1.Y=29683.539mil|Location2.Y=29686.539mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34565.429mil|Location2.X=34568.429mil|Location1.Y=29683.539mil|Location2.Y=29686.539mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad Free-23(33mm,28mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEAJQSDVWQPJSGPTINZMCNVSL1CNAAO51ED0SLNG4H1G1ZI4GZVJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33693.049mil|Location2.X=33696.715mil|Location1.Y=29447.97mil|Location2.Y=29451.637mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33693.049mil|Location2.X=33696.715mil|Location1.Y=29447.97mil|Location2.Y=29451.637mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (10.85mm,21.9mm) on Bottom Overlay And Pad R31-1(10.55mm,22.45mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33729.466mil|Location2.X=33733.132mil|Location1.Y=29650.726mil|Location2.Y=29654.393mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33729.466mil|Location2.X=33733.132mil|Location1.Y=29650.726mil|Location2.Y=29654.393mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (11.775mm,27.05mm) on Bottom Overlay And Pad R30-1(11.475mm,27.6mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33897.246mil|Location2.X=33900.913mil|Location1.Y=29726.056mil|Location2.Y=29729.723mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33897.246mil|Location2.X=33900.913mil|Location1.Y=29726.056mil|Location2.Y=29729.723mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (16.125mm,29mm) on Bottom Overlay And Pad R40-1(15.575mm,28.675mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33935.175mil|Location2.X=33938.841mil|Location1.Y=29447.97mil|Location2.Y=29451.637mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=33935.175mil|Location2.X=33938.841mil|Location1.Y=29447.97mil|Location2.Y=29451.637mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (17mm,21.9mm) on Bottom Overlay And Pad R49-1(16.675mm,22.45mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34597.576mil|Location2.X=34601.243mil|Location1.Y=29826.907mil|Location2.Y=29830.573mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34597.576mil|Location2.X=34601.243mil|Location1.Y=29826.907mil|Location2.Y=29830.573mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (33.95mm,31.65mm) on Bottom Overlay And Pad R13-1(33.375mm,31.725mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34375.623mil|Location2.X=34380.873mil|Location1.Y=28911.745mil|Location2.Y=28916.995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34375.623mil|Location2.X=34380.873mil|Location1.Y=28911.745mil|Location2.Y=28916.995mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.015mm &lt; 0.102mm) Between Pad R7-1(27.775mm,8.8mm) on Bottom Layer And Track (28.315mm,7.65mm)(28.315mm,8.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.015mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34375.623mil|Location2.X=34380.873mil|Location1.Y=28890.092mil|Location2.Y=28895.342mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34375.623mil|Location2.X=34380.873mil|Location1.Y=28890.092mil|Location2.Y=28895.342mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.015mm &lt; 0.102mm) Between Pad R7-2(27.775mm,7.5mm) on Bottom Layer And Track (28.315mm,7.65mm)(28.315mm,8.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.015mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEDXXRZYBQ54GJADDQXXZ3BEQIOOZSNCVN3JNE1EDBFAZTIJZTUFK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35371.875mil|Location2.X=35378.124mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35371.875mil|Location2.X=35378.124mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Pad TP2-1(53.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35135.655mil|Location2.X=35141.904mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35135.655mil|Location2.X=35141.904mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Pad TP3-1(47.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34899.434mil|Location2.X=34905.683mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34899.434mil|Location2.X=34905.683mil|Location1.Y=30271.482mil|Location2.Y=30277.731mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Pad TP4-1(41.525mm,42.975mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37958.509mil|Location2.X=37964.758mil|Location1.Y=26226.222mil|Location2.Y=26232.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37958.509mil|Location2.X=37964.758mil|Location1.Y=26226.222mil|Location2.Y=26232.471mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Pad TP5-1(119.225mm,-59.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37722.288mil|Location2.X=37728.537mil|Location1.Y=26226.222mil|Location2.Y=26232.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37722.288mil|Location2.X=37728.537mil|Location1.Y=26226.222mil|Location2.Y=26232.471mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Pad TP6-1(113.225mm,-59.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35440.849mil|Location2.X=35447.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35440.849mil|Location2.X=35447.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "TP2" (53.246mm,44.255mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35204.849mil|Location2.X=35211.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=35204.849mil|Location2.X=35211.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "TP3" (47.251mm,44.255mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34968.849mil|Location2.X=34975.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34968.849mil|Location2.X=34975.099mil|Location1.Y=30351.866mil|Location2.Y=30358.115mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "TP4" (41.257mm,44.255mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=38027.55mil|Location2.X=38033.8mil|Location1.Y=26307.362mil|Location2.Y=26313.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=38027.55mil|Location2.X=38033.8mil|Location1.Y=26307.362mil|Location2.Y=26313.611mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "TP5" (118.948mm,-58.475mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37791.55mil|Location2.X=37797.8mil|Location1.Y=26307.362mil|Location2.Y=26313.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=37791.55mil|Location2.X=37797.8mil|Location1.Y=26307.362mil|Location2.Y=26313.611mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "TP6" (112.953mm,-58.475mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34774.452mil|Location2.X=34783.576mil|Location1.Y=28783.79mil|Location2.Y=28792.959mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=34774.452mil|Location2.X=34783.576mil|Location1.Y=28783.79mil|Location2.Y=28792.959mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.062mm &lt; 0.2mm) Between Board Edge And Track (38.278mm,5.297mm)(38.278mm,8.203mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

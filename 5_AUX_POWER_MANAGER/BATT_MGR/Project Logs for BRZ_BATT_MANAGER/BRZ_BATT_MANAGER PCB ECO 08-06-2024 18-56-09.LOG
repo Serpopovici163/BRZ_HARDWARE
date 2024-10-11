@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BATT_PWR Pin=D13_CAN_IF_0-2
+Removed Pin From Net: NetName=CAN_PWR Pin=D13_CAN_IF_1-2
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Added Pin To Net: NetName=CAN_PWR Pin=D13_CAN_IF_0-2
+Added Pin To Net: NetName=BATT_PWR Pin=D13_CAN_IF_1-2
+Add Net: Net with name "PWR_IN" already exists

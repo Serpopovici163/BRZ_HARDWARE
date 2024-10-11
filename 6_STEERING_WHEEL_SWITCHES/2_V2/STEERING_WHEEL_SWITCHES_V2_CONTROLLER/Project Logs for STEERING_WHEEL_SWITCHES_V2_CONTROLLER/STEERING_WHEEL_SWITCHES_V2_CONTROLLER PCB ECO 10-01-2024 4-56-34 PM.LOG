@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=OTHER_LED Pin=R14-1
+Added Pin To Net: NetName=OTHER_LED Pin=U1-93
+Added Net: Name=OTHER_LED
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

@@ -1,0 +1,52 @@
+Change Component Footprint: Designator=R23_PWR_PROT_0 Old Footprint=FP-ERJ6D-MFG New Footprint=FP-WSLP2512R0100FEA-MFG
+Change Component Footprint: Designator=R23_PWR_PROT_2 Old Footprint=FP-ERJ6D-MFG New Footprint=FP-WSLP2512R0100FEA-MFG
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Change Component Comment : Designator=R23_PWR_PROT_0 Old Comment=ERJ-6DSFR10V New Comment=WSLP2512R0100FEA
+Change Component Comment : Designator=R23_PWR_PROT_2 Old Comment=ERJ-6DSFR10V New Comment=WSLP2512R0100FEA
+Change Managed Component Library Link : Designator=R23_PWR_PROT_0 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=32ECD724-69CD-46A4-A3ED-5B08FB5F33E2 New ItemGUID=240EE79C-5972-4A62-8FEB-8DFFAD004AEE Old RevisionGUID=FD614791-1169-4BE4-A72B-7FB30B31A643 New RevisionGUID=CDA91404-314B-467C-BACE-C014372400F0
+Change Managed Component Library Link : Designator=R23_PWR_PROT_2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=32ECD724-69CD-46A4-A3ED-5B08FB5F33E2 New ItemGUID=240EE79C-5972-4A62-8FEB-8DFFAD004AEE Old RevisionGUID=FD614791-1169-4BE4-A72B-7FB30B31A643 New RevisionGUID=CDA91404-314B-467C-BACE-C014372400F0
+Change component parameters: Designator = "R23_PWR_PROT_0" ("R23"); Footprint = "FP-ERJ6D-MFG"; UniqueID = "\OJSAWWBZ\PUKLMWWK" ("\OJSAWWBZ\PUKLMWWK")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "6432"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.635mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "6.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "170°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-65°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "3W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Metal Strip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "WSLP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "75ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.001429oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23_PWR_PROT_2" ("R23"); Footprint = "FP-ERJ6D-MFG"; UniqueID = "\RPICIVDG\PUKLMWWK" ("\RPICIVDG\PUKLMWWK")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "6432"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.635mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "6.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "170°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-65°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "3W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Metal Strip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "WSLP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "75ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.001429oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add Net: Net with name "PWR_IN" already exists

@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=NetC24_1 Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-3
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q1_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q2_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q3_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q4_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q5_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=Q6_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_02 Member=R1_LED_ARRAY_01
+Removed Member From Class: ClassName=MCU_0 Member=R2
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R15_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R16_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R17_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R18_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R19_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R20_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R21_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R22_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R23_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R24_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R25_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R26_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R27_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R28_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R29_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R30_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R31_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R32_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R33_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R34_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R35_LED_ARRAY_02
+Removed Member From Class: ClassName=LED_ARRAY_01 Member=R36_LED_ARRAY_02
+Change Component Footprint: Designator=U2 Old Footprint=SOT90P285X110-3N New Footprint=DCY0004A_N
+Change Component Comment : Designator=U2 Old Comment=AP7375-33SA-7 New Comment=TLV1117LV33DCYR
+Change Managed Component Library Link : Designator=U2 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=e36d447f-e401-4a81-99e5-1c7ca84f4af4 New ItemGUID=8A2CB2F0-C13A-479F-AADE-2F25AEE895E8 Old RevisionGUID=45974793-54f7-4aae-8d4e-0c58e74d88c1 New RevisionGUID=0FD1A707-ED41-4CF8-A760-4A2AFE2EA485
+Change component parameters: Designator = "U2" ("U2"); Footprint = "SOT90P285X110-3N"; UniqueID = "\TTIVKRWQ\XQDJJXMX" ("\TTIVKRWQ\XQDJJXMX")
+Change component parameters (AddParameter): Name = "Accuracy(%)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "TO-261"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLV1117LV33&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds094a"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBVS160A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fixed Output Options(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iout(Max)(A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq(Typ)(mA)"; Value = "0.05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "4-Pin Plastic Small Outline, Body 3.5 x 6.5 mm, Pitch 2.3 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "DCY0004A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4202506/B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TLV1117LV33DCYR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Single Channel LDO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vdo(Typ)(mV)"; Value = "1200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vin(Max)(V)"; Value = "5.5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vin(Min)(V)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vout Adj(Max)(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vout Adj(Min)(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=NetC24_1 Pin=U2-3
+Added Pin To Net: NetName=3V3 Pin=U2-4
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q1_LED_ARRAY_01 (Q1A) SSM6N7002KFU,LF
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q2_LED_ARRAY_01 (Q2A) BSS84AKS,115
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q3_LED_ARRAY_01 (Q3A) BSS84AKS,115
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q4_LED_ARRAY_01 (Q4A) BSS84AKS,115
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q5_LED_ARRAY_01 (Q5A) BSS84AKS,115
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component Q6_LED_ARRAY_01 (Q6A) SSM6N7002KFU,LF
+Added Member To Class: ClassName=LED_ARRAY_02 Member=Component R1_LED_ARRAY_02 (R1) ERJ3EKF56R0V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R15_LED_ARRAY_01 (R15) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R16_LED_ARRAY_01 (R16) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R17_LED_ARRAY_01 (R17) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R18_LED_ARRAY_01 (R18) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R19_LED_ARRAY_01 (R19) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R20_LED_ARRAY_01 (R20) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R21_LED_ARRAY_01 (R21) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R22_LED_ARRAY_01 (R22) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R23_LED_ARRAY_01 (R23) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R24_LED_ARRAY_01 (R24) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R25_LED_ARRAY_01 (R25) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R26_LED_ARRAY_01 (R26) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R27_LED_ARRAY_01 (R27) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R28_LED_ARRAY_01 (R28) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R29_LED_ARRAY_01 (R29) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R30_LED_ARRAY_01 (R30) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R31_LED_ARRAY_01 (R31) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R32_LED_ARRAY_01 (R32) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R33_LED_ARRAY_01 (R33) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R34_LED_ARRAY_01 (R34) ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R35_LED_ARRAY_01 (R35) ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R36_LED_ARRAY_01 (R36) ERJ-3EKF1001V

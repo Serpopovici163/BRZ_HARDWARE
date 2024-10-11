@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=GND Pin=Q1_LED_ARRAY_01-1
+Removed Pin From Net: NetName=GND Pin=Q1_LED_ARRAY_01-4
+Removed Pin From Net: NetName=GND Pin=Q1_LED_ARRAY_02-1
+Removed Pin From Net: NetName=GND Pin=Q1_LED_ARRAY_02-4
+Removed Pin From Net: NetName=GND Pin=Q6_LED_ARRAY_01-1
+Removed Pin From Net: NetName=GND Pin=Q6_LED_ARRAY_02-1
+Removed Pin From Net: NetName=GND Pin=R18_LED_ARRAY_01-1
+Removed Pin From Net: NetName=GND Pin=R18_LED_ARRAY_02-1
+Removed Pin From Net: NetName=GND Pin=R26_LED_ARRAY_01-1
+Removed Pin From Net: NetName=GND Pin=R26_LED_ARRAY_02-1
+Removed Pin From Net: NetName=GND Pin=R32_LED_ARRAY_01-1
+Removed Pin From Net: NetName=GND Pin=R32_LED_ARRAY_02-1
+Added Component: Designator=R1_LED_ARRAY_01(RESC1608X55X30NL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ3EKF56R0V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_LED_ARRAY_02(RESC1608X55X30NL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ3EKF56R0V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R1_LED_ARRAY_01-2
+Added Pin To Net: NetName=GND Pin=R1_LED_ARRAY_02-2
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=Q1_LED_ARRAY_01-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=Q1_LED_ARRAY_01-4
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=Q6_LED_ARRAY_01-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=R1_LED_ARRAY_01-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=R18_LED_ARRAY_01-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=R26_LED_ARRAY_01-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_01 Pin=R32_LED_ARRAY_01-1
+Added Net: Name=LED_GND_LED_ARRAY_01
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=Q1_LED_ARRAY_02-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=Q1_LED_ARRAY_02-4
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=Q6_LED_ARRAY_02-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=R1_LED_ARRAY_02-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=R18_LED_ARRAY_02-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=R26_LED_ARRAY_02-1
+Added Pin To Net: NetName=LED_GND_LED_ARRAY_02 Pin=R32_LED_ARRAY_02-1
+Added Net: Name=LED_GND_LED_ARRAY_02
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=LED_ARRAY_01 Member=Component R1_LED_ARRAY_01 (R1) ERJ3EKF56R0V
+Added Member To Class: ClassName=LED_ARRAY_02 Member=Component R1_LED_ARRAY_02 (R1) ERJ3EKF56R0V

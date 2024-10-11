@@ -1,0 +1,141 @@
+Removed Pin From Net: NetName=EN_MOSFET Pin=Q8-1
+Removed Pin From Net: NetName=NetC24_1 Pin=Q8-3
+Removed Pin From Net: NetName=EN_MOSFET Pin=Q9-3
+Removed Pin From Net: NetName=EN_MOSFET Pin=R40-1
+Change Component Footprint: Designator=Q8 Old Footprint=FP-SOT23-MFG New Footprint=SISH615ADN-T1-GE3-Footprint-1
+Change Component Comment : Designator=Q8 Old Comment=DMP2123L-7 New Comment=SISH615ADN-T1-GE3
+Change Component Designator: OldDesignator=Q1_LED_ARRAY_01 NewDesignator=Q1_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q1_LED_ARRAY_02 NewDesignator=Q1_LED_ARRAY_01
+Change Component Designator: OldDesignator=Q2_LED_ARRAY_01 NewDesignator=Q2_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q2_LED_ARRAY_02 NewDesignator=Q2_LED_ARRAY_01
+Change Component Designator: OldDesignator=Q3_LED_ARRAY_01 NewDesignator=Q3_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q3_LED_ARRAY_02 NewDesignator=Q3_LED_ARRAY_01
+Change Component Designator: OldDesignator=Q4_LED_ARRAY_01 NewDesignator=Q4_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q4_LED_ARRAY_02 NewDesignator=Q4_LED_ARRAY_01
+Change Component Designator: OldDesignator=Q5_LED_ARRAY_01 NewDesignator=Q5_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q5_LED_ARRAY_02 NewDesignator=Q5_LED_ARRAY_01
+Change Component Designator: OldDesignator=Q6_LED_ARRAY_01 NewDesignator=Q6_LED_ARRAY_02
+Change Component Designator: OldDesignator=Q6_LED_ARRAY_02 NewDesignator=Q6_LED_ARRAY_01
+Change Component Designator: OldDesignator=R1_LED_ARRAY_01 NewDesignator=R1_LED_ARRAY_02
+Change Component Designator: OldDesignator=R1_LED_ARRAY_02 NewDesignator=R1_LED_ARRAY_01
+Change Component Designator: OldDesignator=R15_LED_ARRAY_01 NewDesignator=R15_LED_ARRAY_02
+Change Component Designator: OldDesignator=R15_LED_ARRAY_02 NewDesignator=R15_LED_ARRAY_01
+Change Component Designator: OldDesignator=R16_LED_ARRAY_01 NewDesignator=R16_LED_ARRAY_02
+Change Component Designator: OldDesignator=R16_LED_ARRAY_02 NewDesignator=R16_LED_ARRAY_01
+Change Component Designator: OldDesignator=R17_LED_ARRAY_01 NewDesignator=R17_LED_ARRAY_02
+Change Component Designator: OldDesignator=R17_LED_ARRAY_02 NewDesignator=R17_LED_ARRAY_01
+Change Component Designator: OldDesignator=R18_LED_ARRAY_01 NewDesignator=R18_LED_ARRAY_02
+Change Component Designator: OldDesignator=R18_LED_ARRAY_02 NewDesignator=R18_LED_ARRAY_01
+Change Component Designator: OldDesignator=R19_LED_ARRAY_01 NewDesignator=R19_LED_ARRAY_02
+Change Component Designator: OldDesignator=R19_LED_ARRAY_02 NewDesignator=R19_LED_ARRAY_01
+Change Component Designator: OldDesignator=R20_LED_ARRAY_01 NewDesignator=R20_LED_ARRAY_02
+Change Component Designator: OldDesignator=R20_LED_ARRAY_02 NewDesignator=R20_LED_ARRAY_01
+Change Component Designator: OldDesignator=R21_LED_ARRAY_01 NewDesignator=R21_LED_ARRAY_02
+Change Component Designator: OldDesignator=R21_LED_ARRAY_02 NewDesignator=R21_LED_ARRAY_01
+Change Component Designator: OldDesignator=R22_LED_ARRAY_01 NewDesignator=R22_LED_ARRAY_02
+Change Component Designator: OldDesignator=R22_LED_ARRAY_02 NewDesignator=R22_LED_ARRAY_01
+Change Component Designator: OldDesignator=R23_LED_ARRAY_01 NewDesignator=R23_LED_ARRAY_02
+Change Component Designator: OldDesignator=R23_LED_ARRAY_02 NewDesignator=R23_LED_ARRAY_01
+Change Component Designator: OldDesignator=R24_LED_ARRAY_01 NewDesignator=R24_LED_ARRAY_02
+Change Component Designator: OldDesignator=R24_LED_ARRAY_02 NewDesignator=R24_LED_ARRAY_01
+Change Component Designator: OldDesignator=R25_LED_ARRAY_01 NewDesignator=R25_LED_ARRAY_02
+Change Component Designator: OldDesignator=R25_LED_ARRAY_02 NewDesignator=R25_LED_ARRAY_01
+Change Component Designator: OldDesignator=R26_LED_ARRAY_01 NewDesignator=R26_LED_ARRAY_02
+Change Component Designator: OldDesignator=R26_LED_ARRAY_02 NewDesignator=R26_LED_ARRAY_01
+Change Component Designator: OldDesignator=R27_LED_ARRAY_01 NewDesignator=R27_LED_ARRAY_02
+Change Component Designator: OldDesignator=R27_LED_ARRAY_02 NewDesignator=R27_LED_ARRAY_01
+Change Component Designator: OldDesignator=R28_LED_ARRAY_01 NewDesignator=R28_LED_ARRAY_02
+Change Component Designator: OldDesignator=R28_LED_ARRAY_02 NewDesignator=R28_LED_ARRAY_01
+Change Component Designator: OldDesignator=R29_LED_ARRAY_01 NewDesignator=R29_LED_ARRAY_02
+Change Component Designator: OldDesignator=R29_LED_ARRAY_02 NewDesignator=R29_LED_ARRAY_01
+Change Component Designator: OldDesignator=R30_LED_ARRAY_01 NewDesignator=R30_LED_ARRAY_02
+Change Component Designator: OldDesignator=R30_LED_ARRAY_02 NewDesignator=R30_LED_ARRAY_01
+Change Component Designator: OldDesignator=R31_LED_ARRAY_01 NewDesignator=R31_LED_ARRAY_02
+Change Component Designator: OldDesignator=R31_LED_ARRAY_02 NewDesignator=R31_LED_ARRAY_01
+Change Component Designator: OldDesignator=R32_LED_ARRAY_01 NewDesignator=R32_LED_ARRAY_02
+Change Component Designator: OldDesignator=R32_LED_ARRAY_02 NewDesignator=R32_LED_ARRAY_01
+Change Component Designator: OldDesignator=R33_LED_ARRAY_01 NewDesignator=R33_LED_ARRAY_02
+Change Component Designator: OldDesignator=R33_LED_ARRAY_02 NewDesignator=R33_LED_ARRAY_01
+Change Component Designator: OldDesignator=R34_LED_ARRAY_01 NewDesignator=R34_LED_ARRAY_02
+Change Component Designator: OldDesignator=R34_LED_ARRAY_02 NewDesignator=R34_LED_ARRAY_01
+Change Component Designator: OldDesignator=R35_LED_ARRAY_01 NewDesignator=R35_LED_ARRAY_02
+Change Component Designator: OldDesignator=R35_LED_ARRAY_02 NewDesignator=R35_LED_ARRAY_01
+Change Component Designator: OldDesignator=R36_LED_ARRAY_01 NewDesignator=R36_LED_ARRAY_02
+Change Component Designator: OldDesignator=R36_LED_ARRAY_02 NewDesignator=R36_LED_ARRAY_01
+Change Managed Component Library Link : Designator=Q8 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=3926781A-0516-45D8-ACF4-96A565FE85B5 New ItemGUID=2DDDBEF1-A1D0-4B77-AA71-E49AE3F8ADFC Old RevisionGUID=69EC0164-552D-4D69-B76C-617D385FF05E New RevisionGUID=bf817197-8292-4889-a7fa-3cd8e00386ef
+Change component parameters: Designator = "Q8" ("Q8"); Footprint = "FP-SOT23-MFG"; UniqueID = "\TTIVKRWQ\WQMRBOMS" ("\TTIVKRWQ\WQMRBOMS")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "CMP-013-00036-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "SISH615ADN-T1-GE3.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Transistor Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vgs (Max)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vgs(th) (Max) @ Id"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC1608X55X30LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_VSUP Pin=Q8-1
+Added Pin To Net: NetName=CAN_VSUP Pin=Q8-3
+Added Pin To Net: NetName=EN_MOSFET Pin=Q8-4
+Added Pin To Net: NetName=NetC24_1 Pin=Q8-5-6-7-8
+Added Pin To Net: NetName=EN_MOSFET Pin=R2-1
+Change Net Name : Old Net Name=BLU_ENABLE_LED_ARRAY_01 New Net Name=BLU_ENABLE_LED_ARRAY_02
+Change Net Name : Old Net Name=BLU_ENABLE_LED_ARRAY_02 New Net Name=BLU_ENABLE_LED_ARRAY_01
+Change Net Name : Old Net Name=GRN_ENABLE_LED_ARRAY_01 New Net Name=GRN_ENABLE_LED_ARRAY_02
+Change Net Name : Old Net Name=GRN_ENABLE_LED_ARRAY_02 New Net Name=GRN_ENABLE_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_GND_LED_ARRAY_01 New Net Name=LED_GND_LED_ARRAY_02
+Change Net Name : Old Net Name=LED_GND_LED_ARRAY_02 New Net Name=LED_GND_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_0_LED_ARRAY_02 New Net Name=LED_POS_0_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_1_LED_ARRAY_02 New Net Name=LED_POS_1_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_2_LED_ARRAY_02 New Net Name=LED_POS_2_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_3_LED_ARRAY_02 New Net Name=LED_POS_3_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_4_LED_ARRAY_02 New Net Name=LED_POS_4_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_5_LED_ARRAY_02 New Net Name=LED_POS_5_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_6_LED_ARRAY_02 New Net Name=LED_POS_6_LED_ARRAY_01
+Change Net Name : Old Net Name=LED_POS_7_LED_ARRAY_02 New Net Name=LED_POS_7_LED_ARRAY_01
+Change Net Name : Old Net Name=NetQ1_LED_ARRAY_01_2 New Net Name=NetQ1_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ1_LED_ARRAY_01_5 New Net Name=NetQ1_LED_ARRAY_02_5
+Change Net Name : Old Net Name=NetQ1_LED_ARRAY_02_2 New Net Name=NetQ1_LED_ARRAY_01_2
+Change Net Name : Old Net Name=NetQ1_LED_ARRAY_02_5 New Net Name=NetQ1_LED_ARRAY_01_5
+Change Net Name : Old Net Name=NetQ2_LED_ARRAY_01_2 New Net Name=NetQ2_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ2_LED_ARRAY_01_5 New Net Name=NetQ2_LED_ARRAY_02_5
+Change Net Name : Old Net Name=NetQ2_LED_ARRAY_02_2 New Net Name=NetQ2_LED_ARRAY_01_2
+Change Net Name : Old Net Name=NetQ2_LED_ARRAY_02_5 New Net Name=NetQ2_LED_ARRAY_01_5
+Change Net Name : Old Net Name=NetQ3_LED_ARRAY_01_2 New Net Name=NetQ3_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ3_LED_ARRAY_01_5 New Net Name=NetQ3_LED_ARRAY_02_5
+Change Net Name : Old Net Name=NetQ3_LED_ARRAY_02_2 New Net Name=NetQ3_LED_ARRAY_01_2
+Change Net Name : Old Net Name=NetQ3_LED_ARRAY_02_5 New Net Name=NetQ3_LED_ARRAY_01_5
+Change Net Name : Old Net Name=NetQ4_LED_ARRAY_01_2 New Net Name=NetQ4_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ4_LED_ARRAY_01_5 New Net Name=NetQ4_LED_ARRAY_02_5
+Change Net Name : Old Net Name=NetQ4_LED_ARRAY_02_2 New Net Name=NetQ4_LED_ARRAY_01_2
+Change Net Name : Old Net Name=NetQ4_LED_ARRAY_02_5 New Net Name=NetQ4_LED_ARRAY_01_5
+Change Net Name : Old Net Name=NetQ5_LED_ARRAY_01_2 New Net Name=NetQ5_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ5_LED_ARRAY_01_5 New Net Name=NetQ5_LED_ARRAY_02_5
+Change Net Name : Old Net Name=NetQ5_LED_ARRAY_02_2 New Net Name=NetQ5_LED_ARRAY_01_2
+Change Net Name : Old Net Name=NetQ5_LED_ARRAY_02_5 New Net Name=NetQ5_LED_ARRAY_01_5
+Change Net Name : Old Net Name=NetQ6_LED_ARRAY_01_2 New Net Name=NetQ6_LED_ARRAY_02_2
+Change Net Name : Old Net Name=NetQ6_LED_ARRAY_02_2 New Net Name=NetQ6_LED_ARRAY_01_2
+Change Net Name : Old Net Name=nLED_TRIG_0_LED_ARRAY_02 New Net Name=nLED_TRIG_0_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_1_LED_ARRAY_02 New Net Name=nLED_TRIG_1_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_2_LED_ARRAY_02 New Net Name=nLED_TRIG_2_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_3_LED_ARRAY_02 New Net Name=nLED_TRIG_3_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_4_LED_ARRAY_02 New Net Name=nLED_TRIG_4_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_5_LED_ARRAY_02 New Net Name=nLED_TRIG_5_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_6_LED_ARRAY_02 New Net Name=nLED_TRIG_6_LED_ARRAY_01
+Change Net Name : Old Net Name=nLED_TRIG_7_LED_ARRAY_02 New Net Name=nLED_TRIG_7_LED_ARRAY_01
+Change Net Name : Old Net Name=RED_ENABLE_LED_ARRAY_01 New Net Name=RED_ENABLE_LED_ARRAY_02
+Change Net Name : Old Net Name=RED_ENABLE_LED_ARRAY_02 New Net Name=RED_ENABLE_LED_ARRAY_01
+Added Pin To Net: NetName=NetQ9_3 Pin=Q9-3
+Added Pin To Net: NetName=NetQ9_3 Pin=R2-2
+Added Pin To Net: NetName=NetQ9_3 Pin=R40-1
+Added Net: Name=NetQ9_3
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R2 ERJ-3EKF1001V

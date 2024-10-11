@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=BATT_PWR Pin=TP19-1
+Added Member To Class: ClassName=PWR_MGMT Member=Component TP19 TPAD6R

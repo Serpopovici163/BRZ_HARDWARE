@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=LED2_nENABLE Pin=U1-30
+Added Pin To Net: NetName=LED3_nENABLE Pin=U1-31
+Added Pin To Net: NetName=LED4_nENABLE Pin=U1-32
+Added Pin To Net: NetName=LED7_nENABLE Pin=U1-39
+Added Pin To Net: NetName=LED5_nENABLE Pin=U1-41
+Added Pin To Net: NetName=LED1_nENABLE Pin=U1-42
+Added Pin To Net: NetName=LED0_nENABLE Pin=U1-43

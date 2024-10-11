@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=POST_SHUNT_PWR_PROT_0 Pin=Q7_PWR_PROT_0-2
+Removed Pin From Net: NetName=POST_SHUNT_PWR_PROT_2 Pin=Q7_PWR_PROT_2-2
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Added Pin To Net: NetName=PRE_SHUNT_PWR_PROT_0 Pin=Q7_PWR_PROT_0-2
+Added Pin To Net: NetName=PRE_SHUNT_PWR_PROT_2 Pin=Q7_PWR_PROT_2-2
+Add Net: Net with name "PWR_IN" already exists

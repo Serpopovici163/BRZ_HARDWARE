@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetC10_2 Pin=TP1-1
+Removed Pin From Net: NetName=NetC12_2 Pin=TP2-1
+Removed Member From Class: ClassName=MCU_0 Member=TP1
+Removed Member From Class: ClassName=MCU_0 Member=TP2
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

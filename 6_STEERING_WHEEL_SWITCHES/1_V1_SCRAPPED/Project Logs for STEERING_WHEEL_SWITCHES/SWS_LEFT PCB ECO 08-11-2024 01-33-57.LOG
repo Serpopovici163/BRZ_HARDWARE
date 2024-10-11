@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=INT_3V3_SENSE Pin=U1-16
+Removed Pin From Net: NetName=INT_5V_SENSE Pin=U1-17
+Removed Pin From Net: NetName=VCC_SENSE Pin=U1-18
+Added Pin To Net: NetName=INT_3V3_SENSE Pin=U1-8
+Added Pin To Net: NetName=INT_5V_SENSE Pin=U1-10
+Added Pin To Net: NetName=VCC_SENSE Pin=U1-12

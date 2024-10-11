@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=LED_POS_1 Pin=Q2_LED_ARRAY_01-3
+Removed Pin From Net: NetName=LED_POS_0 Pin=Q2_LED_ARRAY_01-6
+Removed Pin From Net: NetName=LED_POS_1_LED_ARRAY_02 Pin=Q2_LED_ARRAY_02-3
+Removed Pin From Net: NetName=LED_POS_0_LED_ARRAY_02 Pin=Q2_LED_ARRAY_02-6
+Removed Pin From Net: NetName=LED_POS_5 Pin=Q3_LED_ARRAY_01-3
+Removed Pin From Net: NetName=LED_POS_4 Pin=Q3_LED_ARRAY_01-6
+Removed Pin From Net: NetName=LED_POS_5_LED_ARRAY_02 Pin=Q3_LED_ARRAY_02-3
+Removed Pin From Net: NetName=LED_POS_4_LED_ARRAY_02 Pin=Q3_LED_ARRAY_02-6
+Removed Pin From Net: NetName=LED_POS_3 Pin=Q4_LED_ARRAY_01-3
+Removed Pin From Net: NetName=LED_POS_2 Pin=Q4_LED_ARRAY_01-6
+Removed Pin From Net: NetName=LED_POS_3_LED_ARRAY_02 Pin=Q4_LED_ARRAY_02-3
+Removed Pin From Net: NetName=LED_POS_2_LED_ARRAY_02 Pin=Q4_LED_ARRAY_02-6
+Removed Pin From Net: NetName=LED_POS_7 Pin=Q5_LED_ARRAY_01-3
+Removed Pin From Net: NetName=LED_POS_6 Pin=Q5_LED_ARRAY_01-6
+Removed Pin From Net: NetName=LED_POS_7_LED_ARRAY_02 Pin=Q5_LED_ARRAY_02-3
+Removed Pin From Net: NetName=LED_POS_6_LED_ARRAY_02 Pin=Q5_LED_ARRAY_02-6
+Added Pin To Net: NetName=LED_POS_0 Pin=Q2_LED_ARRAY_01-3
+Added Pin To Net: NetName=LED_POS_1 Pin=Q2_LED_ARRAY_01-6
+Added Pin To Net: NetName=LED_POS_0_LED_ARRAY_02 Pin=Q2_LED_ARRAY_02-3
+Added Pin To Net: NetName=LED_POS_1_LED_ARRAY_02 Pin=Q2_LED_ARRAY_02-6
+Added Pin To Net: NetName=LED_POS_4 Pin=Q3_LED_ARRAY_01-3
+Added Pin To Net: NetName=LED_POS_5 Pin=Q3_LED_ARRAY_01-6
+Added Pin To Net: NetName=LED_POS_4_LED_ARRAY_02 Pin=Q3_LED_ARRAY_02-3
+Added Pin To Net: NetName=LED_POS_5_LED_ARRAY_02 Pin=Q3_LED_ARRAY_02-6
+Added Pin To Net: NetName=LED_POS_2 Pin=Q4_LED_ARRAY_01-3
+Added Pin To Net: NetName=LED_POS_3 Pin=Q4_LED_ARRAY_01-6
+Added Pin To Net: NetName=LED_POS_2_LED_ARRAY_02 Pin=Q4_LED_ARRAY_02-3
+Added Pin To Net: NetName=LED_POS_3_LED_ARRAY_02 Pin=Q4_LED_ARRAY_02-6
+Added Pin To Net: NetName=LED_POS_6 Pin=Q5_LED_ARRAY_01-3
+Added Pin To Net: NetName=LED_POS_7 Pin=Q5_LED_ARRAY_01-6
+Added Pin To Net: NetName=LED_POS_6_LED_ARRAY_02 Pin=Q5_LED_ARRAY_02-3
+Added Pin To Net: NetName=LED_POS_7_LED_ARRAY_02 Pin=Q5_LED_ARRAY_02-6
+Change Net Name : Old Net Name=nLED_TRIG_0 New Net Name=nLED_TRIG_1
+Change Net Name : Old Net Name=nLED_TRIG_0_LED_ARRAY_02 New Net Name=nLED_TRIG_1_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_1 New Net Name=nLED_TRIG_0
+Change Net Name : Old Net Name=nLED_TRIG_1_LED_ARRAY_02 New Net Name=nLED_TRIG_0_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_2 New Net Name=nLED_TRIG_3
+Change Net Name : Old Net Name=nLED_TRIG_2_LED_ARRAY_02 New Net Name=nLED_TRIG_3_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_3 New Net Name=nLED_TRIG_2
+Change Net Name : Old Net Name=nLED_TRIG_3_LED_ARRAY_02 New Net Name=nLED_TRIG_2_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_4 New Net Name=nLED_TRIG_5
+Change Net Name : Old Net Name=nLED_TRIG_4_LED_ARRAY_02 New Net Name=nLED_TRIG_5_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_5 New Net Name=nLED_TRIG_4
+Change Net Name : Old Net Name=nLED_TRIG_5_LED_ARRAY_02 New Net Name=nLED_TRIG_4_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_6 New Net Name=nLED_TRIG_7
+Change Net Name : Old Net Name=nLED_TRIG_6_LED_ARRAY_02 New Net Name=nLED_TRIG_7_LED_ARRAY_02
+Change Net Name : Old Net Name=nLED_TRIG_7 New Net Name=nLED_TRIG_6
+Change Net Name : Old Net Name=nLED_TRIG_7_LED_ARRAY_02 New Net Name=nLED_TRIG_6_LED_ARRAY_02
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

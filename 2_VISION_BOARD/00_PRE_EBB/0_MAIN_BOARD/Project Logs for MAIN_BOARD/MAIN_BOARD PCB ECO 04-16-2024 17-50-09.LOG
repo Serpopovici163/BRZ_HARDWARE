@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=DP1_AUX_P Pin=D20-6
+Added Pin To Net: NetName=DP1_AUX_N Pin=D20-7
+Added Pin To Net: NetName=DP1_HPD Pin=D20-9
+Added Pin To Net: NetName=DP_HDMI_CEC Pin=D20-10
+Add Net: Net with name "PCIE_WAKE" already exists

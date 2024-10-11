@@ -1,0 +1,40 @@
+Removed Member From Class: ClassName=PWR_MGMT Member=C31
+Removed Member From Class: ClassName=CAN_IF Member=R10
+Removed Member From Class: ClassName=CAN_IF Member=R11
+Removed Member From Class: ClassName=LED_ARRAY Member=R11
+Removed Member From Class: ClassName=LED_ARRAY Member=R14
+Removed Member From Class: ClassName=LED_ARRAY Member=R15
+Removed Member From Class: ClassName=LED_ARRAY Member=R16
+Removed Member From Class: ClassName=MCU Member=U3
+Removed Member From Class: ClassName=PWR_MGMT Member=U5
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Added Member To Class: ClassName=MCU Member=Component C16 6.8p 10v
+Added Member To Class: ClassName=MCU Member=Component C17 6.8p 10v
+Added Member To Class: ClassName=PWR_MGMT Member=Component C27 GRM188R61E106KA73D
+Added Member To Class: ClassName=CAN_IF Member=Component D2 ESDCAN02-2BWY
+Added Member To Class: ClassName=CAN_IF Member=Component D3 1N4148W-TP
+Added Member To Class: ClassName=LED_ARRAY Member=Component D4 LTST-C19HE1WT
+Added Member To Class: ClassName=PWR_MGMT Member=Component Q1 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=PWR_MGMT Member=Component Q2 BSS138W-7-F
+Added Member To Class: ClassName=LED_ARRAY Member=Component Q3 BSS84AKS,115
+Added Member To Class: ClassName=MCU Member=Component R4 ERJ3EKF1002V
+Added Member To Class: ClassName=MCU Member=Component R5 ERJ3EKF1002V
+Added Member To Class: ClassName=MCU Member=Component R6 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R7 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R8 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R9 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R10 ERJ-3EKF1001V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R11 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R12 ERJ-3EKF1001V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R13 ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R14 ERJ3EKF1002V
+Added Member To Class: ClassName=CAN_IF Member=Component R15 ERJ3EKF1002V
+Added Member To Class: ClassName=CAN_IF Member=Component R16 ERJ-3EKF1001V
+Added Member To Class: ClassName=CAN_IF Member=Component R17 ERJ-3EKF1200V
+Added Member To Class: ClassName=LED_ARRAY Member=Component R20 ERJ-3EKF1001V
+Added Member To Class: ClassName=LED_ARRAY Member=Component R22 ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY Member=Component R23 ERJ3EKF1002V
+Added Member To Class: ClassName=LED_ARRAY Member=Component R24 ERJ-3EKF91R0V
+Added Member To Class: ClassName=MCU Member=Component U1 STM32G431C6T6
+Added Member To Class: ClassName=PWR_MGMT Member=Component U3 LM1117MP-3.3/NOPB
+Added Member To Class: ClassName=PWR_MGMT Member=Component U4 LM1117IMP-5.0/NOPB

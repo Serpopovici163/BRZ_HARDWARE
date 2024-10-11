@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=U?_CAMIF_2 NewDesignator=U3_CAMIF_2
+Added Component: Designator=U3_CAMIF_1(SOT-223_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1/11/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "4-Pin SOT-223 Package, 6.5 x 3.5 mm Body, 2.3 mm Pitch, 7 mm Lead Span"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2010"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=C42_CAMIF_1-2
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=C43_CAMIF_1-2
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=C78-2
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=U2_CAMIF_1-3
+Added Pin To Net: NetName=GND Pin=U3_CAMIF_1-1
+Added Pin To Net: NetName=CAM_1V2_CAMIF_1 Pin=U3_CAMIF_1-2
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=U3_CAMIF_1-3
+Added Pin To Net: NetName=CAM_1V2_CAMIF_1 Pin=U3_CAMIF_1-4
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=U7-3
+Change Net Name : Old Net Name=2V_STAGE_CAMIF_2 New Net Name=2V_AUX
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Added Member To Class: ClassName=CAMIF_1 Member=Component U3_CAMIF_1 (U3) AP7363-12E-13

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=R112_CAN_IF_0-1
+Removed Pin From Net: NetName=NetC59_CAN_IF_0_1 Pin=R112_CAN_IF_0-2
+Removed Pin From Net: NetName=GND Pin=R112_CAN_IF_1-1
+Removed Pin From Net: NetName=NetC59_CAN_IF_1_1 Pin=R112_CAN_IF_1-2
+Removed Member From Class: ClassName=CAN_IF_0 Member=R112_CAN_IF_0
+Removed Member From Class: ClassName=CAN_IF_1 Member=R112_CAN_IF_1
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Add Net: Net with name "PWR_IN" already exists

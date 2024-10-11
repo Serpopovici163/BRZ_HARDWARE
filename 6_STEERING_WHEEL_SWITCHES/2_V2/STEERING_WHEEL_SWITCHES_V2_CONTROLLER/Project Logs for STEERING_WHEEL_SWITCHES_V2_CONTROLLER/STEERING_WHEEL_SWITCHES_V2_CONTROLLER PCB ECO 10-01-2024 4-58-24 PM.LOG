@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=CAN_P Pin=J1-3
+Removed Pin From Net: NetName=CAN_N Pin=J1-4
+Added Pin To Net: NetName=CAN_N Pin=J1-3
+Added Pin To Net: NetName=CAN_P Pin=J1-4
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

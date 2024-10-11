@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=nLED_TRIG_0_LED_ARRAY_01 Pin=U1-37
+Added Pin To Net: NetName=nLED_TRIG_1_LED_ARRAY_01 Pin=U1-38
+Added Pin To Net: NetName=nLED_TRIG_2_LED_ARRAY_01 Pin=U1-39
+Added Pin To Net: NetName=BLU_ENABLE_LED_ARRAY_01 Pin=U1-40
+Added Pin To Net: NetName=RED_ENABLE_LED_ARRAY_01 Pin=U1-41
+Added Pin To Net: NetName=nLED_TRIG_3_LED_ARRAY_01 Pin=U1-42
+Added Pin To Net: NetName=nLED_TRIG_4_LED_ARRAY_01 Pin=U1-43
+Added Pin To Net: NetName=GRN_ENABLE_LED_ARRAY_01 Pin=U1-44
+Added Pin To Net: NetName=nLED_TRIG_5_LED_ARRAY_01 Pin=U1-45
+Added Pin To Net: NetName=nLED_TRIG_6_LED_ARRAY_01 Pin=U1-46
+Added Pin To Net: NetName=nLED_TRIG_7_LED_ARRAY_01 Pin=U1-47

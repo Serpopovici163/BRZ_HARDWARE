@@ -1,0 +1,27 @@
+Removed Member From Class: ClassName=100DIFF Member=FLIP0_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP0_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP1_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP1_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP2_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP2_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP3_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP3_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP4_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP4_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP5_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP5_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP6_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP6_P
+Removed Member From Class: ClassName=100DIFF Member=FLIP7_N
+Removed Member From Class: ClassName=100DIFF Member=FLIP7_P
+Added Class: Name=85DIFF
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
