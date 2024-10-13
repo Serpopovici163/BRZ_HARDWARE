@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CAN_VSUP Pin=D4-2
+Removed Member From Class: ClassName=CAN_IF_0 Member=D4
+Added Pin To Net: NetName=NetD3_1 Pin=C30-2
+Added Pin To Net: NetName=NetD3_1 Pin=R47-1
+Added Pin To Net: NetName=NetD3_1 Pin=U4-10
+Change Net Name : Old Net Name=CAN_VSUP New Net Name=V_BATT
+Change Net Name : Old Net Name=NetD3_1 New Net Name=CAN_PWR
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

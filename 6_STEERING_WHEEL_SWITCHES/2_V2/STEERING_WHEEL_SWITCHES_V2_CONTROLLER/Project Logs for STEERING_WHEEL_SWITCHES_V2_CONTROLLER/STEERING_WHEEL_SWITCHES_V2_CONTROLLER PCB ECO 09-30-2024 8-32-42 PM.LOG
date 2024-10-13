@@ -1,0 +1,79 @@
+Added Component: Designator=D1(WL-SBCD_0606)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-004-00034-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Inverse Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "rgled.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=D2(WL-SBCD_0606)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-004-00034-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Inverse Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "rgled.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=U4(TCAN1146DYYRQ1-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-015-00012-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TCAN1146DYYRQ1.SchLib"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RESETN Pin=C1-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=3V3 Pin=D1-2
+Added Pin To Net: NetName=3V3 Pin=D1-3
+Added Pin To Net: NetName=NetD1_4 Pin=D1-4
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=3V3 Pin=D2-2
+Added Pin To Net: NetName=3V3 Pin=D2-3
+Added Pin To Net: NetName=NetD2_4 Pin=D2-4
+Add Pin To Net: Unknown Pin: Pin Q7-1
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-4
+Add Pin To Net: Unknown Pin: Pin Q7-5-6-7-8
+Added Pin To Net: NetName=BOOT Pin=R3-2
+Added Pin To Net: NetName=RESETN Pin=U1-14
+Added Pin To Net: NetName=BOOT Pin=U1-94
+Added Pin To Net: NetName=CAN1_TX Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=5V Pin=U4-3
+Added Pin To Net: NetName=CAN1_RX Pin=U4-4
+Added Pin To Net: NetName=3V3 Pin=U4-5
+Added Pin To Net: NetName=CAN_INH Pin=U4-7
+Added Pin To Net: NetName=SPI3_SCLK Pin=U4-8
+Added Pin To Net: NetName=NetR48_1 Pin=U4-9
+Added Pin To Net: NetName=NetC30_2 Pin=U4-10
+Added Pin To Net: NetName=PRE_CAN_N Pin=U4-12
+Added Pin To Net: NetName=PRE_CAN_P Pin=U4-13
+Added Pin To Net: NetName=CAN_nCS Pin=U4-14
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=MCU_0 Member=Component D1 150066RG54050
+Added Member To Class: ClassName=MCU_0 Member=Component D2 150066RG54050
+Add Class Member: Failed to add class member : Component Q7 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=CAN_IF_0 Member=Component U4 TCAN1146DYYRQ1

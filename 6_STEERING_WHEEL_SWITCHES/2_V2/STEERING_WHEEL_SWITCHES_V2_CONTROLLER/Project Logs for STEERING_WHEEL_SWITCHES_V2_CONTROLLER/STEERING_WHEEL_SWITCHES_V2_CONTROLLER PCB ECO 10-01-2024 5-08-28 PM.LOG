@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=CAN_nCS Pin=U1-51
+Change Net Name : Old Net Name=SPI2_MISO New Net Name=CAN_MISO
+Change Net Name : Old Net Name=SPI2_MOSI New Net Name=CAN_MOSI
+Change Net Name : Old Net Name=SPI2_SCLK New Net Name=CAN_SCLK
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists

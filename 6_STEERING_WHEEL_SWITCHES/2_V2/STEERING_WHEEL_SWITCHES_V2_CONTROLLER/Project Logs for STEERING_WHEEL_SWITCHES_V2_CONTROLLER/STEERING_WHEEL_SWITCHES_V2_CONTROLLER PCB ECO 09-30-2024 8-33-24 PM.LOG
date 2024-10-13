@@ -1,0 +1,23 @@
+Added Component: Designator=Q7(SISH615ADN-T1-GE3-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-013-00036-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "SISH615ADN-T1-GE3.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs(th) (Max) @ Id"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_VSUP Pin=Q7-1
+Added Pin To Net: NetName=CAN_VSUP Pin=Q7-2
+Added Pin To Net: NetName=CAN_VSUP Pin=Q7-3
+Added Pin To Net: NetName=RP_MOS_LINK Pin=Q7-4
+Added Pin To Net: NetName=NetF1_2 Pin=Q7-5-6-7-8
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component Q7 SISH615ADN-T1-GE3

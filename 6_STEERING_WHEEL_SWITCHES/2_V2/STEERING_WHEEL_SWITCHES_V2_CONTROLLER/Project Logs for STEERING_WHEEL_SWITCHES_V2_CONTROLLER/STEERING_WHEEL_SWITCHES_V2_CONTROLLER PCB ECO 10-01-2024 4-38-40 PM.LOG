@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=R3-1
+Removed Pin From Net: NetName=BOOT Pin=R3-2
+Removed Member From Class: ClassName=MCU_0 Member=R3
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Added Member To Class: ClassName=MCU_0 Member=Component D2 150066RG54050

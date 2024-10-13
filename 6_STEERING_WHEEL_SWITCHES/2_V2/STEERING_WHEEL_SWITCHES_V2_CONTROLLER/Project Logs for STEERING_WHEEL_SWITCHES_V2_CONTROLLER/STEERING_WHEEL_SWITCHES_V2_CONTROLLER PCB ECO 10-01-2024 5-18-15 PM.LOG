@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=CAN1_RX New Net Name=CAN_RX
+Change Net Name : Old Net Name=CAN1_TX New Net Name=CAN_TX
+Added Pin To Net: NetName=CAN1_RX Pin=U1-81
+Added Net: Name=CAN1_RX
+Added Pin To Net: NetName=CAN1_TX Pin=U1-82
+Added Net: Name=CAN1_TX

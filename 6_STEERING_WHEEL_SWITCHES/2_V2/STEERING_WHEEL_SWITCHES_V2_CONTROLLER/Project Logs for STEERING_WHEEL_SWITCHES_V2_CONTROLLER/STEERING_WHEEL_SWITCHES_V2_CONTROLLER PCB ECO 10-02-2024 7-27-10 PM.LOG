@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=nLED_TRIG_0_LED_ARRAY_01 Pin=U1-37
+Removed Pin From Net: NetName=nLED_TRIG_1_LED_ARRAY_01 Pin=U1-38
+Removed Pin From Net: NetName=nLED_TRIG_2_LED_ARRAY_01 Pin=U1-39
+Removed Pin From Net: NetName=BLU_ENABLE_LED_ARRAY_01 Pin=U1-40
+Added Pin To Net: NetName=nLED_TRIG_1_LED_ARRAY_01 Pin=U1-37
+Added Pin To Net: NetName=nLED_TRIG_2_LED_ARRAY_01 Pin=U1-38
+Added Pin To Net: NetName=BLU_ENABLE_LED_ARRAY_01 Pin=U1-39

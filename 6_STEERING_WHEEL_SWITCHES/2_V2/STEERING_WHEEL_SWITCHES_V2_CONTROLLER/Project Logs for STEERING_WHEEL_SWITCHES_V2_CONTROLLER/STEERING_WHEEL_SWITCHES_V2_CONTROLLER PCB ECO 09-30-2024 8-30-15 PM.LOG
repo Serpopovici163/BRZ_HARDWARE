@@ -1,0 +1,52 @@
+Added Component: Designator=D1(WL-SBCD_0606)
+Added Component: Designator=D2(WL-SBCD_0606)
+Added Component: Designator=Q7(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=R1(RESC1005X40X25NL05T05)
+Added Component: Designator=R2(RESC1005X40X25NL05T05)
+Added Component: Designator=R4(RESC1005X40X25NL05T05)
+Added Component: Designator=R6(RESC1005X40X25NL05T05)
+Added Component: Designator=U4(TCAN1146DYYRQ1-Footprint-1)
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D1-3
+Add Pin To Net: Unknown Pin: Pin D1-4
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D2-3
+Add Pin To Net: Unknown Pin: Pin D2-4
+Add Pin To Net: Unknown Pin: Pin Q7-1
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-4
+Add Pin To Net: Unknown Pin: Pin Q7-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-9
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-12
+Add Pin To Net: Unknown Pin: Pin U4-13
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Net: Net with name "SPI3_MISO" already exists
+Add Net: Net with name "SPI3_MOSI" already exists
+Add Net: Net with name "SPI3_SCLK" already exists
+Add Class Member: Failed to add class member : Component D1 150066RG54050
+Add Class Member: Failed to add class member : Component D2 150066RG54050
+Add Class Member: Failed to add class member : Component Q7 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component R1 0402 JUMPER 0 OHM
+Add Class Member: Failed to add class member : Component R2 0402 JUMPER 0 OHM
+Add Class Member: Failed to add class member : Component R4 0402 JUMPER 0 OHM
+Add Class Member: Failed to add class member : Component R6 0402 JUMPER 0 OHM
+Add Class Member: Failed to add class member : Component U4 TCAN1146DYYRQ1
