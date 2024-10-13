@@ -1,0 +1,97 @@
+Removed Pin From Net: NetName=3V3 Pin=C37_CAMIF_1-1
+Removed Pin From Net: NetName=GND Pin=C37_CAMIF_1-2
+Removed Pin From Net: NetName=3V3 Pin=C37_CAMIF_2-1
+Removed Pin From Net: NetName=GND Pin=C37_CAMIF_2-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_1 Pin=C38_CAMIF_1-1
+Removed Pin From Net: NetName=GND Pin=C38_CAMIF_1-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_2 Pin=C38_CAMIF_2-1
+Removed Pin From Net: NetName=GND Pin=C38_CAMIF_2-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_1 Pin=C39_CAMIF_1-1
+Removed Pin From Net: NetName=GND Pin=C39_CAMIF_1-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_2 Pin=C39_CAMIF_2-1
+Removed Pin From Net: NetName=GND Pin=C39_CAMIF_2-2
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_1-1
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_1-2
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_1-5
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_1-6
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-7
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-8
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-10
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-11
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-12
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_1-16
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_1-17
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_2-1
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_2-2
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_2-5
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_2-6
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-7
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-8
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-10
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-11
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-12
+Removed Pin From Net: NetName=3V3 Pin=IC1_CAMIF_2-16
+Removed Pin From Net: NetName=GND Pin=IC1_CAMIF_2-17
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_1 Pin=L1_CAMIF_1-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_2 Pin=L1_CAMIF_2-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_1 Pin=R22_CAMIF_1-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_2 Pin=R22_CAMIF_2-2
+Removed Pin From Net: NetName=3V3 Pin=R23_CAMIF_1-2
+Removed Pin From Net: NetName=3V3 Pin=R23_CAMIF_2-2
+Removed Pin From Net: NetName=GND Pin=R25_CAMIF_1-1
+Removed Pin From Net: NetName=GND Pin=R25_CAMIF_2-1
+Removed Pin From Net: NetName=GND Pin=R28_CAMIF_1-1
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_1 Pin=R28_CAMIF_1-2
+Removed Pin From Net: NetName=GND Pin=R28_CAMIF_2-1
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_2 Pin=R28_CAMIF_2-2
+Removed Pin From Net: NetName=GND Pin=U3_CAMIF_1-1
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_1 Pin=U3_CAMIF_1-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_1 Pin=U3_CAMIF_1-3
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_1 Pin=U3_CAMIF_1-4
+Removed Pin From Net: NetName=GND Pin=U3_CAMIF_2-1
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_2 Pin=U3_CAMIF_2-2
+Removed Pin From Net: NetName=2V_STAGE_CAMIF_2 Pin=U3_CAMIF_2-3
+Removed Pin From Net: NetName=CAM_1V2_CAMIF_2 Pin=U3_CAMIF_2-4
+Removed Member From Class: ClassName=CAMIF_1 Member=C37_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=C37_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=C38_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=C38_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=C39_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=C39_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=IC1_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=IC1_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=L1_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=L1_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=R22_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=R22_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=R23_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=R23_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=R25_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=R25_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=R28_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=R28_CAMIF_2
+Removed Member From Class: ClassName=CAMIF_1 Member=U3_CAMIF_1
+Removed Member From Class: ClassName=CAMIF_2 Member=U3_CAMIF_2
+Added Component: Designator=U?_CAMIF_1(SOT-223_M)
+Added Component: Designator=U?_CAMIF_2(SOT-223_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1/11/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "4-Pin SOT-223 Package, 6.5 x 3.5 mm Body, 2.3 mm Pitch, 7 mm Lead Span"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2010"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin U?_CAMIF_1-1
+Add Pin To Net: Unknown Pin: Pin U?_CAMIF_1-2
+Add Pin To Net: Unknown Pin: Pin U?_CAMIF_1-3
+Add Pin To Net: Unknown Pin: Pin U?_CAMIF_1-4
+Added Pin To Net: NetName=GND Pin=U?_CAMIF_2-1
+Added Pin To Net: NetName=CAM_1V2_CAMIF_2 Pin=U?_CAMIF_2-2
+Added Pin To Net: NetName=2V_STAGE_CAMIF_2 Pin=U?_CAMIF_2-3
+Added Pin To Net: NetName=CAM_1V2_CAMIF_2 Pin=U?_CAMIF_2-4
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Add Class Member: Failed to add class member : Component U?_CAMIF_1 (U?) AP7363-12E-13
+Added Member To Class: ClassName=CAMIF_2 Member=Component U?_CAMIF_2 (U?) AP7363-12E-13

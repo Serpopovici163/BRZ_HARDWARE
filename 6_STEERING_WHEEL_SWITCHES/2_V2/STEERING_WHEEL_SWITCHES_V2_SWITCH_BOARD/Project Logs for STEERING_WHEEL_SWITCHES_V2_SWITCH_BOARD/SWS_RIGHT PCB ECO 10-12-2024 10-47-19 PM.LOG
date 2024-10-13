@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=LED_POS_0 Pin=J1-9
+Removed Pin From Net: NetName=LED_POS_2 Pin=J1-11
+Removed Pin From Net: NetName=LED_POS_4 Pin=J1-13
+Removed Pin From Net: NetName=LED_POS_6 Pin=J1-15
+Added Pin To Net: NetName=LED_POS_0 Pin=J1-1
+Added Pin To Net: NetName=LED_POS_1 Pin=J1-3
+Added Pin To Net: NetName=LED_POS_2 Pin=J1-5
+Added Pin To Net: NetName=LED_POS_3 Pin=J1-7
+Added Pin To Net: NetName=LED_POS_4 Pin=J1-9
+Added Pin To Net: NetName=LED_POS_5 Pin=J1-11
+Added Pin To Net: NetName=LED_POS_6 Pin=J1-13
+Added Pin To Net: NetName=LED_POS_7 Pin=J1-15

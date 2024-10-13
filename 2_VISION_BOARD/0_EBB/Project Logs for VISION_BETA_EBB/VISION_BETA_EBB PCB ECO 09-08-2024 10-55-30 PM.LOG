@@ -1,0 +1,30 @@
+Added Component: Designator=LS1(AI-3035-TT-12V-R-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BUZZ_NEG Pin=LS1-N
+Added Pin To Net: NetName=INT_VCC Pin=LS1-P
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Added Member To Class: ClassName=SUPPORT_MCU Member=Component LS1 AI-3035-TT-12V-R

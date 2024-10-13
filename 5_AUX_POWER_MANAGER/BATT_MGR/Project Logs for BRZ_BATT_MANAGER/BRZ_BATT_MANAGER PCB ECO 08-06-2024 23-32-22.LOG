@@ -1,0 +1,8 @@
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Change Net Name : Old Net Name=PWR_IN New Net Name=PWR_OUT_PWR_PROT_2
+Added Pin To Net: NetName=PWR_IN Pin=C33-2
+Added Pin To Net: NetName=PWR_IN Pin=C34-2
+Added Pin To Net: NetName=PWR_IN Pin=F2-2
+Added Pin To Net: NetName=PWR_IN Pin=Q15-5-6-7-8
+Added Pin To Net: NetName=PWR_IN Pin=R67-2
+Added Net: Name=PWR_IN

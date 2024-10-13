@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LED_GND_GRN Pin=J1-18
+Removed Pin From Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=LED_GND_GRN Pin=J1-19

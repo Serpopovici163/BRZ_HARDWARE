@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=CAR_I_SENSE Pin=R43_PWR_PROT_0-2
+Removed Pin From Net: NetName=BATT_I_SENSE Pin=R43_PWR_PROT_2-2
+Removed Pin From Net: NetName=CAR_I_SENSE Pin=U5_PWR_PROT_0-1
+Removed Pin From Net: NetName=BATT_I_SENSE Pin=U5_PWR_PROT_2-1
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Added Component: Designator=R80_PWR_PROT_0(RESC1608X55X30LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Added Component: Designator=R80_PWR_PROT_2(RESC1608X55X30LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAR_I_SENSE Pin=R80_PWR_PROT_0-1
+Added Pin To Net: NetName=BATT_I_SENSE Pin=R80_PWR_PROT_2-1
+Added Pin To Net: NetName=NetR43_PWR_PROT_0_2 Pin=R43_PWR_PROT_0-2
+Added Pin To Net: NetName=NetR43_PWR_PROT_0_2 Pin=R80_PWR_PROT_0-2
+Added Pin To Net: NetName=NetR43_PWR_PROT_0_2 Pin=U5_PWR_PROT_0-1
+Added Net: Name=NetR43_PWR_PROT_0_2
+Added Pin To Net: NetName=NetR43_PWR_PROT_2_2 Pin=R43_PWR_PROT_2-2
+Added Pin To Net: NetName=NetR43_PWR_PROT_2_2 Pin=R80_PWR_PROT_2-2
+Added Pin To Net: NetName=NetR43_PWR_PROT_2_2 Pin=U5_PWR_PROT_2-1
+Added Net: Name=NetR43_PWR_PROT_2_2
+Add Net: Net with name "PWR_IN" already exists
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component R80_PWR_PROT_0 (R80) ERJ-3EKF1001V
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component R80_PWR_PROT_2 (R80) ERJ-3EKF1001V

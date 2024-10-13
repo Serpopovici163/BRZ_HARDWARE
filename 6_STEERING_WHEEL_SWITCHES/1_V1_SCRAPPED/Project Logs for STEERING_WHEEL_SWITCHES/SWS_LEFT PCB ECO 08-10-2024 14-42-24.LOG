@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=PWR_IN Pin=D3-2
+Change Component Footprint: Designator=D1 Old Footprint=FP-SOD128-MFG New Footprint=ONSC-DSN-2-512AB-01_V
+Change Component Comment : Designator=D1 Old Comment=PMEG3050EP,115 New Comment=NSR20F20NXT5G
+Change Managed Component Library Link : Designator=D1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=D34B51BF-6858-4F7D-BCFD-ACEDD612AB6B New ItemGUID=9204FC55-7D28-411D-A5ED-BD70F0DF25B0 Old RevisionGUID=33C7FB71-3D65-407A-9602-00C84280CB42 New RevisionGUID=78982D39-F569-4ED0-A0FD-7FAEE9BFA163
+Change component parameters: Designator = "D1" ("D1"); Footprint = "FP-SOD128-MFG"; UniqueID = "\SWGQRAEA\QUYTHSGQ" ("\SWGQRAEA\QUYTHSGQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/NSR20F20-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/152AB.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "28"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Micro Molded Package, Body 1.6 x 0.8 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "DSN-2-512AB-01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 01/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR20F20NXT5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_1 Pin=D3-2
+Change Net Name : Old Net Name=NetD1_1 New Net Name=V_BATT

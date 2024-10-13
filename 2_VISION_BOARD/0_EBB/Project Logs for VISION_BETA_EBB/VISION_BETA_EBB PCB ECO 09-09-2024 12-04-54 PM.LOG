@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=5V_REG_FB_REG_1 Pin=R199-2
+Removed Pin From Net: NetName=5V_REG_FB_REG_1 Pin=R200-2
+Added Component: Designator=R228(RESC1005X40X25NL05T10)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo / Phycomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0402JR-070RL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=R228-1
+Added Pin To Net: NetName=PU_VCC Pin=R199-2
+Added Pin To Net: NetName=PU_VCC Pin=R200-2
+Added Pin To Net: NetName=PU_VCC Pin=R228-2
+Added Net: Name=PU_VCC
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Added Member To Class: ClassName=DAC_0 Member=Component R228 RC0402JR-070RL

@@ -1,0 +1,97 @@
+Removed Member From Class: ClassName=100DIFF Member=HDMI_CLK_N
+Removed Member From Class: ClassName=100DIFF Member=HDMI_CLK_P
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D0_N
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D0_P
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D1_N
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D1_P
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D2_N
+Removed Member From Class: ClassName=100DIFF Member=HDMI_D2_P
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX0_N
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX0_P
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX1_N
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX1_P
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX2_N
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX2_P
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX3_N
+Removed Member From Class: ClassName=85DIFF Member=PCIE0_RX3_P
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_1
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_2
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_3
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_4
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_5
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_6
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_7
+Removed Member From Class: ClassName=100DIFF Member=PLDWN_8
+Removed Member From Class: ClassName=85DIFF Member=USB1_D_N
+Removed Member From Class: ClassName=85DIFF Member=USB1_D_P
+Removed Member From Class: ClassName=85DIFF Member=USBSS0_RX_N
+Removed Member From Class: ClassName=85DIFF Member=USBSS0_RX_P
+Removed Member From Class: ClassName=85DIFF Member=USBSS0_TX_N
+Removed Member From Class: ClassName=85DIFF Member=USBSS0_TX_P
+Change Class Name : Old Net Name=100DIFF New Net Name=50SINGLE
+Added Class: Name=45SINGLE
+Added Class: Name=100DIFF
+Added Class: Name=425SINGLE
+Added Member To Class: ClassName=50SINGLE Member=Wire CK_CAMIF_1_N
+Added Member To Class: ClassName=50SINGLE Member=Wire CK_CAMIF_1_P
+Added Member To Class: ClassName=50SINGLE Member=Wire CK_CAMIF_2_N
+Added Member To Class: ClassName=50SINGLE Member=Wire CK_CAMIF_2_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA0_CAMIF_1_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA0_CAMIF_1_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA0_CAMIF_2_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA0_CAMIF_2_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA1_CAMIF_1_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA1_CAMIF_1_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA1_CAMIF_2_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA1_CAMIF_2_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA2_CAMIF_1_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA2_CAMIF_1_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA2_CAMIF_2_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA2_CAMIF_2_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA3_CAMIF_1_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA3_CAMIF_1_P
+Added Member To Class: ClassName=50SINGLE Member=Wire DA3_CAMIF_2_N
+Added Member To Class: ClassName=50SINGLE Member=Wire DA3_CAMIF_2_P
+Added Member To Class: ClassName=50SINGLE Member=Wire PoC_C_CAMIF_1
+Added Member To Class: ClassName=50SINGLE Member=Wire PoC_C_CAMIF_2
+Added Class: Name=85DIFF
+Added Class: Name=90DIFF
+Added Member To Class: ClassName=100DIFF Member=CK_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=CK_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=CKA_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=CKA_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=CKC_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=CKC_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=CSI0_CLK
+Added Member To Class: ClassName=100DIFF Member=CSI0_D1
+Added Member To Class: ClassName=100DIFF Member=CSI1_D0
+Added Member To Class: ClassName=100DIFF Member=CSI1_D1
+Added Member To Class: ClassName=100DIFF Member=CSI2_CLK
+Added Member To Class: ClassName=100DIFF Member=CSI2_D1
+Added Member To Class: ClassName=100DIFF Member=CSI3_D0
+Added Member To Class: ClassName=100DIFF Member=CSI3_D1
+Added Member To Class: ClassName=100DIFF Member=DA1_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=DA1_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=DA2_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=DA2_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=DA3_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=DA3_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=DP1_AUX
+Added Member To Class: ClassName=100DIFF Member=DP1_TXD0
+Added Member To Class: ClassName=100DIFF Member=DP1_TXD1
+Added Member To Class: ClassName=100DIFF Member=DP1_TXD2
+Added Member To Class: ClassName=100DIFF Member=DP1_TXD3
+Added Member To Class: ClassName=100DIFF Member=GBE_MDI0
+Added Member To Class: ClassName=100DIFF Member=GBE_MDI1
+Added Member To Class: ClassName=100DIFF Member=GBE_MDI2
+Added Member To Class: ClassName=100DIFF Member=GBE_MDI3
+Added Member To Class: ClassName=100DIFF Member=PRE_CSI0_D1
+Added Member To Class: ClassName=100DIFF Member=PRE_CSI1_D0
+Added Member To Class: ClassName=100DIFF Member=SIOA_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=SIOA_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=SIOB_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=SIOB_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=SIOC_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=SIOC_CAMIF_2
+Added Member To Class: ClassName=100DIFF Member=SIOD_CAMIF_1
+Added Member To Class: ClassName=100DIFF Member=SIOD_CAMIF_2

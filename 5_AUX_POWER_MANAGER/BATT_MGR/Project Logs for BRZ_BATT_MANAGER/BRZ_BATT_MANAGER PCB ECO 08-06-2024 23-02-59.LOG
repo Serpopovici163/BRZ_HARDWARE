@@ -1,0 +1,4 @@
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Add Net: Net with name "PWR_IN" already exists
+Added Room: Name=PWR_PROT_0
+Added Room: Name=PWR_PROT_2

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=EN_MOSFET Pin=R10-1
+Removed Member From Class: ClassName=PWR_MGMT Member=R10
+Added Pin To Net: NetName=EN_MOSFET Pin=Q2-3
+Added Pin To Net: NetName=EN_MOSFET Pin=R9-1

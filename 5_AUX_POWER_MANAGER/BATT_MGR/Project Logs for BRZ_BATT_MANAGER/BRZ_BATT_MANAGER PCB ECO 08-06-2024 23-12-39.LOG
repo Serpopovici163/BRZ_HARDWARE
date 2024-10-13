@@ -1,0 +1,40 @@
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Added Component: Designator=TP9_PWR_PROT_0(TP06R)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP9_PWR_PROT_2(TP06R)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP10_PWR_PROT_0(TP06R)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP10_PWR_PROT_2(TP06R)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CUTOFF_MOSFET_PWR_PROT_0 Pin=TP7_PWR_PROT_0-1
+Added Pin To Net: NetName=CUTOFF_MOSFET_PWR_PROT_2 Pin=TP7_PWR_PROT_2-1
+Added Pin To Net: NetName=CAR_V_SENSE Pin=TP9_PWR_PROT_0-1
+Added Pin To Net: NetName=BATT_V_SENSE Pin=TP9_PWR_PROT_2-1
+Added Pin To Net: NetName=CAR_I_SENSE Pin=TP10_PWR_PROT_0-1
+Added Pin To Net: NetName=BATT_I_SENSE Pin=TP10_PWR_PROT_2-1
+Add Net: Net with name "PWR_IN" already exists
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component TP9_PWR_PROT_0 (TP9) TPAD6R
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component TP9_PWR_PROT_2 (TP9) TPAD6R
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component TP10_PWR_PROT_0 (TP10) TPAD6R
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component TP10_PWR_PROT_2 (TP10) TPAD6R

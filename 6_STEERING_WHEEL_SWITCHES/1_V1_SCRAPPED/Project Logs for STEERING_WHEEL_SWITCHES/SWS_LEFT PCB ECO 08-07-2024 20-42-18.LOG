@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=CAN_N Pin=C27-1
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Pin From Net: NetName=CAN_P Pin=C33-2
+Removed Pin From Net: NetName=CAN_P Pin=L1-1
+Removed Pin From Net: NetName=CAN_N Pin=L1-4
+Removed Pin From Net: NetName=CAN_N Pin=R21-1
+Removed Pin From Net: NetName=CAN_N Pin=R23-1
+Removed Pin From Net: NetName=CAN_P Pin=R23-2
+Removed Pin From Net: NetName=CAN_P Pin=R25-2
+Removed Member From Class: ClassName=CAN_IF Member=C31
+Removed Member From Class: ClassName=CAN_IF Member=L1
+Removed Member From Class: ClassName=CAN_IF Member=R21
+Removed Member From Class: ClassName=CAN_IF Member=R25
+Added Pin To Net: NetName=CAN_P Pin=C27-1
+Added Pin To Net: NetName=CAN_N Pin=C33-2
+Added Pin To Net: NetName=CAN_P Pin=R23-1
+Added Pin To Net: NetName=CAN_N Pin=R23-2
+Added Pin To Net: NetName=CAN_N Pin=U4-12
+Added Pin To Net: NetName=CAN_P Pin=U4-13
+Added Class: Name=120DIFF

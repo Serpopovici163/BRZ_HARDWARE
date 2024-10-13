@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=CHILD_BOARD Member=J3
+Change Component Designator: OldDesignator=J8 NewDesignator=J3
+Change Class Name : Old Net Name=AMPLIFIER New Net Name=DAC

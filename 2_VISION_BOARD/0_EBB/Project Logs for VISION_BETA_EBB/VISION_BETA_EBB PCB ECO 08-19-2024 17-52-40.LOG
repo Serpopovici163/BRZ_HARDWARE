@@ -1,0 +1,383 @@
+Removed Pin From Net: NetName=INT_VCC Pin=C47_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=C47_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=C48_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=C48_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=C49_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=C49_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=C54_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=C54_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=GND Pin=C?-1
+Removed Pin From Net: NetName=INT_VCC Pin=L1_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=L1_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=L3_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=L3_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=L5_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=L5_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=L7_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=L7_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=R26_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=R26_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=R27_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=R27_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=R28_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=R28_GMSL_DESERIALIZER_1-1
+Removed Pin From Net: NetName=INT_VCC Pin=R29_GMSL_DESERIALIZER_0-1
+Removed Pin From Net: NetName=INT_VCC Pin=R29_GMSL_DESERIALIZER_1-1
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Component: Designator=F2_GMSL_DESERIALIZER_0(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F2_GMSL_DESERIALIZER_1(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F3_GMSL_DESERIALIZER_0(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F3_GMSL_DESERIALIZER_1(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F4_GMSL_DESERIALIZER_0(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F4_GMSL_DESERIALIZER_1(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F5_GMSL_DESERIALIZER_0(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=F5_GMSL_DESERIALIZER_1(FP-2920L050DR-MFG)
+Add component (AddParameter): Name = "Approvals"; Value = "cULus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "1.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.4R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "2920L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "4s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=TP51_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP51_GMSL_DESERIALIZER_1(New footprint 1)
+Added Component: Designator=TP52_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP52_GMSL_DESERIALIZER_1(New footprint 1)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=INT_VCC Pin=F2_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=INT_VCC Pin=F2_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=INT_VCC Pin=F3_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=INT_VCC Pin=F3_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=INT_VCC Pin=F4_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=INT_VCC Pin=F4_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=INT_VCC Pin=F5_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=INT_VCC Pin=F5_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CAM0_PWDN Pin=TP51_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=CAM1_PWDN Pin=TP51_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=INT_VCC Pin=TP52_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=INT_VCC Pin=TP52_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_0_1 Pin=C47_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_0_1 Pin=F2_GMSL_DESERIALIZER_0-2
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_0_1 Pin=L1_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_0_1 Pin=R26_GMSL_DESERIALIZER_0-1
+Added Net: Name=NetC47_GMSL_DESERIALIZER_0_1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_1_1 Pin=C47_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_1_1 Pin=F2_GMSL_DESERIALIZER_1-2
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_1_1 Pin=L1_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC47_GMSL_DESERIALIZER_1_1 Pin=R26_GMSL_DESERIALIZER_1-1
+Added Net: Name=NetC47_GMSL_DESERIALIZER_1_1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_0_1 Pin=C48_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_0_1 Pin=F3_GMSL_DESERIALIZER_0-2
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_0_1 Pin=L3_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_0_1 Pin=R27_GMSL_DESERIALIZER_0-1
+Added Net: Name=NetC48_GMSL_DESERIALIZER_0_1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_1_1 Pin=C48_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_1_1 Pin=F3_GMSL_DESERIALIZER_1-2
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_1_1 Pin=L3_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC48_GMSL_DESERIALIZER_1_1 Pin=R27_GMSL_DESERIALIZER_1-1
+Added Net: Name=NetC48_GMSL_DESERIALIZER_1_1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_0_1 Pin=C49_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_0_1 Pin=F4_GMSL_DESERIALIZER_0-2
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_0_1 Pin=L5_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_0_1 Pin=R28_GMSL_DESERIALIZER_0-1
+Added Net: Name=NetC49_GMSL_DESERIALIZER_0_1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_1_1 Pin=C49_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_1_1 Pin=F4_GMSL_DESERIALIZER_1-2
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_1_1 Pin=L5_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC49_GMSL_DESERIALIZER_1_1 Pin=R28_GMSL_DESERIALIZER_1-1
+Added Net: Name=NetC49_GMSL_DESERIALIZER_1_1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_0_1 Pin=C54_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_0_1 Pin=F5_GMSL_DESERIALIZER_0-2
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_0_1 Pin=L7_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_0_1 Pin=R29_GMSL_DESERIALIZER_0-1
+Added Net: Name=NetC54_GMSL_DESERIALIZER_0_1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_1_1 Pin=C54_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_1_1 Pin=F5_GMSL_DESERIALIZER_1-2
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_1_1 Pin=L7_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=NetC54_GMSL_DESERIALIZER_1_1 Pin=R29_GMSL_DESERIALIZER_1-1
+Added Net: Name=NetC54_GMSL_DESERIALIZER_1_1
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? 0603 CAP
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F2_GMSL_DESERIALIZER_0 (F2) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component F2_GMSL_DESERIALIZER_1 (F2) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F3_GMSL_DESERIALIZER_0 (F3) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component F3_GMSL_DESERIALIZER_1 (F3) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F4_GMSL_DESERIALIZER_0 (F4) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component F4_GMSL_DESERIALIZER_1 (F4) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F5_GMSL_DESERIALIZER_0 (F5) 2920L050DR
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component F5_GMSL_DESERIALIZER_1 (F5) 2920L050DR
+Added Member To Class: ClassName=DAC_0 Member=Component J? 35RASMT4BHNTRX
+Added Member To Class: ClassName=DAC_0 Member=Component L? LQG18HN2N2S00D
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP51_GMSL_DESERIALIZER_0 (TP51) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP51_GMSL_DESERIALIZER_1 (TP51) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP52_GMSL_DESERIALIZER_0 (TP52) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP52_GMSL_DESERIALIZER_1 (TP52) TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R

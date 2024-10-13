@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=NetD11_PWR_PROT_0_2 Pin=Q9_PWR_PROT_0-3
+Removed Pin From Net: NetName=NetD6_PWR_PROT_0_2 Pin=Q9_PWR_PROT_0-6
+Removed Pin From Net: NetName=NetD11_PWR_PROT_2_2 Pin=Q9_PWR_PROT_2-3
+Removed Pin From Net: NetName=NetD6_PWR_PROT_2_2 Pin=Q9_PWR_PROT_2-6
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_0_2 Pin=R36_PWR_PROT_0-2
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_2_2 Pin=R36_PWR_PROT_2-2
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_0_1 Pin=R39_PWR_PROT_0-1
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_0_2 Pin=R39_PWR_PROT_0-2
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_2_1 Pin=R39_PWR_PROT_2-1
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_2_2 Pin=R39_PWR_PROT_2-2
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_0_1 Pin=U4_PWR_PROT_0-15
+Removed Pin From Net: NetName=NetQ9_PWR_PROT_2_1 Pin=U4_PWR_PROT_2-15
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Change Component Footprint: Designator=Q9_PWR_PROT_0 Old Footprint=NXP-SOT363_L New Footprint=DIOD-SOT323-3_V
+Change Component Footprint: Designator=Q9_PWR_PROT_2 Old Footprint=NXP-SOT363_L New Footprint=DIOD-SOT323-3_V
+Change Component Comment : Designator=Q9_PWR_PROT_0 Old Comment=BSS84AKS,115 New Comment=DMG1013UW-7
+Change Component Comment : Designator=Q9_PWR_PROT_2 Old Comment=BSS84AKS,115 New Comment=DMG1013UW-7
+Change Managed Component Library Link : Designator=Q9_PWR_PROT_0 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=01DF51FD-30FC-46B7-8B74-BBBE7A7CB8E4 New ItemGUID=323A064C-5ED1-4745-AFF8-A00B14BB63CF Old RevisionGUID=07F1A0AF-B60E-42AC-BD9D-EF056C5F6D28 New RevisionGUID=5F61A8C0-40B1-4BB8-B0D4-7F8265A395CD
+Change Managed Component Library Link : Designator=Q9_PWR_PROT_2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=01DF51FD-30FC-46B7-8B74-BBBE7A7CB8E4 New ItemGUID=323A064C-5ED1-4745-AFF8-A00B14BB63CF Old RevisionGUID=07F1A0AF-B60E-42AC-BD9D-EF056C5F6D28 New RevisionGUID=5F61A8C0-40B1-4BB8-B0D4-7F8265A395CD
+Change component parameters: Designator = "Q9_PWR_PROT_0" ("Q9"); Footprint = "NXP-SOT363_L"; UniqueID = "\OJSAWWBZ\PKUAVHHS" ("\OJSAWWBZ\PKUAVHHS")
+Change component parameters (AddParameter): Name = "Channel Type"; Value = "P-Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds31861.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. 3-2, 09/2013"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-Source On Resistance-Max"; Value = "750mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-to-Source Voltage [Vdss]"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2 x 1.25 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOT323"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Qg Gate Charge"; Value = "0.622nC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power Dissipation"; Value = "310mW"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q9_PWR_PROT_2" ("Q9"); Footprint = "NXP-SOT363_L"; UniqueID = "\RPICIVDG\PKUAVHHS" ("\RPICIVDG\PKUAVHHS")
+Change component parameters (AddParameter): Name = "Channel Type"; Value = "P-Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds31861.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. 3-2, 09/2013"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-Source On Resistance-Max"; Value = "750mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-to-Source Voltage [Vdss]"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2 x 1.25 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOT323"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Qg Gate Charge"; Value = "0.622nC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power Dissipation"; Value = "310mW"; VariantName = "[No Variations]"
+Added Component: Designator=Q29_PWR_PROT_0(DIOD-SOT323-3_V)
+Add component (AddParameter): Name = "Channel Type"; Value = "P-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds31861.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 3-2, 09/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source On Resistance-Max"; Value = "750mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-to-Source Voltage [Vdss]"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2 x 1.25 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOT323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qg Gate Charge"; Value = "0.622nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power Dissipation"; Value = "310mW"; VariantName = "[No Variations]"
+Added Component: Designator=Q29_PWR_PROT_2(DIOD-SOT323-3_V)
+Add component (AddParameter): Name = "Channel Type"; Value = "P-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds31861.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 3-2, 09/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source On Resistance-Max"; Value = "750mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-to-Source Voltage [Vdss]"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2 x 1.25 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOT323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qg Gate Charge"; Value = "0.622nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power Dissipation"; Value = "310mW"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD6_PWR_PROT_0_2 Pin=Q9_PWR_PROT_0-3
+Added Pin To Net: NetName=NetD6_PWR_PROT_2_2 Pin=Q9_PWR_PROT_2-3
+Added Pin To Net: NetName=NetD11_PWR_PROT_0_2 Pin=Q29_PWR_PROT_0-3
+Added Pin To Net: NetName=NetD11_PWR_PROT_2_2 Pin=Q29_PWR_PROT_2-3
+Added Pin To Net: NetName=NetQ9_PWR_PROT_0_1 Pin=R36_PWR_PROT_0-2
+Added Pin To Net: NetName=NetQ9_PWR_PROT_2_1 Pin=R36_PWR_PROT_2-2
+Added Pin To Net: NetName=NetQ9_PWR_PROT_0_2 Pin=R39_PWR_PROT_0-1
+Added Pin To Net: NetName=NetQ9_PWR_PROT_0_1 Pin=R39_PWR_PROT_0-2
+Added Pin To Net: NetName=NetQ9_PWR_PROT_2_2 Pin=R39_PWR_PROT_2-1
+Added Pin To Net: NetName=NetQ9_PWR_PROT_2_1 Pin=R39_PWR_PROT_2-2
+Added Pin To Net: NetName=NetQ9_PWR_PROT_0_2 Pin=U4_PWR_PROT_0-15
+Added Pin To Net: NetName=NetQ9_PWR_PROT_2_2 Pin=U4_PWR_PROT_2-15
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_1 Pin=Q29_PWR_PROT_0-1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_1 Pin=R42_PWR_PROT_0-2
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_1 Pin=R44_PWR_PROT_0-2
+Added Net: Name=NetQ29_PWR_PROT_0_1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_2 Pin=Q29_PWR_PROT_0-2
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_2 Pin=R44_PWR_PROT_0-1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_0_2 Pin=U4_PWR_PROT_0-6
+Added Net: Name=NetQ29_PWR_PROT_0_2
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_1 Pin=Q29_PWR_PROT_2-1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_1 Pin=R42_PWR_PROT_2-2
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_1 Pin=R44_PWR_PROT_2-2
+Added Net: Name=NetQ29_PWR_PROT_2_1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_2 Pin=Q29_PWR_PROT_2-2
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_2 Pin=R44_PWR_PROT_2-1
+Added Pin To Net: NetName=NetQ29_PWR_PROT_2_2 Pin=U4_PWR_PROT_2-6
+Added Net: Name=NetQ29_PWR_PROT_2_2
+Add Net: Net with name "PWR_IN" already exists
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component Q29_PWR_PROT_0 (Q29) DMG1013UW-7
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component Q29_PWR_PROT_2 (Q29) DMG1013UW-7

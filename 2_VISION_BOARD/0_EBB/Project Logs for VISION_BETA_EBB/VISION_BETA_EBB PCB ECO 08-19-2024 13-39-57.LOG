@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=C?-1
+Removed Pin From Net: NetName=5V_MAIN_nENABLE Pin=R128_REG_1-1
+Removed Pin From Net: NetName=5V_MAIN_nENABLE Pin=TP30_REG_1-1
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=5V_AUX_nENABLE Pin=R128_REG_1-1
+Added Pin To Net: NetName=5V_AUX_nENABLE Pin=TP30_REG_1-1
+Added Net: Name=5V_AUX_nENABLE
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? 0603 CAP
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component J? 35RASMT4BHNTRX
+Added Member To Class: ClassName=DAC_0 Member=Component L? LQG18HN2N2S00D
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R

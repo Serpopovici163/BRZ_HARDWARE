@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PWR_IN Pin=R9-2
+Added Pin To Net: NetName=V_BATT Pin=R9-2

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=CAN_nCS Pin=U1-12
+Added Pin To Net: NetName=CAN_SCLK Pin=U1-13
+Added Pin To Net: NetName=CAN_MISO Pin=U1-14
+Added Pin To Net: NetName=CAN_MOSI Pin=U1-15

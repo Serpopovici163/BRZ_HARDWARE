@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=CSI0_D1_P Pin=C3_CAMIF_1-1
+Removed Pin From Net: NetName=CSI0_D1_N Pin=C4_CAMIF_1-1
+Removed Pin From Net: NetName=CSI1_D0_N Pin=R1-2
+Removed Pin From Net: NetName=CSI1_D0_P Pin=R2-2
+Added Pin To Net: NetName=CSI1_D0_N Pin=J1-3
+Added Pin To Net: NetName=CSI1_D0_P Pin=J1-5
+Added Pin To Net: NetName=CSI0_D1_N Pin=R1-1
+Added Pin To Net: NetName=CSI0_D1_P Pin=R2-1
+Added Pin To Net: NetName=NetC3_CAMIF_1_1 Pin=C3_CAMIF_1-1
+Added Pin To Net: NetName=NetC3_CAMIF_1_1 Pin=R2-2
+Added Net: Name=NetC3_CAMIF_1_1
+Added Pin To Net: NetName=NetC4_CAMIF_1_1 Pin=C4_CAMIF_1-1
+Added Pin To Net: NetName=NetC4_CAMIF_1_1 Pin=R1-2
+Added Net: Name=NetC4_CAMIF_1_1
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Added Member To Class: ClassName=100DIFF Member=Wire NetC3_CAMIF_1_1
+Added Member To Class: ClassName=100DIFF Member=Wire NetC4_CAMIF_1_1

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=V_BATT Pin=D3-2
+Removed Member From Class: ClassName=CAN_IF Member=D3
+Added Pin To Net: NetName=V_BATT Pin=C30-2
+Added Pin To Net: NetName=V_BATT Pin=R15-1
+Added Pin To Net: NetName=V_BATT Pin=U5-10

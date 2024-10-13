@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C37-1
+Removed Pin From Net: NetName=REC_USB_VBUS Pin=C37-2
+Removed Member From Class: ClassName=JETSON Member=C37
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2

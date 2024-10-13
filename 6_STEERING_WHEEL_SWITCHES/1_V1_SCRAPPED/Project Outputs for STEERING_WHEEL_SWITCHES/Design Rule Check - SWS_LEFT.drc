@@ -1,0 +1,82 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\STEERING_WHEEL_SWITCHES\SWS_LEFT.PcbDoc
+Date     : 08/12/2024
+Time     : 09:26:45
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetC32_2 Between Pad C32-2(28.225mm,29.975mm) on Bottom Layer And Pad TP5-1(119.225mm,-59.775mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R6-1(44.75mm,23.925mm) on Bottom Layer And Pad TP3-1(47.525mm,42.975mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NRESET Between Via (42.325mm,22.625mm) from Top Layer to Bottom Layer And Pad TP2-1(53.525mm,42.975mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (35.5mm,36mm) from Top Layer to Bottom Layer And Pad TP4-1(41.525mm,42.975mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (37mm,3mm) from Top Layer to Bottom Layer And Pad TP6-1(113.225mm,-59.775mm) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+   Violation between Minimum Annular Ring: (No Ring) Pad Free-22(14mm,12mm) on Multi-Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Pad Free-23(33mm,28mm) on Multi-Layer (Annular Ring missing on Top Layer)
+Rule Violations :2
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (10.85mm,21.9mm) on Bottom Overlay And Pad R31-1(10.55mm,22.45mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (11.775mm,27.05mm) on Bottom Overlay And Pad R30-1(11.475mm,27.6mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (16.125mm,29mm) on Bottom Overlay And Pad R40-1(15.575mm,28.675mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (17mm,21.9mm) on Bottom Overlay And Pad R49-1(16.675mm,22.45mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (33.95mm,31.65mm) on Bottom Overlay And Pad R13-1(33.375mm,31.725mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.015mm < 0.102mm) Between Pad R7-1(27.775mm,8.8mm) on Bottom Layer And Track (28.315mm,7.65mm)(28.315mm,8.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.015mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.015mm < 0.102mm) Between Pad R7-2(27.775mm,7.5mm) on Bottom Layer And Track (28.315mm,7.65mm)(28.315mm,8.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.015mm]
+Rule Violations :7
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad TP2-1(53.525mm,42.975mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad TP3-1(47.525mm,42.975mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad TP4-1(41.525mm,42.975mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad TP5-1(119.225mm,-59.775mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad TP6-1(113.225mm,-59.775mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "TP2" (53.246mm,44.255mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "TP3" (47.251mm,44.255mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "TP4" (41.257mm,44.255mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "TP5" (118.948mm,-58.475mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "TP6" (112.953mm,-58.475mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.062mm < 0.2mm) Between Board Edge And Track (38.278mm,5.297mm)(38.278mm,8.203mm) on Bottom Overlay 
+Rule Violations :11
+
+Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 25
+Waived Violations : 0
+Time Elapsed        : 00:00:01

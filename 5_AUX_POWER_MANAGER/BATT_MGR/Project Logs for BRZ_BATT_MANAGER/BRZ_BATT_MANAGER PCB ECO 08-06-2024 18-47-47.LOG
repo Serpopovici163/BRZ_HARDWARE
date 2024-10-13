@@ -1,0 +1,4 @@
+Change Footprint: Cannot match pads with new footprint in component :U7 Footprint:SOT95P285X140-6N
+Added Pin To Net: NetName=CAN_CAN_IF_0_N Pin=J3-1
+Added Pin To Net: NetName=CAN_CAN_IF_0_P Pin=J3-4
+Add Net: Net with name "PWR_IN" already exists
