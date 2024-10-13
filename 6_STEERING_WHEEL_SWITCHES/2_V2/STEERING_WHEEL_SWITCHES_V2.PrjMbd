@@ -67,28 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=6197925b-c48e-4fac-b4f8-fb500300d55d
 
 [Document2]
-DocumentPath=..\STEERING_WHEEL_SWITCHES_V2_CONTROLLER\STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PrjPcb
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PrjPcb
-
-[Document3]
-DocumentPath=..\STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD\STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD.PrjPcb
+DocumentPath=STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD\STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,6 +86,27 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD.PrjPcb
+
+[Document3]
+DocumentPath=STEERING_WHEEL_SWITCHES_V2_CONTROLLER\STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+VaultGUID=
+ManagedProjectGUID=
+RevisionGUID=
+ProjectName=STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PrjPcb
 
 [OutputGroup1]
 Name=Netlist Outputs
