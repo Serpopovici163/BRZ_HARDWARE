@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=BATT_PWR Pin=R146-1
+Removed Pin From Net: NetName=INT_VCC Pin=R146-2
+Removed Pin From Net: NetName=BATT_PWR Pin=R147-1
+Removed Pin From Net: NetName=5V_MAIN_VCC Pin=R147-2
+Removed Pin From Net: NetName=BATT_PWR Pin=R148-1
+Removed Pin From Net: NetName=2V_AUX_VCC Pin=R148-2
+Removed Pin From Net: NetName=BATT_PWR Pin=R149-1
+Removed Pin From Net: NetName=3V3_AUX_VCC Pin=R149-2
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=R146
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=R147
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=R148
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=R149

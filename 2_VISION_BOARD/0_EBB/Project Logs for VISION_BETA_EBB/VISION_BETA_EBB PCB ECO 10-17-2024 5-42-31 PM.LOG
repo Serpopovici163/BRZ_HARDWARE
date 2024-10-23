@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=MCU_FDCAN3_RX Pin=R240-1
+Added Pin To Net: NetName=MCU_FDCAN3_RX Pin=U22-59
+Added Net: Name=MCU_FDCAN3_RX
+Added Pin To Net: NetName=MCU_FDCAN3_TX Pin=R238-1
+Added Pin To Net: NetName=MCU_FDCAN3_TX Pin=U22-60
+Added Net: Name=MCU_FDCAN3_TX

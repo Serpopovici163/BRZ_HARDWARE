@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=I2C1_SCL Pin=R251-1
+Added Pin To Net: NetName=I2C1_SCL Pin=U22-95
+Added Net: Name=I2C1_SCL
+Added Pin To Net: NetName=I2C1_SDA Pin=R249-1
+Added Pin To Net: NetName=I2C1_SDA Pin=U22-96
+Added Net: Name=I2C1_SDA
+Added Pin To Net: NetName=I2C4_SCL Pin=R250-1
+Added Pin To Net: NetName=I2C4_SCL Pin=U22-92
+Added Net: Name=I2C4_SCL
+Added Pin To Net: NetName=I2C4_SDA Pin=R248-1
+Added Pin To Net: NetName=I2C4_SDA Pin=U22-93
+Added Net: Name=I2C4_SDA
+Added Member To Class: ClassName=PWR Member=Wire 2V_AUX_OUT
+Added Member To Class: ClassName=PWR Member=Wire 3V3_AUX_FB
+Added Member To Class: ClassName=PWR Member=Wire NetC144_2
+Added Member To Class: ClassName=PWR Member=Wire NetC147_2

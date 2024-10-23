@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=3V3 Pin=R151-2
+Removed Pin From Net: NetName=3V3 Pin=R153-2
+Removed Pin From Net: NetName=3V3 Pin=R155-2
+Removed Pin From Net: NetName=3V3 Pin=R159-2
+Removed Member From Class: ClassName=USB3_0 Member=C251
+Removed Member From Class: ClassName=USB3_0 Member=C252
+Removed Member From Class: ClassName=JETSON_0 Member=D45
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=F7
+Removed Member From Class: ClassName=USB3_0 Member=R171
+Removed Member From Class: ClassName=ETH_IF_0 Member=R172
+Removed Member From Class: ClassName=ETH_IF_0 Member=R173
+Removed Member From Class: ClassName=USB3_0 Member=R174
+Removed Member From Class: ClassName=USB3_0 Member=R175
+Removed Member From Class: ClassName=USB3_0 Member=R176
+Removed Member From Class: ClassName=USB3_0 Member=R177
+Removed Member From Class: ClassName=USB3_0 Member=TP12
+Removed Member From Class: ClassName=USB3_0 Member=TP13
+Removed Member From Class: ClassName=USB3_0 Member=TP75
+Removed Member From Class: ClassName=USB3_0 Member=TP76
+Removed Member From Class: ClassName=NVME_0 Member=TP77
+Removed Member From Class: ClassName=NVME_0 Member=TP78
+Removed Member From Class: ClassName=NVME_0 Member=TP79
+Removed Member From Class: ClassName=ADC_0 Member=TP81
+Removed Member From Class: ClassName=ADC_0 Member=TP82
+Removed Member From Class: ClassName=ADC_0 Member=TP83
+Removed Member From Class: ClassName=ADC_0 Member=TP84
+Removed Member From Class: ClassName=USB3_0 Member=U29
+Removed Member From Class: ClassName=USB3_0 Member=U30
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R151-2
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R153-2
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R155-2
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R159-2
+Added Member To Class: ClassName=USB3_0 Member=Component C55 T520B337M2R5ATE045
+Added Member To Class: ClassName=USB3_0 Member=Component C56 C1005X7R1H104K050BB
+Added Member To Class: ClassName=JETSON_0 Member=Component D1 ESD204DQAR or PUSB3AB4Z
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component F1 0679L9150-01
+Added Member To Class: ClassName=USB3_0 Member=Component R30 ERJ-3EKF1001V
+Added Member To Class: ClassName=USB3_0 Member=Component R45 ERJ-3EKF2003V
+Added Member To Class: ClassName=USB3_0 Member=Component R50 ERJ3EKF1002V
+Added Member To Class: ClassName=USB3_0 Member=Component R51 ERJ-3EKF1001V
+Added Member To Class: ClassName=USB3_0 Member=Component R52 ERJ3EKF1002V
+Added Member To Class: ClassName=ETH_IF_0 Member=Component R53 0402 JUMPER
+Added Member To Class: ClassName=ETH_IF_0 Member=Component R54 0402 JUMPER
+Added Member To Class: ClassName=GMSL_SERIALIZER_0 Member=Component R146 ERJ-3EKF8062V
+Added Member To Class: ClassName=GMSL_SERIALIZER_0 Member=Component R147 ERJ-3EKF2052V
+Added Member To Class: ClassName=GMSL_SERIALIZER_0 Member=Component R148 RC0603FR-0732K4L
+Added Member To Class: ClassName=GMSL_SERIALIZER_0 Member=Component R149 ERJ-3EKF49R9V
+Added Member To Class: ClassName=USB3_0 Member=Component TP5 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP6 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP7 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP8 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP9 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP10 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP11 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP17 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP18 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP19 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP20 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component U4 AP2171WG-7
+Added Member To Class: ClassName=USB3_0 Member=Component U5 USB5744/2G
