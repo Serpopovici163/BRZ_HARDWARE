@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=5V_MAIN_TEMP Pin=R132-1
+Removed Pin From Net: NetName=2V_AUX_TEMP Pin=R133-1
+Removed Pin From Net: NetName=3V3_AUX_FB Pin=R133-2
+Removed Pin From Net: NetName=AMBIENT_TEMP Pin=R134-1
+Removed Pin From Net: NetName=5V_MAIN_TEMP Pin=R135-2
+Removed Pin From Net: NetName=GND Pin=R136-1
+Removed Pin From Net: NetName=2V_AUX_TEMP Pin=R136-2
+Removed Pin From Net: NetName=GND Pin=R137-1
+Removed Pin From Net: NetName=AMBIENT_TEMP Pin=R137-2
+Removed Pin From Net: NetName=3V3_AUX_TEMP Pin=R138-1
+Removed Pin From Net: NetName=3V3_AUX_TEMP Pin=R139-2
+Removed Pin From Net: NetName=5V_AUX_TEMP Pin=R212-1
+Removed Pin From Net: NetName=3V3_AUX_FB Pin=R212-2
+Removed Pin From Net: NetName=GND Pin=R213-1
+Removed Pin From Net: NetName=5V_AUX_TEMP Pin=R213-2
+Removed Pin From Net: NetName=5V_AUX_TEMP Pin=U17-10
+Removed Member From Class: ClassName=ADC_0 Member=R132
+Removed Member From Class: ClassName=ADC_0 Member=R133
+Removed Member From Class: ClassName=ADC_0 Member=R134
+Removed Member From Class: ClassName=ADC_0 Member=R135
+Removed Member From Class: ClassName=ADC_0 Member=R136
+Removed Member From Class: ClassName=ADC_0 Member=R137
+Removed Member From Class: ClassName=ADC_0 Member=R212
+Removed Member From Class: ClassName=ADC_0 Member=R213
+Change Component Footprint: Designator=R135 Old Footprint=RESC1608X55X30LL15T15 New Footprint=RESC1608X90X30ML15T20
+Change Component Footprint: Designator=R139 Old Footprint=RESC1608X55X30LL15T15 New Footprint=RESC1608X90X30ML15T20
+Change Component Footprint: Designator=R132 Old Footprint=RESC1608X90X30ML15T20 New Footprint=RESC1608X55X30LL15T15
+Change Component Footprint: Designator=R134 Old Footprint=RESC1608X90X30ML15T20 New Footprint=RESC1608X55X30LL15T15
+Change Component Footprint: Designator=R138 Old Footprint=RESC1608X90X30ML15T20 New Footprint=RESC1608X55X30LL15T15
+Change Component Comment : Designator=R135 Old Comment=ERJ-3EKF1001V New Comment=ERT-J1VR103J
+Change Component Comment : Designator=R139 Old Comment=ERJ-3EKF1001V New Comment=ERT-J1VR103J
+Change Component Comment : Designator=R132 Old Comment=ERT-J1VR103J New Comment=ERJ-3EKF1001V
+Change Component Comment : Designator=R134 Old Comment=ERT-J1VR103J New Comment=ERJ-3EKF1001V
+Change Component Comment : Designator=R138 Old Comment=ERT-J1VR103J New Comment=ERJ-3EKF1001V
+Change Managed Component Library Link : Designator=R132 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=7CA78D23-20EF-42F3-8425-7EFBD51DA28B New ItemGUID=15E99ED1-FE4D-4509-A4CB-202B754A1072 Old RevisionGUID=4EFFAA41-48B5-4B8F-8936-D410A75CDE2A New RevisionGUID=B5BF06F6-159E-4AE9-958F-413F2CF8C3A3
+Change Managed Component Library Link : Designator=R134 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=7CA78D23-20EF-42F3-8425-7EFBD51DA28B New ItemGUID=15E99ED1-FE4D-4509-A4CB-202B754A1072 Old RevisionGUID=4EFFAA41-48B5-4B8F-8936-D410A75CDE2A New RevisionGUID=B5BF06F6-159E-4AE9-958F-413F2CF8C3A3
+Change Managed Component Library Link : Designator=R135 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=15E99ED1-FE4D-4509-A4CB-202B754A1072 New ItemGUID=7CA78D23-20EF-42F3-8425-7EFBD51DA28B Old RevisionGUID=B5BF06F6-159E-4AE9-958F-413F2CF8C3A3 New RevisionGUID=4EFFAA41-48B5-4B8F-8936-D410A75CDE2A
+Change Managed Component Library Link : Designator=R138 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=7CA78D23-20EF-42F3-8425-7EFBD51DA28B New ItemGUID=15E99ED1-FE4D-4509-A4CB-202B754A1072 Old RevisionGUID=4EFFAA41-48B5-4B8F-8936-D410A75CDE2A New RevisionGUID=B5BF06F6-159E-4AE9-958F-413F2CF8C3A3
+Change Managed Component Library Link : Designator=R139 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=15E99ED1-FE4D-4509-A4CB-202B754A1072 New ItemGUID=7CA78D23-20EF-42F3-8425-7EFBD51DA28B Old RevisionGUID=B5BF06F6-159E-4AE9-958F-413F2CF8C3A3 New RevisionGUID=4EFFAA41-48B5-4B8F-8936-D410A75CDE2A
+Change component parameters: Designator = "R132" ("R132"); Footprint = "RESC1608X90X30ML15T20"; UniqueID = "\KOWAOYXS\HMGDDWER" ("\KOWAOYXS\HMGDDWER")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R134" ("R134"); Footprint = "RESC1608X90X30ML15T20"; UniqueID = "\WTEKMANG\VOODPQKM" ("\WTEKMANG\VOODPQKM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R135" ("R135"); Footprint = "RESC1608X55X30LL15T15"; UniqueID = "\WTEKMANG\WWIDYUBG" ("\WTEKMANG\WWIDYUBG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERT-J1VR103J"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R138" ("R138"); Footprint = "RESC1608X90X30ML15T20"; UniqueID = "\UMUMLJID\UWETCEQA" ("\UMUMLJID\UWETCEQA")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R139" ("R139"); Footprint = "RESC1608X55X30LL15T15"; UniqueID = "\UMUMLJID\ERTPTFDC" ("\UMUMLJID\ERTPTFDC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERT-J1VR103J"; VariantName = "[No Variations]"
+Added Component: Designator=R136_REG_0(RESC1608X55X30LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Added Component: Designator=R136_REG_1(RESC1608X55X30LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1001V"; VariantName = "[No Variations]"
+Added Component: Designator=R137_REG_0(RESC1608X90X30ML15T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERT-J1VR103J"; VariantName = "[No Variations]"
+Added Component: Designator=R137_REG_1(RESC1608X90X30ML15T20)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERT-J1VR103J"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2V_AUX_TEMP Pin=R132-1
+Added Pin To Net: NetName=GND Pin=R133-1
+Added Pin To Net: NetName=2V_AUX_TEMP Pin=R133-2
+Added Pin To Net: NetName=3V3_AUX_TEMP Pin=R134-1
+Added Pin To Net: NetName=3V3_AUX_TEMP Pin=R135-2
+Added Pin To Net: NetName=5V_MAIN_TEMP Pin=R136_REG_0-1
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R136_REG_0-2
+Added Pin To Net: NetName=5V_AUX_TEMP Pin=R136_REG_1-1
+Added Pin To Net: NetName=3V3_AUX_FB Pin=R136_REG_1-2
+Added Pin To Net: NetName=GND Pin=R137_REG_0-1
+Added Pin To Net: NetName=5V_MAIN_TEMP Pin=R137_REG_0-2
+Added Pin To Net: NetName=GND Pin=R137_REG_1-1
+Added Pin To Net: NetName=5V_AUX_TEMP Pin=R137_REG_1-2
+Added Pin To Net: NetName=AMBIENT_TEMP Pin=R138-1
+Added Pin To Net: NetName=AMBIENT_TEMP Pin=R139-2
+Added Pin To Net: NetName=5V_AUX_TEMP Pin=U17-6
+Added Pin To Net: NetName=5V_MAIN_V_SENSE Pin=U17-10
+Added Member To Class: ClassName=REG_3 Member=Component R132 ERJ-3EKF1001V
+Added Member To Class: ClassName=REG_3 Member=Component R133 ERT-J1VR103J
+Added Member To Class: ClassName=REG_2 Member=Component R134 ERJ-3EKF1001V
+Added Member To Class: ClassName=REG_2 Member=Component R135 ERT-J1VR103J
+Added Member To Class: ClassName=REG_0 Member=Component R136_REG_0 (R136) ERJ-3EKF1001V
+Added Member To Class: ClassName=REG_1 Member=Component R136_REG_1 (R136) ERJ-3EKF1001V
+Added Member To Class: ClassName=REG_0 Member=Component R137_REG_0 (R137) ERT-J1VR103J
+Added Member To Class: ClassName=REG_1 Member=Component R137_REG_1 (R137) ERT-J1VR103J
