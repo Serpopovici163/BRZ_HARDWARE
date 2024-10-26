@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CONF_SDA Pin=R248-2
+Removed Pin From Net: NetName=CAM_I2C_SDA Pin=R249-2
+Removed Pin From Net: NetName=CONF_SCL Pin=R250-2
+Removed Pin From Net: NetName=CAM_I2C_SCL Pin=R251-2
+Change Component Designator: OldDesignator=FB9 NewDesignator=mail
+Added Pin To Net: NetName=CAM_I2C_SDA Pin=R248-2
+Added Pin To Net: NetName=CONF_SDA Pin=R249-2
+Added Pin To Net: NetName=CAM_I2C_SCL Pin=R250-2
+Added Pin To Net: NetName=CONF_SCL Pin=R251-2

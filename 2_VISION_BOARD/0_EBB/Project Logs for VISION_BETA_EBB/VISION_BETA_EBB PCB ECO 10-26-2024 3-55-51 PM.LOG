@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=MCU_2V_AUX_nENABLE Pin=U22-45
+Added Pin To Net: NetName=MCU_3V3_AUX_nENABLE Pin=U22-46
+Added Pin To Net: NetName=MCU_5V_AUX_nENABLE Pin=U22-47
+Added Pin To Net: NetName=MCU_5V_MAIN_nENABLE Pin=U22-53
