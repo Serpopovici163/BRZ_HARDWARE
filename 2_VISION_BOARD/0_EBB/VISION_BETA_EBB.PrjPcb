@@ -373,7 +373,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ANUEJXRW
 
 [Document20]
-DocumentPath=CAN_IF.SchDoc
+DocumentPath=PWR_MGMT_CAN_IF.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
