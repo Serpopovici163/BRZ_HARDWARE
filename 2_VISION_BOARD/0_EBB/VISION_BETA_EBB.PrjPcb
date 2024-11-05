@@ -441,13 +441,13 @@ GenerateClassCluster=0
 DocumentUniqueId=MCZBFVFE
 
 [Document24]
-DocumentPath=STM8L101F3_PINOUT.SchDoc
+DocumentPath=RAIL_DISCHARGE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=22
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -455,7 +455,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AOJSYHEN
+DocumentUniqueId=GCZAGKPD
 
 [Configuration1]
 Name=Sources
