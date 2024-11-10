@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PWR_MCU_PD0 Pin=R310-2
+Removed Pin From Net: NetName=PWR_MCU_PD0 Pin=U34-5
+Added Pin To Net: NetName=PWR_MCU_PB3 Pin=R310-2
+Added Pin To Net: NetName=PWR_MCU_PB3 Pin=U34-5

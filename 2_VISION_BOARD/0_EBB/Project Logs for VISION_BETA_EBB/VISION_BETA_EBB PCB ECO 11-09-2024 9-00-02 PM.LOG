@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PWR_MGMT_1V8 Pin=R355-2
+Removed Member From Class: ClassName=CAN_IF_0 Member=R355
+Removed Member From Class: ClassName=CAN_IF_0 Member=TP21
+Added Pin To Net: NetName=FAN_VDDIO_SoC_FAN_IF Pin=R355-2
+Added Member To Class: ClassName=JETSON_0 Member=Component R355 ERJ-3EKF1003V
+Added Member To Class: ClassName=JETSON_0 Member=Component TP21 TPAD6R

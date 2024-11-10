@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=CAN_INH Pin=R141-1
+Removed Pin From Net: NetName=CAN_INH Pin=R144-1
+Added Component: Designator=R363(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-009-00206-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "0402jump.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_INH Pin=R363-1
+Added Pin To Net: NetName=ENABLE Pin=R141-1
+Added Pin To Net: NetName=ENABLE Pin=R144-1
+Added Pin To Net: NetName=ENABLE Pin=R363-2
+Added Net: Name=ENABLE
+Added Member To Class: ClassName=CAN_IF_0 Member=Component R363 0402 JUMPER
