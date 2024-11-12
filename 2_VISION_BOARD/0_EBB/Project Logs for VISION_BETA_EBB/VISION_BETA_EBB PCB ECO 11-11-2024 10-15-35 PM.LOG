@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=I2C1_SDA Pin=R177-1
+Removed Pin From Net: NetName=I2C1_SCL Pin=R180-1
+Removed Member From Class: ClassName=JETSON_0 Member=R177
+Removed Member From Class: ClassName=JETSON_0 Member=R180
+Added Pin To Net: NetName=I2C1_SDA Pin=R288-2
+Added Pin To Net: NetName=I2C1_SCL Pin=R289-2

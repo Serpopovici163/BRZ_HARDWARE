@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=CAN_RX Pin=D17-9
+Removed Pin From Net: NetName=CAN_TX Pin=D17-10
+Added Pin To Net: NetName=CAN_TX Pin=D17-9
+Added Pin To Net: NetName=CAN_RX Pin=D17-10
+Change Differential Pair Positive Net Name : Old Net Name=FLIP0_P New Net Name=FLIP0_P
+Change Differential Pair Positive Net Name : Old Net Name=FLIP1_P New Net Name=FLIP1_P
+Change Differential Pair Positive Net Name : Old Net Name=FLIP2_P New Net Name=FLIP2_P
+Change Differential Pair Positive Net Name : Old Net Name=FLIP3_P New Net Name=FLIP3_P
+Change Differential Pair Positive Net Name : Old Net Name=FLIP4_P New Net Name=FLIP4_P
+Change Differential Pair Positive Net Name : Old Net Name=FLIP5_P New Net Name=FLIP5_P
+Change Differential Pair Negative Net Name : Old Net Name=FLIP0_N New Net Name=FLIP0_N
+Change Differential Pair Negative Net Name : Old Net Name=FLIP1_N New Net Name=FLIP1_N
+Change Differential Pair Negative Net Name : Old Net Name=FLIP2_N New Net Name=FLIP2_N
+Change Differential Pair Negative Net Name : Old Net Name=FLIP3_N New Net Name=FLIP3_N
+Change Differential Pair Negative Net Name : Old Net Name=FLIP4_N New Net Name=FLIP4_N
+Change Differential Pair Negative Net Name : Old Net Name=FLIP5_N New Net Name=FLIP5_N
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP0_P
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP1_N
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP2_N
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP3_P
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP4_N
+Added Member To Class: ClassName=85DIFF Member=Wire FLIP5_N
