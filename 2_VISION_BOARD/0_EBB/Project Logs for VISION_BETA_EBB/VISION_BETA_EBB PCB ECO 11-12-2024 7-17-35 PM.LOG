@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=HDMI_1V8 Pin=R278-2
+Added Pin To Net: NetName=FAN_VDDIO_SoC_FAN_IF Pin=R278-2
