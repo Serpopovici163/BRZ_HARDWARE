@@ -457,6 +457,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GCZAGKPD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for VISION_BETA_EBB\Design Rule Check - VISION_BETA_EBB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=MessageListReport.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1444,6 +1452,26 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=2V_AUX|NetColor=$00E8864A
+Net2=NetName=2V_AUX_OUT|NetColor=$00E8864A
+Net3=NetName=3V3_AUX|NetColor=clLime
+Net4=NetName=3V3_AUX_FB|NetColor=clLime
+Net5=NetName=5V_AUX|NetColor=$000099FF
+Net6=NetName=5V_MAIN|NetColor=clRed
+Net7=NetName=5V_REG_FB|NetColor=clRed
+Net8=NetName=5V_REG_FB_REG_0|NetColor=clRed
+Net9=NetName=5V_REG_FB_REG_1|NetColor=$000099FF
+Net10=NetName=FAN_VDDIO|NetColor=clLime
+Net11=NetName=FAN_VDDIO_AUX_FAN_IF|NetColor=clLime
+Net12=NetName=NetR236_1|NetColor=$000099FF
+Net13=NetName=NetR236_AUX_FAN_IF_1|NetColor=clLime
+Net14=NetName=NetR236_SoC_FAN_IF_1|NetColor=$000099FF
+Net15=NetName=RAIL|NetColor=$000099FF
+Net16=NetName=RAIL_RAIL_DISCH_0|NetColor=$000099FF
+Net17=NetName=RAIL_RAIL_DISCH_1|NetColor=clLime
+Net18=NetName=RAIL_RAIL_DISCH_2|NetColor=$00E8864A
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
