@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\2_VISION_BOARD\0_EBB\VISION_BETA_EBB.PcbDoc
-Date     : 11/16/2024
-Time     : 11:43:14 PM
+Date     : 11/18/2024
+Time     : 8:41:23 AM
 
 WARNING: Unplated multi-layer pad(s) detected
    Pad MP4-1(54.05mm,47mm) on Multi-Layer on Net GND
@@ -51,80 +51,23 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :9
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R58-1(234mm,27.5mm) on Top Layer And Pad C97-2(234.267mm,24.5mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R203-1(42.225mm,25.5mm) on Top Layer And Pad R211-1(42.225mm,31.5mm) on Top Layer 
+Rule Violations :2
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.264mm) (Max=0.355mm) (Preferred=0.355mm) (InNetClass('50SINGLE'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.264mm) (Max=0.355mm) (Preferred=0.355mm) (InNetClass('50SINGLE'))
-   Violation between Width Constraint: Arc (154.34mm,115.157mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (154.34mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (158.34mm,118.511mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (158.34mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (160.386mm,135.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (169.214mm,135.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (171.26mm,118.529mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (171.26mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (175.26mm,115.175mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (175.26mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (225.34mm,115.157mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (225.34mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (229.34mm,118.511mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (229.34mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (231.386mm,135.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (240.214mm,135.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (242.26mm,118.529mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (242.26mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (246.26mm,115.175mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Arc (246.26mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (151.8mm,115.157mm)(151.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (151.8mm,123.8mm)(151.8mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (152.544mm,113.361mm)(156.578mm,109.328mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (152.544mm,132.544mm)(162.8mm,142.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (155.8mm,118.511mm)(155.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (155.8mm,123.8mm)(155.8mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (156.544mm,116.715mm)(160.255mm,113.005mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (156.544mm,128.544mm)(162.093mm,134.093mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (162.8mm,135.8mm)(162.8mm,138.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (166.8mm,135.8mm)(166.8mm,138.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (166.8mm,142.8mm)(177.056mm,132.544mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (167.507mm,134.093mm)(173.056mm,128.544mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (169.325mm,113.002mm)(173.056mm,116.733mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (172.996mm,109.32mm)(177.056mm,113.379mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (173.8mm,118.529mm)(173.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (173.8mm,123.8mm)(173.8mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (177.8mm,115.175mm)(177.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (177.8mm,123.8mm)(177.8mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (201.275mm,126.717mm)(201.275mm,130mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (201.275mm,130.835mm)(201.275mm,142.86mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (201.275mm,130mm)(201.275mm,130.835mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (222.8mm,115.157mm)(222.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (222.8mm,123.8mm)(222.8mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (223.544mm,113.361mm)(227.578mm,109.328mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (223.544mm,132.544mm)(233.8mm,142.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (226.8mm,118.511mm)(226.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (226.8mm,123.8mm)(226.8mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (227.544mm,116.715mm)(231.255mm,113.005mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (227.544mm,128.544mm)(233.093mm,134.093mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (233.8mm,135.8mm)(233.8mm,138.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (237.8mm,135.8mm)(237.8mm,138.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (237.8mm,142.8mm)(248.056mm,132.544mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (238.507mm,134.093mm)(244.056mm,128.544mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (240.325mm,113.002mm)(244.056mm,116.733mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (243.996mm,109.32mm)(248.056mm,113.379mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (244.8mm,118.529mm)(244.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (244.8mm,123.8mm)(244.8mm,126.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (248.8mm,115.175mm)(248.8mm,123.8mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-   Violation between Width Constraint: Track (248.8mm,123.8mm)(248.8mm,130.748mm) on Top Layer Actual Width = 0.3548mm (13.9685mil), Target Width = 0.35476mm (13.967mil)
-Rule Violations :59
-
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
@@ -203,15 +146,6 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (5mm,5mm) on Bottom Overlay And Board Edge 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (5mm,5mm) on Top Overlay And Board Edge 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (97.583mm,156.35mm) on Top Overlay And Board Edge 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (27 hole(s)) Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (6 hole(s)) Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.12mm < 0.2mm) Between Board Edge And Track (0.22mm,77.31mm)(0.22mm,95.69mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.12mm < 0.2mm) Between Board Edge And Track (0.22mm,77.31mm)(13.4mm,77.31mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.12mm < 0.2mm) Between Board Edge And Track (0.22mm,95.69mm)(13.4mm,95.69mm) on Top Overlay 
@@ -292,15 +226,18 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (97mm,0mm)(97mm,34mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (98.633mm,156.35mm)(98.633mm,156.65mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (98.633mm,156.65mm)(109.633mm,156.65mm) on Top Overlay 
-Rule Violations :101
+Rule Violations :92
 
 Processing Rule : Matched Lengths(Delay Tolerance=15ps) (InDifferentialPairClass('CSI_PASSTHRU_MATCH'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=15ps) (InDifferentialPairClass('CSI_2_AND_3_MATCH'))
+Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('DP_PAIRS_LENGTH_MATCH'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('DP_PAIRS_LENGTH_MATCH'))
+Processing Rule : Matched Lengths(Delay Tolerance=150ps) (InDifferentialPairClass('DP_1_MATCH'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=0.5ps) (InDifferentialPairClass('PCIE_PAIRS_LENGTH_MATCH'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('USB_PAIRS_LENGTH_MATCH'))
@@ -309,13 +246,13 @@ Rule Violations :0
 Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('ETH_PAIRS_LENGTH_MATCH'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=150ps) (InDifferentialPairClass('DP_1_MATCH'))
+Processing Rule : Matched Lengths(Delay Tolerance=15ps) (InDifferentialPairClass('CSI_0_AND_1_MATCH'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSI_PAIRS_LENGTH_MATCH'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=15ps) (InDifferentialPairClass('CSI_0_AND_1_MATCH'))
+Processing Rule : Matched Lengths(Delay Tolerance=15ps) (InDifferentialPairClass('CSI_2_AND_3_MATCH'))
 Rule Violations :0
 
 Processing Rule : Room GMSL_DESERIALIZER_0 (Bounding Region = (876mm, 659.2mm, 921mm, 727mm) (InComponentClass('GMSL_DESERIALIZER_0'))
@@ -324,16 +261,16 @@ Rule Violations :0
 Processing Rule : Room GMSL_DESERIALIZER_1 (Bounding Region = (947mm, 659.2mm, 992mm, 727mm) (InComponentClass('GMSL_DESERIALIZER_1'))
 Rule Violations :0
 
-Processing Rule : Room SoC_FAN_IF (Bounding Region = (783.9mm, 627mm, 797.5mm, 663mm) (InComponentClass('SoC_FAN_IF'))
+Processing Rule : Room AUX_FAN_IF (Bounding Region = (797.85mm, 627mm, 811.45mm, 663mm) (InComponentClass('AUX_FAN_IF'))
 Rule Violations :0
 
-Processing Rule : Room AUX_FAN_IF (Bounding Region = (797.85mm, 627mm, 811.45mm, 663mm) (InComponentClass('AUX_FAN_IF'))
+Processing Rule : Room SoC_FAN_IF (Bounding Region = (783.9mm, 627mm, 797.5mm, 663mm) (InComponentClass('SoC_FAN_IF'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 237
+Violations Detected : 171
 Waived Violations : 0
 Time Elapsed        : 00:00:03
