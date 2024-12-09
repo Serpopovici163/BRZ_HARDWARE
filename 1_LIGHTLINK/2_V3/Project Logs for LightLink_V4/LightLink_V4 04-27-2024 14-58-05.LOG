@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=CAN_INH Pin=D3-2
-Added Pin To Net: NetName=NetQ5_2 Pin=D3-2
-Change Net Name : Old Net Name=NetQ5_2 New Net Name=NetD3_2
