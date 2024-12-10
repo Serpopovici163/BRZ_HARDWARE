@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=MAX96724_COUPON Member=TP9
+Added Pin To Net: NetName=nPWDN Pin=R33-2
+Added Pin To Net: NetName=nPWDN Pin=TP32-1
+Added Net: Name=nPWDN
