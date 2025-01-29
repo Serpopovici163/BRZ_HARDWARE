@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PcbDoc   1/28/2025  11:39:38 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : STEERING_WHEEL_SWITCHES_V2_CONTROLLER-RoundHoles.TXT
+ASCII SlotHoles File : STEERING_WHEEL_SWITCHES_V2_CONTROLLER-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             185       PTH        535.30mm (21.07inch)
+T2      0.6mm (24mil)                                             Round             3         PTH        20.23mm (0.80inch)
+T3      0.71mm (28mil)                                            Round             10        PTH        11.43mm (0.45inch)
+T4      0.9mm (35mil)                                             Round             4         PTH        7.50mm (0.30inch)
+T5      2.5mm (98mil)                                             Round             4         PTH        122.00mm (4.80inch)
+T6      2mm (79mil)                                               Slot              1         NPTH       0.80mm (0.03inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              207
+
+Total Processing Time (hh:mm:ss) : 00:00:00

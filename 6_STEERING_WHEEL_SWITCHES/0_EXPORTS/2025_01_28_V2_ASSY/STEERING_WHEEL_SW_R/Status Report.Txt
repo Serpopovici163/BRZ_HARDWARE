@@ -1,0 +1,13 @@
+Output: Copy of NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SWS_RIGHT.PcbDoc]
+   Generated File[SWS_RIGHT-RoundHoles.TXT]
+   Generated File[SWS_RIGHT-SlotHoles.TXT]
+   Generated File[SWS_RIGHT.LDP]
+   Generated File[SWS_RIGHT.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:42:21 PM On 1/28/2025

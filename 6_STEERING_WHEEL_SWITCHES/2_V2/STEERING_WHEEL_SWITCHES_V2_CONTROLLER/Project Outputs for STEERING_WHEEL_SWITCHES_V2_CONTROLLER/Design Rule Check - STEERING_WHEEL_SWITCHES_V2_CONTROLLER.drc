@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Trololololol\Documents\Projects\0_BRZ_PARENT\1_BRZ_HARDWARE\6_STEERING_WHEEL_SWITCHES\2_V2\STEERING_WHEEL_SWITCHES_V2_CONTROLLER\STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PcbDoc
-Date     : 10/13/2024
-Time     : 1:36:31 AM
+Date     : 1/28/2025
+Time     : 11:36:22 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -66,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 12
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SWS_RIGHT.PcbDoc   1/28/2025  11:42:21 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SWS_RIGHT-RoundHoles.TXT
+ASCII SlotHoles File : SWS_RIGHT-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             90        PTH        368.25mm (14.50inch)
+T2      3mm (118mil)                                              Round             1         PTH        0.00mm (0.00inch)
+T3      3mm (118mil)                                              Slot              1         PTH        1.00mm (0.04inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              92
+
+Total Processing Time (hh:mm:ss) : 00:00:00

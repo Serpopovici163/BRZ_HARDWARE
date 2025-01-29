@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [STEERING_WHEEL_SWITCHES_V2_CONTROLLER.PcbDoc]
+   Generated File[STEERING_WHEEL_SWITCHES_V2_CONTROLLER-RoundHoles.TXT]
+   Generated File[STEERING_WHEEL_SWITCHES_V2_CONTROLLER-SlotHoles.TXT]
+   Generated File[STEERING_WHEEL_SWITCHES_V2_CONTROLLER.LDP]
+   Generated File[STEERING_WHEEL_SWITCHES_V2_CONTROLLER.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:39:38 PM On 1/28/2025

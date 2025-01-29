@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Trololololol\Documents\Projects\0_BRZ_PARENT\1_BRZ_HARDWARE\6_STEERING_WHEEL_SWITCHES\2_V2\STEERING_WHEEL_SWITCHES_V2_SWITCH_BOARD\SWS_RIGHT.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=sws_right-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=sws_right-slotholes.txt|DrillLayers=gtl,gbl
