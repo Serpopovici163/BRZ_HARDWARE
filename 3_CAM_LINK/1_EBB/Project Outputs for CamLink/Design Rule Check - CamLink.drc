@@ -1,0 +1,82 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAM_LINK\1_EBB\CamLink.PcbDoc
+Date     : 02/11/2025
+Time     : 10:17:22 AM
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InDifferentialPairClass('100DIFF') OR InDifferentialPairClass('CSI') OR InDifferentialPairClass('PRECSI') OR InNetClass('50SINGLE')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.177mm) (Max=0.261mm) (Preferred=0.261mm) (InNetClass('50SINGLE'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-1(54.54mm,50.73mm) on TOP SIG And Track (45.65mm,51.5mm)(58.35mm,51.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-10(49.46mm,47.27mm) on TOP SIG And Track (45.65mm,46.5mm)(58.35mm,46.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-2(54.54mm,47.27mm) on TOP SIG And Track (45.65mm,46.5mm)(58.35mm,46.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-3(53.27mm,50.73mm) on TOP SIG And Track (45.65mm,51.5mm)(58.35mm,51.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-4(53.27mm,47.27mm) on TOP SIG And Track (45.65mm,46.5mm)(58.35mm,46.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-5(52mm,50.73mm) on TOP SIG And Track (45.65mm,51.5mm)(58.35mm,51.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-6(52mm,47.27mm) on TOP SIG And Track (45.65mm,46.5mm)(58.35mm,46.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-7(50.73mm,50.73mm) on TOP SIG And Track (45.65mm,51.5mm)(58.35mm,51.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-8(50.73mm,47.27mm) on TOP SIG And Track (45.65mm,46.5mm)(58.35mm,46.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad J3-9(49.46mm,50.73mm) on TOP SIG And Track (45.65mm,51.5mm)(58.35mm,51.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :10
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=8ps) (InDifferentialPairClass('PRECSI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=8ps) (InDifferentialPairClass('CSI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('100DIFF') OR InDifferentialPairClass('CSI') OR InDifferentialPairClass('PRECSI'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Waived Violations : 0
+Time Elapsed        : 00:00:02

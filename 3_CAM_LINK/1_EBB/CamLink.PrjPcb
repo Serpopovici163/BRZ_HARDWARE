@@ -134,6 +134,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BRTPYCVA
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CamLink\Design Rule Check - CamLink.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

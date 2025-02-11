@@ -1,0 +1,1 @@
+ -machinefile runfeko_tmp_machinesfile_23500 -delegate -envall -mapall "C:\Program Files\Altair\2023.1-edu\feko\bin\feko_mkl.csv.impi.exe" "0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST" "--run-from-gui" "--use-gpu"

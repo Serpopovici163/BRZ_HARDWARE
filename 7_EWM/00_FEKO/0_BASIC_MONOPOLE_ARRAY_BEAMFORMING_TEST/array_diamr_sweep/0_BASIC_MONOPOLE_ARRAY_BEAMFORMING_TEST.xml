@@ -1,0 +1,55 @@
+
+<parameter_sweep>
+  <settings>
+    <sweep_type>lin</sweep_type>
+    <frequency_properties config='StandardConfiguration1' numfreq='1' type='Single'/>
+  </settings>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.01'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_01</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.072727272727273'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_02</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.13545454545455'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_03</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.19818181818182'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_04</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.26090909090909'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_05</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.32363636363636'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_06</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.38636363636364'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_07</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.44909090909091'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_08</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.51181818181818'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_09</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.57454545454545'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_10</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.63727272727273'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_11</path>
+  </file>
+  <file>
+    <variable name='ARRAY_DIAM' value='0.7'/>
+    <path>array_diamr_sweep\0_BASIC_MONOPOLE_ARRAY_BEAMFORMING_TEST_12</path>
+  </file>
+</parameter_sweep>
