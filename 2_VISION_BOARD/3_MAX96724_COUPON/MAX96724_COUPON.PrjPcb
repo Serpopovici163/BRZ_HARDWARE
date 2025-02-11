@@ -117,8 +117,45 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUFVQNCX
 
+[Document5]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MAX96724_COUPON\Design Rule Check - MAX96724_COUPON.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=..\0_EXPORTS\2025_02_11_MAX96724_COUPON\NC Drill\MAX96724_COUPON.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=..\0_EXPORTS\2025_02_11_MAX96724_COUPON\Gerber\MAX96724_COUPON.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=..\0_EXPORTS\2025_02_11_MAX96724_COUPON\NC Drill\MAX96724_COUPON.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\0_EXPORTS\2025_02_11_MAX96724_COUPON\Gerber\MAX96724_COUPON.REP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\0_EXPORTS\2025_02_11_MAX96724_COUPON\NC Drill\MAX96724_COUPON.TXT
 DItemRevisionGUID=
 
 [Configuration1]

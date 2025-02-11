@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MAX96724_COUPON.PcbDoc]
+   Generated File[MAX96724_COUPON.TXT]
+   Generated File[MAX96724_COUPON.LDP]
+   Generated File[MAX96724_COUPON.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:00:50 PM On 02/11/2025

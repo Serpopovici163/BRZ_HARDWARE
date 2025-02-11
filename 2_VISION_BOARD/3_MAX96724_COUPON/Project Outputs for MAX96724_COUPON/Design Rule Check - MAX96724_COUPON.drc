@@ -1,9 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\2_VISION_BOARD\3_MAX96724_COUPON\MAX96724_COUPON.PcbDoc
 Date     : 02/11/2025
-Time     : 10:16:39 AM
+Time     : 10:56:20 AM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('50SINGLE') OR InDifferentialPairClass('100DIFF') OR InDifferentialPairClass('CSI0') OR InDifferentialPairClass('CSI0_PRE') OR InDifferentialPairClass('CSI1') OR InDifferentialPairClass('CSI1_PRE')),(InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -75,4 +78,4 @@ Rule Violations :0
 
 Violations Detected : 3
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
