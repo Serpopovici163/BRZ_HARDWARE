@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=USBSS0_RX_N Pin=R35-2
-Removed Pin From Net: NetName=USBSS0_RX_P Pin=R36-2
-Removed Member From Class: ClassName=JETSON_0 Member=R35
-Removed Member From Class: ClassName=JETSON_0 Member=R36
-Added Pin To Net: NetName=USBSS0_RX_N Pin=J1-161
-Added Pin To Net: NetName=USBSS0_RX_P Pin=J1-163

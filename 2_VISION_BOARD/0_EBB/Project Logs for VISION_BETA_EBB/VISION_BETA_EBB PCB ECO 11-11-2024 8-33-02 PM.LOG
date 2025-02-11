@@ -1,9 +1,0 @@
-Added Component: Designator=TP21(New footprint 1)
-Added Component: Designator=TP88(New footprint 1)
-Added Component: Designator=TP89(New footprint 1)
-Added Pin To Net: NetName=DAC_DIN Pin=TP21-1
-Added Pin To Net: NetName=DAC_LRCK Pin=TP88-1
-Added Pin To Net: NetName=DAC_BCK Pin=TP89-1
-Added Member To Class: ClassName=JETSON_0 Member=Component TP21 TPAD6R
-Added Member To Class: ClassName=JETSON_0 Member=Component TP88 TPAD6R
-Added Member To Class: ClassName=JETSON_0 Member=Component TP89 TPAD6R

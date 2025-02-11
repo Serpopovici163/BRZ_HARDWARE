@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=5V_MAIN_V_SENSE Pin=U17-6
+Removed Pin From Net: NetName=5V_MAIN_TEMP Pin=U17-7
+Removed Pin From Net: NetName=CAN_PWR_V_SENSE Pin=U17-8
+Added Pin To Net: NetName=CAN_PWR_V_SENSE Pin=U17-6
+Added Pin To Net: NetName=5V_MAIN_V_SENSE Pin=U17-7
+Added Pin To Net: NetName=5V_MAIN_TEMP Pin=U17-8

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=CSI2_CLK_P Pin=D19-6
+Removed Pin From Net: NetName=CSI2_CLK_N Pin=D19-7
+Removed Pin From Net: NetName=CSI2_D1_P Pin=D19-9
+Removed Pin From Net: NetName=CSI2_D1_N Pin=D19-10
+Added Pin To Net: NetName=CSI2_D1_P Pin=D19-6
+Added Pin To Net: NetName=CSI2_D1_N Pin=D19-7
+Added Pin To Net: NetName=CSI2_CLK_P Pin=D19-9
+Added Pin To Net: NetName=CSI2_CLK_N Pin=D19-10
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2

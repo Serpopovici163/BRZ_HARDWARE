@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=FAN_PWM Pin=U22-34
+Removed Pin From Net: NetName=FAN_TACH Pin=U22-35
+Added Pin To Net: NetName=FAN_TACH Pin=U22-34
+Added Pin To Net: NetName=FAN_PWM Pin=U22-35

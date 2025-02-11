@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=FAN_VCC_AUX_FAN_IF Pin=R214_AUX_FAN_IF-1
-Removed Pin From Net: NetName=FAN_VCC_SoC_FAN_IF Pin=R214_SoC_FAN_IF-1
-Removed Pin From Net: NetName=FAN_VCC_AUX_FAN_IF Pin=R230_AUX_FAN_IF-1
-Removed Pin From Net: NetName=FAN_VCC_SoC_FAN_IF Pin=R230_SoC_FAN_IF-1
-Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=R214_AUX_FAN_IF-1
-Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=R214_SoC_FAN_IF-1
-Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=R230_AUX_FAN_IF-1
-Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=R230_SoC_FAN_IF-1

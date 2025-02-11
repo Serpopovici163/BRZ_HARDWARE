@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=R_LED Pin=U3-28
+Added Pin To Net: NetName=G_LED Pin=U3-29
+Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2

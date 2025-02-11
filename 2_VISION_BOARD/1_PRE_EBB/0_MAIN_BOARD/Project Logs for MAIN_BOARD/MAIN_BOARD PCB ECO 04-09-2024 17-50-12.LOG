@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VBUS_DETECT Pin=Q6-3
+Removed Pin From Net: NetName=REC_VBUS Pin=R23-1
+Removed Member From Class: ClassName=REC_USB Member=R23
+Added Pin To Net: NetName=REC_VBUS Pin=C37-2
+Added Pin To Net: NetName=REC_VBUS Pin=Q6-1
+Added Pin To Net: NetName=REC_VBUS Pin=R22-2
+Added Pin To Net: NetName=VBUS_DETECT Pin=R23-2
+Change Net Name : Old Net Name=REC_VBUS New Net Name=REC_USB_VBUS
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Pin To Net: NetName=NetQ6_3 Pin=R23-1
+Added Net: Name=NetQ6_3
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Added Member To Class: ClassName=JETSON Member=Component R23 0402 JUMPER 0 OHM

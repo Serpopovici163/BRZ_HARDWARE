@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=5V_REG_FB_REG_1 Pin=R229-1
-Removed Pin From Net: NetName=PU_VCC Pin=R229-2
-Removed Member From Class: ClassName=DAC_0 Member=R229

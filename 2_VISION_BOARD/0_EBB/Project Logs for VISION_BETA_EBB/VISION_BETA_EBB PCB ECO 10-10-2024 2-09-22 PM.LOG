@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=FAN_PWM Pin=R231_AUX_FAN_IF-1
-Added Pin To Net: NetName=FAN_PWM Pin=U22-24
-Added Net: Name=FAN_PWM
-Added Pin To Net: NetName=FAN_TACH Pin=Q17_AUX_FAN_IF-6
-Added Pin To Net: NetName=FAN_TACH Pin=R214_AUX_FAN_IF-2
-Added Pin To Net: NetName=FAN_TACH Pin=U22-25
-Added Net: Name=FAN_TACH

@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=PoC_C Pin=J8-1
-Removed Pin From Net: NetName=PoC_D Pin=J8-2
-Removed Pin From Net: NetName=PoC_A Pin=J8-3
-Removed Pin From Net: NetName=PoC_B Pin=J8-4
-Added Pin To Net: NetName=PoC_B Pin=J8-1
-Added Pin To Net: NetName=PoC_A Pin=J8-2
-Added Pin To Net: NetName=PoC_D Pin=J8-3
-Added Pin To Net: NetName=PoC_C Pin=J8-4

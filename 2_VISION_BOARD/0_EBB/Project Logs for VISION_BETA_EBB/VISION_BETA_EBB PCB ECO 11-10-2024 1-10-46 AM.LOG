@@ -1,8 +1,0 @@
-Added Pin To Net: NetName=1V8_SPI1_MOSI Pin=D3-1
-Added Pin To Net: NetName=1V8_SPI1_SCLK Pin=D3-2
-Added Pin To Net: NetName=1V8_SPI1_MISO Pin=D3-4
-Added Pin To Net: NetName=1V8_SPI1_nCS_0 Pin=D3-5
-Added Pin To Net: NetName=1V8_SPI1_nCS_0 Pin=D3-6
-Added Pin To Net: NetName=1V8_SPI1_MISO Pin=D3-7
-Added Pin To Net: NetName=1V8_SPI1_SCLK Pin=D3-9
-Added Pin To Net: NetName=1V8_SPI1_MOSI Pin=D3-10

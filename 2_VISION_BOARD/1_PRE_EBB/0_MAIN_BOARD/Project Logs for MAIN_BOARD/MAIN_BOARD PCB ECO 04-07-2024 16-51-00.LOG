@@ -1,0 +1,7 @@
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC3_CAMIF_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC4_CAMIF_1_1 is 1 instead of 2
+Added Differential Pair: Name=PCIE0_RX0
+Added Differential Pair: Name=PCIE0_RX1
+Added Differential Pair: Name=PCIE0_RX2
+Added Differential Pair: Name=PCIE0_RX3

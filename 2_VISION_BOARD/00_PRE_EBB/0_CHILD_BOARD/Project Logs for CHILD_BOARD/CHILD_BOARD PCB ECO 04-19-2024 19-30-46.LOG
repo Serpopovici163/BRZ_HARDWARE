@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=3V3_AUX_FB Pin=R91-2
-Removed Pin From Net: NetName=GND Pin=R93-1
-Removed Pin From Net: NetName=AMBIENT_TEMP Pin=U10-9
-Removed Member From Class: ClassName=ADC Member=R91
-Removed Member From Class: ClassName=ADC Member=R93
-Added Pin To Net: NetName=AMBIENT_TEMP Pin=U10-8

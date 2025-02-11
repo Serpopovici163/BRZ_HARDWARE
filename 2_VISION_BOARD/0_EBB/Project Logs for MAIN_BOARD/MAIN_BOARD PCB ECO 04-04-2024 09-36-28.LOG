@@ -1,5 +1,0 @@
-Added Pin To Net: NetName=CSI0_CLK_P Pin=D6-6
-Added Pin To Net: NetName=CSI0_CLK_N Pin=D6-7
-Added Pin To Net: NetName=CSI0_D0_P Pin=D6-9
-Added Pin To Net: NetName=CSI0_D0_N Pin=D6-10
-Add Net: Net with name "PCIE_WAKE" already exists

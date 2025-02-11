@@ -1,0 +1,8 @@
+Added Member To Class: ClassName=85DIFF Member=Wire USBSS0_RX_N
+Added Member To Class: ClassName=85DIFF Member=Wire USBSS0_RX_P
+Added Member To Class: ClassName=85DIFF Member=Wire USBSS0_TX_N
+Added Member To Class: ClassName=85DIFF Member=Wire USBSS0_TX_P
+Removed Member From Class: ClassName=90DIFF Member=USBSS0_RX
+Removed Member From Class: ClassName=90DIFF Member=USBSS0_TX
+Added Member To Class: ClassName=85DIFF Member=USBSS0_RX
+Added Member To Class: ClassName=85DIFF Member=USBSS0_TX

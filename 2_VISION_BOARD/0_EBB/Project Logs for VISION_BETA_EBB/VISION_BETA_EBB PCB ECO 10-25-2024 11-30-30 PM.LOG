@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=3V3 Pin=C171-2
-Removed Pin From Net: NetName=3V3 Pin=U19-5
-Added Pin To Net: NetName=3V3_AUX_FB Pin=C171-2
-Added Pin To Net: NetName=3V3_AUX_FB Pin=U19-5

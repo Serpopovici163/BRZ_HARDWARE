@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=nPWDN Pin=R45-2
+Removed Member From Class: ClassName=CamLink Member=R45
+Added Pin To Net: NetName=nPWDN Pin=U3-11
+Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2

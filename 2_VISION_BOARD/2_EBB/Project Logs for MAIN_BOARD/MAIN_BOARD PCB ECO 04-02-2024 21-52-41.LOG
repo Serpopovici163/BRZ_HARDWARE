@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=R56-1
+Removed Pin From Net: NetName=USB_1V2 Pin=R56-2
+Removed Member From Class: ClassName=USB3_0 Member=R56
+Change Component Comment : Designator=U7 Old Comment=LD1117S12TR New Comment=AP7363-12E-13
+Change Component Description : Designator=U7 Old Description=Fixed Low Drop Positive Voltage Regulator, 1.2V, 4-Pin SOT-223, Tape and Reel New Description=Fixed Low Drop Positive Voltage Regulator, 1.2V (pn is for 1.5A LDO), 4-Pin SOT-223, Tape and Reel
+Add Net: Net with name "PCIE_WAKE" already exists

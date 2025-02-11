@@ -1,0 +1,110 @@
+Removed Pin From Net: NetName=NetC97_1 Pin=D33-3
+Removed Pin From Net: NetName=NetC97_1 Pin=Q5-3
+Removed Pin From Net: NetName=NetC84_2 Pin=U9-4
+Added Component: Designator=C37(FP-GRM188-0_1-e0_2_0_55-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.035inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.031inch"; VariantName = "[No Variations]"
+Added Component: Designator=C38(FP-C1005-050-0_05-IPC_C)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Flat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.022inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "2.3E-05oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.02inch"; VariantName = "[No Variations]"
+Added Component: Designator=R28(RESC1005X40X25NL05T05)
+Added Component: Designator=R53(RESC1005X40X25NL05T05)
+Added Component: Designator=U11(SOT-223_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1/11/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "4-Pin SOT-223 Package, 6.5 x 3.5 mm Body, 2.3 mm Pitch, 7 mm Lead Span"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2010"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=2V_AUX Pin=C38-2
+Added Pin To Net: NetName=VDD_3V3_HDMI Pin=Q5-1
+Added Pin To Net: NetName=NetC84_2 Pin=R28-1
+Added Pin To Net: NetName=NetC97_1 Pin=R53-2
+Added Pin To Net: NetName=GND Pin=U11-1
+Added Pin To Net: NetName=2V_AUX Pin=U11-3
+Added Pin To Net: NetName=CAM_1V8 Pin=C37-1
+Added Pin To Net: NetName=CAM_1V8 Pin=U11-2
+Added Pin To Net: NetName=CAM_1V8 Pin=U11-4
+Added Net: Name=CAM_1V8
+Added Pin To Net: NetName=NetD33_3 Pin=D33-3
+Added Pin To Net: NetName=NetD33_3 Pin=Q5-3
+Added Pin To Net: NetName=NetD33_3 Pin=R53-1
+Added Net: Name=NetD33_3
+Added Pin To Net: NetName=NetR28_2 Pin=R28-2
+Added Pin To Net: NetName=NetR28_2 Pin=U9-4
+Added Net: Name=NetR28_2
+Add Net: Net with name "PCIE_WAKE" already exists
+Added Member To Class: ClassName=HDMI_0 Member=Component C37 GRM188R60J106ME47D
+Added Member To Class: ClassName=HDMI_0 Member=Component C38 C1005X7R1H104K050BB
+Added Member To Class: ClassName=HDMI_0 Member=Component R28 0402 JUMPER 0 OHM
+Added Member To Class: ClassName=HDMI_0 Member=Component R53 0402 JUMPER 0 OHM
+Added Member To Class: ClassName=HDMI_0 Member=Component U11 LD1117S18TR
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_CLK_N
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_CLK_P
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D0_N
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D0_P
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D1_N
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D1_P
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D2_N
+Added Member To Class: ClassName=100DIFF Member=Wire HDMI_D2_P
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_1
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_2
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_3
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_4
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_5
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_6
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_7
+Added Member To Class: ClassName=100DIFF Member=Wire PLDWN_8

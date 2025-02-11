@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=INT_VCC Pin=F6_AUX_FAN_IF-1
+Added Pin To Net: NetName=INT_VCC Pin=F6_SoC_FAN_IF-1
+Added Pin To Net: NetName=INT_VCC Pin=J12-1
+Added Pin To Net: NetName=INT_VCC Pin=J12-2

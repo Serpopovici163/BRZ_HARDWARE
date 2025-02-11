@@ -1,4 +1,0 @@
-Change Net Name : Old Net Name=SPI2_MISO New Net Name=MCU_SPI2_MISO
-Change Net Name : Old Net Name=SPI2_MOSI New Net Name=MCU_SPI2_MOSI
-Change Net Name : Old Net Name=SPI2_nCS New Net Name=MCU_SPI2_nCS
-Change Net Name : Old Net Name=SPI2_SCLK New Net Name=MCU_SPI2_SCLK

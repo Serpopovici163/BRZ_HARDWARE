@@ -1,9 +1,0 @@
-Added Pin To Net: NetName=USB1_TX_P Pin=D28-6
-Added Pin To Net: NetName=USB1_TX_N Pin=D28-7
-Added Pin To Net: NetName=USB1_RX_P Pin=D28-9
-Added Pin To Net: NetName=USB1_RX_N Pin=D28-10
-Added Pin To Net: NetName=USB3_TX_P Pin=D29-6
-Added Pin To Net: NetName=USB3_TX_N Pin=D29-7
-Added Pin To Net: NetName=USB3_RX_P Pin=D29-9
-Added Pin To Net: NetName=USB3_RX_N Pin=D29-10
-Add Net: Net with name "PCIE_WAKE" already exists

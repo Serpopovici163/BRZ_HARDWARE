@@ -1,0 +1,9 @@
+Added Component: Designator=TP85(New footprint 1)
+Added Component: Designator=TP86(New footprint 1)
+Added Component: Designator=TP87(New footprint 1)
+Added Pin To Net: NetName=DAC_BCK Pin=TP85-1
+Added Pin To Net: NetName=DAC_LRCK Pin=TP86-1
+Added Pin To Net: NetName=DAC_DIN Pin=TP87-1
+Added Member To Class: ClassName=DAC_0 Member=Component TP85 TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP86 TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP87 TPAD6R

@@ -1,0 +1,345 @@
+Change Component DesignItemId : Designator=D36 Old DesignItemId=CMP-004-00034-2 New DesignItemId=CMP-004-00040-2
+Change Component Footprint: Designator=D36 Old Footprint=WL-SBCD_0606 New Footprint=WL-SBCD_0606
+Change Component Comment : Designator=U3_GMSL_DESERIALIZER_0 Old Comment=AP7363-12E-13 New Comment=LD1117S12TR
+Change Component Comment : Designator=U3_GMSL_DESERIALIZER_1 Old Comment=AP7363-12E-13 New Comment=LD1117S12TR
+Change Component Description : Designator=U3_GMSL_DESERIALIZER_0 Old Description=Fixed Low Drop Positive Voltage Regulator, 1.2V (pn is for 1.5A LDO), 4-Pin SOT-223, Tape and Reel New Description=Fixed Low Drop Positive Voltage Regulator, 1.2V, 4-Pin SOT-223, Tape and Reel
+Change Component Description : Designator=U3_GMSL_DESERIALIZER_1 Old Description=Fixed Low Drop Positive Voltage Regulator, 1.2V (pn is for 1.5A LDO), 4-Pin SOT-223, Tape and Reel New Description=Fixed Low Drop Positive Voltage Regulator, 1.2V, 4-Pin SOT-223, Tape and Reel
+Change Component Library : Designator=D36 Old Library=uORocketry Hardware New Library=Space Concordia
+Change Managed Component Library Link : Designator=D36 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6f703597-ddf2-41ae-bc61-197ee9297eeb New ItemGUID=FA83B03D-E8AF-447F-BF69-059AAA3DF6E3 Old RevisionGUID=7715527e-2881-4d5b-83b2-144f2a880755 New RevisionGUID=c99efb5b-c80b-4c0e-ac50-3d0bdb30414c
+Change component parameters: Designator = "D36" ("D36"); Footprint = "WL-SBCD_0606"; UniqueID = "\AHCJXJCV\IUPXOJVH" ("\AHCJXJCV\IUPXOJVH")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "CMP-004-00034-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Current"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Surge Current"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Inverse Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "rgled.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Component: Designator=C?(CAPC1608X90X40ML10T20)
+Added Component: Designator=Q10(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q11(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q13(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q14(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q15(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q16(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=TP1_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP1_GMSL_DESERIALIZER_1(New footprint 1)
+Added Component: Designator=TP2_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP2_GMSL_DESERIALIZER_1(New footprint 1)
+Added Component: Designator=TP3_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP3_GMSL_DESERIALIZER_1(New footprint 1)
+Added Component: Designator=TP4_GMSL_DESERIALIZER_0(New footprint 1)
+Added Component: Designator=TP4_GMSL_DESERIALIZER_1(New footprint 1)
+Added Component: Designator=TP5(New footprint 1)
+Added Component: Designator=TP6(New footprint 1)
+Added Component: Designator=TP7(New footprint 1)
+Added Component: Designator=TP8(New footprint 1)
+Added Component: Designator=TP9(New footprint 1)
+Added Component: Designator=TP10(New footprint 1)
+Added Component: Designator=TP11(New footprint 1)
+Added Component: Designator=TP12(New footprint 1)
+Added Component: Designator=TP13(New footprint 1)
+Added Component: Designator=TP14(New footprint 1)
+Added Component: Designator=TP15(New footprint 1)
+Added Component: Designator=TP16_REG_0(New footprint 1)
+Added Component: Designator=TP16_REG_1(New footprint 1)
+Added Component: Designator=TP17(New footprint 1)
+Added Component: Designator=TP18(New footprint 1)
+Added Component: Designator=TP19(New footprint 1)
+Added Component: Designator=TP20(New footprint 1)
+Added Component: Designator=TP21(New footprint 1)
+Added Component: Designator=TP22(New footprint 1)
+Added Component: Designator=TP23(New footprint 1)
+Added Component: Designator=TP24(New footprint 1)
+Added Component: Designator=TP25(New footprint 1)
+Added Component: Designator=TP26(New footprint 1)
+Added Component: Designator=TP27(New footprint 1)
+Added Component: Designator=TP28(New footprint 1)
+Added Component: Designator=TP29(New footprint 1)
+Added Component: Designator=TP?(New footprint 1)
+Added Component: Designator=TP?(New footprint 1)
+Added Component: Designator=TP?(New footprint 1)
+Added Component: Designator=U4(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U7(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U10(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOT95P285X130-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-019-00057-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "AP2171WG-7.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=U19(TCAN1146DYYRQ1-Footprint-1)
+Added Pin To Net: NetName=GND Pin=C?-1
+Add Pin To Net: Unknown Pin: Pin Q10-1
+Add Pin To Net: Unknown Pin: Pin Q10-2
+Add Pin To Net: Unknown Pin: Pin Q10-3
+Add Pin To Net: Unknown Pin: Pin Q10-4
+Add Pin To Net: Unknown Pin: Pin Q10-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q11-1
+Add Pin To Net: Unknown Pin: Pin Q11-2
+Add Pin To Net: Unknown Pin: Pin Q11-3
+Add Pin To Net: Unknown Pin: Pin Q11-4
+Add Pin To Net: Unknown Pin: Pin Q11-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q13-1
+Add Pin To Net: Unknown Pin: Pin Q13-2
+Add Pin To Net: Unknown Pin: Pin Q13-3
+Add Pin To Net: Unknown Pin: Pin Q13-4
+Add Pin To Net: Unknown Pin: Pin Q13-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q14-1
+Add Pin To Net: Unknown Pin: Pin Q14-2
+Add Pin To Net: Unknown Pin: Pin Q14-3
+Add Pin To Net: Unknown Pin: Pin Q14-4
+Add Pin To Net: Unknown Pin: Pin Q14-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q15-1
+Add Pin To Net: Unknown Pin: Pin Q15-2
+Add Pin To Net: Unknown Pin: Pin Q15-3
+Add Pin To Net: Unknown Pin: Pin Q15-4
+Add Pin To Net: Unknown Pin: Pin Q15-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q16-1
+Add Pin To Net: Unknown Pin: Pin Q16-2
+Add Pin To Net: Unknown Pin: Pin Q16-3
+Add Pin To Net: Unknown Pin: Pin Q16-4
+Add Pin To Net: Unknown Pin: Pin Q16-5-6-7-8
+Added Pin To Net: NetName=CKA_GMSL_DESERIALIZER_0_P Pin=TP1_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=CKA_GMSL_DESERIALIZER_1_P Pin=TP1_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CKA_GMSL_DESERIALIZER_0_N Pin=TP2_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=CKA_GMSL_DESERIALIZER_1_N Pin=TP2_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CKF_GMSL_DESERIALIZER_0_P Pin=TP3_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=CKF_GMSL_DESERIALIZER_1_P Pin=TP3_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=CKF_GMSL_DESERIALIZER_0_N Pin=TP4_GMSL_DESERIALIZER_0-1
+Added Pin To Net: NetName=CKF_GMSL_DESERIALIZER_1_N Pin=TP4_GMSL_DESERIALIZER_1-1
+Added Pin To Net: NetName=USB_CFG_NON_REM Pin=TP5-1
+Added Pin To Net: NetName=USB_SPI_SCLK Pin=TP6-1
+Added Pin To Net: NetName=USB_CFG_CHG_EN Pin=TP7-1
+Added Pin To Net: NetName=USB_SPI_MISO Pin=TP8-1
+Added Pin To Net: NetName=SMB_CLK Pin=TP9-1
+Added Pin To Net: NetName=SMB_DATA Pin=TP10-1
+Added Pin To Net: NetName=SMB_nALERT Pin=TP11-1
+Added Pin To Net: NetName=CAM_I2C_SDA Pin=TP12-1
+Added Pin To Net: NetName=CAM_I2C_SCL Pin=TP13-1
+Added Pin To Net: NetName=2V_AUX_OUT Pin=TP14-1
+Added Pin To Net: NetName=3V3_AUX_FB Pin=TP15-1
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=TP16_REG_0-1
+Added Pin To Net: NetName=5V_REG_FB_REG_1 Pin=TP16_REG_1-1
+Added Pin To Net: NetName=ADC_SCLK Pin=TP17-1
+Added Pin To Net: NetName=ADC_MISO Pin=TP18-1
+Added Pin To Net: NetName=ADC_MOSI Pin=TP19-1
+Added Pin To Net: NetName=ADC_nCS_1 Pin=TP20-1
+Added Pin To Net: NetName=ADC_nCS_2 Pin=TP21-1
+Added Pin To Net: NetName=BATT_PWR Pin=TP22-1
+Added Pin To Net: NetName=CAN_TX Pin=TP23-1
+Added Pin To Net: NetName=CAN_SCLK Pin=TP24-1
+Added Pin To Net: NetName=CAN_RX Pin=TP25-1
+Added Pin To Net: NetName=CAN_MISO Pin=TP26-1
+Added Pin To Net: NetName=CAN_MOSI Pin=TP27-1
+Added Pin To Net: NetName=CAN_nCS Pin=TP28-1
+Added Pin To Net: NetName=CAN_INH Pin=TP29-1
+Added Pin To Net: NetName=DAC_I2C_ENABLE Pin=TP?-1
+Added Pin To Net: NetName=DAC_SCK Pin=TP?-1
+Added Pin To Net: NetName=DAC_SDA Pin=TP?-1
+Added Pin To Net: NetName=VBUS_1 Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=NetR30_2 Pin=U4-3
+Added Pin To Net: NetName=NetR30_2 Pin=U4-4
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=U4-5
+Added Pin To Net: NetName=VBUS_2 Pin=U6-1
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=NetR42_2 Pin=U6-3
+Added Pin To Net: NetName=NetR42_2 Pin=U6-4
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=U6-5
+Added Pin To Net: NetName=VBUS_3 Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=NetR46_2 Pin=U7-3
+Added Pin To Net: NetName=NetR46_2 Pin=U7-4
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=U7-5
+Added Pin To Net: NetName=VBUS_4 Pin=U8-1
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=NetR51_2 Pin=U8-3
+Added Pin To Net: NetName=NetR51_2 Pin=U8-4
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=U8-5
+Added Pin To Net: NetName=VDD_3V3_HDMI Pin=U10-1
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Pin To Net: NetName=HDMI_nSLEEP Pin=U10-4
+Added Pin To Net: NetName=3V3_AUX_FB Pin=U10-5
+Added Pin To Net: NetName=VDD_5V_HDMI Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=NetC103_2 Pin=U11-3
+Added Pin To Net: NetName=NetR64_2 Pin=U11-4
+Added Pin To Net: NetName=5V_REG_FB_REG_0 Pin=U11-5
+Add Pin To Net: Unknown Pin: Pin U19-1
+Add Pin To Net: Unknown Pin: Pin U19-2
+Add Pin To Net: Unknown Pin: Pin U19-3
+Add Pin To Net: Unknown Pin: Pin U19-4
+Add Pin To Net: Unknown Pin: Pin U19-5
+Add Pin To Net: Unknown Pin: Pin U19-6
+Add Pin To Net: Unknown Pin: Pin U19-7
+Add Pin To Net: Unknown Pin: Pin U19-8
+Add Pin To Net: Unknown Pin: Pin U19-9
+Add Pin To Net: Unknown Pin: Pin U19-10
+Add Pin To Net: Unknown Pin: Pin U19-11
+Add Pin To Net: Unknown Pin: Pin U19-12
+Add Pin To Net: Unknown Pin: Pin U19-13
+Add Pin To Net: Unknown Pin: Pin U19-14
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "PCIE_WAKE" already exists
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC15_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC16_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC17_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC18_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC19_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC20_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC23_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC24_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC25_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_0_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC28_GMSL_DESERIALIZER_1_1 is 1 instead of 2
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? C1005X7R1H104K050BB
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component C? 0603 CAP
+Added Member To Class: ClassName=DAC_0 Member=Component C? GRM188R60J106ME47D
+Added Member To Class: ClassName=DAC_0 Member=Component J? 35RASMT4BHNTRX
+Added Member To Class: ClassName=DAC_0 Member=Component L? LQG18HN2N2S00D
+Add Class Member: Failed to add class member : Component Q10 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q11 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q13 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q14 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q15 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q16 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? 0402 JUMPER 0 OHM
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ-3EKF49R9V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=DAC_0 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP1_GMSL_DESERIALIZER_0 (TP1) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP1_GMSL_DESERIALIZER_1 (TP1) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP2_GMSL_DESERIALIZER_0 (TP2) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP2_GMSL_DESERIALIZER_1 (TP2) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP3_GMSL_DESERIALIZER_0 (TP3) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP3_GMSL_DESERIALIZER_1 (TP3) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component TP4_GMSL_DESERIALIZER_0 (TP4) TPAD6R
+Added Member To Class: ClassName=GMSL_DESERIALIZER_1 Member=Component TP4_GMSL_DESERIALIZER_1 (TP4) TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP5 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP6 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP7 TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component TP8 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP9 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP10 TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP11 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP12 TPAD6R
+Added Member To Class: ClassName=VISION_BETA_EBB Member=Component TP13 TPAD6R
+Added Member To Class: ClassName=REG_3 Member=Component TP14 TPAD6R
+Added Member To Class: ClassName=REG_2 Member=Component TP15 TPAD6R
+Added Member To Class: ClassName=REG_0 Member=Component TP16_REG_0 (TP16) TPAD6R
+Added Member To Class: ClassName=REG_1 Member=Component TP16_REG_1 (TP16) TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP17 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP18 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP19 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP20 TPAD6R
+Added Member To Class: ClassName=ADC_0 Member=Component TP21 TPAD6R
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component TP22 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP23 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP24 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP25 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP26 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP27 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP28 TPAD6R
+Added Member To Class: ClassName=CAN_IF_0 Member=Component TP29 TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=DAC_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=USB3_0 Member=Component U4 AP2171WG-7
+Added Member To Class: ClassName=USB3_0 Member=Component U6 AP2171WG-7
+Added Member To Class: ClassName=USB3_0 Member=Component U7 AP2171WG-7
+Added Member To Class: ClassName=USB3_0 Member=Component U8 AP2171WG-7
+Added Member To Class: ClassName=HDMI_IF_0 Member=Component U10 AP2171WG-7
+Added Member To Class: ClassName=HDMI_IF_0 Member=Component U11 AP2171WG-7
+Add Class Member: Failed to add class member : Component U19 TCAN1146DYYRQ1

@@ -1,7 +1,0 @@
-Change Net Name : Old Net Name=SPI1_MISO New Net Name=MCU_SPI1_MISO
-Change Net Name : Old Net Name=SPI1_MOSI New Net Name=MCU_SPI1_MOSI
-Change Net Name : Old Net Name=SPI1_nCS_2 New Net Name=MCU_SPI1_nCS_2
-Change Net Name : Old Net Name=SPI1_SCLK New Net Name=MCU_SPI1_SCLK
-Added Pin To Net: NetName=MCU_SPI1_nCS_1 Pin=R243-1
-Added Pin To Net: NetName=MCU_SPI1_nCS_1 Pin=U22-28
-Added Net: Name=MCU_SPI1_nCS_1

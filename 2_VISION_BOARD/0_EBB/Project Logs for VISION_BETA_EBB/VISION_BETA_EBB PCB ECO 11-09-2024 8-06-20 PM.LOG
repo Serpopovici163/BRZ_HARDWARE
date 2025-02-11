@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=PWR_MCU_PC0 Pin=R345-2
-Removed Pin From Net: NetName=PWR_MCU_PC0 Pin=U38-5
-Added Pin To Net: NetName=PWR_MCU_PB0 Pin=R345-2
-Added Pin To Net: NetName=PWR_MCU_PB0 Pin=U38-5

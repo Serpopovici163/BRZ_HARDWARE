@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PoC_C Pin=L6-2
+Removed Pin From Net: NetName=PoC_D Pin=L8-2
+Added Pin To Net: NetName=PoC_D Pin=L6-2
+Added Pin To Net: NetName=PoC_C Pin=L8-2
+Added Class: Name=PWR

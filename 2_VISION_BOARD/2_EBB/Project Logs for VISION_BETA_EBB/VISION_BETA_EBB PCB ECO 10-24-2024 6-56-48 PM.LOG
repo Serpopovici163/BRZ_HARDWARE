@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCU_FDCAN3_TX Pin=R238-1
+Removed Pin From Net: NetName=MCU_FDCAN3_RX Pin=R240-1
+Added Pin To Net: NetName=MCU_FDCAN2_RX Pin=R240-1
+Added Pin To Net: NetName=MCU_FDCAN2_RX Pin=U22-51
+Added Net: Name=MCU_FDCAN2_RX
+Added Pin To Net: NetName=MCU_FDCAN2_TX Pin=R238-1
+Added Pin To Net: NetName=MCU_FDCAN2_TX Pin=U22-52
+Added Net: Name=MCU_FDCAN2_TX

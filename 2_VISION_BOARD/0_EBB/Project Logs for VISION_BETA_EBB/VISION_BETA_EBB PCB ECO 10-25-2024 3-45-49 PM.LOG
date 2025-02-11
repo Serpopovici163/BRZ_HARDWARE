@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=INT_VCC_I_SENSE Pin=U16-4
-Removed Pin From Net: NetName=2V_AUX_I_SENSE Pin=U16-6
-Removed Pin From Net: NetName=5V_MAIN_I_SENSE Pin=U16-7
-Removed Pin From Net: NetName=5V_MAIN_V_SENSE Pin=U16-11
-Removed Pin From Net: NetName=2V_AUX_V_SENSE Pin=U17-6
-Added Pin To Net: NetName=2V_AUX_I_SENSE Pin=U16-4
-Added Pin To Net: NetName=5V_MAIN_I_SENSE Pin=U16-6
-Added Pin To Net: NetName=INT_VCC_I_SENSE Pin=U16-7
-Added Pin To Net: NetName=2V_AUX_V_SENSE Pin=U16-11

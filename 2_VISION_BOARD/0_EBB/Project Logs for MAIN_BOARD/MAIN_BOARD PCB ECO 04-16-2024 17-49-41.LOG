@@ -1,9 +1,0 @@
-Added Pin To Net: NetName=DP1_TXD1_P Pin=D8-6
-Added Pin To Net: NetName=DP1_TXD1_N Pin=D8-7
-Added Pin To Net: NetName=DP1_TXD0_P Pin=D8-9
-Added Pin To Net: NetName=DP1_TXD0_N Pin=D8-10
-Added Pin To Net: NetName=DP1_TXD3_P Pin=D15-6
-Added Pin To Net: NetName=DP1_TXD3_N Pin=D15-7
-Added Pin To Net: NetName=DP1_TXD2_P Pin=D15-9
-Added Pin To Net: NetName=DP1_TXD2_N Pin=D15-10
-Add Net: Net with name "PCIE_WAKE" already exists

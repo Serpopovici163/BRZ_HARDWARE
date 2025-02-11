@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=5V_AUX Pin=C85-1
-Removed Pin From Net: NetName=5V_AUX Pin=C86-2
-Removed Pin From Net: NetName=5V_AUX Pin=U9-5
-Added Pin To Net: NetName=5V_MAIN Pin=C85-1
-Added Pin To Net: NetName=5V_MAIN Pin=C86-2
-Added Pin To Net: NetName=5V_MAIN Pin=U9-5
-Add Net: Net with name "PCIE_WAKE" already exists

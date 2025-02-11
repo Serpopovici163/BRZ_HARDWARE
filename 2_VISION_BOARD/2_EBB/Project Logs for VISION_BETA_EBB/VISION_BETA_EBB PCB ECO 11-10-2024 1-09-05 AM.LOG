@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=1V8_SPI0_MOSI Pin=Q18-2
+Removed Pin From Net: NetName=1V8_SPI0_SCLK Pin=Q19-2
+Removed Pin From Net: NetName=1V8_SPI0_MISO Pin=Q20-2
+Removed Pin From Net: NetName=1V8_SPI0_nCS_0 Pin=Q21-2
+Removed Pin From Net: NetName=1V8_SPI0_nCS_1 Pin=Q22-2
+Removed Pin From Net: NetName=1V8_SPI0_MOSI Pin=R234-1
+Removed Pin From Net: NetName=1V8_SPI0_SCLK Pin=R265-1
+Removed Pin From Net: NetName=1V8_SPI0_MISO Pin=R268-1
+Removed Pin From Net: NetName=1V8_SPI0_nCS_0 Pin=R271-1
+Removed Pin From Net: NetName=1V8_SPI0_nCS_1 Pin=R274-1
+Added Pin To Net: NetName=1V8_SPI1_MISO Pin=J1-108
+Added Pin To Net: NetName=1V8_SPI1_MISO Pin=Q20-2
+Added Pin To Net: NetName=1V8_SPI1_MISO Pin=R268-1
+Added Net: Name=1V8_SPI1_MISO
+Added Pin To Net: NetName=1V8_SPI1_MOSI Pin=J1-104
+Added Pin To Net: NetName=1V8_SPI1_MOSI Pin=Q18-2
+Added Pin To Net: NetName=1V8_SPI1_MOSI Pin=R234-1
+Added Net: Name=1V8_SPI1_MOSI
+Added Pin To Net: NetName=1V8_SPI1_nCS_0 Pin=J1-110
+Added Pin To Net: NetName=1V8_SPI1_nCS_0 Pin=Q21-2
+Added Pin To Net: NetName=1V8_SPI1_nCS_0 Pin=R271-1
+Added Net: Name=1V8_SPI1_nCS_0
+Added Pin To Net: NetName=1V8_SPI1_nCS_1 Pin=J1-112
+Added Pin To Net: NetName=1V8_SPI1_nCS_1 Pin=Q22-2
+Added Pin To Net: NetName=1V8_SPI1_nCS_1 Pin=R274-1
+Added Net: Name=1V8_SPI1_nCS_1
+Added Pin To Net: NetName=1V8_SPI1_SCLK Pin=J1-106
+Added Pin To Net: NetName=1V8_SPI1_SCLK Pin=Q19-2
+Added Pin To Net: NetName=1V8_SPI1_SCLK Pin=R265-1
+Added Net: Name=1V8_SPI1_SCLK

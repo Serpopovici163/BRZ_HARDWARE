@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=CAM_IO1 Pin=U3-9
-Added Pin To Net: NetName=CAM_IO0 Pin=U3-10
-Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
-Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
-Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
-Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2

@@ -1,5 +1,0 @@
-Added Component: Designator=R54(RESC1005X40X25NL05T05)
-Added Pin To Net: NetName=3V3_AUX Pin=R54-1
-Added Pin To Net: NetName=HDMI_1V8 Pin=R54-2
-Add Net: Net with name "PCIE_WAKE" already exists
-Added Member To Class: ClassName=HDMI_0 Member=Component R54 0402 JUMPER 0 OHM

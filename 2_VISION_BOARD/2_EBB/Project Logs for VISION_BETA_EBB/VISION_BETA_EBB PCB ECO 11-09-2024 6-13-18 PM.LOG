@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=nMOD_SLEEP Pin=R281-2
+Added Pin To Net: NetName=nMOD_SLEEP Pin=U10-5
+Change Net Name : Old Net Name=nMOD_SLEEP New Net Name=HDMI_nSLEEP

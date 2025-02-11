@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=CAM_I2C_SDA Pin=TP12-1
-Removed Pin From Net: NetName=CAM_I2C_SCL Pin=TP13-1
-Removed Member From Class: ClassName=VISION_BETA_EBB Member=TP12
-Removed Member From Class: ClassName=VISION_BETA_EBB Member=TP13

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=HDMI_CEC Pin=R94-2
-Removed Member From Class: ClassName=HDMI_0 Member=R94
-Added Pin To Net: NetName=HDMI_CEC Pin=C97-1
-Added Pin To Net: NetName=HDMI_CEC Pin=R53-2
-Add Net: Net with name "PCIE_WAKE" already exists
