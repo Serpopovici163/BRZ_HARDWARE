@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=2V_REG.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=3V3_REG.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=5V_REG.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=USB.SchDoc|SheetNumber=4
