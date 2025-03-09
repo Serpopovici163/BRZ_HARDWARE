@@ -1,0 +1,424 @@
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Unknown Pin: Pin J?-15
+Remove Pin from Net: Unknown Pin: Pin J?-16
+Remove Pin from Net: Unknown Pin: Pin J?-17
+Remove Pin from Net: Unknown Pin: Pin J?-18
+Removed Pin From Net: NetName=CAN_SCLK Pin=U?-8
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Added Component: Designator=Q1(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q2(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q3(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q4(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q6(SISH615ADN-T1-GE3-Footprint-1)
+Added Component: Designator=Q7(SISH615ADN-T1-GE3-Footprint-1)
+Add Component: Footprint Not Found TCAN1146DYYRQ1-Footprint-1
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_0 Pin=J1-1
+Added Pin To Net: NetName=M2_OUT_MOSFET_BANK_0 Pin=J1-2
+Added Pin To Net: NetName=M3_OUT_MOSFET_BANK_0 Pin=J1-3
+Added Pin To Net: NetName=M4_OUT_MOSFET_BANK_0 Pin=J1-4
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_1 Pin=J1-5
+Added Pin To Net: NetName=M2_OUT_MOSFET_BANK_1 Pin=J1-6
+Added Pin To Net: NetName=PWR_IN Pin=J1-7
+Added Pin To Net: NetName=PWR_IN Pin=J1-8
+Added Pin To Net: NetName=IN_0 Pin=J1-9
+Added Pin To Net: NetName=IN_1 Pin=J1-10
+Added Pin To Net: NetName=IN_2 Pin=J1-11
+Added Pin To Net: NetName=IN_3 Pin=J1-12
+Added Pin To Net: NetName=M3_OUT_MOSFET_BANK_1 Pin=J1-13
+Added Pin To Net: NetName=M4_OUT_MOSFET_BANK_1 Pin=J1-14
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_2 Pin=J1-15
+Added Pin To Net: NetName=M2_OUT_MOSFET_BANK_2 Pin=J1-16
+Added Pin To Net: NetName=M3_OUT_MOSFET_BANK_2 Pin=J1-17
+Added Pin To Net: NetName=PWR_IN Pin=J1-18
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin Q1-4
+Add Pin To Net: Unknown Pin: Pin Q1-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q2-1
+Add Pin To Net: Unknown Pin: Pin Q2-2
+Add Pin To Net: Unknown Pin: Pin Q2-3
+Add Pin To Net: Unknown Pin: Pin Q2-4
+Add Pin To Net: Unknown Pin: Pin Q2-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q3-1
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q3-4
+Add Pin To Net: Unknown Pin: Pin Q3-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q4-1
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q4-4
+Add Pin To Net: Unknown Pin: Pin Q4-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q6-1
+Add Pin To Net: Unknown Pin: Pin Q6-2
+Add Pin To Net: Unknown Pin: Pin Q6-3
+Add Pin To Net: Unknown Pin: Pin Q6-4
+Add Pin To Net: Unknown Pin: Pin Q6-5-6-7-8
+Add Pin To Net: Unknown Pin: Pin Q7-1
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-4
+Add Pin To Net: Unknown Pin: Pin Q7-5-6-7-8
+Added Pin To Net: NetName=CAN_TX Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=5V Pin=U?-3
+Added Pin To Net: NetName=CAN_RX Pin=U?-4
+Added Pin To Net: NetName=3V3 Pin=U?-5
+Added Pin To Net: NetName=CAN_MISO Pin=U?-6
+Added Pin To Net: NetName=CAN_INH Pin=U?-7
+Added Pin To Net: NetName=3V3 Pin=U?-8
+Added Pin To Net: NetName=CAN_SCLK Pin=U?-8
+Add Pin To Net: Unknown Pin: Pin U?-9
+Add Pin To Net: Unknown Pin: Pin U?-10
+Add Pin To Net: Unknown Pin: Pin U?-11
+Add Pin To Net: Unknown Pin: Pin U?-12
+Add Pin To Net: Unknown Pin: Pin U?-13
+Add Pin To Net: Unknown Pin: Pin U?-14
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetD?_1" already exists
+Add Net: Net with name "NetD?_4" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_0_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_1_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_2_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Add Net: Net with name "NetR?_MOSFET_BANK_3_1" already exists
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) 100n
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_0 Member=Component C?_12V_REG_0 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) 100n
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) T495D107K016ATE125
+Added Member To Class: ClassName=12V_REG_1 Member=Component C?_12V_REG_1 (C?) TPSE686K025R0125
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component C?_MOSFET_BANK_0 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component C?_MOSFET_BANK_1 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component C?_MOSFET_BANK_2 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component C?_MOSFET_BANK_3 (C?) 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 1u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 1u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 6.8p
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 2.2u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 6.8p
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 4.7u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 18p
+Added Member To Class: ClassName=MCU_0 Member=Component C? 1u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=MCU_0 Member=Component C? 2.2u
+Added Member To Class: ClassName=MCU_0 Member=Component C? 100n
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0805C225K9PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=PWR_MGMT Member=Component C? C0402C104K8PACTU
+Added Member To Class: ClassName=12V_REG_0 Member=Component D?_12V_REG_0 (D?) SBRD8835LT4G
+Added Member To Class: ClassName=12V_REG_1 Member=Component D?_12V_REG_1 (D?) SBRD8835LT4G
+Added Member To Class: ClassName=MCU_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=PWR_MGMT Member=Component D? ESDCAN02-2BWY
+Added Member To Class: ClassName=BCM_ECU Member=Component J1 776163-1
+Added Member To Class: ClassName=BCM_ECU Member=Component J2 1-776267-1
+Added Member To Class: ClassName=BCM_ECU Member=Component J3 1-776267-1
+Added Member To Class: ClassName=MCU_0 Member=Component J? 3220-10-0300-00
+Add Class Member: Failed to add class member : Component Q1 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q2 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q3 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q4 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q6 SISH615ADN-T1-GE3
+Add Class Member: Failed to add class member : Component Q7 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_0 Member=Component Q?_BYPASS_0 (Q?A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_0 Member=Component Q?_BYPASS_0 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_0 Member=Component Q?_BYPASS_0 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_1 Member=Component Q?_BYPASS_1 (Q?A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_1 Member=Component Q?_BYPASS_1 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_1 Member=Component Q?_BYPASS_1 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_2 Member=Component Q?_BYPASS_2 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_2 Member=Component Q?_BYPASS_2 (Q?A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_2 Member=Component Q?_BYPASS_2 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_3 Member=Component Q?_BYPASS_3 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_3 Member=Component Q?_BYPASS_3 (Q?A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_3 Member=Component Q?_BYPASS_3 (Q?) SISH615ADN-T1-GE3
+Added Member To Class: ClassName=12V_REG_0 Member=Component R?_12V_REG_0 (R?) 100k
+Added Member To Class: ClassName=12V_REG_0 Member=Component R?_12V_REG_0 (R?) 330
+Added Member To Class: ClassName=12V_REG_0 Member=Component R?_12V_REG_0 (R?) 10k
+Added Member To Class: ClassName=12V_REG_0 Member=Component R?_12V_REG_0 (R?) 1k
+Added Member To Class: ClassName=12V_REG_0 Member=Component R?_12V_REG_0 (R?) 1k
+Added Member To Class: ClassName=12V_REG_1 Member=Component R?_12V_REG_1 (R?) 1k
+Added Member To Class: ClassName=12V_REG_1 Member=Component R?_12V_REG_1 (R?) 330
+Added Member To Class: ClassName=12V_REG_1 Member=Component R?_12V_REG_1 (R?) 1k
+Added Member To Class: ClassName=12V_REG_1 Member=Component R?_12V_REG_1 (R?) 100k
+Added Member To Class: ClassName=12V_REG_1 Member=Component R?_12V_REG_1 (R?) 10k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R?_BYPASS_0 (R?) 100k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R?_BYPASS_0 (R?) 100k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R?_BYPASS_0 (R?) 1k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R?_BYPASS_0 (R?) 100k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R?_BYPASS_0 (R?) 1k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R?_BYPASS_1 (R?) 1k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R?_BYPASS_1 (R?) 100k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R?_BYPASS_1 (R?) 1k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R?_BYPASS_1 (R?) 100k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R?_BYPASS_1 (R?) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R?_BYPASS_2 (R?) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R?_BYPASS_2 (R?) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R?_BYPASS_2 (R?) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R?_BYPASS_2 (R?) 1k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R?_BYPASS_2 (R?) 1k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R?_BYPASS_3 (R?) 1k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R?_BYPASS_3 (R?) 100k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R?_BYPASS_3 (R?) 1k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R?_BYPASS_3 (R?) 100k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R?_BYPASS_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 56
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 56
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 56
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 56
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 1k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 56
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 24k
+Added Member To Class: ClassName=MCU_0 Member=Component R? 330
+Added Member To Class: ClassName=MCU_0 Member=Component R? 10k
+Added Member To Class: ClassName=MCU_0 Member=Component R? 330
+Added Member To Class: ClassName=MCU_0 Member=Component R? 330
+Added Member To Class: ClassName=MCU_0 Member=Component R? 330
+Added Member To Class: ClassName=MCU_0 Member=Component R? 10k
+Added Member To Class: ClassName=MCU_0 Member=Component R? 10k
+Added Member To Class: ClassName=MCU_0 Member=Component R? 330
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ-3EKF60R4V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? 10k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ-3EKF1001V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ-3EKF60R4V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? ERJ-3EKF1200V
+Added Member To Class: ClassName=12V_REG_0 Member=Component U?_12V_REG_0 (U?) LM2677S-12/NOPB
+Added Member To Class: ClassName=12V_REG_1 Member=Component U?_12V_REG_1 (U?) LM2677S-12/NOPB
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component U?_MOSFET_BANK_0 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component U?_MOSFET_BANK_0 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component U?_MOSFET_BANK_0 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component U?_MOSFET_BANK_1 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component U?_MOSFET_BANK_1 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component U?_MOSFET_BANK_1 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component U?_MOSFET_BANK_2 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component U?_MOSFET_BANK_2 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component U?_MOSFET_BANK_2 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component U?_MOSFET_BANK_3 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component U?_MOSFET_BANK_3 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component U?_MOSFET_BANK_3 (U?) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_MGMT Member=Component U? AP7381-50Y-13
+Added Member To Class: ClassName=PWR_MGMT Member=Component U? TCAN1146DYYRQ1
