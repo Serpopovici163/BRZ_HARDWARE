@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OGZFOSFF
 
 [Document2]
-DocumentPath=INTERNAL_REGULATORS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IDXMBBOS
-
-[Document3]
 DocumentPath=MOSFET_BANK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YVCCMZGT
 
-[Document4]
+[Document3]
 DocumentPath=TCAN1146_PWR_MGMT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRCLDNAZ
 
-[Document5]
+[Document4]
 DocumentPath=STM32H730_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPENOSCV
 
-[Document6]
+[Document5]
 DocumentPath=12V_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WNONUDWQ
 
-[Document7]
+[Document6]
 DocumentPath=BYPASS_BLOCK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,24 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIOLFBKX
 
-[Document8]
-DocumentPath=GENERAL_PWR_SW.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HQUDMACY
-
-[Document9]
+[Document7]
 DocumentPath=ADC088S022.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,6 +167,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNHOMKRU
+
+[Document8]
+DocumentPath=BCM_ECU_revA.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UGFAWDTA
 
 [Configuration1]
 Name=Sources
@@ -1135,6 +1118,13 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=PWR_IN|NetColor=clLime
+Net2=NetName=PWR_IN_12V_REG_0|NetColor=clLime
+Net3=NetName=PWR_IN_12V_REG_1|NetColor=clLime
+Net4=NetName=PWR_OUT|NetColor=clLime
+Net5=NetName=VCC|NetColor=clLime
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
