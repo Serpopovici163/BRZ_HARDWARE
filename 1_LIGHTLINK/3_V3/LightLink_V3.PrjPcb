@@ -152,7 +152,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WNONUDWQ
 
 [Document7]
-DocumentPath=BYPASS_RELAY.SchDoc
+DocumentPath=BYPASS_BLOCK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
