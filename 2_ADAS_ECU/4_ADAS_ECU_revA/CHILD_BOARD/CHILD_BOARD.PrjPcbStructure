@@ -1,4 +1,10 @@
-Record=TopLevelDocument|FileName=2V_REG.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=3V3_REG.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=5V_REG.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=2V_REG.SchDoc|FileName=USB.SchDoc|SheetNumber=4
+Record=TopLevelDocument|FileName=CHILD_BOARD.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=ADC_0|SchDesignator=ADC_0|FileName=ADC.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=ADC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=CAN_IF_0|SchDesignator=CAN_IF_0|FileName=PWR_MGMT_CAN_IF.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=PWR_MGMT_CAN_IF.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=ETH_IF_0|SchDesignator=ETH_IF_0|FileName=ETHERNET.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=ETHERNET.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=PWR_MGMT_0|SchDesignator=PWR_MGMT_0|FileName=PWR_MGMT.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=PWR_MGMT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=REG_0|SchDesignator=REG_0|FileName=5V_REG.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_REG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=REG_1|SchDesignator=REG_1|FileName=5V_REG.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_REG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=REG_2|SchDesignator=REG_2|FileName=3V3_REG.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=3V3_REG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=REG_3|SchDesignator=REG_3|FileName=2V_REG.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=2V_REG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CHILD_BOARD.SchDoc|Designator=USB3_0|SchDesignator=USB3_0|FileName=USB.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=USB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,29 @@
+Added Component: Designator=U7(TCAN1146DYYRQ1-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "CMP-015-00012-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TCAN1146DYYRQ1.SchLib"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_TX Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=5V Pin=U7-3
+Added Pin To Net: NetName=CAN_RX Pin=U7-4
+Added Pin To Net: NetName=3V3 Pin=U7-5
+Added Pin To Net: NetName=CAN_MISO Pin=U7-6
+Added Pin To Net: NetName=CAN_INH Pin=U7-7
+Added Pin To Net: NetName=CAN_SCLK Pin=U7-8
+Added Pin To Net: NetName=NetR30_1 Pin=U7-9
+Added Pin To Net: NetName=NetC11_1 Pin=U7-10
+Added Pin To Net: NetName=CAN_MOSI Pin=U7-11
+Added Pin To Net: NetName=PRE_CAN_N Pin=U7-12
+Added Pin To Net: NetName=PRE_CAN_P Pin=U7-13
+Added Pin To Net: NetName=CAN_nCS Pin=U7-14
+Added Member To Class: ClassName=PWR_MGMT Member=Component U7 TCAN1146DYYRQ1
