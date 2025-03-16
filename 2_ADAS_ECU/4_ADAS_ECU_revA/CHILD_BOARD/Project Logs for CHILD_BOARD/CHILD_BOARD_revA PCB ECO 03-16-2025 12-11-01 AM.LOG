@@ -1,0 +1,151 @@
+Removed Member From Class: ClassName=PWR_MGMT_0 Member=D?
+Change Component Footprint: Designator=J1 Old Footprint=1-776267-2-Footprint-1 New Footprint=FP-776087-1-MFG
+Change Component Footprint: Designator=J4 Old Footprint=692141030100 New Footprint=692141030100
+Change Component Comment : Designator=J1 Old Comment=1-776267-1 New Comment=776087-1
+Change Managed Component Library Link : Designator=J1 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=b7ab16ca-30ff-4586-8f2a-cf8577f29fc8 New ItemGUID=55C36BCF-9E64-4B73-A6E3-68BCD20BB532 Old RevisionGUID=e5792c49-3981-4de1-adcd-3c3f489480d4 New RevisionGUID=2673FE91-DAE5-4DFC-8C63-51F6EB8449A4
+Change component parameters: Designator = "J1" ("J1"); Footprint = "1-776267-2-Footprint-1"; UniqueID = "\KOEXBEFD" ("\KOEXBEFD")
+Change component parameters (AddParameter): Name = "Circuit Application"; Value = "Power"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector System"; Value = "Wire-to-Device"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "TIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Circular"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "17A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "37.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ELV"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Polybutylene"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "60.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "221°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Ports"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Signal Positions"; Value = "23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminals/Pins"; Value = "23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Mount Alignment"; Value = "Yes (With)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Mount Retention"; Value = "With"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Thickness"; Value = "0.062inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "0.157inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Primary Type"; Value = "Rectangular"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "0.157inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sealable"; Value = "Yes (With)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "Ampseal"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tab Thickness"; Value = "1.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "37.9mm"; VariantName = "[No Variations]"
+Add Net: Net with name "CAN_INH" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetD?_1" already exists
+Add Net: Net with name "NetD?_1" already exists
+Add Net: Net with name "NetD?_1" already exists
+Add Net: Net with name "NetD?_4" already exists
+Add Net: Net with name "NetD?_4" already exists
+Add Net: Net with name "NetD?_4" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "PWR_IN" already exists
+Add Net: Net with name "TEMP_SENSE" already exists
+Add Net: Net with name "USB2UP_N" already exists
+Add Net: Net with name "USB2UP_P" already exists
+Add Net: Net with name "USB3UP_RX_N" already exists
+Add Net: Net with name "USB3UP_RX_P" already exists
+Add Net: Net with name "USB3UP_TX_N" already exists
+Add Net: Net with name "USB3UP_TX_P" already exists
+Change Class Name : Old Net Name=INT_REG_0 New Net Name=PWR_MGMT_0
+Change Class Name : Old Net Name=PWR_MGMT_0 New Net Name=INT_REG_0
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C? 100n
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component C? 100n
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component C? 100n
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component C? 100n
+Added Member To Class: ClassName=INT_REG_0 Member=Component C? 10u/DNO
+Added Member To Class: ClassName=INT_REG_0 Member=Component C? 100n
+Added Member To Class: ClassName=INT_REG_0 Member=Component C? 100n
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=REG_0 Member=Component R?_REG_0 (R?) 10k
+Added Member To Class: ClassName=REG_0 Member=Component R?_REG_0 (R?) 100k
+Added Member To Class: ClassName=REG_0 Member=Component R?_REG_0 (R?) 1k
+Added Member To Class: ClassName=REG_0 Member=Component R?_REG_0 (R?) 100k
+Added Member To Class: ClassName=REG_1 Member=Component R?_REG_1 (R?) 10k
+Added Member To Class: ClassName=REG_1 Member=Component R?_REG_1 (R?) 1k
+Added Member To Class: ClassName=REG_1 Member=Component R?_REG_1 (R?) 100k
+Added Member To Class: ClassName=REG_1 Member=Component R?_REG_1 (R?) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R? 56
+Added Member To Class: ClassName=ADC_0 Member=Component R? 56
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 330
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 330
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 330
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 24k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 330
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component R? 1k
+Added Member To Class: ClassName=INT_REG_0 Member=Component R? 100k
+Added Member To Class: ClassName=INT_REG_0 Member=Component R? 100k
+Added Member To Class: ClassName=INT_REG_0 Member=Component R? 10k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? 100k
+Added Member To Class: ClassName=REG_2 Member=Component R? 1k
+Added Member To Class: ClassName=REG_2 Member=Component R? 1k
+Added Member To Class: ClassName=REG_2 Member=Component R? 100k
+Added Member To Class: ClassName=REG_2 Member=Component R? 10k
+Added Member To Class: ClassName=REG_3 Member=Component R? 10k
+Added Member To Class: ClassName=REG_3 Member=Component R? 68.1k
+Added Member To Class: ClassName=REG_3 Member=Component R? 100k
+Added Member To Class: ClassName=REG_3 Member=Component R? 100k/DNP
+Added Member To Class: ClassName=REG_3 Member=Component R? 1k
+Added Member To Class: ClassName=REG_3 Member=Component R? 1k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 200k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 10k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 10k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 200k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 10k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 10k
+Added Member To Class: ClassName=USB3_0 Member=Component R? 10k
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component U? ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component U? ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_MGMT_0 Member=Component U? ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=INT_REG_0 Member=Component U? LD1117S33TR
+Added Member To Class: ClassName=USB3_0 Member=Component U? USB5744/2G
