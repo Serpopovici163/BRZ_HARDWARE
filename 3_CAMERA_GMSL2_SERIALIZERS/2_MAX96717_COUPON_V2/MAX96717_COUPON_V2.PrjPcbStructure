@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=MAX96717_COUPON_V2.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=MAX96717_COUPON_V2.SchDoc|Designator=3V3_REG|SchDesignator=3V3_REG|FileName=3V3_REG.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=3V3_REG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MAX96717_COUPON_V2.SchDoc|Designator=GMSL_SERIALIZER|SchDesignator=GMSL_SERIALIZER|FileName=MAX96717_PINOUT.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MAX96717_PINOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

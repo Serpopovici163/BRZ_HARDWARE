@@ -50,126 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=BCM_ECU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OGZFOSFF
-
-[Document2]
-DocumentPath=MOSFET_BANK.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YVCCMZGT
-
-[Document3]
-DocumentPath=TCAN1146_PWR_MGMT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WRCLDNAZ
-
-[Document4]
-DocumentPath=STM32H730_PINOUT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SPENOSCV
-
-[Document5]
-DocumentPath=12V_REG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WNONUDWQ
-
-[Document6]
-DocumentPath=BYPASS_BLOCK.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WIOLFBKX
-
-[Document7]
-DocumentPath=ADC088S022.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QNHOMKRU
-
-[Document8]
-DocumentPath=BCM_ECU_revA.PcbDoc
+DocumentPath=24P_TO_15P_FPC_CSI_ADAPTER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -183,58 +64,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UGFAWDTA
-
-[Document9]
-DocumentPath=HORN_DAC.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HFNVTZEN
-
-[Document10]
-DocumentPath=INT_REG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VMEKDIJE
-
-[Document11]
-DocumentPath=AMP_REG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MFOQDIBR
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -249,7 +79,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -360,7 +190,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -371,7 +201,7 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -455,7 +285,7 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -477,7 +307,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -549,7 +379,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -604,7 +434,7 @@ OutputDefault9=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -616,7 +446,7 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -660,7 +490,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -726,7 +556,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR04
+TargetPrinter=\\MTLprintsvr2.ds.mda.ca\MT1PRT-KIR08
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1169,25 +999,6 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[NetInfos]
-Net1=NetName=AMP_VCC|NetColor=$000099FF
-Net2=NetName=BCM_VCC|NetColor=clFuchsia
-Net3=NetName=LED_VCC|NetColor=$00E8864A
-Net4=NetName=NetU3_1|NetColor=clFuchsia
-Net5=NetName=NetU3_MOSFET_BANK_0_1|NetColor=clFuchsia
-Net6=NetName=NetU3_MOSFET_BANK_1_1|NetColor=clFuchsia
-Net7=NetName=NetU3_MOSFET_BANK_2_1|NetColor=clFuchsia
-Net8=NetName=NetU3_MOSFET_BANK_3_1|NetColor=clFuchsia
-Net9=NetName=PWR_IN|NetColor=clLime
-Net10=NetName=PWR_IN_12V_REG_0|NetColor=clLime
-Net11=NetName=PWR_IN_12V_REG_1|NetColor=clLime
-Net12=NetName=PWR_OUT|NetColor=clLime
-Net13=NetName=REG_PWR_IN|NetColor=$00E8864A
-Net14=NetName=REG_PWR_IN_12V_REG_0|NetColor=$00E8864A
-Net15=NetName=REG_PWR_IN_12V_REG_1|NetColor=$00E8864A
-Net16=NetName=REG_PWR_IN_12V_REG_2|NetColor=$00E8864A
-Net17=NetName=VCC|NetColor=clLime
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
