@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=U2 Old DesignItemId=CMP-015-00012-1 New DesignItemId=CMP-015-00012-2
+Change Component Footprint: Designator=U2 Old Footprint=QFN50P500X500X80_HS-33N New Footprint=QFN50P500X500X80_HS-33N
+Change Managed Component Library Link : Designator=U2 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=2b999460-38cb-4260-b980-8707a22cb4aa New ItemGUID=2b999460-38cb-4260-b980-8707a22cb4aa Old RevisionGUID=b54a9c70-e372-4b2a-80ba-6fa7ed493aa7 New RevisionGUID=bcf9991d-7adb-4e54-a2e0-0a55a74c828e
