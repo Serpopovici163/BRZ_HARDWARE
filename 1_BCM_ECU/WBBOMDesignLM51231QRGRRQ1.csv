@@ -1,0 +1,23 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Coutx,MuRata,GRM32ER71J106KA12L,7,0.3,14.7,Cap: 10 µF  Total Derated Cap: 28 µF  VDC: 63 V  ESR: 1 mΩ  Package: 1210_280  
+Cinx,CUSTOM,CUSTOM,1,0,0,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 18 V  ESR: 1 µΩ  Package: null  
+Cvout,MuRata,GRM155R71A104KA01D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+Cvref,MuRata,GRM1555C1E471JA01D,1,0.02,3,Cap: 470 pF  Total Derated Cap: 470 pF  VDC: 25 V  ESR: 1 mΩ  Package: 0402  
+Css,MuRata,GRM155R61A474KE15D,1,0.02,3,Cap: 470 nF  Total Derated Cap: 470 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+M1,NA,IdealFET,1,0,79.65,VdsMax: 136 V  IdsMax: 15 Amps  
+Cbias,Kemet,C0603C105K8PACTU,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 10 V  ESR: 1 mΩ  Package: 0603  
+Ccomp2,Kemet,C0805C470J5GACTU,1,0.01,6.75,Cap: 47 pF  Total Derated Cap: 47 pF  VDC: 50 V  ESR: 115 mΩ  Package: 0805  
+Ccomp,MuRata,GRM155R71E682KA01D,1,0.01,3,Cap: 6.8 nF  Total Derated Cap: 6.8 nF  VDC: 25 V  ESR: 1 mΩ  Package: 0402  
+Cout,Panasonic,50SVPF68M,7,1.57,151.29,Cap: 68 µF  Total Derated Cap: 480 µF  VDC: 50 V  ESR: 20 mΩ  Package: 10x12.6  
+M2,NA,IdealFET,1,0,79.65,VdsMax: 136 V  IdsMax: 15 Amps  
+Rt,Vishay-Dale,CRCW040250K0FKED,1,0.011,3,Resistance: 50 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rvreft,Vishay-Dale,CRCW040214K0FKED,1,0.01,3,Resistance: 14 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cbst,MuRata,GRM155R71A104KA01D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+Rsense,CUSTOM,CUSTOM,1,0,0,Resistance: 1.03 mΩ  Tolerance: 0.0%  Power: 0 W  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+L1,CUSTOM,CUSTOM,1,0,0,L: 1.25 µH  DCR: 1 mΩ  IDC: 51.66 A  
+U1,Texas Instruments,LM51231QRGRRQ1,1,1.673,16,
+Rvrefb,Vishay-Dale,CRCW040221K0FKED,1,0.01,3,Resistance: 21 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cin,TDK,CKG57NX5R1H226M500JH,2,1.77,56,Cap: 22 µF  Total Derated Cap: 43 µF  VDC: 50 V  ESR: 10 mΩ  Package: 2220  
+Rcomp,Yageo,RC0201FR-0728K7L,1,0.01,2.08,Resistance: 28.7 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cvcc,TDK,C1005X5R1A475K050BC,1,0.1,3,Cap: 4.7 µF  Total Derated Cap: 4.7 µF  VDC: 10 V  ESR: 3.42 mΩ  Package: 0402_065  
