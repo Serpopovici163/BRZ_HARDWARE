@@ -220,7 +220,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VMEKDIJE
 
 [Document11]
-DocumentPath=AMP_REG.SchDoc
+DocumentPath=BOOST_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
