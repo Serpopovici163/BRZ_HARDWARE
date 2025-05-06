@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PWR_OUT Pin=C16-1
+Removed Pin From Net: NetName=PWR_OUT Pin=U9-3
+Added Pin To Net: NetName=INT_VCC Pin=C16-1
+Added Pin To Net: NetName=INT_VCC Pin=U9-3

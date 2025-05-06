@@ -1,0 +1,71 @@
+Removed Member From Class: ClassName=AMP_REG_0 Member=R83
+Removed Member From Class: ClassName=AMP_REG_0 Member=R84
+Change Component Footprint: Designator=L3 Old Footprint=WE-HCI_7040 New Footprint=WE-HCI_7040
+Added Member To Class: ClassName=PWR_MGMT Member=Component Q2 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=PWR_MGMT Member=Component Q3 SISH615ADN-T1-GE3
+Added Member To Class: ClassName=BYPASS_0 Member=Component Q8_BYPASS_0 (Q8A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_1 Member=Component Q8_BYPASS_1 (Q8A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_2 Member=Component Q8_BYPASS_2 (Q8A) SSM6L56FE,LM
+Added Member To Class: ClassName=BYPASS_3 Member=Component Q8_BYPASS_3 (Q8A) SSM6L56FE,LM
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R3_MOSFET_BANK_0 (R3) 1k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R3_MOSFET_BANK_1 (R3) 1k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R3_MOSFET_BANK_2 (R3) 1k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R3_MOSFET_BANK_3 (R3) 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R8_MOSFET_BANK_0 (R8) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R8_MOSFET_BANK_2 (R8) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R11_MOSFET_BANK_0 (R11) ERT-J1VR103J
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R11_MOSFET_BANK_2 (R11) ERT-J1VR103J
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R18_MOSFET_BANK_0 (R18) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R18_MOSFET_BANK_1 (R18) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R18_MOSFET_BANK_2 (R18) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R18_MOSFET_BANK_3 (R18) 100k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R19_MOSFET_BANK_0 (R19) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R19_MOSFET_BANK_1 (R19) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R19_MOSFET_BANK_2 (R19) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R19_MOSFET_BANK_3 (R19) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R22_MOSFET_BANK_1 (R22) 24k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R22_MOSFET_BANK_3 (R22) 24k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R23_MOSFET_BANK_1 (R23) 24k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R23_MOSFET_BANK_3 (R23) 24k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R28 100k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R31 24k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R33 100k
+Added Member To Class: ClassName=PWR_MGMT Member=Component R35 60.4
+Added Member To Class: ClassName=PWR_MGMT Member=Component R37 60.4
+Added Member To Class: ClassName=MCU_0 Member=Component R39 330
+Added Member To Class: ClassName=MCU_0 Member=Component R40 330
+Added Member To Class: ClassName=MCU_0 Member=Component R41 10k
+Added Member To Class: ClassName=MCU_0 Member=Component R43 330
+Added Member To Class: ClassName=MCU_0 Member=Component R45 330
+Added Member To Class: ClassName=12V_REG_2 Member=Component R51_12V_REG_2 (R51) 1k
+Added Member To Class: ClassName=12V_REG_1 Member=Component R52_12V_REG_1 (R52) 1k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R56_BYPASS_1 (R56) 1k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R56_BYPASS_3 (R56) 1k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R57_BYPASS_0 (R57) 100k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R57_BYPASS_1 (R57) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R57_BYPASS_2 (R57) 100k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R57_BYPASS_3 (R57) 100k
+Added Member To Class: ClassName=BYPASS_0 Member=Component R59_BYPASS_0 (R59) 100k
+Added Member To Class: ClassName=BYPASS_1 Member=Component R59_BYPASS_1 (R59) 100k
+Added Member To Class: ClassName=BYPASS_2 Member=Component R59_BYPASS_2 (R59) 100k
+Added Member To Class: ClassName=BYPASS_3 Member=Component R59_BYPASS_3 (R59) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R73 100k
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R85 FCSL90R001JER
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R86 1k
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component U3_MOSFET_BANK_0 (U3) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component U3_MOSFET_BANK_1 (U3) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component U3_MOSFET_BANK_2 (U3) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component U3_MOSFET_BANK_3 (U3) ACS711KLCTR-12AB-T
+Added Room: Name=AMP_REG_0
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9
+Added Rule: Name=Schematic Supply Nets_10
+Added Rule: Name=Schematic Supply Nets_11
