@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=RAW_PWR Pin=Q1-5-6-7-8
+Removed Pin From Net: NetName=RAW_PWR Pin=Q3-5-6-7-8
+Added Component: Designator=XF1(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RAW_PWR Pin=XF1-1
+Added Pin To Net: NetName=RAW_PWR Pin=XF1-2
+Added Pin To Net: NetName=NetQ1_5-6-7-8 Pin=Q1-5-6-7-8
+Added Pin To Net: NetName=NetQ1_5-6-7-8 Pin=Q3-5-6-7-8
+Added Pin To Net: NetName=NetQ1_5-6-7-8 Pin=XF1-3
+Added Pin To Net: NetName=NetQ1_5-6-7-8 Pin=XF1-4
+Added Net: Name=NetQ1_5-6-7-8
+Added Member To Class: ClassName=PWR_MGMT Member=Component XF1 3557-2

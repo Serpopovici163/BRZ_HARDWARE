@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=U3 Old DesignItemId=CMP-015-00011-2 New DesignItemId=CMP-015-00011-3
+Change Component Footprint: Designator=U3 Old Footprint=MAX96724FGTN_V+-Footprint-1 New Footprint=MAX96724FGTN_V+-Footprint-1
+Change Managed Component Library Link : Designator=U3 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=f652d179-cd4a-43b7-995d-9efb73ac1019 New ItemGUID=f652d179-cd4a-43b7-995d-9efb73ac1019 Old RevisionGUID=c5854aa8-bfb6-4aa9-bc88-04359144b29c New RevisionGUID=96360dfe-057c-4caa-8bd2-615921f57109
