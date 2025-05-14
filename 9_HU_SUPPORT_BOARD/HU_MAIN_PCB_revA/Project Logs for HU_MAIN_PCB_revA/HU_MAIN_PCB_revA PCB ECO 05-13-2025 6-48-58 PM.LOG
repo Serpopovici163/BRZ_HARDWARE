@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=AUX_USB_D_N Pin=J3-21
+Added Net: Name=AUX_USB_D_N
+Added Pin To Net: NetName=AUX_USB_D_P Pin=J3-20
+Added Net: Name=AUX_USB_D_P
+Added Pin To Net: NetName=DAC_USB_D_N Pin=J7-4
+Added Net: Name=DAC_USB_D_N
+Added Pin To Net: NetName=DAC_USB_D_P Pin=J7-3
+Added Net: Name=DAC_USB_D_P
+Added Differential Pair: Name=AUX_USB_D
+Added Differential Pair: Name=DAC_USB_D
+Added Differential Pair: Name=RPI_USB0_D
+Added Differential Pair: Name=RPI_USB1_D
+Added Class: Name=USB

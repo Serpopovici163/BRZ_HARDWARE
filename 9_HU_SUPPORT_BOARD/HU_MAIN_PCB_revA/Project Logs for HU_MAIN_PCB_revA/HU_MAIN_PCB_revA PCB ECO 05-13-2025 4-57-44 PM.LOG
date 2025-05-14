@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCP2518_nINT Pin=P1-11
+Removed Pin From Net: NetName=MCP2518_nINT1 Pin=P1-15
+Added Pin To Net: NetName=MCP2518_nINT1 Pin=P1-11
+Added Pin To Net: NetName=MCP2518_nINT Pin=P1-15

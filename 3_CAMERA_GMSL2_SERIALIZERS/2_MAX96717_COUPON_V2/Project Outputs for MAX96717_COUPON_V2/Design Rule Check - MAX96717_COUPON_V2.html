@@ -1,0 +1,380 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">05/13/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8:12:33 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc" class="file"><acronym title="C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc">C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">8</td></tr>
+</table>
+</td>
+</table><a name="IDK310ZWOCOXYFFKTXNHHIBXLTMC1IONVXZ4V14EMU1WJDE25D2VFN"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBUJWUATHSHVJH4KHFXJFTE2KOME5G5K3Y4ISH1I05DA2H0CV2DJI">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXLKAFEUPFBXMNOVLZUNSGDAHYD21PVM2ARLNB0HZW3HZXO4RYRYF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCM22JKRYYM2NFISYZ2TPUVAMKFXCOCUPWUAD4OVUFPHBCASEG5K">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDT5CD2FWY22SPCM2UP3QGMD3OOGDPRTV2O23ZD5MQMH50YK3UBJNN">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1D5FVGM1HES5LIDVP3PNZB5MOIU31FI3W4VSILBIVQ0KX2I00U2B">Width Constraint (Min=0.186mm) (Max=0.199mm) (Preferred=0.199mm) (InNetClass('50SINGLE'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF3RCNGSGUHYCE25JYVCMK153IE0ITKVOV5ZXTIC00F3LY4Q2YI">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVRS3WKS3HY2NM3RW30JLV55EPNGY241UHKGB1UIV0MO4XZWLQX0B">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM2LYTVFKGEGLFDBDLXENLKEJ4CXTWPMAAPT5NXCXZBTKQ1HA5NCE">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUNX3IKCQGRB2HQUIY343KRUNELWTE2O0JKQ0MDQB5ZZWISKHBVH">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWCE3AXMTPZ2XBY2CGXPAHNGEHP2KPDAGHV2A2SLTWQZ2A4UAOUUD">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0EAZYH0XX1VBO5LKL3Y4VLLT4WC4WP0AQAEARKOMZVWZNLM4YTP">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXSHHFDGAFJDLBR0ZCXBIJKQZXNI2ZDMJNWSUO5CC2FS5GDOU1VKI">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSPHUMSH1C2Q2IBU0NB0DOE1XKKX0XGIY2SJF5KKRGQBRN0RCMJ2">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQCYBCLSSXWW3LGP40OFI051YXNCSZOI3VQMLEXDCYUCQCU1WOAIH">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNYXF11E1MN12DMG0VB4X3D3DKNWYP05I5TN0S2BPBYZEX3W4GCKE">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJGHTJ5WTOTU2BMPVCVX11ENMLICNNAFKSEFD31M2VF1SW0MJOOQJ">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3X1QK5JRIS2QPGK402WBGLHQLBYXMRIH1XBLOQE0DR1103MDBFWC">Matched Lengths(Delay Tolerance=10ps) (InDifferentialPairClass('CSI'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJXVWC5KZO1KXJX1K2EHFDXMSDLMKSJ2WTVAQPOM2P1SXHOZTVFZM">Matched Lengths(Delay Tolerance=10ps) (InDifferentialPairClass('PRECSI'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVVCB4GQPOKMSMKLF2E3TGO4BBO3BNL3DWIMOFVPPRVPEH0VG2LTN">Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSI') OR InDifferentialPairClass('PRECSI') OR InDifferentialPairClass('100DIFF'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWPNXVANLS44FHCN0ZEZVJMGYOLBEN0UFPZEURFMYOERWFJJ4V5QM">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">8</td>
+</tr>
+</table><br><a name="IDCM22JKRYYM2NFISYZ2TPUVAMKFXCOCUPWUAD4OVUFPHBCASEG5K"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14270.079mil|Location2.X=14477.953mil|Location1.Y=2419.685mil|Location2.Y=2736.751mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14270.079mil|Location2.X=14477.953mil|Location1.Y=2419.685mil|Location2.Y=2736.751mil|Absolute=True">Un-Routed Net Constraint: Net CAM_SCL Between Pad J1-13(20mm,4mm) on Top Layer And Track (20.2mm,6.973mm)(20.2mm,7.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14397.638mil|Location2.X=14421.26mil|Location1.Y=2483.268mil|Location2.Y=2699.803mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14397.638mil|Location2.X=14421.26mil|Location1.Y=2483.268mil|Location2.Y=2699.803mil|Absolute=True">Un-Routed Net Constraint: Net CAM_SDA Between Pad J1-14(21mm,4mm) on Top Layer And Pad J1-14(21mm,7.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13837.008mil|Location2.X=14037.008mil|Location1.Y=2419.685mil|Location2.Y=2746.653mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13837.008mil|Location2.X=14037.008mil|Location1.Y=2419.685mil|Location2.Y=2746.653mil|Absolute=True">Un-Routed Net Constraint: Net CSI_D0_N Between Pad J1-2(9mm,4mm) on Top Layer And Track (9mm,7.225mm)(9mm,7.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13876.378mil|Location2.X=14076.378mil|Location1.Y=2419.685mil|Location2.Y=2746.653mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13876.378mil|Location2.X=14076.378mil|Location1.Y=2419.685mil|Location2.Y=2746.653mil|Absolute=True">Un-Routed Net Constraint: Net CSI_D0_P Between Pad J1-3(10mm,4mm) on Top Layer And Track (9.765mm,6.99mm)(10mm,7.225mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13955.118mil|Location2.X=14160.039mil|Location1.Y=2419.685mil|Location2.Y=2679.77mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13955.118mil|Location2.X=14160.039mil|Location1.Y=2419.685mil|Location2.Y=2679.77mil|Absolute=True">Un-Routed Net Constraint: Net CSI_D1_N Between Pad J1-5(12mm,4mm) on Top Layer And Track (12.125mm,5.5mm)(12.125mm,5.526mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13994.488mil|Location2.X=14213.56mil|Location1.Y=2419.685mil|Location2.Y=2629.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13994.488mil|Location2.X=14213.56mil|Location1.Y=2419.685mil|Location2.Y=2629.97mil|Absolute=True">Un-Routed Net Constraint: Net CSI_D1_P Between Pad J1-6(13mm,4mm) on Top Layer And Track (13.484mm,4.261mm)(13.484mm,4.261mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14161.417mil|Location2.X=14187.992mil|Location1.Y=2483.268mil|Location2.Y=2588.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14161.417mil|Location2.X=14187.992mil|Location1.Y=2483.268mil|Location2.Y=2588.583mil|Absolute=True">Un-Routed Net Constraint: Net CSI_CLK_N Between Pad J1-8(15mm,4mm) on Top Layer And Via (15.125mm,5.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14197.835mil|Location2.X=14224.409mil|Location1.Y=2483.268mil|Location2.Y=2588.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14197.835mil|Location2.X=14224.409mil|Location1.Y=2483.268mil|Location2.Y=2588.583mil|Absolute=True">Un-Routed Net Constraint: Net CSI_CLK_P Between Via (15.875mm,5.5mm) from Top Layer to Bottom Layer And Pad J1-9(16mm,4mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,597 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">05/13/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7:23:27 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc" class="file"><acronym title="C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc">C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">71</td></tr>
+</table>
+</td>
+</table><a name="ID14CPF25UEIT5KIOAZBCY3O2RGEHBHTLGB5ANQ4KWQMUE1X31J3LD"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTMSFCJZLJ2Y5PYQ1YC3KNO5DPBAISAFU3SL0N2JSBHUACGCLQMWF">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ3HAPKHIWMSBYWE1EIDLI2EJH5IGVWGA4VBHJLB05WWXXTKHP0E">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKPXOMY4BBSQHMQUJHZOR11FPJN2B2RD3CHYFGHCWKGKKROIY1PYE">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJB4QYBFK3I1OH4NRP2OX3DOY1BTSSM1XOFJBFAEWOOULO5S0LHTH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTXIMXMFGK5UYPTQZIBNUQZOFMBOTBMVQJAJEH3INFMF3C4AN34EI">Width Constraint (Min=0.187mm) (Max=0.199mm) (Preferred=0.199mm) (InNetClass('50SINGLE'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXA0SXEGUTUF5CGQWWRMODDO4CNHMS20A2PZETLX5NDHOTORXPDM">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKQFNM2LWW43BLYMOL5IQUITIDMPD4FD5VBLSISJMSF4UEBFESOUG">Power Plane Connect Rule(Direct Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0LU0W0IW0IGHJ0JQLXSQWO3ONE1WGRG3F1RYJMQ1QGRJ1AFRRKK">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNN3V3RFP03TOMYWA1B2X3SUJ0P11V3IFVOLREWMC3ZLVWCAXB5EJ">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOQCWOF1UCBS0I5ZATWDCFF20UCLC0ITJKAUADEKJ32Y5WKBZCC1F">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID333BKTNUQK5OH0VOZCD3EO104JKGEEEIPU3RI0LZHDL4KVKSTCXE">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBNZFDSG3MFF3I1NN0QGVFO4N5BP21VR1TAJM4EORJ4B14ZALW2FD">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFZVBVZDOW5UAOCIR0JPNKECK0FU0TZJ4JS2HCWH2FVD1RGGMNZJI">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS0FFLOIO1PEMKWOFVU3NHWWGKH53DKTAGQUWP1MYFWOABXN3V13J">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGEE4GOHK2P1UIS4T1TSJ0GE15HHT4A0TLFZLQKDOSVEIOFMYGSPK">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">36</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEKLASARDALQZNO2T5ABNPX3DEIIYSYWZUMMC4YO2PHYHKCWGZIYJ">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">31</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIXMDFF1ZSBKNGHI1KWBEDE4FXFN24UHZCS4CUH1FHL5R1C0Q5JM">Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSI0_PRE'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNAMMHLWUCPQ5KGMHW2SMFP1RDPMPFDWCJMR1CWJRCPC4R3QV4CKI">Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSI0'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFZEYGLBLNPBAL32K5TWNDLGNBCYH2N4L3YAKWKG4A5MMEDODFABC">Matched Lengths(Delay Tolerance=5ps) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNDPY4IX313XXOYVSH1VSOEFITNQ0A0MVCOAYE4CJK1PP5FMBE5CK">Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSI0_PRE') OR InDifferentialPairClass('CSI0') OR InDifferentialPairClass('100DIFF'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEF3DWHTEUX0IJSZLZ5DGTOVU0GP42OJ1CW1DYEPGM04PNVZAO0MN">Room 5V_REG_1 (Bounding Region = (258mm, 160mm, 317mm, 180.5mm) (InComponentClass('5V_REG_1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTU4HFCRBFGOVCGAR1S2XYJL3AG0RI5YEEWHH0HMZPDXKZ535IBUO">Room 5V_REG_0 (Bounding Region = (258mm, 181mm, 317mm, 201.5mm) (InComponentClass('5V_REG_0'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFQJFHBBPYKUNNZFMFANFGQQL4HU10XQBWOAFCIB5SZSBSQ2HPOPC">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">71</td>
+</tr>
+</table><br><a name="IDFZVBVZDOW5UAOCIR0JPNKECK0FU0TZJ4JS2HCWH2FVD1RGGMNZJI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8415.489mil|Location2.X=8419.156mil|Location1.Y=7798.364mil|Location2.Y=7802.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8415.489mil|Location2.X=8419.156mil|Location1.Y=7798.364mil|Location2.Y=7802.03mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (13.8mm,58mm) on Bottom Overlay And Pad C55-1(14mm,58.521mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDGEE4GOHK2P1UIS4T1TSJ0GE15HHT4A0TLFZLQKDOSVEIOFMYGSPK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (104.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (104.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.846mil|Location2.X=12008.977mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (104.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (105.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (105.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12014.216mil|Location2.X=12048.347mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (105.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (106.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (106.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12053.586mil|Location2.X=12087.717mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (106.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (107.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (107.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12092.957mil|Location2.X=12127.087mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (107.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (108.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (108.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12132.327mil|Location2.X=12166.457mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (108.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (109.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (109.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12171.697mil|Location2.X=12205.827mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (109.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (110.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (110.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12211.067mil|Location2.X=12245.197mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (110.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (111.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (111.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12250.437mil|Location2.X=12284.567mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (111.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (112.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (112.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12289.807mil|Location2.X=12323.937mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (112.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (113.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (113.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12329.177mil|Location2.X=12363.308mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (113.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (114.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (114.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12368.547mil|Location2.X=12402.678mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (114.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7919.728mil|Location2.Y=7971.313mil|Absolute=True">Net Antennae: Via (115.5mm,61.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7959.098mil|Location2.Y=8010.683mil|Absolute=True">Net Antennae: Via (115.5mm,62.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12407.917mil|Location2.X=12442.048mil|Location1.Y=7998.468mil|Location2.Y=8050.053mil|Absolute=True">Net Antennae: Via (115.5mm,63.5mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEKLASARDALQZNO2T5ABNPX3DEIIYSYWZUMMC4YO2PHYHKCWGZIYJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11877.454mil|Location2.X=11883.703mil|Location1.Y=5506.583mil|Location2.Y=5512.832mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11877.454mil|Location2.X=11883.703mil|Location1.Y=5506.583mil|Location2.Y=5512.832mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (101.983mm,0.743mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11894.993mil|Location2.X=11904.117mil|Location1.Y=5511.028mil|Location2.Y=5520.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11894.993mil|Location2.X=11904.117mil|Location1.Y=5511.028mil|Location2.Y=5520.152mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.192mm &lt; 0.2mm) Between Arc (102.39mm,1.16mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13268.529mil|Location2.X=13274.778mil|Location1.Y=8327.584mil|Location2.Y=8333.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13268.529mil|Location2.X=13274.778mil|Location1.Y=8327.584mil|Location2.Y=8333.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (137.1mm,71.6mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10615.569mil|Location2.X=10624.693mil|Location1.Y=5511.029mil|Location2.Y=5520.153mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10615.569mil|Location2.X=10624.693mil|Location1.Y=5511.029mil|Location2.Y=5520.153mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.192mm &lt; 0.2mm) Between Arc (69.61mm,1.16mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10635.98mil|Location2.X=10642.229mil|Location1.Y=5506.584mil|Location2.Y=5512.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10635.98mil|Location2.X=10642.229mil|Location1.Y=5506.584mil|Location2.Y=5512.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (70.017mm,0.743mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11168.793mil|Location2.X=11175.042mil|Location1.Y=5506.583mil|Location2.Y=5512.832mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11168.793mil|Location2.X=11175.042mil|Location1.Y=5506.583mil|Location2.Y=5512.832mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (83.983mm,0.743mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11186.332mil|Location2.X=11195.456mil|Location1.Y=5511.028mil|Location2.Y=5520.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11186.332mil|Location2.X=11195.456mil|Location1.Y=5511.028mil|Location2.Y=5520.152mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.192mm &lt; 0.2mm) Between Arc (84.39mm,1.16mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11324.23mil|Location2.X=11333.354mil|Location1.Y=5511.029mil|Location2.Y=5520.153mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11324.23mil|Location2.X=11333.354mil|Location1.Y=5511.029mil|Location2.Y=5520.153mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.192mm &lt; 0.2mm) Between Arc (87.61mm,1.16mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11344.641mil|Location2.X=11350.89mil|Location1.Y=5506.584mil|Location2.Y=5512.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11344.641mil|Location2.X=11350.89mil|Location1.Y=5506.584mil|Location2.Y=5512.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (88.017mm,0.743mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11853.175mil|Location2.X=11859.424mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11853.175mil|Location2.X=11859.424mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (101.15mm,0mm)(101.15mm,0.9mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11889.021mil|Location2.X=11895.27mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11889.021mil|Location2.X=11895.27mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (101.87mm,0.001mm)(102.25mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11896.482mil|Location2.X=11902.731mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11896.482mil|Location2.X=11902.731mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (102.25mm,0.292mm)(102.25mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13244.907mil|Location2.X=13251.156mil|Location1.Y=8537.23mil|Location2.Y=8543.479mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13244.907mil|Location2.X=13251.156mil|Location1.Y=8537.23mil|Location2.Y=8543.479mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (136.5mm,69.35mm)(136.5mm,84.5mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.316mil|Location2.X=10300.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.316mil|Location2.X=10300.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (61.555mm,83.445mm)(61.555mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.316mil|Location2.X=10300.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10294.316mil|Location2.X=10300.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (61.555mm,83.445mm)(61.555mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10469.316mil|Location2.X=10475.566mil|Location1.Y=8868.923mil|Location2.Y=8875.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10469.316mil|Location2.X=10475.566mil|Location1.Y=8868.923mil|Location2.Y=8875.172mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (61.555mm,85.35mm)(70.445mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10469.316mil|Location2.X=10475.566mil|Location1.Y=8868.923mil|Location2.Y=8875.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10469.316mil|Location2.X=10475.566mil|Location1.Y=8868.923mil|Location2.Y=8875.172mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (61.555mm,85.35mm)(70.445mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10616.954mil|Location2.X=10623.203mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10616.954mil|Location2.X=10623.203mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (69.75mm,0mm)(69.75mm,0.292mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10624.415mil|Location2.X=10630.664mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10624.415mil|Location2.X=10630.664mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (69.75mm,0mm)(70.13mm,0.001mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10644.316mil|Location2.X=10650.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10644.316mil|Location2.X=10650.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (70.445mm,83.445mm)(70.445mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10644.316mil|Location2.X=10650.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10644.316mil|Location2.X=10650.566mil|Location1.Y=8864.739mil|Location2.Y=8870.988mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (70.445mm,83.445mm)(70.445mm,85.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10660.261mil|Location2.X=10666.51mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10660.261mil|Location2.X=10666.51mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (70.85mm,0mm)(70.85mm,0.9mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10902.387mil|Location2.X=10908.636mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10902.387mil|Location2.X=10908.636mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (70.85mm,0mm)(83.15mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13247.038mil|Location2.X=13253.287mil|Location1.Y=8239.001mil|Location2.Y=8245.25mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13247.038mil|Location2.X=13253.287mil|Location1.Y=8239.001mil|Location2.Y=8245.25mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (75.5mm,69.35mm)(136.5mm,69.35mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11144.513mil|Location2.X=11150.762mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11144.513mil|Location2.X=11150.762mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (83.15mm,0mm)(83.15mm,0.9mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11180.359mil|Location2.X=11186.609mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11180.359mil|Location2.X=11186.609mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (83.87mm,0.001mm)(84.25mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11187.821mil|Location2.X=11194.07mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11187.821mil|Location2.X=11194.07mil|Location1.Y=5506.554mil|Location2.Y=5512.804mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (84.25mm,0.292mm)(84.25mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11325.615mil|Location2.X=11331.865mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11325.615mil|Location2.X=11331.865mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (87.75mm,0mm)(87.75mm,0.292mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11333.076mil|Location2.X=11339.326mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11333.076mil|Location2.X=11339.326mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (87.75mm,0mm)(88.13mm,0.001mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11611.049mil|Location2.X=11617.298mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11611.049mil|Location2.X=11617.298mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (88.85mm,0mm)(101.15mm,0mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11368.923mil|Location2.X=11375.172mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11368.923mil|Location2.X=11375.172mil|Location1.Y=5506.555mil|Location2.Y=5512.805mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (88.85mm,0mm)(88.85mm,0.9mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFZEYGLBLNPBAL32K5TWNDLGNBCYH2N4L3YAKWKG4A5MMEDODFABC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Delay Tolerance=5ps) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11609.411mil|Location2.X=11937.008mil|Location1.Y=6818.462mil|Location2.Y=7022.8mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11609.411mil|Location2.X=11937.008mil|Location1.Y=6818.462mil|Location2.Y=7022.8mil|Absolute=True">Matched Net Lengths: Between Net X20_N And Net X20_P Actual Difference against X20_P is: 7.496ps, Delay Tolerance : 5ps. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9776.575mil|Location2.X=10051.181mil|Location1.Y=8505.906mil|Location2.Y=8708.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9776.575mil|Location2.X=10051.181mil|Location1.Y=8505.906mil|Location2.Y=8708.661mil|Absolute=True">Matched Net Lengths: Between Net X25_N And Net X25_P Actual Difference against X25_P is: 5.039ps, Delay Tolerance : 5ps. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTU4HFCRBFGOVCGAR1S2XYJL3AG0RI5YEEWHH0HMZPDXKZ535IBUO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room 5V_REG_0 (Bounding Region = (258mm, 181mm, 317mm, 201.5mm) (InComponentClass('5V_REG_0'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10157.48mil|Location2.X=12480.315mil|Location1.Y=7073.377mil|Location2.Y=7933.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10157.48mil|Location2.X=12480.315mil|Location1.Y=7073.377mil|Location2.Y=7933.071mil|Absolute=True">Room Definition: Between Room 5V_REG_0 (Bounding Region = (258mm, 181mm, 317mm, 201.5mm) (InComponentClass('5V_REG_0')) And SMT Small Component C10_5V_REG_0-100n (64.5mm,40.5mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

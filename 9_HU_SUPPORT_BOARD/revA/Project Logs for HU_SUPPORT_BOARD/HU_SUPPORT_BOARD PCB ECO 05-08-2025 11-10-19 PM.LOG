@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=RAW_PWR Pin=J3-9
-Removed Pin From Net: NetName=RAW_PWR Pin=J3-10
-Removed Pin From Net: NetName=CAN_P Pin=J3-16
-Removed Pin From Net: NetName=CAN_N Pin=J3-17
-Added Pin To Net: NetName=RAW_PWR Pin=J3-16
-Added Pin To Net: NetName=RAW_PWR Pin=J3-17

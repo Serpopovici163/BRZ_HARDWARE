@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetU2_5V_REG_0_7 Pin=U10-6
+Added Pin To Net: NetName=NetR4_5V_REG_0_1 Pin=U10-7
+Added Pin To Net: NetName=NetU2_5V_REG_1_7 Pin=U10-8
+Added Pin To Net: NetName=NetR4_5V_REG_1_1 Pin=U10-9
+Added Pin To Net: NetName=NetU7_7 Pin=U10-10

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=C52-1
+Removed Pin From Net: NetName=PoC_PWR Pin=C53-1
+Removed Pin From Net: NetName=GND Pin=C53-2
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=PoC_PWR Pin=U9-3
+Removed Member From Class: ClassName=PWR_MGMT Member=C52
+Removed Member From Class: ClassName=PWR_MGMT Member=C53
+Removed Member From Class: ClassName=PWR_MGMT Member=U9
+Added Pin To Net: NetName=5VA Pin=C46-1
+Added Pin To Net: NetName=5VA Pin=U8-3
