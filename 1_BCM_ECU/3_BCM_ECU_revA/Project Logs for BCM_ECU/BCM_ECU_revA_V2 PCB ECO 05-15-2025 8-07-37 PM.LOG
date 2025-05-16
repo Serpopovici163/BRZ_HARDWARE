@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=AMP_36V Pin=R93-1
+Added Pin To Net: NetName=BST_REG_OUT Pin=R93-1
