@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=R?_MOSFET_BANK_0 NewDesignator=R18_MOSFET_BANK_0
+Change Component Designator: OldDesignator=R?_MOSFET_BANK_1 NewDesignator=R18_MOSFET_BANK_1
+Change Component Designator: OldDesignator=R?_MOSFET_BANK_2 NewDesignator=R18_MOSFET_BANK_2
+Change Component Designator: OldDesignator=R?_MOSFET_BANK_3 NewDesignator=R18_MOSFET_BANK_3

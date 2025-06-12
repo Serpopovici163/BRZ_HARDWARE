@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetR15_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-6
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_0 Pin=U6_MOSFET_BANK_0-8
+Removed Pin From Net: NetName=NetR15_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-6
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_1 Pin=U6_MOSFET_BANK_1-8
+Removed Pin From Net: NetName=NetR15_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-6
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_2 Pin=U6_MOSFET_BANK_2-8
+Removed Pin From Net: NetName=NetR15_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-6
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_3 Pin=U6_MOSFET_BANK_3-8
+Added Pin To Net: NetName=NetR15_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-8
+Added Pin To Net: NetName=NetR15_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-8
+Added Pin To Net: NetName=NetR15_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-8
+Added Pin To Net: NetName=NetR15_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-8

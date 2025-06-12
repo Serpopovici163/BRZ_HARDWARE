@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=3V3 Pin=R11_MOSFET_BANK_0-2
+Removed Pin From Net: NetName=3V3 Pin=R11_MOSFET_BANK_1-2
+Removed Pin From Net: NetName=3V3 Pin=R11_MOSFET_BANK_2-2
+Removed Pin From Net: NetName=3V3 Pin=R11_MOSFET_BANK_3-2
+Removed Pin From Net: NetName=GND Pin=R12_MOSFET_BANK_0-2
+Removed Pin From Net: NetName=GND Pin=R12_MOSFET_BANK_1-2
+Removed Pin From Net: NetName=GND Pin=R12_MOSFET_BANK_2-2
+Removed Pin From Net: NetName=GND Pin=R12_MOSFET_BANK_3-2
+Added Pin To Net: NetName=GND Pin=R11_MOSFET_BANK_0-1
+Added Pin To Net: NetName=GND Pin=R11_MOSFET_BANK_1-1
+Added Pin To Net: NetName=GND Pin=R11_MOSFET_BANK_2-1
+Added Pin To Net: NetName=GND Pin=R11_MOSFET_BANK_3-1
+Added Pin To Net: NetName=3V3 Pin=R12_MOSFET_BANK_0-1
+Added Pin To Net: NetName=3V3 Pin=R12_MOSFET_BANK_1-1
+Added Pin To Net: NetName=3V3 Pin=R12_MOSFET_BANK_2-1
+Added Pin To Net: NetName=3V3 Pin=R12_MOSFET_BANK_3-1
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_0_2 Pin=R11_MOSFET_BANK_0-2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_0_2 Pin=R12_MOSFET_BANK_0-2
+Added Net: Name=NetR11_MOSFET_BANK_0_2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_1_2 Pin=R11_MOSFET_BANK_1-2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_1_2 Pin=R12_MOSFET_BANK_1-2
+Added Net: Name=NetR11_MOSFET_BANK_1_2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_2_2 Pin=R11_MOSFET_BANK_2-2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_2_2 Pin=R12_MOSFET_BANK_2-2
+Added Net: Name=NetR11_MOSFET_BANK_2_2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_3_2 Pin=R11_MOSFET_BANK_3-2
+Added Pin To Net: NetName=NetR11_MOSFET_BANK_3_2 Pin=R12_MOSFET_BANK_3-2
+Added Net: Name=NetR11_MOSFET_BANK_3_2

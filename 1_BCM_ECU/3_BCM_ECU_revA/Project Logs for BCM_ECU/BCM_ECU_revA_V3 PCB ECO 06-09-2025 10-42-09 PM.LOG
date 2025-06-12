@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetR13_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-4
+Removed Pin From Net: NetName=NetR13_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-4
+Removed Pin From Net: NetName=NetR13_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-4
+Removed Pin From Net: NetName=NetR13_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-4
+Added Pin To Net: NetName=NetR13_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-11
+Added Pin To Net: NetName=NetR13_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-11
+Added Pin To Net: NetName=NetR13_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-11
+Added Pin To Net: NetName=NetR13_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-11

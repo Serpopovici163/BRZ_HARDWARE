@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PWR_IN Pin=J1-24
+Added Pin To Net: NetName=PWR_IN Pin=J1-22

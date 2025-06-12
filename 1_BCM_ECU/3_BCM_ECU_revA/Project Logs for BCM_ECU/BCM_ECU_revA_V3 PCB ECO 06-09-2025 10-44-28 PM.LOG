@@ -1,0 +1,120 @@
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_0 Pin=R18_MOSFET_BANK_0-1
+Removed Pin From Net: NetName=M1_OUT_MOSFET_BANK_0 Pin=R18_MOSFET_BANK_0-2
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_1 Pin=R18_MOSFET_BANK_1-1
+Removed Pin From Net: NetName=M1_OUT_MOSFET_BANK_1 Pin=R18_MOSFET_BANK_1-2
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_2 Pin=R18_MOSFET_BANK_2-1
+Removed Pin From Net: NetName=M1_OUT_MOSFET_BANK_2 Pin=R18_MOSFET_BANK_2-2
+Removed Pin From Net: NetName=PD_1_MOSFET_BANK_3 Pin=R18_MOSFET_BANK_3-1
+Removed Pin From Net: NetName=M1_OUT_MOSFET_BANK_3 Pin=R18_MOSFET_BANK_3-2
+Removed Pin From Net: NetName=NetR17_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-7
+Removed Pin From Net: NetName=NetR17_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-7
+Removed Pin From Net: NetName=NetR17_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-7
+Removed Pin From Net: NetName=NetR17_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-7
+Removed Member From Class: ClassName=MOSFET_BANK_0 Member=R18_MOSFET_BANK_0
+Removed Member From Class: ClassName=MOSFET_BANK_1 Member=R18_MOSFET_BANK_1
+Removed Member From Class: ClassName=MOSFET_BANK_2 Member=R18_MOSFET_BANK_2
+Removed Member From Class: ClassName=MOSFET_BANK_3 Member=R18_MOSFET_BANK_3
+Added Component: Designator=R?_MOSFET_BANK_0(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?_MOSFET_BANK_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?_MOSFET_BANK_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?_MOSFET_BANK_3(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_0 Pin=R?_MOSFET_BANK_0-1
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_0 Pin=R?_MOSFET_BANK_0-2
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_1 Pin=R?_MOSFET_BANK_1-1
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_1 Pin=R?_MOSFET_BANK_1-2
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_2 Pin=R?_MOSFET_BANK_2-1
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_2 Pin=R?_MOSFET_BANK_2-2
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_3 Pin=R?_MOSFET_BANK_3-1
+Added Pin To Net: NetName=M1_OUT_MOSFET_BANK_3 Pin=R?_MOSFET_BANK_3-2
+Added Pin To Net: NetName=NetR17_MOSFET_BANK_0_1 Pin=U6_MOSFET_BANK_0-6
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_0 Pin=U6_MOSFET_BANK_0-7
+Added Pin To Net: NetName=NetR17_MOSFET_BANK_1_1 Pin=U6_MOSFET_BANK_1-6
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_1 Pin=U6_MOSFET_BANK_1-7
+Added Pin To Net: NetName=NetR17_MOSFET_BANK_2_1 Pin=U6_MOSFET_BANK_2-6
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_2 Pin=U6_MOSFET_BANK_2-7
+Added Pin To Net: NetName=NetR17_MOSFET_BANK_3_1 Pin=U6_MOSFET_BANK_3-6
+Added Pin To Net: NetName=PD_1_MOSFET_BANK_3 Pin=U6_MOSFET_BANK_3-7
+Added Member To Class: ClassName=MOSFET_BANK_0 Member=Component R?_MOSFET_BANK_0 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_1 Member=Component R?_MOSFET_BANK_1 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R?_MOSFET_BANK_2 (R?) 100k
+Added Member To Class: ClassName=MOSFET_BANK_3 Member=Component R?_MOSFET_BANK_3 (R?) 100k
