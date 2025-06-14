@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=GND Pin=J2-16
+Added Pin To Net: NetName=GND Pin=J2-17
+Added Pin To Net: NetName=GND Pin=J2-22
+Added Pin To Net: NetName=GND Pin=J2-23
+Added Pin To Net: NetName=ADDR_PWM_0 Pin=J2-27
+Added Net: Name=ADDR_PWM_0
+Added Pin To Net: NetName=ADDR_PWM_1 Pin=J2-28
+Added Net: Name=ADDR_PWM_1
+Added Pin To Net: NetName=ADDR_PWM_2 Pin=J2-34
+Added Net: Name=ADDR_PWM_2
+Added Pin To Net: NetName=ADDR_PWM_3 Pin=J2-35
+Added Net: Name=ADDR_PWM_3

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PWR_IN Pin=J1-11
+Removed Pin From Net: NetName=PWR_IN Pin=J1-12
+Removed Pin From Net: NetName=PWR_IN Pin=J1-22
+Removed Pin From Net: NetName=PWR_IN Pin=J1-23
+Removed Pin From Net: NetName=PWR_IN Pin=J1-34
+Removed Pin From Net: NetName=PWR_IN Pin=J1-35
+Added Pin To Net: NetName=PWR_IN Pin=J2-1
+Added Pin To Net: NetName=PWR_IN Pin=J2-2
+Added Pin To Net: NetName=PWR_IN Pin=J2-13
+Added Pin To Net: NetName=PWR_IN Pin=J2-14
+Added Pin To Net: NetName=PWR_IN Pin=J2-24
+Added Pin To Net: NetName=PWR_IN Pin=J2-25
+Added Room: Name=PWR_PROT_0

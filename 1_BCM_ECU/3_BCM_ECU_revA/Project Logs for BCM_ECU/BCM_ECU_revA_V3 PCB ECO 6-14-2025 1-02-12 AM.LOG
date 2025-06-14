@@ -1,0 +1,2163 @@
+Removed Pin From Net: NetName=GND Pin=C40_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C40_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C40_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C41_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C41_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C41_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C42_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C42_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C42_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C43_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C43_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C43_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C44_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C44_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C44_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C45_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C45_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C45_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C46_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C46_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C46_12V_REG_2-1
+Removed Pin From Net: NetName=3V3 Pin=C48_12V_REG_0-1
+Removed Pin From Net: NetName=GND Pin=C48_12V_REG_0-2
+Removed Pin From Net: NetName=3V3 Pin=C48_12V_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C48_12V_REG_1-2
+Removed Pin From Net: NetName=3V3 Pin=C48_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=C48_12V_REG_2-2
+Removed Pin From Net: NetName=GND Pin=D6_12V_REG_0-2
+Removed Pin From Net: NetName=GND Pin=D6_12V_REG_1-2
+Removed Pin From Net: NetName=GND Pin=D6_12V_REG_2-2
+Removed Pin From Net: NetName=GND Pin=R48_12V_REG_0-2
+Removed Pin From Net: NetName=GND Pin=R48_12V_REG_1-2
+Removed Pin From Net: NetName=GND Pin=R48_12V_REG_2-2
+Removed Pin From Net: NetName=GND Pin=R49_12V_REG_0-2
+Removed Pin From Net: NetName=GND Pin=R49_12V_REG_1-2
+Removed Pin From Net: NetName=GND Pin=R49_12V_REG_2-2
+Removed Pin From Net: NetName=3V3 Pin=R50_12V_REG_0-1
+Removed Pin From Net: NetName=3V3 Pin=R50_12V_REG_1-1
+Removed Pin From Net: NetName=3V3 Pin=R50_12V_REG_2-1
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_0-4
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_0-8
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_1-4
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_1-8
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_2-4
+Removed Pin From Net: NetName=GND Pin=U11_12V_REG_2-8
+Removed Pin From Net: NetName=GND Pin=U12_12V_REG_0-5
+Removed Pin From Net: NetName=3V3 Pin=U12_12V_REG_0-8
+Removed Pin From Net: NetName=GND Pin=U12_12V_REG_1-5
+Removed Pin From Net: NetName=3V3 Pin=U12_12V_REG_1-8
+Removed Pin From Net: NetName=GND Pin=U12_12V_REG_2-5
+Removed Pin From Net: NetName=3V3 Pin=U12_12V_REG_2-8
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2-2
+Removed Pin From Net: NetName=AMP_VCC Pin=XF2-3
+Removed Pin From Net: NetName=AMP_VCC Pin=XF2-4
+Removed Pin From Net: NetName=PWR_OUT Pin=XF3-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF3-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF4-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF4-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF5-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF5-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF6-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF6-2
+Removed Pin From Net: NetName=BCM_VCC Pin=XF6-3
+Removed Pin From Net: NetName=BCM_VCC Pin=XF6-4
+Change Component Designator: OldDesignator=C49 NewDesignator=C49_ADC_0
+Change Component Designator: OldDesignator=C50 NewDesignator=C50_ADC_0
+Change Component Designator: OldDesignator=C51 NewDesignator=C51_ADC_0
+Change Component Designator: OldDesignator=R60 NewDesignator=R60_ADC_0
+Change Component Designator: OldDesignator=R61 NewDesignator=R61_ADC_0
+Change Component Designator: OldDesignator=R62 NewDesignator=R62_ADC_0
+Change Component Designator: OldDesignator=R63 NewDesignator=R63_ADC_0
+Change Component Designator: OldDesignator=R64 NewDesignator=R64_ADC_0
+Change Component Designator: OldDesignator=R65 NewDesignator=R65_ADC_0
+Change Component Designator: OldDesignator=R66 NewDesignator=R66_ADC_0
+Change Component Designator: OldDesignator=R67 NewDesignator=R67_ADC_0
+Change Component Designator: OldDesignator=R68 NewDesignator=R68_ADC_0
+Change Component Designator: OldDesignator=R69 NewDesignator=R69_ADC_0
+Change Component Designator: OldDesignator=R70 NewDesignator=R70_ADC_0
+Change Component Designator: OldDesignator=R71 NewDesignator=R71_ADC_0
+Change Component Designator: OldDesignator=R72 NewDesignator=R72_ADC_0
+Change Component Designator: OldDesignator=R73 NewDesignator=R73_ADC_0
+Change Component Designator: OldDesignator=R74 NewDesignator=R74_ADC_0
+Change Component Designator: OldDesignator=R75 NewDesignator=R75_ADC_0
+Change Component Designator: OldDesignator=R76 NewDesignator=R76_ADC_0
+Change Component Designator: OldDesignator=R77 NewDesignator=R77_ADC_0
+Change Component Designator: OldDesignator=R78 NewDesignator=R78_ADC_0
+Change Component Designator: OldDesignator=R79 NewDesignator=R79_ADC_0
+Change Component Designator: OldDesignator=R80 NewDesignator=R80_ADC_0
+Change Component Designator: OldDesignator=R81 NewDesignator=R81_ADC_0
+Change Component Designator: OldDesignator=R82 NewDesignator=R82_ADC_0
+Change Component Designator: OldDesignator=R83 NewDesignator=R83_ADC_0
+Change Component Designator: OldDesignator=R84 NewDesignator=R84_ADC_0
+Change Component Designator: OldDesignator=U13 NewDesignator=U13_ADC_0
+Added Component: Designator=C40_PWR_PROT_0(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C40_PWR_PROT_1(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C40_PWR_PROT_2(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C40_PWR_PROT_3(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C40_PWR_PROT_4(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C40_PWR_PROT_6(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C41(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C42(FP-GRM188-0_1-e0_2_0_55-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.035inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.031inch"; VariantName = "[No Variations]"
+Added Component: Designator=C49_ADC_1(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C50_ADC_1(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C51_ADC_1(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_0(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_1(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_2(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_3(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_4(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=D6_PWR_PROT_6(ONSC-SOD-523-2-502-01_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MM5Z2V4T1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/502-01.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 1.2 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD-523-2-502-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. E, 09/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MM5Z3V3T1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_0(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_3(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_4(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R47_PWR_PROT_6(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R48(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_0(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_3(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_4(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R49_PWR_PROT_6(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.7k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_0(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_3(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_4(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R50_PWR_PROT_6(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R51(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_0(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_3(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_4(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52_PWR_PROT_6(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R60_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "56"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R61_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R62_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R63_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R64_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R65_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R66_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R67_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R68_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R69_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R70_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R71_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R72_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R73_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R74_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R75_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R76_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R77_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R78_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R79_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R80_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R81_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R82_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R83_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R84_ADC_1(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U11(FP-SOT-223-0046067_14-MFG)
+Add component (AddParameter): Name = "Accuracy"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dropout Voltage"; Value = "1.1V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "6.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Input Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Current"; Value = "1.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "12W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Input Voltage"; Value = "5.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Regulators"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "950mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "Fixed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage Accuracy"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Positive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "12W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "10mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.01lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_0(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_1(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_2(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_3(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_4(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U12_PWR_PROT_6(FP-LC-8-IPC_C)
+Add component (AddParameter): Name = "-3db Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Accuracy"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Sensing"; Value = "12.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linearity"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "5.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Bidirectional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current"; Value = "4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Response Time"; Value = "4.6us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "110mV/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=U13_ADC_1(MTC16_L)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "ADC088S022 Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.national.com/ds/AD/ADC088S022.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "ADC088S022 Web Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.national.com/pf/AD/ADC088S022.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "MTC16 Package Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.national.com/packaging/folders/mtc16.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "ADC IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Feb-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "National Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Molded TSSOP, Jedec, 5 x 4.4 x 0.9mm Body, 16 Lead, 0.65mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "MTC16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageTopMarking"; Value = "NSUZXYTT*88S022*CIMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revD, Jun-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerWise"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "Component URLs added"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_0(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_1(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_2(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_3(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_4(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Component: Designator=XF2_PWR_PROT_6(KSTN-3557-2)
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "TinNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/3557-2-Keystone-datasheet-15715937.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Fuseholders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "ATC,ATO257,MINI897"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43"Lx0.15"Wx0.64"H(10.92mmx3.81mmx16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Block"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone-Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PCPin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PWR_OUT Pin=C16-1
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_0-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_0-2
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_1-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_1-2
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_2-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_2-2
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_3-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_3-2
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_4-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_4-2
+Added Pin To Net: NetName=3V3 Pin=C40_PWR_PROT_6-1
+Added Pin To Net: NetName=GND Pin=C40_PWR_PROT_6-2
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=3V3 Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=3V3 Pin=C49_ADC_1-1
+Added Pin To Net: NetName=GND Pin=C49_ADC_1-2
+Added Pin To Net: NetName=GND Pin=C50_ADC_1-2
+Added Pin To Net: NetName=GND Pin=C51_ADC_1-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_0-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_1-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_2-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_3-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_4-2
+Added Pin To Net: NetName=GND Pin=D6_PWR_PROT_6-2
+Added Pin To Net: NetName=AMP_VCC Pin=R47_PWR_PROT_0-1
+Added Pin To Net: NetName=BCM_VCC Pin=R47_PWR_PROT_1-1
+Added Pin To Net: NetName=3V3 Pin=R48-1
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_0-2
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_1-2
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_2-2
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_3-2
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_4-2
+Added Pin To Net: NetName=GND Pin=R49_PWR_PROT_6-2
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_0-1
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_1-1
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_2-1
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_3-1
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_4-1
+Added Pin To Net: NetName=3V3 Pin=R50_PWR_PROT_6-1
+Added Pin To Net: NetName=GND Pin=R51-2
+Added Pin To Net: NetName=3V3 Pin=R60_ADC_1-1
+Added Pin To Net: NetName=IN_0 Pin=R61_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R61_ADC_1-2
+Added Pin To Net: NetName=IN_1 Pin=R62_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R62_ADC_1-2
+Added Pin To Net: NetName=IN_2 Pin=R63_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R63_ADC_1-2
+Added Pin To Net: NetName=IN_3 Pin=R64_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R64_ADC_1-2
+Added Pin To Net: NetName=IN_4 Pin=R65_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R65_ADC_1-2
+Added Pin To Net: NetName=IN_5 Pin=R66_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R66_ADC_1-2
+Added Pin To Net: NetName=IN_6 Pin=R67_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R67_ADC_1-2
+Added Pin To Net: NetName=IN_7 Pin=R68_ADC_1-1
+Added Pin To Net: NetName=3V3 Pin=R68_ADC_1-2
+Added Pin To Net: NetName=IN_0 Pin=R69_ADC_1-2
+Added Pin To Net: NetName=IN_1 Pin=R70_ADC_1-2
+Added Pin To Net: NetName=IN_2 Pin=R71_ADC_1-2
+Added Pin To Net: NetName=IN_3 Pin=R72_ADC_1-2
+Added Pin To Net: NetName=IN_4 Pin=R73_ADC_1-2
+Added Pin To Net: NetName=IN_5 Pin=R74_ADC_1-2
+Added Pin To Net: NetName=IN_6 Pin=R75_ADC_1-2
+Added Pin To Net: NetName=IN_7 Pin=R76_ADC_1-2
+Added Pin To Net: NetName=GND Pin=R77_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R78_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R79_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R80_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R81_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R82_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R83_ADC_1-1
+Added Pin To Net: NetName=GND Pin=R84_ADC_1-1
+Added Pin To Net: NetName=PWR_OUT Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U11-1
+Added Pin To Net: NetName=3V3 Pin=U11-2
+Added Pin To Net: NetName=3V3 Pin=U11-4
+Added Pin To Net: NetName=AMP_VCC Pin=U12_PWR_PROT_0-3
+Added Pin To Net: NetName=AMP_VCC Pin=U12_PWR_PROT_0-4
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_0-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_0-8
+Added Pin To Net: NetName=BCM_VCC Pin=U12_PWR_PROT_1-3
+Added Pin To Net: NetName=BCM_VCC Pin=U12_PWR_PROT_1-4
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_1-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_1-8
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_2-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_2-8
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_3-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_3-8
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_4-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_4-8
+Added Pin To Net: NetName=GND Pin=U12_PWR_PROT_6-5
+Added Pin To Net: NetName=3V3 Pin=U12_PWR_PROT_6-8
+Added Pin To Net: NetName=3V3 Pin=U13_ADC_1-2
+Added Pin To Net: NetName=GND Pin=U13_ADC_1-3
+Added Pin To Net: NetName=GND Pin=U13_ADC_1-12
+Added Pin To Net: NetName=ADC_MOSI Pin=U13_ADC_1-14
+Added Pin To Net: NetName=ADC_MISO Pin=U13_ADC_1-15
+Added Pin To Net: NetName=ADC_SCLK Pin=U13_ADC_1-16
+Added Pin To Net: NetName=CAN_MISO Pin=U16-2
+Added Pin To Net: NetName=CAN_MOSI Pin=U16-5
+Added Pin To Net: NetName=CAN_SCLK Pin=U16-6
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_0-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_0-2
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_1-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_1-2
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_2-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_2-2
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_3-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_3-2
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_4-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_4-2
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_6-1
+Added Pin To Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_6-2
+Change Net Name : Old Net Name=ADC_IN0 New Net Name=ADC_IN0_ADC_0
+Change Net Name : Old Net Name=ADC_IN1 New Net Name=ADC_IN1_ADC_0
+Change Net Name : Old Net Name=ADC_IN2 New Net Name=ADC_IN2_ADC_0
+Change Net Name : Old Net Name=ADC_IN3 New Net Name=ADC_IN3_ADC_0
+Change Net Name : Old Net Name=ADC_IN4 New Net Name=ADC_IN4_ADC_0
+Change Net Name : Old Net Name=ADC_IN5 New Net Name=ADC_IN5_ADC_0
+Change Net Name : Old Net Name=ADC_IN6 New Net Name=ADC_IN6_ADC_0
+Change Net Name : Old Net Name=ADC_IN7 New Net Name=ADC_IN7_ADC_0
+Change Net Name : Old Net Name=ADC_nCS New Net Name=ADC_nCS_ADC_0
+Change Net Name : Old Net Name=AMP_VCC New Net Name=NetC67_1
+Change Net Name : Old Net Name=NetC50_1 New Net Name=NetC50_ADC_0_1
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Added Pin To Net: NetName=3V3_V_SENSE Pin=R48-2
+Added Pin To Net: NetName=3V3_V_SENSE Pin=R51-1
+Added Net: Name=3V3_V_SENSE
+Added Pin To Net: NetName=ADC_IN0_ADC_1 Pin=R69_ADC_1-1
+Added Pin To Net: NetName=ADC_IN0_ADC_1 Pin=R77_ADC_1-2
+Added Pin To Net: NetName=ADC_IN0_ADC_1 Pin=U13_ADC_1-4
+Added Net: Name=ADC_IN0_ADC_1
+Added Pin To Net: NetName=ADC_IN1_ADC_1 Pin=R70_ADC_1-1
+Added Pin To Net: NetName=ADC_IN1_ADC_1 Pin=R78_ADC_1-2
+Added Pin To Net: NetName=ADC_IN1_ADC_1 Pin=U13_ADC_1-5
+Added Net: Name=ADC_IN1_ADC_1
+Added Pin To Net: NetName=ADC_IN2_ADC_1 Pin=R71_ADC_1-1
+Added Pin To Net: NetName=ADC_IN2_ADC_1 Pin=R79_ADC_1-2
+Added Pin To Net: NetName=ADC_IN2_ADC_1 Pin=U13_ADC_1-6
+Added Net: Name=ADC_IN2_ADC_1
+Added Pin To Net: NetName=ADC_IN3_ADC_1 Pin=R72_ADC_1-1
+Added Pin To Net: NetName=ADC_IN3_ADC_1 Pin=R80_ADC_1-2
+Added Pin To Net: NetName=ADC_IN3_ADC_1 Pin=U13_ADC_1-7
+Added Net: Name=ADC_IN3_ADC_1
+Added Pin To Net: NetName=ADC_IN4_ADC_1 Pin=R73_ADC_1-1
+Added Pin To Net: NetName=ADC_IN4_ADC_1 Pin=R81_ADC_1-2
+Added Pin To Net: NetName=ADC_IN4_ADC_1 Pin=U13_ADC_1-8
+Added Net: Name=ADC_IN4_ADC_1
+Added Pin To Net: NetName=ADC_IN5_ADC_1 Pin=R74_ADC_1-1
+Added Pin To Net: NetName=ADC_IN5_ADC_1 Pin=R82_ADC_1-2
+Added Pin To Net: NetName=ADC_IN5_ADC_1 Pin=U13_ADC_1-9
+Added Net: Name=ADC_IN5_ADC_1
+Added Pin To Net: NetName=ADC_IN6_ADC_1 Pin=R75_ADC_1-1
+Added Pin To Net: NetName=ADC_IN6_ADC_1 Pin=R83_ADC_1-2
+Added Pin To Net: NetName=ADC_IN6_ADC_1 Pin=U13_ADC_1-10
+Added Net: Name=ADC_IN6_ADC_1
+Added Pin To Net: NetName=ADC_IN7_ADC_1 Pin=R76_ADC_1-1
+Added Pin To Net: NetName=ADC_IN7_ADC_1 Pin=R84_ADC_1-2
+Added Pin To Net: NetName=ADC_IN7_ADC_1 Pin=U13_ADC_1-11
+Added Net: Name=ADC_IN7_ADC_1
+Added Pin To Net: NetName=ADC_nCS_ADC_1 Pin=U13_ADC_1-1
+Added Net: Name=ADC_nCS_ADC_1
+Added Pin To Net: NetName=LED_A Pin=R47_PWR_PROT_2-1
+Added Pin To Net: NetName=LED_A Pin=U12_PWR_PROT_2-3
+Added Pin To Net: NetName=LED_A Pin=U12_PWR_PROT_2-4
+Added Net: Name=LED_A
+Added Pin To Net: NetName=LED_B Pin=R47_PWR_PROT_3-1
+Added Pin To Net: NetName=LED_B Pin=U12_PWR_PROT_3-3
+Added Pin To Net: NetName=LED_B Pin=U12_PWR_PROT_3-4
+Added Net: Name=LED_B
+Added Pin To Net: NetName=LED_C Pin=R47_PWR_PROT_4-1
+Added Pin To Net: NetName=LED_C Pin=U12_PWR_PROT_4-3
+Added Pin To Net: NetName=LED_C Pin=U12_PWR_PROT_4-4
+Added Net: Name=LED_C
+Added Pin To Net: NetName=LED_D Pin=R47_PWR_PROT_6-1
+Added Pin To Net: NetName=LED_D Pin=U12_PWR_PROT_6-3
+Added Pin To Net: NetName=LED_D Pin=U12_PWR_PROT_6-4
+Added Net: Name=LED_D
+Added Pin To Net: NetName=NetC41_1 Pin=C41-1
+Added Pin To Net: NetName=NetC41_1 Pin=F1-2
+Added Pin To Net: NetName=NetC41_1 Pin=U11-3
+Added Net: Name=NetC41_1
+Added Pin To Net: NetName=NetC50_ADC_1_1 Pin=C50_ADC_1-1
+Added Pin To Net: NetName=NetC50_ADC_1_1 Pin=C51_ADC_1-1
+Added Pin To Net: NetName=NetC50_ADC_1_1 Pin=R60_ADC_1-2
+Added Pin To Net: NetName=NetC50_ADC_1_1 Pin=U13_ADC_1-13
+Added Net: Name=NetC50_ADC_1_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_0_1 Pin=D6_PWR_PROT_0-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_0_1 Pin=R47_PWR_PROT_0-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_0_1 Pin=R49_PWR_PROT_0-1
+Added Net: Name=NetD6_PWR_PROT_0_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_1_1 Pin=D6_PWR_PROT_1-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_1_1 Pin=R47_PWR_PROT_1-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_1_1 Pin=R49_PWR_PROT_1-1
+Added Net: Name=NetD6_PWR_PROT_1_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_2_1 Pin=D6_PWR_PROT_2-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_2_1 Pin=R47_PWR_PROT_2-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_2_1 Pin=R49_PWR_PROT_2-1
+Added Net: Name=NetD6_PWR_PROT_2_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_3_1 Pin=D6_PWR_PROT_3-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_3_1 Pin=R47_PWR_PROT_3-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_3_1 Pin=R49_PWR_PROT_3-1
+Added Net: Name=NetD6_PWR_PROT_3_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_4_1 Pin=D6_PWR_PROT_4-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_4_1 Pin=R47_PWR_PROT_4-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_4_1 Pin=R49_PWR_PROT_4-1
+Added Net: Name=NetD6_PWR_PROT_4_1
+Added Pin To Net: NetName=NetD6_PWR_PROT_6_1 Pin=D6_PWR_PROT_6-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_6_1 Pin=R47_PWR_PROT_6-2
+Added Pin To Net: NetName=NetD6_PWR_PROT_6_1 Pin=R49_PWR_PROT_6-1
+Added Net: Name=NetD6_PWR_PROT_6_1
+Added Pin To Net: NetName=NetR50_PWR_PROT_0_2 Pin=R50_PWR_PROT_0-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_0_2 Pin=U12_PWR_PROT_0-6
+Added Net: Name=NetR50_PWR_PROT_0_2
+Added Pin To Net: NetName=NetR50_PWR_PROT_1_2 Pin=R50_PWR_PROT_1-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_1_2 Pin=U12_PWR_PROT_1-6
+Added Net: Name=NetR50_PWR_PROT_1_2
+Added Pin To Net: NetName=NetR50_PWR_PROT_2_2 Pin=R50_PWR_PROT_2-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_2_2 Pin=U12_PWR_PROT_2-6
+Added Net: Name=NetR50_PWR_PROT_2_2
+Added Pin To Net: NetName=NetR50_PWR_PROT_3_2 Pin=R50_PWR_PROT_3-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_3_2 Pin=U12_PWR_PROT_3-6
+Added Net: Name=NetR50_PWR_PROT_3_2
+Added Pin To Net: NetName=NetR50_PWR_PROT_4_2 Pin=R50_PWR_PROT_4-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_4_2 Pin=U12_PWR_PROT_4-6
+Added Net: Name=NetR50_PWR_PROT_4_2
+Added Pin To Net: NetName=NetR50_PWR_PROT_6_2 Pin=R50_PWR_PROT_6-2
+Added Pin To Net: NetName=NetR50_PWR_PROT_6_2 Pin=U12_PWR_PROT_6-6
+Added Net: Name=NetR50_PWR_PROT_6_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_0_1 Pin=R52_PWR_PROT_0-1
+Added Net: Name=NetR52_PWR_PROT_0_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_0_2 Pin=R52_PWR_PROT_0-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_0_2 Pin=U12_PWR_PROT_0-7
+Added Net: Name=NetR52_PWR_PROT_0_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_1_1 Pin=R52_PWR_PROT_1-1
+Added Net: Name=NetR52_PWR_PROT_1_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_1_2 Pin=R52_PWR_PROT_1-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_1_2 Pin=U12_PWR_PROT_1-7
+Added Net: Name=NetR52_PWR_PROT_1_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_2_1 Pin=R52_PWR_PROT_2-1
+Added Net: Name=NetR52_PWR_PROT_2_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_2_2 Pin=R52_PWR_PROT_2-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_2_2 Pin=U12_PWR_PROT_2-7
+Added Net: Name=NetR52_PWR_PROT_2_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_3_1 Pin=R52_PWR_PROT_3-1
+Added Net: Name=NetR52_PWR_PROT_3_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_3_2 Pin=R52_PWR_PROT_3-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_3_2 Pin=U12_PWR_PROT_3-7
+Added Net: Name=NetR52_PWR_PROT_3_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_4_1 Pin=R52_PWR_PROT_4-1
+Added Net: Name=NetR52_PWR_PROT_4_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_4_2 Pin=R52_PWR_PROT_4-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_4_2 Pin=U12_PWR_PROT_4-7
+Added Net: Name=NetR52_PWR_PROT_4_2
+Added Pin To Net: NetName=NetR52_PWR_PROT_6_1 Pin=R52_PWR_PROT_6-1
+Added Net: Name=NetR52_PWR_PROT_6_1
+Added Pin To Net: NetName=NetR52_PWR_PROT_6_2 Pin=R52_PWR_PROT_6-2
+Added Pin To Net: NetName=NetR52_PWR_PROT_6_2 Pin=U12_PWR_PROT_6-7
+Added Net: Name=NetR52_PWR_PROT_6_2
+Added Pin To Net: NetName=NetU12_PWR_PROT_0_1 Pin=U12_PWR_PROT_0-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_0_1 Pin=U12_PWR_PROT_0-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_0_1 Pin=XF2_PWR_PROT_0-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_0_1 Pin=XF2_PWR_PROT_0-4
+Added Net: Name=NetU12_PWR_PROT_0_1
+Added Pin To Net: NetName=NetU12_PWR_PROT_1_1 Pin=U12_PWR_PROT_1-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_1_1 Pin=U12_PWR_PROT_1-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_1_1 Pin=XF2_PWR_PROT_1-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_1_1 Pin=XF2_PWR_PROT_1-4
+Added Net: Name=NetU12_PWR_PROT_1_1
+Added Pin To Net: NetName=NetU12_PWR_PROT_2_1 Pin=U12_PWR_PROT_2-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_2_1 Pin=U12_PWR_PROT_2-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_2_1 Pin=XF2_PWR_PROT_2-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_2_1 Pin=XF2_PWR_PROT_2-4
+Added Net: Name=NetU12_PWR_PROT_2_1
+Added Pin To Net: NetName=NetU12_PWR_PROT_3_1 Pin=U12_PWR_PROT_3-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_3_1 Pin=U12_PWR_PROT_3-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_3_1 Pin=XF2_PWR_PROT_3-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_3_1 Pin=XF2_PWR_PROT_3-4
+Added Net: Name=NetU12_PWR_PROT_3_1
+Added Pin To Net: NetName=NetU12_PWR_PROT_4_1 Pin=U12_PWR_PROT_4-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_4_1 Pin=U12_PWR_PROT_4-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_4_1 Pin=XF2_PWR_PROT_4-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_4_1 Pin=XF2_PWR_PROT_4-4
+Added Net: Name=NetU12_PWR_PROT_4_1
+Added Pin To Net: NetName=NetU12_PWR_PROT_6_1 Pin=U12_PWR_PROT_6-1
+Added Pin To Net: NetName=NetU12_PWR_PROT_6_1 Pin=U12_PWR_PROT_6-2
+Added Pin To Net: NetName=NetU12_PWR_PROT_6_1 Pin=XF2_PWR_PROT_6-3
+Added Pin To Net: NetName=NetU12_PWR_PROT_6_1 Pin=XF2_PWR_PROT_6-4
+Added Net: Name=NetU12_PWR_PROT_6_1
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component C40_PWR_PROT_0 (C40) 100n
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component C40_PWR_PROT_1 (C40) 100n
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component C40_PWR_PROT_2 (C40) 100n
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component C40_PWR_PROT_3 (C40) 100n
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component C40_PWR_PROT_4 (C40) 100n
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component C40_PWR_PROT_6 (C40) 100n
+Added Member To Class: ClassName=INT_REG_0 Member=Component C41 100n
+Added Member To Class: ClassName=INT_REG_0 Member=Component C42 GRM188R60J106ME47D
+Added Member To Class: ClassName=ADC_0 Member=Component C49_ADC_0 (C49) 100n
+Added Member To Class: ClassName=ADC_1 Member=Component C49_ADC_1 (C49) 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C50_ADC_0 (C50) 100n
+Added Member To Class: ClassName=ADC_1 Member=Component C50_ADC_1 (C50) 100n
+Added Member To Class: ClassName=ADC_0 Member=Component C51_ADC_0 (C51) 100n
+Added Member To Class: ClassName=ADC_1 Member=Component C51_ADC_1 (C51) 100n
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component D6_PWR_PROT_0 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component D6_PWR_PROT_1 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component D6_PWR_PROT_2 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component D6_PWR_PROT_3 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component D6_PWR_PROT_4 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component D6_PWR_PROT_6 (D6) MM5Z3V3T1G
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component R47_PWR_PROT_0 (R47) 100k
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component R47_PWR_PROT_1 (R47) 100k
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component R47_PWR_PROT_2 (R47) 100k
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component R47_PWR_PROT_3 (R47) 100k
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component R47_PWR_PROT_4 (R47) 100k
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component R47_PWR_PROT_6 (R47) 100k
+Added Member To Class: ClassName=INT_REG_0 Member=Component R48 24k
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component R49_PWR_PROT_0 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component R49_PWR_PROT_1 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component R49_PWR_PROT_2 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component R49_PWR_PROT_3 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component R49_PWR_PROT_4 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component R49_PWR_PROT_6 (R49) 24k
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component R50_PWR_PROT_0 (R50) DNP
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component R50_PWR_PROT_1 (R50) DNP
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component R50_PWR_PROT_2 (R50) DNP
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component R50_PWR_PROT_3 (R50) DNP
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component R50_PWR_PROT_4 (R50) DNP
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component R50_PWR_PROT_6 (R50) DNP
+Added Member To Class: ClassName=INT_REG_0 Member=Component R51 100k
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component R52_PWR_PROT_0 (R52) 1k
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component R52_PWR_PROT_1 (R52) 1k
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component R52_PWR_PROT_2 (R52) 1k
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component R52_PWR_PROT_3 (R52) 1k
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component R52_PWR_PROT_4 (R52) 1k
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component R52_PWR_PROT_6 (R52) 1k
+Added Member To Class: ClassName=ADC_0 Member=Component R60_ADC_0 (R60) 56
+Added Member To Class: ClassName=ADC_1 Member=Component R60_ADC_1 (R60) 56
+Added Member To Class: ClassName=ADC_0 Member=Component R61_ADC_0 (R61) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R61_ADC_1 (R61) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R62_ADC_0 (R62) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R62_ADC_1 (R62) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R63_ADC_0 (R63) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R63_ADC_1 (R63) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R64_ADC_0 (R64) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R64_ADC_1 (R64) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R65_ADC_0 (R65) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R65_ADC_1 (R65) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R66_ADC_0 (R66) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R66_ADC_1 (R66) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R67_ADC_0 (R67) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R67_ADC_1 (R67) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R68_ADC_0 (R68) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R68_ADC_1 (R68) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R69_ADC_0 (R69) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R69_ADC_1 (R69) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R70_ADC_0 (R70) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R70_ADC_1 (R70) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R71_ADC_0 (R71) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R71_ADC_1 (R71) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R72_ADC_0 (R72) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R72_ADC_1 (R72) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R73_ADC_0 (R73) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R73_ADC_1 (R73) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R74_ADC_0 (R74) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R74_ADC_1 (R74) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R75_ADC_0 (R75) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R75_ADC_1 (R75) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R76_ADC_0 (R76) 100k
+Added Member To Class: ClassName=ADC_1 Member=Component R76_ADC_1 (R76) 100k
+Added Member To Class: ClassName=ADC_0 Member=Component R77_ADC_0 (R77) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R77_ADC_1 (R77) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R78_ADC_0 (R78) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R78_ADC_1 (R78) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R79_ADC_0 (R79) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R79_ADC_1 (R79) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R80_ADC_0 (R80) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R80_ADC_1 (R80) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R81_ADC_0 (R81) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R81_ADC_1 (R81) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R82_ADC_0 (R82) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R82_ADC_1 (R82) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R83_ADC_0 (R83) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R83_ADC_1 (R83) 24k
+Added Member To Class: ClassName=ADC_0 Member=Component R84_ADC_0 (R84) 24k
+Added Member To Class: ClassName=ADC_1 Member=Component R84_ADC_1 (R84) 24k
+Added Member To Class: ClassName=INT_REG_0 Member=Component U11 LD1117S33CTR
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component U12_PWR_PROT_0 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component U12_PWR_PROT_1 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component U12_PWR_PROT_2 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component U12_PWR_PROT_3 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component U12_PWR_PROT_4 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component U12_PWR_PROT_6 (U12) ACS711KLCTR-12AB-T
+Added Member To Class: ClassName=ADC_0 Member=Component U13_ADC_0 (U13) ADC088S022CIMT/NOPB
+Added Member To Class: ClassName=ADC_1 Member=Component U13_ADC_1 (U13) ADC088S022CIMT/NOPB
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component XF2_PWR_PROT_0 (XF2) 3557-2
+Added Member To Class: ClassName=PWR_PROT_1 Member=Component XF2_PWR_PROT_1 (XF2) 3557-2
+Added Member To Class: ClassName=PWR_PROT_2 Member=Component XF2_PWR_PROT_2 (XF2) 3557-2
+Added Member To Class: ClassName=PWR_PROT_3 Member=Component XF2_PWR_PROT_3 (XF2) 3557-2
+Added Member To Class: ClassName=PWR_PROT_4 Member=Component XF2_PWR_PROT_4 (XF2) 3557-2
+Added Member To Class: ClassName=PWR_PROT_6 Member=Component XF2_PWR_PROT_6 (XF2) 3557-2
+Added Room: Name=PWR_PROT_0
+Added Room: Name=PWR_PROT_1
+Added Room: Name=PWR_PROT_2
+Added Room: Name=PWR_PROT_3
+Added Room: Name=PWR_PROT_4
+Added Room: Name=PWR_PROT_6
