@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-15
+Added Pin To Net: NetName=GND Pin=J1-16
+Added Pin To Net: NetName=GND Pin=J1-17
+Added Pin To Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=GND Pin=J1-20
+Added Pin To Net: NetName=GND Pin=J1-21
+Added Pin To Net: NetName=GND Pin=J1-27
+Added Pin To Net: NetName=GND Pin=J1-28
+Added Pin To Net: NetName=GND Pin=J1-29
+Added Pin To Net: NetName=GND Pin=J1-30
+Added Pin To Net: NetName=GND Pin=J1-31
+Added Pin To Net: NetName=GND Pin=J1-32
+Added Pin To Net: NetName=GND Pin=J1-33
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 100p
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 100

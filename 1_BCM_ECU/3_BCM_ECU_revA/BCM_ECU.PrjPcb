@@ -51,7 +51,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=BCM_ECU.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -68,7 +68,7 @@ DocumentUniqueId=OGZFOSFF
 
 [Document2]
 DocumentPath=MOSFET_BANK.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -85,7 +85,7 @@ DocumentUniqueId=YVCCMZGT
 
 [Document3]
 DocumentPath=TCAN1146_PWR_MGMT.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -102,7 +102,7 @@ DocumentUniqueId=WRCLDNAZ
 
 [Document4]
 DocumentPath=STM32H730_PINOUT.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -119,7 +119,7 @@ DocumentUniqueId=SPENOSCV
 
 [Document5]
 DocumentPath=PWR_PROT.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -136,7 +136,7 @@ DocumentUniqueId=WNONUDWQ
 
 [Document6]
 DocumentPath=BYPASS_BLOCK.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -153,7 +153,7 @@ DocumentUniqueId=WIOLFBKX
 
 [Document7]
 DocumentPath=ADC088S022.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -187,7 +187,7 @@ DocumentUniqueId=UGFAWDTA
 
 [Document9]
 DocumentPath=INT_REG.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -204,7 +204,7 @@ DocumentUniqueId=VMEKDIJE
 
 [Document10]
 DocumentPath=BOOST_REG.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -238,7 +238,7 @@ DocumentUniqueId=IMBIVXMK
 
 [Document12]
 DocumentPath=EEPROM.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -277,7 +277,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -294,7 +294,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -959,14 +959,6 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
-Type152=1
-Type153=1
-Type154=1
-Type155=1
-Type156=1
-Type157=1
-Type158=1
-Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1051,11 +1043,6 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1219,8 +1206,6 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
-Type162=1
-Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1245,9 +1230,9 @@ L17=WNNNNNNNWNNNWWWWN
 SortOrder=3
 SortLocation=0
 ReplaceSubparts=0
-MatchParameter1=Library Reference
+MatchParameter1=Comment
 MatchStrictly1=1
-MatchParameter2=Comment
+MatchParameter2=Library Reference
 MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3

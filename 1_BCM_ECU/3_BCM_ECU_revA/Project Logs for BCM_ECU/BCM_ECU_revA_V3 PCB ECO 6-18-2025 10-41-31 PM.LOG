@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=LED_A Pin=J2-4
+Removed Pin From Net: NetName=LED_B Pin=J2-5
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=LED_A Pin=J2-5
+Added Pin To Net: NetName=LED_B Pin=J2-6
+Added Pin To Net: NetName=GND Pin=J2-18
+Added Pin To Net: NetName=GND Pin=J2-27
+Change Net Name : Old Net Name=ADDR_PWM_1 New Net Name=ADDR_PWM_0
+Added Pin To Net: NetName=ADDR_PWM_1 Pin=J2-29
+Added Net: Name=ADDR_PWM_1
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 100p
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 100

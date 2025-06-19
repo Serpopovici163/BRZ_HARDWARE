@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=J1-29
+Removed Pin From Net: NetName=GND Pin=J1-30
+Added Pin To Net: NetName=CAN_P Pin=J1-29
+Added Pin To Net: NetName=CAN_N Pin=J1-30
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 100p
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 100

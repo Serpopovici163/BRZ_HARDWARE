@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=IN_0 Pin=J2-7
+Added Pin To Net: NetName=IN_1 Pin=J2-8
+Added Pin To Net: NetName=IN_2 Pin=J2-9
+Added Pin To Net: NetName=IN_3 Pin=J2-10
+Added Pin To Net: NetName=INT_0 Pin=J2-19
+Added Net: Name=INT_0
+Added Pin To Net: NetName=INT_1 Pin=J2-20
+Added Net: Name=INT_1
+Added Pin To Net: NetName=INT_2 Pin=J2-21
+Added Net: Name=INT_2
+Added Pin To Net: NetName=INT_3 Pin=J2-30
+Added Net: Name=INT_3
+Added Pin To Net: NetName=INT_4 Pin=J2-31
+Added Net: Name=INT_4
+Added Pin To Net: NetName=INT_5 Pin=J2-32
+Added Net: Name=INT_5
+Added Pin To Net: NetName=INT_6 Pin=J2-33
+Added Net: Name=INT_6
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 100p
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 100
