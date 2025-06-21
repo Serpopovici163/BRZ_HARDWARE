@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=3V3 Pin=C40_PWR_PROT_1-1
+Removed Pin From Net: NetName=GND Pin=C40_PWR_PROT_1-2
+Removed Pin From Net: NetName=3V3 Pin=C40_PWR_PROT_2-1
+Removed Pin From Net: NetName=GND Pin=C40_PWR_PROT_2-2
+Removed Pin From Net: NetName=3V3 Pin=C40_PWR_PROT_3-1
+Removed Pin From Net: NetName=GND Pin=C40_PWR_PROT_3-2
+Removed Pin From Net: NetName=3V3 Pin=C40_PWR_PROT_4-1
+Removed Pin From Net: NetName=GND Pin=C40_PWR_PROT_4-2
+Removed Pin From Net: NetName=3V3 Pin=C40_PWR_PROT_5-1
+Removed Pin From Net: NetName=GND Pin=C40_PWR_PROT_5-2
+Removed Pin From Net: NetName=GND Pin=D6_PWR_PROT_1-2
+Removed Pin From Net: NetName=GND Pin=D6_PWR_PROT_2-2
+Removed Pin From Net: NetName=GND Pin=D6_PWR_PROT_3-2
+Removed Pin From Net: NetName=GND Pin=D6_PWR_PROT_4-2
+Removed Pin From Net: NetName=GND Pin=D6_PWR_PROT_5-2
+Removed Pin From Net: NetName=BCM_VCC Pin=R47_PWR_PROT_1-1
+Removed Pin From Net: NetName=LED_A Pin=R47_PWR_PROT_2-1
+Removed Pin From Net: NetName=LED_B Pin=R47_PWR_PROT_3-1
+Removed Pin From Net: NetName=LED_C Pin=R47_PWR_PROT_4-1
+Removed Pin From Net: NetName=LED_D Pin=R47_PWR_PROT_5-1
+Removed Pin From Net: NetName=GND Pin=R49_PWR_PROT_1-2
+Removed Pin From Net: NetName=GND Pin=R49_PWR_PROT_2-2
+Removed Pin From Net: NetName=GND Pin=R49_PWR_PROT_3-2
+Removed Pin From Net: NetName=GND Pin=R49_PWR_PROT_4-2
+Removed Pin From Net: NetName=GND Pin=R49_PWR_PROT_5-2
+Removed Pin From Net: NetName=3V3 Pin=R50_PWR_PROT_1-1
+Removed Pin From Net: NetName=3V3 Pin=R50_PWR_PROT_2-1
+Removed Pin From Net: NetName=3V3 Pin=R50_PWR_PROT_3-1
+Removed Pin From Net: NetName=3V3 Pin=R50_PWR_PROT_4-1
+Removed Pin From Net: NetName=3V3 Pin=R50_PWR_PROT_5-1
+Removed Pin From Net: NetName=BCM_VCC Pin=U12_PWR_PROT_1-3
+Removed Pin From Net: NetName=BCM_VCC Pin=U12_PWR_PROT_1-4
+Removed Pin From Net: NetName=GND Pin=U12_PWR_PROT_1-5
+Removed Pin From Net: NetName=3V3 Pin=U12_PWR_PROT_1-8
+Removed Pin From Net: NetName=LED_A Pin=U12_PWR_PROT_2-3
+Removed Pin From Net: NetName=LED_A Pin=U12_PWR_PROT_2-4
+Removed Pin From Net: NetName=GND Pin=U12_PWR_PROT_2-5
+Removed Pin From Net: NetName=3V3 Pin=U12_PWR_PROT_2-8
+Removed Pin From Net: NetName=LED_B Pin=U12_PWR_PROT_3-3
+Removed Pin From Net: NetName=LED_B Pin=U12_PWR_PROT_3-4
+Removed Pin From Net: NetName=GND Pin=U12_PWR_PROT_3-5
+Removed Pin From Net: NetName=3V3 Pin=U12_PWR_PROT_3-8
+Removed Pin From Net: NetName=LED_C Pin=U12_PWR_PROT_4-3
+Removed Pin From Net: NetName=LED_C Pin=U12_PWR_PROT_4-4
+Removed Pin From Net: NetName=GND Pin=U12_PWR_PROT_4-5
+Removed Pin From Net: NetName=3V3 Pin=U12_PWR_PROT_4-8
+Removed Pin From Net: NetName=LED_D Pin=U12_PWR_PROT_5-3
+Removed Pin From Net: NetName=LED_D Pin=U12_PWR_PROT_5-4
+Removed Pin From Net: NetName=GND Pin=U12_PWR_PROT_5-5
+Removed Pin From Net: NetName=3V3 Pin=U12_PWR_PROT_5-8
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_1-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_1-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_2-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_2-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_3-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_3-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_4-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_4-2
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_5-1
+Removed Pin From Net: NetName=PWR_OUT Pin=XF2_PWR_PROT_5-2
+Removed Member From Class: ClassName=PWR_MGMT Member=Q6
+Change Component Designator: OldDesignator=C40_PWR_PROT_0 NewDesignator=C40
+Change Component Designator: OldDesignator=D6_PWR_PROT_0 NewDesignator=D6
+Change Component Designator: OldDesignator=R47_PWR_PROT_0 NewDesignator=R50
+Change Component Designator: OldDesignator=R49_PWR_PROT_0 NewDesignator=R52
+Change Component Designator: OldDesignator=R50_PWR_PROT_0 NewDesignator=R47
+Change Component Designator: OldDesignator=R52_PWR_PROT_0 NewDesignator=R49
+Change Component Designator: OldDesignator=U12_PWR_PROT_0 NewDesignator=U12
+Change Component Designator: OldDesignator=XF2_PWR_PROT_0 NewDesignator=XF2
+Change Net Name : Old Net Name=NetD6_PWR_PROT_0_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetR50_PWR_PROT_0_2 New Net Name=NetR47_2
+Change Net Name : Old Net Name=NetR52_PWR_PROT_0_1 New Net Name=NetR49_1
+Change Net Name : Old Net Name=NetR52_PWR_PROT_0_2 New Net Name=NetR49_2
+Change Net Name : Old Net Name=NetU12_PWR_PROT_0_1 New Net Name=NetU12_1
+Change Room Name: Old Name=PWR_PROT_1 New Name=AMP_REG_0
+Change Room Scope: Old Scope=InComponentClass('PWR_PROT_1') New Scope=InComponentClass('AMP_REG_0')

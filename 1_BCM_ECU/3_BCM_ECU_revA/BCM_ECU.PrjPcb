@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SPENOSCV
 
 [Document5]
-DocumentPath=PWR_PROT.SchDoc
+DocumentPath=PWR_PROT_REV.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -204,7 +204,7 @@ DocumentUniqueId=VMEKDIJE
 
 [Document10]
 DocumentPath=BOOST_REG.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -272,7 +272,7 @@ DocumentUniqueId=HLHSDAMS
 
 [Document14]
 DocumentPath=MCP23017_PINOUT.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -281,7 +281,7 @@ AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -289,7 +289,7 @@ DocumentUniqueId=ZSDRGKVW
 
 [Document15]
 DocumentPath=TPA3255_PINOUT.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -303,6 +303,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ATAIJMQX
+
+[Document16]
+DocumentPath=PWR_PROT.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources

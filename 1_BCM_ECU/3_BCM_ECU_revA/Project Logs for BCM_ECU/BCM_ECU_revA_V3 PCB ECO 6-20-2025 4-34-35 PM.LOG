@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC52_1 Pin=U19-3
+Removed Pin From Net: NetName=NetC52_1 Pin=U19-4
+Added Pin To Net: NetName=NetC52_1 Pin=U19-1
+Added Pin To Net: NetName=NetC52_1 Pin=U19-2
+Added Pin To Net: NetName=NetU19_3 Pin=U19-3
+Added Pin To Net: NetName=NetU19_3 Pin=U19-4
+Added Pin To Net: NetName=NetU19_3 Pin=XF3-3
+Added Pin To Net: NetName=NetU19_3 Pin=XF3-4
+Added Net: Name=NetU19_3

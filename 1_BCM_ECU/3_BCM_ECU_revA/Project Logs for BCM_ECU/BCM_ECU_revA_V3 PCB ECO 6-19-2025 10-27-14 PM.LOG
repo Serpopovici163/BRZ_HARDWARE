@@ -1,0 +1,66 @@
+Added Component: Designator=SD1(MOLX-47219-2001-8_V)
+Add component (AddParameter): Name = "Brand"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Card Type"; Value = "microSD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "CopperAlloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.molex.com/pdm_docs/sd/472192001_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. F, 06/2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "2400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Thermoplastic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insertion - Extraction Style"; Value = "Hinged"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.molex.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "1.09mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "CardConnectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "MemoryCardConnectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Details"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "47219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100VDC"; VariantName = "[No Variations]"
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? MAL215099913E3
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? MAL215099913E3
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? EEE-FK1E330P
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? C5750X7R2A335K230KA
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? EEE-FK1E330P
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 470n
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? 100p
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? CGA9P3X7S2A156M250KB
+Added Member To Class: ClassName=AMP_REG_0 Member=Component C? MAL215099913E3
+Added Member To Class: ClassName=AMP_REG_0 Member=Component Q? IPB027N10N3GATMA1
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 49.9k
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 8.06k
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 1.5
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 100
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 178k
+Added Member To Class: ClassName=AMP_REG_0 Member=Component R? 274k
+Added Member To Class: ClassName=BCM_ECU Member=Component SD1 47219-2001
