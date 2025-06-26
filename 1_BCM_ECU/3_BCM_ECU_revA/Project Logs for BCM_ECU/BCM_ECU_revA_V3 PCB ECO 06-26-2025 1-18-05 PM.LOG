@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=LED_A_V_SENSE Pin=R61_ADC_1-1
+Added Pin To Net: NetName=LED_A_I_SENSE Pin=R61_ADC_1-2
+Change Net Name : Old Net Name=NetR61_ADC_1_3 New Net Name=MAIN_V_SENSE
+Added Pin To Net: NetName=MAIN_I_SENSE Pin=R61_ADC_1-4
+Added Pin To Net: NetName=MAIN_I_SENSE Pin=U7-7
+Added Net: Name=MAIN_I_SENSE

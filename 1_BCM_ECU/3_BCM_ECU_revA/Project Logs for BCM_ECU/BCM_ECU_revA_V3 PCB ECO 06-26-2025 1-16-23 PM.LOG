@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BCM_V_SENSE Pin=R61_ADC_1-1
+Removed Pin From Net: NetName=BCM_I_SENSE Pin=R61_ADC_1-2
+Removed Pin From Net: NetName=AMP_V_SENSE Pin=R61_ADC_1-3
+Removed Pin From Net: NetName=AMP_I_SENSE Pin=R61_ADC_1-4
+Added Pin To Net: NetName=BCM_V_SENSE Pin=R62_ADC_1-1
+Added Pin To Net: NetName=BCM_I_SENSE Pin=R62_ADC_1-2
+Added Pin To Net: NetName=AMP_V_SENSE Pin=R62_ADC_1-3
+Added Pin To Net: NetName=AMP_I_SENSE Pin=R62_ADC_1-4
+Added Pin To Net: NetName=NetR61_ADC_1_1 Pin=R61_ADC_1-1
+Added Net: Name=NetR61_ADC_1_1
+Added Pin To Net: NetName=NetR61_ADC_1_2 Pin=R61_ADC_1-2
+Added Net: Name=NetR61_ADC_1_2
+Added Pin To Net: NetName=NetR61_ADC_1_3 Pin=R61_ADC_1-3
+Added Net: Name=NetR61_ADC_1_3
+Added Pin To Net: NetName=NetR61_ADC_1_4 Pin=R61_ADC_1-4
+Added Net: Name=NetR61_ADC_1_4

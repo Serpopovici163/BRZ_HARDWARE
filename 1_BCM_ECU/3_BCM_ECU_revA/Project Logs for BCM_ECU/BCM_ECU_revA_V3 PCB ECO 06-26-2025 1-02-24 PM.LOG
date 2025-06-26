@@ -1,0 +1,126 @@
+Removed Pin From Net: NetName=BST_REG_OUT Pin=R105-1
+Added Component: Designator=C49_ADC_2(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C50_ADC_2(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C51_ADC_2(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D26_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D27_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D28_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D29_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D30_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D31_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D32_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=D33_ADC_2(ONSC-SOD-523-2-502-01_V)
+Added Component: Designator=R60_ADC_2(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "56"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R61_ADC_2(BOUR-CAY16-J4_V)
+Added Component: Designator=R62_ADC_2(BOUR-CAY16-J4_V)
+Add component: Footprint Not Found MTC16_L
+Added Pin To Net: NetName=3V3 Pin=C49_ADC_2-1
+Added Pin To Net: NetName=GND Pin=C49_ADC_2-2
+Added Pin To Net: NetName=GND Pin=C50_ADC_2-2
+Added Pin To Net: NetName=GND Pin=C51_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D26_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D27_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D28_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D29_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D30_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D31_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D32_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin D33_ADC_2-2
+Added Pin To Net: NetName=3V3 Pin=R60_ADC_2-1
+Add Pin To Net: Unknown Pin: Pin R61_ADC_2-1
+Add Pin To Net: Unknown Pin: Pin R61_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin R61_ADC_2-3
+Add Pin To Net: Unknown Pin: Pin R61_ADC_2-4
+Add Pin To Net: Unknown Pin: Pin R62_ADC_2-1
+Add Pin To Net: Unknown Pin: Pin R62_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin R62_ADC_2-3
+Add Pin To Net: Unknown Pin: Pin R62_ADC_2-4
+Added Pin To Net: NetName=AMP_VCC Pin=R105-1
+Added Pin To Net: NetName=ADC_MOSI_MOSFET_BANK_0 Pin=U13_ADC_0-14
+Added Pin To Net: NetName=ADC_MISO_MOSFET_BANK_0 Pin=U13_ADC_0-15
+Added Pin To Net: NetName=ADC_SCLK_MOSFET_BANK_0 Pin=U13_ADC_0-16
+Added Pin To Net: NetName=ADC_MOSI_MOSFET_BANK_0 Pin=U13_ADC_1-14
+Added Pin To Net: NetName=ADC_MISO_MOSFET_BANK_0 Pin=U13_ADC_1-15
+Added Pin To Net: NetName=ADC_SCLK_MOSFET_BANK_0 Pin=U13_ADC_1-16
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-2
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-3
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-12
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-14
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-15
+Add Pin To Net: Unknown Pin: Pin U13_ADC_2-16
+Change Net Name : Old Net Name=ADC_MISO_MOSFET_BANK_0 New Net Name=ADC_MISO_ADC_0
+Change Net Name : Old Net Name=ADC_MOSI_MOSFET_BANK_0 New Net Name=ADC_MOSI_ADC_0
+Change Net Name : Old Net Name=ADC_SCLK_MOSFET_BANK_0 New Net Name=ADC_SCLK_ADC_0
+Added Net: Name=ADC_IN0_ADC_2
+Added Net: Name=ADC_IN1_ADC_2
+Added Net: Name=ADC_IN2_ADC_2
+Added Net: Name=ADC_IN3_ADC_2
+Added Net: Name=ADC_IN4_ADC_2
+Added Net: Name=ADC_IN5_ADC_2
+Added Net: Name=ADC_IN6_ADC_2
+Added Net: Name=ADC_IN7_ADC_2
+Added Net: Name=ADC_nCS_ADC_2
+Added Pin To Net: NetName=IO_CHKR_SCL Pin=U17_IO_CHECKER_0-12
+Added Pin To Net: NetName=IO_CHKR_SCL Pin=U17_IO_CHECKER_1-12
+Added Net: Name=IO_CHKR_SCL
+Added Pin To Net: NetName=IO_CHKR_SDA Pin=U17_IO_CHECKER_0-13
+Added Pin To Net: NetName=IO_CHKR_SDA Pin=U17_IO_CHECKER_1-13
+Added Net: Name=IO_CHKR_SDA
+Added Pin To Net: NetName=NetC50_ADC_2_1 Pin=C50_ADC_2-1
+Added Pin To Net: NetName=NetC50_ADC_2_1 Pin=C51_ADC_2-1
+Added Pin To Net: NetName=NetC50_ADC_2_1 Pin=R60_ADC_2-2
+Added Net: Name=NetC50_ADC_2_1
+Change Class Name : Old Net Name=STORAGE_1 New Net Name=MEM_1
+Added Class: Name=ADC_2
+Added Member To Class: ClassName=ADC088S022 Member=ADC_2 (ADC088S022.SchDoc)
+Added Room: Name=ADC_2

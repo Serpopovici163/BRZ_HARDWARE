@@ -1,0 +1,21 @@
+Added Pin To Net: NetName=NetD6_PWR_PROT_3_1 Pin=R61_ADC_0-1
+Added Pin To Net: NetName=NetD6_PWR_PROT_4_1 Pin=R61_ADC_0-3
+Added Pin To Net: NetName=NetD6_PWR_PROT_5_1 Pin=R62_ADC_0-1
+Change Net Name : Old Net Name=NetD6_PWR_PROT_1_1 New Net Name=BCM_V_SENSE
+Change Net Name : Old Net Name=NetD6_PWR_PROT_2_1 New Net Name=LED_A_V_SENSE
+Change Net Name : Old Net Name=NetD6_PWR_PROT_3_1 New Net Name=LED_B_V_SENSE
+Change Net Name : Old Net Name=NetD6_PWR_PROT_4_1 New Net Name=LED_C_V_SENSE
+Change Net Name : Old Net Name=NetD6_PWR_PROT_5_1 New Net Name=LED_D_V_SENSE
+Change Net Name : Old Net Name=NetD23_1 New Net Name=AMP_V_SENSE
+Change Net Name : Old Net Name=NetR52_PWR_PROT_1_1 New Net Name=BCM_I_SENSE
+Change Net Name : Old Net Name=NetR52_PWR_PROT_2_1 New Net Name=LED_A_I_SENSE
+Change Net Name : Old Net Name=NetR108_1 New Net Name=AMP_I_SENSE
+Added Pin To Net: NetName=LED_B_I_SENSE Pin=R52_PWR_PROT_3-1
+Added Pin To Net: NetName=LED_B_I_SENSE Pin=R61_ADC_0-2
+Added Net: Name=LED_B_I_SENSE
+Added Pin To Net: NetName=LED_C_I_SENSE Pin=R52_PWR_PROT_4-1
+Added Pin To Net: NetName=LED_C_I_SENSE Pin=R61_ADC_0-4
+Added Net: Name=LED_C_I_SENSE
+Added Pin To Net: NetName=LED_D_I_SENSE Pin=R52_PWR_PROT_5-1
+Added Pin To Net: NetName=LED_D_I_SENSE Pin=R62_ADC_0-2
+Added Net: Name=LED_D_I_SENSE

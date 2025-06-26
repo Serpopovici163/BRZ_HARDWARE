@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=IN_0 Pin=R61_ADC_0-1
+Removed Pin From Net: NetName=IN_1 Pin=R61_ADC_0-2
+Removed Pin From Net: NetName=IN_0 Pin=R61_ADC_1-1
+Removed Pin From Net: NetName=IN_1 Pin=R61_ADC_1-2
+Removed Pin From Net: NetName=IN_0 Pin=R61_ADC_2-1
+Removed Pin From Net: NetName=IN_1 Pin=R61_ADC_2-2
+Added Pin To Net: NetName=NetD8_1 Pin=R62_ADC_0-3
+Change Net Name : Old Net Name=NetD8_1 New Net Name=BST_V_SENSE
+Added Pin To Net: NetName=BST_I_SENSE Pin=R62_ADC_0-4
+Added Pin To Net: NetName=BST_I_SENSE Pin=R111-1
+Added Net: Name=BST_I_SENSE
+Added Pin To Net: NetName=NetR61_ADC_0_1 Pin=R61_ADC_0-1
+Added Net: Name=NetR61_ADC_0_1
+Added Pin To Net: NetName=NetR61_ADC_0_2 Pin=R61_ADC_0-2
+Added Net: Name=NetR61_ADC_0_2
+Added Pin To Net: NetName=NetR61_ADC_0_3 Pin=R61_ADC_0-3
+Added Net: Name=NetR61_ADC_0_3
+Added Pin To Net: NetName=NetR61_ADC_0_4 Pin=R61_ADC_0-4
+Added Net: Name=NetR61_ADC_0_4
+Added Pin To Net: NetName=NetR61_ADC_1_1 Pin=R61_ADC_1-1
+Added Net: Name=NetR61_ADC_1_1
+Added Pin To Net: NetName=NetR61_ADC_1_2 Pin=R61_ADC_1-2
+Added Net: Name=NetR61_ADC_1_2
+Added Pin To Net: NetName=NetR61_ADC_1_3 Pin=R61_ADC_1-3
+Added Net: Name=NetR61_ADC_1_3
+Added Pin To Net: NetName=NetR61_ADC_1_4 Pin=R61_ADC_1-4
+Added Net: Name=NetR61_ADC_1_4
+Added Pin To Net: NetName=NetR61_ADC_2_1 Pin=R61_ADC_2-1
+Added Net: Name=NetR61_ADC_2_1
+Added Pin To Net: NetName=NetR61_ADC_2_2 Pin=R61_ADC_2-2
+Added Net: Name=NetR61_ADC_2_2
+Added Pin To Net: NetName=NetR61_ADC_2_3 Pin=R61_ADC_2-3
+Added Net: Name=NetR61_ADC_2_3
+Added Pin To Net: NetName=NetR61_ADC_2_4 Pin=R61_ADC_2-4
+Added Net: Name=NetR61_ADC_2_4
+Added Pin To Net: NetName=NetR62_ADC_0_1 Pin=R62_ADC_0-1
+Added Net: Name=NetR62_ADC_0_1
+Added Pin To Net: NetName=NetR62_ADC_0_2 Pin=R62_ADC_0-2
+Added Net: Name=NetR62_ADC_0_2
+Added Pin To Net: NetName=NetR62_ADC_1_1 Pin=R62_ADC_1-1
+Added Net: Name=NetR62_ADC_1_1
+Added Pin To Net: NetName=NetR62_ADC_1_2 Pin=R62_ADC_1-2
+Added Net: Name=NetR62_ADC_1_2
+Added Pin To Net: NetName=NetR62_ADC_1_3 Pin=R62_ADC_1-3
+Added Net: Name=NetR62_ADC_1_3
+Added Pin To Net: NetName=NetR62_ADC_1_4 Pin=R62_ADC_1-4
+Added Net: Name=NetR62_ADC_1_4
+Added Pin To Net: NetName=NetR62_ADC_2_1 Pin=R62_ADC_2-1
+Added Net: Name=NetR62_ADC_2_1
+Added Pin To Net: NetName=NetR62_ADC_2_2 Pin=R62_ADC_2-2
+Added Net: Name=NetR62_ADC_2_2
+Added Pin To Net: NetName=NetR62_ADC_2_3 Pin=R62_ADC_2-3
+Added Net: Name=NetR62_ADC_2_3
+Added Pin To Net: NetName=NetR62_ADC_2_4 Pin=R62_ADC_2-4
+Added Net: Name=NetR62_ADC_2_4
