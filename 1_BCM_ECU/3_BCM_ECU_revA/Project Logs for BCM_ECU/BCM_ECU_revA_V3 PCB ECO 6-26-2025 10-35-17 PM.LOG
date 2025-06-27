@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MOS_TEMP_0 Pin=R64-1
+Removed Pin From Net: NetName=MOS_TEMP_1 Pin=R64-2
+Removed Pin From Net: NetName=MOS_TEMP_2 Pin=R64-3
+Removed Pin From Net: NetName=MOS_TEMP_3 Pin=R64-4
+Added Pin To Net: NetName=MOS_TEMP_3 Pin=R64-1
+Added Pin To Net: NetName=MOS_TEMP_2 Pin=R64-2
+Added Pin To Net: NetName=MOS_TEMP_1 Pin=R64-3
+Added Pin To Net: NetName=MOS_TEMP_0 Pin=R64-4

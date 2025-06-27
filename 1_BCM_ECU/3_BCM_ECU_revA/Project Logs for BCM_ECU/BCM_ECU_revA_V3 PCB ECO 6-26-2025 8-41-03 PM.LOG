@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LED_B_V_SENSE Pin=R61_ADC_0-1
+Removed Pin From Net: NetName=LED_B_I_SENSE Pin=R61_ADC_0-2
+Added Pin To Net: NetName=LED_B_I_SENSE Pin=R61_ADC_0-1
+Added Pin To Net: NetName=LED_B_V_SENSE Pin=R61_ADC_0-2

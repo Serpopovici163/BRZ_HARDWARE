@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetR5_MOSFET_BANK_0_1 Pin=U10-36
+Removed Pin From Net: NetName=NetR1_MOSFET_BANK_0_1 Pin=U10-37
+Added Pin To Net: NetName=NetR1_MOSFET_BANK_0_1 Pin=U10-36
+Added Pin To Net: NetName=NetR5_MOSFET_BANK_0_1 Pin=U10-37

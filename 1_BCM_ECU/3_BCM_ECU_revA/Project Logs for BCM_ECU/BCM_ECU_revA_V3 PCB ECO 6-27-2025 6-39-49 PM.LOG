@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=ADC_nCS_ADC_0 Pin=U10-55
+Added Pin To Net: NetName=ADC_nCS Pin=U10-57
+Added Pin To Net: NetName=ADC_nCS_ADC_1 Pin=U10-59

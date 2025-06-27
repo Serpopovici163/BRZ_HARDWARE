@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=NetR3_MOSFET_BANK_1_1 Pin=U10-22
+Added Pin To Net: NetName=NetR2_MOSFET_BANK_1_1 Pin=U10-23
+Added Pin To Net: NetName=NetR5_MOSFET_BANK_1_1 Pin=U10-24
+Added Pin To Net: NetName=NetR1_MOSFET_BANK_1_1 Pin=U10-25

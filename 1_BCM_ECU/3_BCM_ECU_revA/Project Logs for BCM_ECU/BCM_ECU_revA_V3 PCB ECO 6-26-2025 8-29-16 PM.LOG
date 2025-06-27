@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=BST_V_SENSE Pin=D8-1
+Removed Pin From Net: NetName=GND Pin=D8-2
+Removed Member From Class: ClassName=AMP_REG_0 Member=D8
+Added Pin To Net: NetName=5V_V_SENSE Pin=R61_ADC_2-3
+Added Pin To Net: NetName=3V3_V_SENSE Pin=R61_ADC_2-4
+Change Net Name : Old Net Name=INT_0 New Net Name=EXT_INT_0
+Change Net Name : Old Net Name=INT_1 New Net Name=EXT_INT_1
+Change Net Name : Old Net Name=INT_2 New Net Name=EXT_INT_2
+Change Net Name : Old Net Name=INT_3 New Net Name=EXT_INT_3
+Change Net Name : Old Net Name=INT_4 New Net Name=EXT_INT_4
+Change Net Name : Old Net Name=INT_5 New Net Name=EXT_INT_5
+Change Net Name : Old Net Name=INT_6 New Net Name=EXT_INT_6
+Added Pin To Net: NetName=EXT_ADC_IN_0 Pin=J2-7
+Added Pin To Net: NetName=EXT_ADC_IN_0 Pin=R61_ADC_2-1
+Added Net: Name=EXT_ADC_IN_0
+Added Pin To Net: NetName=EXT_ADC_IN_1 Pin=J2-8
+Added Pin To Net: NetName=EXT_ADC_IN_1 Pin=R61_ADC_2-2
+Added Net: Name=EXT_ADC_IN_1
+Added Pin To Net: NetName=MOS_TEMP_0 Pin=R11_MOSFET_BANK_0-2
+Added Pin To Net: NetName=MOS_TEMP_0 Pin=R12_MOSFET_BANK_0-2
+Added Pin To Net: NetName=MOS_TEMP_0 Pin=R62_ADC_2-1
+Added Net: Name=MOS_TEMP_0
+Added Pin To Net: NetName=MOS_TEMP_1 Pin=R11_MOSFET_BANK_1-2
+Added Pin To Net: NetName=MOS_TEMP_1 Pin=R12_MOSFET_BANK_1-2
+Added Pin To Net: NetName=MOS_TEMP_1 Pin=R62_ADC_2-2
+Added Net: Name=MOS_TEMP_1
+Added Pin To Net: NetName=MOS_TEMP_2 Pin=R11_MOSFET_BANK_2-2
+Added Pin To Net: NetName=MOS_TEMP_2 Pin=R12_MOSFET_BANK_2-2
+Added Pin To Net: NetName=MOS_TEMP_2 Pin=R62_ADC_2-3
+Added Net: Name=MOS_TEMP_2
+Added Pin To Net: NetName=MOS_TEMP_3 Pin=R11_MOSFET_BANK_3-2
+Added Pin To Net: NetName=MOS_TEMP_3 Pin=R12_MOSFET_BANK_3-2
+Added Pin To Net: NetName=MOS_TEMP_3 Pin=R62_ADC_2-4
+Added Net: Name=MOS_TEMP_3

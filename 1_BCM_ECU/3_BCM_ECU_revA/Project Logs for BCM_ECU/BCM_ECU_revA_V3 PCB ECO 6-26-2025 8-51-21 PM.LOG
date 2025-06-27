@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BCM_V_SENSE Pin=R62_ADC_1-1
+Removed Pin From Net: NetName=BCM_I_SENSE Pin=R62_ADC_1-2
+Added Pin To Net: NetName=BCM_I_SENSE Pin=R62_ADC_1-1
+Added Pin To Net: NetName=BCM_V_SENSE Pin=R62_ADC_1-2

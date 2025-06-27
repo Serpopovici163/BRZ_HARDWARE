@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=ADC_SCLK Pin=U10-29
+Added Pin To Net: NetName=ADC_MISO Pin=U10-30
+Added Pin To Net: NetName=ADC_MOSI Pin=U10-31

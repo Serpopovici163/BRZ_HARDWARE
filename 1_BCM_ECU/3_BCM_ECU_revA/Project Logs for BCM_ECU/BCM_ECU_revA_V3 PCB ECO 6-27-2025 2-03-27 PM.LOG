@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=STAT_34_MOSFET_BANK_0 Pin=U2_MOSFET_BANK_0-4
+Removed Pin From Net: NetName=STAT_12_MOSFET_BANK_0 Pin=U2_MOSFET_BANK_0-8
+Removed Pin From Net: NetName=STAT_34_MOSFET_BANK_1 Pin=U2_MOSFET_BANK_1-4
+Removed Pin From Net: NetName=STAT_12_MOSFET_BANK_1 Pin=U2_MOSFET_BANK_1-8
+Removed Pin From Net: NetName=STAT_34_MOSFET_BANK_2 Pin=U2_MOSFET_BANK_2-4
+Removed Pin From Net: NetName=STAT_12_MOSFET_BANK_2 Pin=U2_MOSFET_BANK_2-8
+Removed Pin From Net: NetName=STAT_34_MOSFET_BANK_3 Pin=U2_MOSFET_BANK_3-4
+Removed Pin From Net: NetName=STAT_12_MOSFET_BANK_3 Pin=U2_MOSFET_BANK_3-8
+Added Pin To Net: NetName=STAT_12_MOSFET_BANK_0 Pin=U2_MOSFET_BANK_0-4
+Added Pin To Net: NetName=STAT_34_MOSFET_BANK_0 Pin=U2_MOSFET_BANK_0-8
+Added Pin To Net: NetName=STAT_12_MOSFET_BANK_1 Pin=U2_MOSFET_BANK_1-4
+Added Pin To Net: NetName=STAT_34_MOSFET_BANK_1 Pin=U2_MOSFET_BANK_1-8
+Added Pin To Net: NetName=STAT_12_MOSFET_BANK_2 Pin=U2_MOSFET_BANK_2-4
+Added Pin To Net: NetName=STAT_34_MOSFET_BANK_2 Pin=U2_MOSFET_BANK_2-8
+Added Pin To Net: NetName=STAT_12_MOSFET_BANK_3 Pin=U2_MOSFET_BANK_3-4
+Added Pin To Net: NetName=STAT_34_MOSFET_BANK_3 Pin=U2_MOSFET_BANK_3-8
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R7_MOSFET_BANK_2 (R7) 100k
+Added Member To Class: ClassName=MOSFET_BANK_2 Member=Component R8_MOSFET_BANK_2 (R8) 100k

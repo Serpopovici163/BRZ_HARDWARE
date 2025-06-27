@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=SD_CMD Pin=R6_MOSFET_BANK_2-1
+Added Pin To Net: NetName=NetR4_MOSFET_BANK_2_1 Pin=U10-82
+Added Pin To Net: NetName=NetR3_MOSFET_BANK_2_1 Pin=U10-84
+Added Pin To Net: NetName=NetR2_MOSFET_BANK_2_1 Pin=U10-85
+Added Pin To Net: NetName=NetR5_MOSFET_BANK_2_1 Pin=U10-86
+Added Pin To Net: NetName=NetR1_MOSFET_BANK_2_1 Pin=U10-87

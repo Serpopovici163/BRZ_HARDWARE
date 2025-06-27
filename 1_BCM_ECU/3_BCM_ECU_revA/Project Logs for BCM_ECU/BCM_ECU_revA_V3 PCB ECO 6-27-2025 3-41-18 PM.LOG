@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SD_CMD Pin=R6_MOSFET_BANK_2-1
+Removed Pin From Net: NetName=NetR4_MOSFET_BANK_2_1 Pin=U10-82
+Added Pin To Net: NetName=NetR4_MOSFET_BANK_2_1 Pin=U10-81
+Added Pin To Net: NetName=NetR6_MOSFET_BANK_2_1 Pin=R6_MOSFET_BANK_2-1
+Added Pin To Net: NetName=NetR6_MOSFET_BANK_2_1 Pin=U10-82
+Added Net: Name=NetR6_MOSFET_BANK_2_1

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=EXT_ADC_IN_0 Pin=R64-1
+Removed Pin From Net: NetName=EXT_ADC_IN_1 Pin=R64-2
+Removed Pin From Net: NetName=5V_V_SENSE Pin=R64-3
+Removed Pin From Net: NetName=3V3_V_SENSE Pin=R64-4
+Removed Pin From Net: NetName=MOS_TEMP_0 Pin=R66-1
+Removed Pin From Net: NetName=MOS_TEMP_1 Pin=R66-2
+Removed Pin From Net: NetName=MOS_TEMP_2 Pin=R66-3
+Removed Pin From Net: NetName=MOS_TEMP_3 Pin=R66-4
+Added Pin To Net: NetName=MOS_TEMP_0 Pin=R64-1
+Added Pin To Net: NetName=MOS_TEMP_1 Pin=R64-2
+Added Pin To Net: NetName=MOS_TEMP_2 Pin=R64-3
+Added Pin To Net: NetName=MOS_TEMP_3 Pin=R64-4
+Added Pin To Net: NetName=3V3_V_SENSE Pin=R66-1
+Added Pin To Net: NetName=5V_V_SENSE Pin=R66-2
+Added Pin To Net: NetName=EXT_ADC_IN_0 Pin=R66-3
+Added Pin To Net: NetName=EXT_ADC_IN_1 Pin=R66-4

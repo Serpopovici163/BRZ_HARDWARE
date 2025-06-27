@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CAN_RX Pin=U10-91
+Removed Pin From Net: NetName=CAN_TX Pin=U10-92
+Removed Pin From Net: NetName=IO_CHKR_SCL Pin=U10-95
+Removed Pin From Net: NetName=IO_CHKR_SDA Pin=U10-96
+Added Pin To Net: NetName=IO_CHKR_SCL Pin=U10-92
+Added Pin To Net: NetName=IO_CHKR_SDA Pin=U10-93
+Added Pin To Net: NetName=CAN_RX Pin=U10-95
+Added Pin To Net: NetName=CAN_TX Pin=U10-96
+Added Pin To Net: NetName=NetU10_91 Pin=U10-91
+Added Net: Name=NetU10_91

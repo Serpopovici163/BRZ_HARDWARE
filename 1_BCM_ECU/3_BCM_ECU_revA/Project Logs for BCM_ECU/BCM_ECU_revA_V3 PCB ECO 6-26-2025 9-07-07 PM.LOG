@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=MAIN_V_SENSE Pin=R29-1
+Added Pin To Net: NetName=PRE_SHUNT Pin=R29-2
+Added Pin To Net: NetName=MAIN_V_SENSE Pin=R31-2

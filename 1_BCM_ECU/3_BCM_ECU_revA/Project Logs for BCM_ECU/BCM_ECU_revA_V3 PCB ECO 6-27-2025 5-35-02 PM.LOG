@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ADC_nCS_MOSFET_BANK_2 Pin=U10-64
+Added Pin To Net: NetName=ADC_nCS_MOSFET_BANK_2 Pin=U10-65
+Added Pin To Net: NetName=NetU10_64 Pin=U10-64
+Added Net: Name=NetU10_64
