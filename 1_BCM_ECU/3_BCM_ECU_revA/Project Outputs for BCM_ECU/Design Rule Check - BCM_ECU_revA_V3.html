@@ -1,0 +1,872 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">06/28/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:18:53 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc" class="file"><acronym title="C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc">C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">2</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">166</td></tr>
+</table>
+</td>
+</table><a name="IDIILIZS1D2UATFGZWA4NOTDMSIJFQMHVBET24XWNX2CQOKBZIF5XB"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2DHDLEKENICQSHA3PLD0T00UCPUQUK1V1WC5CU2XXAS1S0JB2D">Zero hole size multi-layer pad(s) detected</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">2</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID52MXKDVTUB4EJQYMIPZS3OMCEJY1KVAAAQURNIK3B4PTDXQZHLE">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKGOZC0Q5AWL2E1M4DJDWJS3Q2JLWHKWITCABXHBC5WRZGQONDIQK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSMUXF3OXDPI3K3OOGDRNIBINJRTHIQ5NCPOAFPXHLL4O42PBMXD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">82</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWT14ACLKAKWFE5K0LSMPMH54SLERFOQZECJVEJDQIBPPF2WYAQNJ">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG14SKQ5R3OYPIEXM45EVUMLDUCTV2VDD1ATZ1VM10F3UPDNHZHRM">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXUTMDLHIQ20HKX2CJJ450AEXIB1YJM11I5CWXRMWEQRIKSTSSB1B">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0LLVOVBAKW1APAXF4HPLFKLLGFAFEWOOGQ311AP5SMO12VPQQPRG">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYUD3Z34FYJKTKF524HD1EGIYDO55PIZJJJZFSQOFSWUDGZ0YQJOH">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXC03VTSZZZBFBAEGRBGGLFMFGLI3D1NNPO0EHGCP0M3CVISEMHQE">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHQAXS50MM2BGNG4RUF4IYEVJAFRD5WQHRXCLOTNCYHVD1IWJOHLF">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0XXSWRO1OXU0ICSB2SXVMZZTBHDIVTWQPPUG0NMD5MKV45IKE4JN">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3JPREXNZDFL5DVGCEAABCBAOTCFNDLGT1AOQYRODAMOZF32RHV4C">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">68</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKFXGFV1DNWQ2HIBOWIJCDYWLJLNUAAVXF3WOTBJK0GJHJX0QVCDL">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE3M4MZEHPPEDI0IWPJK0MZU3BJVQFAVJY4K0H2JYPTWAFTWR4TAJ">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDU3IP5W5IP0L1P4N3U4LUR1JY1LVVV3WW2YUZZBFKFVB0ZTCDU5CC">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUZZH1GXPBHU3GQMM02RF5DTJZEYOPMRGCYKPSVK2X1CEVQXRVQSC">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">166</td>
+</tr>
+</table><br><a name="IDXIO13RJTCF1NM44IXRYPBGSAZJVBFJDK5UP4XJHU0453YMSTD01B"><h2>Warnings</h2></a><a name="ID2DHDLEKENICQSHA3PLD0T00UCPUQUK1V1WC5CU2XXAS1S0JB2D"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Zero hole size multi-layer pad(s) detected</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28599.41mil|Location2.X=28841.536mil|Location1.Y=24308.071mil|Location2.Y=24904.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28599.41mil|Location2.X=28841.536mil|Location1.Y=24308.071mil|Location2.Y=24904.528mil|Absolute=True">Pad L3-1(40.5mm,90.5mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27910.433mil|Location2.X=28841.536mil|Location1.Y=24140.748mil|Location2.Y=25091.536mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27910.433mil|Location2.X=28841.536mil|Location1.Y=24140.748mil|Location2.Y=25091.536mil|Absolute=True">Net NetL3_1</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28126.968mil|Location2.X=28369.094mil|Location1.Y=24308.071mil|Location2.Y=24904.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28126.968mil|Location2.X=28369.094mil|Location1.Y=24308.071mil|Location2.Y=24904.528mil|Absolute=True">Pad L3-2(28.5mm,90.5mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27748.032mil|Location2.X=28369.094mil|Location1.Y=24308.071mil|Location2.Y=25210.433mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27748.032mil|Location2.X=28369.094mil|Location1.Y=24308.071mil|Location2.Y=25210.433mil|Absolute=True">Net NetC63_1</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID52MXKDVTUB4EJQYMIPZS3OMCEJY1KVAAAQURNIK3B4PTDXQZHLE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.102mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27268.529mil|Location2.X=27274.779mil|Location1.Y=22792.151mil|Location2.Y=22798.401mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27268.529mil|Location2.X=27274.779mil|Location1.Y=22792.151mil|Location2.Y=22798.401mil|Absolute=True">Clearance Constraint: (0.1mm &lt; 0.127mm) Between Pad SW1-1(3.375mm,45mm) on TOP SIG And Via (4mm,44.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29161.313mil|Location2.X=29169.06mil|Location1.Y=23147.075mil|Location2.Y=23154.752mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29161.313mil|Location2.X=29169.06mil|Location1.Y=23147.075mil|Location2.Y=23154.752mil|Absolute=True">Clearance Constraint: (0.085mm &lt; 0.102mm) Between Pad U17_IO_CHECKER_0-17(51.575mm,52.55mm) on TOP SIG And Track (50.864mm,54.736mm)(52.225mm,53.375mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.722mil|Location2.X=27613.814mil|Location1.Y=22729.847mil|Location2.Y=22740.94mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.722mil|Location2.X=27613.814mil|Location1.Y=22729.847mil|Location2.Y=22740.94mil|Absolute=True">Clearance Constraint: (0.242mm &lt; 0.25mm) Between Hole of Via (12.25mm,43.25mm) from TOP SIG to BOT SIG And Track (10.542mm,42.708mm)(16.904mm,42.708mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28620.214mil|Location2.X=28623.881mil|Location1.Y=24013.915mil|Location2.Y=24017.581mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28620.214mil|Location2.X=28623.881mil|Location1.Y=24013.915mil|Location2.Y=24017.581mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.102mm) Between Track (37.16mm,75.5mm)(38.846mm,75.5mm) on BOT SIG And Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27605.149mil|Location2.X=27611.399mil|Location1.Y=22429.946mil|Location2.Y=22436.196mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27605.149mil|Location2.X=27611.399mil|Location1.Y=22429.946mil|Location2.Y=22436.196mil|Absolute=True">Clearance Constraint: (0.1mm &lt; 0.127mm) Between Track (9mm,35.5mm)(19.5mm,35.5mm) on PWR And Via (12.25mm,35mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDKGOZC0Q5AWL2E1M4DJDWJS3Q2JLWHKWITCABXHBC5WRZGQONDIQK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28612.032mil|Location2.X=28632.062mil|Location1.Y=24005.733mil|Location2.Y=24025.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28612.032mil|Location2.X=28632.062mil|Location1.Y=24005.733mil|Location2.Y=24025.763mil|Absolute=True">Short-Circuit Constraint: Between Track (37.16mm,75.5mm)(38.846mm,75.5mm) on BOT SIG And Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG Location : [X = 727mm][Y = 610mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSMUXF3OXDPI3K3OOGDRNIBINJRTHIQ5NCPOAFPXHLL4O42PBMXD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28454.742mil|Location2.X=28899.213mil|Location1.Y=23911.203mil|Location2.Y=23900.057mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28454.742mil|Location2.X=28899.213mil|Location1.Y=23911.203mil|Location2.Y=23900.057mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (35.615mm,75.385mm)(36.29mm,75.385mm) on TOP SIG And Pad C114-1(42.5mm,70.021mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27248.032mil|Location2.X=27395.127mil|Location1.Y=22545.818mil|Location2.Y=22608.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27248.032mil|Location2.X=27395.127mil|Location1.Y=22545.818mil|Location2.Y=22608.268mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad SW2-2(3.375mm,39mm) on TOP SIG And Pad C22-2(6.5mm,38.521mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27368.652mil|Location2.X=27621.069mil|Location1.Y=22378.937mil|Location2.Y=22573.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27368.652mil|Location2.X=27621.069mil|Location1.Y=22378.937mil|Location2.Y=22573.981mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad C22-2(6.5mm,38.521mm) on BOT SIG And Via (12.25mm,34.25mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27929.681mil|Location2.X=28015.212mil|Location1.Y=22544.129mil|Location2.Y=22633.036mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27929.681mil|Location2.X=28015.212mil|Location1.Y=22544.129mil|Location2.Y=22633.036mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad FB1-1(20.75mm,40.021mm) on BOT SIG And Pad C24-1(22.25mm,38.479mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27961.03mil|Location2.X=28169.608mil|Location1.Y=22733.802mil|Location2.Y=22678.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27961.03mil|Location2.X=28169.608mil|Location1.Y=22733.802mil|Location2.Y=22678.74mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad C26-1(23.75mm,45.479mm) on BOT SIG And Track (23.968mm,39mm)(25.576mm,39mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27595.036mil|Location2.X=27621.511mil|Location1.Y=22378.937mil|Location2.Y=22847.883mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27595.036mil|Location2.X=27621.511mil|Location1.Y=22378.937mil|Location2.Y=22847.883mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (12.25mm,34.25mm) from TOP SIG to BOT SIG And Pad C27-1(12.25mm,45.479mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27477.953mil|Location2.X=27708.274mil|Location1.Y=21940.551mil|Location2.Y=22481.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27477.953mil|Location2.X=27708.274mil|Location1.Y=21940.551mil|Location2.Y=22481.046mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (11.48mm,25.33mm)(11.5mm,25.35mm) on BOT SIG And Pad C28-1(12.25mm,33.979mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27509.726mil|Location2.X=27621.511mil|Location1.Y=22329.282mil|Location2.Y=22405.757mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27509.726mil|Location2.X=27621.511mil|Location1.Y=22329.282mil|Location2.Y=22405.757mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U10-74(10.425mm,34.5mm) on TOP SIG And Pad C28-2(12.25mm,33.021mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28047.792mil|Location2.X=28097.441mil|Location1.Y=22071.85mil|Location2.Y=22395.127mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28047.792mil|Location2.X=28097.441mil|Location1.Y=22071.85mil|Location2.Y=22395.127mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad C29-1(23.75mm,33.979mm) on BOT SIG And Pad D5-2(24.2mm,26.45mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27595.478mil|Location2.X=28015.212mil|Location1.Y=22378.937mil|Location2.Y=22483.71mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27595.478mil|Location2.X=28015.212mil|Location1.Y=22378.937mil|Location2.Y=22483.71mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (12.25mm,34.25mm) from TOP SIG to BOT SIG And Pad C36-1(22.25mm,36.229mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27938.855mil|Location2.X=28045.398mil|Location1.Y=26478.305mil|Location2.Y=26539.458mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27938.855mil|Location2.X=28045.398mil|Location1.Y=26478.305mil|Location2.Y=26539.458mil|Absolute=True">Un-Routed Net Constraint: Net AMP_VCC Between Pad C89-1(22mm,138.826mm) on TOP SIG And Pad C90-1(22mm,138.826mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27938.855mil|Location2.X=28045.398mil|Location1.Y=26177.09mil|Location2.Y=26238.242mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27938.855mil|Location2.X=28045.398mil|Location1.Y=26177.09mil|Location2.Y=26238.242mil|Absolute=True">Un-Routed Net Constraint: Net AMP_VCC Between Pad C93-1(22mm,131.175mm) on TOP SIG And Pad C94-1(22mm,131.175mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27141.564mil|Location2.X=27382.621mil|Location1.Y=25900.568mil|Location2.Y=26694.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27141.564mil|Location2.X=27382.621mil|Location1.Y=25900.568mil|Location2.Y=26694.494mil|Absolute=True">Un-Routed Net Constraint: Net AMP_12V Between Track (2.936mm,124.586mm)(2.936mm,125.914mm) on TOP SIG And Pad C97-2(3.979mm,141mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27141.564mil|Location2.X=27382.621mil|Location1.Y=26615.979mil|Location2.Y=26694.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27141.564mil|Location2.X=27382.621mil|Location1.Y=26615.979mil|Location2.Y=26694.494mil|Absolute=True">Un-Routed Net Constraint: Net AMP_12V Between Track (2.936mm,144.086mm)(2.936mm,145.414mm) on TOP SIG And Pad C97-2(3.979mm,141mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29000mil|Location2.X=29233.268mil|Location1.Y=22008.864mil|Location2.Y=22062.998mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29000mil|Location2.X=29233.268mil|Location1.Y=22008.864mil|Location2.Y=22062.998mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R103_IO_CHECKER_1-1(48mm,25.5mm) on TOP SIG And Pad D19_IO_CHECKER_1-2(53.25mm,24.84mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28861.22mil|Location2.X=28888.78mil|Location1.Y=23327.756mil|Location2.Y=23388.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28861.22mil|Location2.X=28888.78mil|Location1.Y=23327.756mil|Location2.Y=23388.78mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U13_ADC_1-12(44.325mm,58.8mm) on TOP SIG And Pad D32_ADC_1-2(44.5mm,58.34mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28256.89mil|Location2.X=28294.291mil|Location1.Y=22036.417mil|Location2.Y=22097.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28256.89mil|Location2.X=28294.291mil|Location1.Y=22036.417mil|Location2.Y=22097.441mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad D4-3(29.2mm,25.55mm) on TOP SIG And Pad D4-2(29.2mm,26.45mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28060.039mil|Location2.X=28294.291mil|Location1.Y=22071.85mil|Location2.Y=22097.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28060.039mil|Location2.X=28294.291mil|Location1.Y=22071.85mil|Location2.Y=22097.441mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad D5-2(24.2mm,26.45mm) on TOP SIG And Pad D4-2(29.2mm,26.45mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28175.591mil|Location2.X=28662.893mil|Location1.Y=21984.646mil|Location2.Y=22385.254mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28175.591mil|Location2.X=28662.893mil|Location1.Y=21984.646mil|Location2.Y=22385.254mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad D4-2(29.2mm,26.45mm) on TOP SIG And Track (36.497mm,31.545mm)(36.5mm,31.543mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28060.039mil|Location2.X=28097.441mil|Location1.Y=22036.417mil|Location2.Y=22097.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28060.039mil|Location2.X=28097.441mil|Location1.Y=22036.417mil|Location2.Y=22097.441mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad D5-3(24.2mm,25.55mm) on TOP SIG And Pad D5-2(24.2mm,26.45mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30312.992mil|Location2.X=30356.299mil|Location1.Y=25439.966mil|Location2.Y=25477.368mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30312.992mil|Location2.X=30356.299mil|Location1.Y=25439.966mil|Location2.Y=25477.368mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R49_PWR_PROT_2-2(81.5mm,112.15mm) on TOP SIG And Pad D6_PWR_PROT_2-2(81.5mm,112.16mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30312.992mil|Location2.X=30356.299mil|Location1.Y=26542.329mil|Location2.Y=26579.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30312.992mil|Location2.X=30356.299mil|Location1.Y=26542.329mil|Location2.Y=26579.73mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R49_PWR_PROT_4-2(81.5mm,140.15mm) on TOP SIG And Pad D6_PWR_PROT_4-2(81.5mm,140.16mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23645.675mil|Location2.Y=23854.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23645.675mil|Location2.Y=23854.337mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_1-1(86.5mm,66.325mm) on BOT SIG And Pad Q8_BYPASS_0-1(86.5mm,71.175mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23836.62mil|Location2.Y=23958.667mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23836.62mil|Location2.Y=23958.667mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_0-1(86.5mm,71.175mm) on TOP SIG And Pad Q8_BYPASS_3-1(86.5mm,73.825mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23940.951mil|Location2.Y=24149.612mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30525.591mil|Location2.X=30537.402mil|Location1.Y=23940.951mil|Location2.Y=24149.612mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_3-1(86.5mm,73.825mm) on BOT SIG And Pad Q8_BYPASS_2-1(86.5mm,78.675mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29123.894mil|Location2.X=29450.788mil|Location1.Y=25458.035mil|Location2.Y=25497.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29123.894mil|Location2.X=29450.788mil|Location1.Y=25458.035mil|Location2.Y=25497.053mil|Absolute=True">Un-Routed Net Constraint: Net NetC52_1 Between Pad U19-1(51.684mm,112.405mm) on TOP SIG And Pad R109-1(58.5mm,112.65mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28694.668mil|Location2.X=29135.433mil|Location1.Y=23038.172mil|Location2.Y=23145.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28694.668mil|Location2.X=29135.433mil|Location1.Y=23038.172mil|Location2.Y=23145.276mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (42.375mm,53.2mm)(42.385mm,53.21mm) on TOP SIG And Pad R121_IO_CHECKER_0-2(48.5mm,50.85mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29013.78mil|Location2.X=29166.339mil|Location1.Y=23026.575mil|Location2.Y=23063.976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29013.78mil|Location2.X=29166.339mil|Location1.Y=23026.575mil|Location2.Y=23063.976mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R121_IO_CHECKER_0-2(48.5mm,50.85mm) on TOP SIG And Via (51.5mm,50.75mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28522.047mil|Location2.X=29318.504mil|Location1.Y=22281.89mil|Location2.Y=23879.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28522.047mil|Location2.X=29318.504mil|Location1.Y=22281.89mil|Location2.Y=23879.528mil|Absolute=True">Un-Routed Net Constraint: Net 5V Between Track (38mm,34mm)(38.021mm,34mm) on TOP SIG And Pad R125-1(53.15mm,69.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=23183.625mil|Location2.Y=23230.321mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=23183.625mil|Location2.Y=23230.321mil|Absolute=True">Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_0 Between Pad U4_MOSFET_BANK_0-7(84.316mm,54.635mm) on TOP SIG And Pad R14_MOSFET_BANK_0-2(89.35mm,55mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=22553.704mil|Location2.Y=22600.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=22553.704mil|Location2.Y=22600.4mil|Absolute=True">Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_1 Between Pad U4_MOSFET_BANK_1-7(84.316mm,38.635mm) on TOP SIG And Pad R14_MOSFET_BANK_1-2(89.35mm,39mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=21923.783mil|Location2.Y=21970.478mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=21923.783mil|Location2.Y=21970.478mil|Absolute=True">Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_2 Between Pad U4_MOSFET_BANK_2-7(84.316mm,22.635mm) on TOP SIG And Pad R14_MOSFET_BANK_2-2(89.35mm,23mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=21293.862mil|Location2.Y=21340.557mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30408.624mil|Location2.X=30662.402mil|Location1.Y=21293.862mil|Location2.Y=21340.557mil|Absolute=True">Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_3 Between Pad U4_MOSFET_BANK_3-7(84.316mm,6.635mm) on TOP SIG And Pad R14_MOSFET_BANK_3-2(89.35mm,7mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30467.52mil|Location2.X=30655.634mil|Location1.Y=24761.817mil|Location2.Y=24929.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30467.52mil|Location2.X=30655.634mil|Location1.Y=24761.817mil|Location2.Y=24929.772mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R26-2(85.35mm,95mm) on BOT SIG And Pad U7-8(88.416mm,98.405mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30321.85mil|Location2.X=30359.252mil|Location1.Y=24810.045mil|Location2.Y=24923.228mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30321.85mil|Location2.X=30359.252mil|Location1.Y=24810.045mil|Location2.Y=24923.228mil|Absolute=True">Un-Routed Net Constraint: Net PRE_SHUNT Between Via (81.5mm,96mm) from TOP SIG to BOT SIG And Pad R29-2(81.65mm,98mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28668.307mil|Location2.X=28772.638mil|Location1.Y=22517.716mil|Location2.Y=22561.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28668.307mil|Location2.X=28772.638mil|Location1.Y=22517.716mil|Location2.Y=22561.024mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R53-2(39.65mm,38mm) on TOP SIG And Pad R36-2(41.35mm,38mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28653.937mil|Location2.X=28913.104mil|Location1.Y=22439.37mil|Location2.Y=22892.983mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28653.937mil|Location2.X=28913.104mil|Location1.Y=22439.37mil|Location2.Y=22892.983mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R36-2(41.35mm,38mm) on TOP SIG And Track (42.853mm,44.442mm)(45.463mm,44.442mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27242.126mil|Location2.X=27285.433mil|Location1.Y=22298.228mil|Location2.Y=22608.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27242.126mil|Location2.X=27285.433mil|Location1.Y=22298.228mil|Location2.Y=22608.268mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad SW2-2(3.375mm,39mm) on TOP SIG And Pad R42-1(3.5mm,32.35mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29053.15mil|Location2.X=29441.929mil|Location1.Y=24672.25mil|Location2.Y=24776.581mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29053.15mil|Location2.X=29441.929mil|Location1.Y=24672.25mil|Location2.Y=24776.581mil|Absolute=True">Un-Routed Net Constraint: Net BCM_VCC Between Pad R47_PWR_PROT_1-1(49.5mm,94.35mm) on TOP SIG And Via (58.5mm,92.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28462.893mil|Location2.X=28787.008mil|Location1.Y=22281.145mil|Location2.Y=22639.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28462.893mil|Location2.X=28787.008mil|Location1.Y=22281.145mil|Location2.Y=22639.37mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (36.497mm,31.545mm)(36.497mm,33.981mm) on TOP SIG And Pad R53-2(39.65mm,38mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=23206.693mil|Location2.Y=23486.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=23206.693mil|Location2.Y=23486.22mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_0-2(61.85mm,55.5mm) on TOP SIG And Pad R7_MOSFET_BANK_0-2(61.85mm,61.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29132.138mil|Location2.X=29661.024mil|Location1.Y=23325.343mil|Location2.Y=23564.567mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29132.138mil|Location2.X=29661.024mil|Location1.Y=23325.343mil|Location2.Y=23564.567mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (51mm,63mm)(53.496mm,60.504mm) on TOP SIG And Pad R7_MOSFET_BANK_0-2(61.85mm,61.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=22576.777mil|Location2.Y=22856.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=22576.777mil|Location2.Y=22856.299mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG And Pad R7_MOSFET_BANK_1-2(61.85mm,45.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=21946.85mil|Location2.Y=22226.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=21946.85mil|Location2.Y=22226.378mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_2-2(61.85mm,23.5mm) on TOP SIG And Pad R7_MOSFET_BANK_2-2(61.85mm,29.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=21316.929mil|Location2.Y=21596.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29542.323mil|Location2.X=29579.725mil|Location1.Y=21316.929mil|Location2.Y=21596.457mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_3-2(61.85mm,7.5mm) on TOP SIG And Pad R7_MOSFET_BANK_3-2(61.85mm,13.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=23128.346mil|Location2.Y=23305.715mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=23128.346mil|Location2.Y=23305.715mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_0-2(61.85mm,55.5mm) on TOP SIG And Track (69.15mm,54.925mm)(69.15mm,55mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29133.268mil|Location2.X=29661.024mil|Location1.Y=22477.762mil|Location2.Y=22698.431mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29133.268mil|Location2.X=29661.024mil|Location1.Y=22477.762mil|Location2.Y=22698.431mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (51.5mm,41mm)(53.525mm,38.975mm) on TOP SIG And Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=22498.431mil|Location2.Y=22675.793mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=22498.431mil|Location2.Y=22675.793mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG And Track (69.15mm,38.925mm)(69.15mm,39mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=21868.504mil|Location2.Y=22045.872mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=21868.504mil|Location2.Y=22045.872mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_2-2(61.85mm,23.5mm) on TOP SIG And Track (69.15mm,22.925mm)(69.15mm,23mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=21238.583mil|Location2.Y=21415.951mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29461.024mil|Location2.X=29948.425mil|Location1.Y=21238.583mil|Location2.Y=21415.951mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_3-2(61.85mm,7.5mm) on TOP SIG And Track (69.15mm,6.925mm)(69.15mm,7mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27380.315mil|Location2.X=27613.78mil|Location1.Y=24181.496mil|Location2.Y=24411.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27380.315mil|Location2.X=27613.78mil|Location1.Y=24181.496mil|Location2.Y=24411.024mil|Absolute=True">Un-Routed Net Constraint: Net NetR87_2 Between Track (8.75mm,82mm)(9mm,82.25mm) on TOP SIG And Pad R87-2(9.85mm,83mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29053.543mil|Location2.X=29259.449mil|Location1.Y=22557.486mil|Location2.Y=22974.016mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29053.543mil|Location2.X=29259.449mil|Location1.Y=22557.486mil|Location2.Y=22974.016mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (51.5mm,41mm)(53.525mm,38.975mm) on TOP SIG And Pad R97_IO_CHECKER_0-2(51.65mm,46.5mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29123.894mil|Location2.X=29592.52mil|Location1.Y=24210.63mil|Location2.Y=24778.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29123.894mil|Location2.X=29592.52mil|Location1.Y=24210.63mil|Location2.Y=24778.197mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad U12_PWR_PROT_1-8(51.684mm,94.595mm) on TOP SIG And Pad U11-4(61mm,81.2mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27708.661mil|Location2.X=27809.055mil|Location1.Y=24224.41mil|Location2.Y=24364.173mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27708.661mil|Location2.X=27809.055mil|Location1.Y=24224.41mil|Location2.Y=24364.173mil|Absolute=True">Un-Routed Net Constraint: Net NetC52_1 Between Pad U14-8(15mm,83.775mm) on TOP SIG And Pad U14-1(16.775mm,81mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27669.291mil|Location2.X=27704.725mil|Location1.Y=24283.465mil|Location2.Y=24364.173mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27669.291mil|Location2.X=27704.725mil|Location1.Y=24283.465mil|Location2.Y=24364.173mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U14-10(14mm,83.775mm) on TOP SIG And Via (14.45mm,82.55mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29140.748mil|Location2.X=29245.079mil|Location1.Y=22142.716mil|Location2.Y=22542.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29140.748mil|Location2.X=29245.079mil|Location1.Y=22142.716mil|Location2.Y=22542.329mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (51.5mm,28.25mm) from TOP SIG to BOT SIG And Pad U17_IO_CHECKER_1-9(53.525mm,36.95mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30655.634mil|Location1.Y=24905.279mil|Location2.Y=25331.502mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30655.634mil|Location1.Y=24905.279mil|Location2.Y=25331.502mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,108.595mm) from TOP SIG to BOT SIG And Pad U7-8(88.416mm,98.405mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28815.875mil|Location2.X=29177.756mil|Location1.Y=22692.983mil|Location2.Y=22802.756mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28815.875mil|Location2.X=29177.756mil|Location1.Y=22692.983mil|Location2.Y=22802.756mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (42.853mm,44.442mm)(45.463mm,44.442mm) on TOP SIG And Track (49.575mm,42.15mm)(50.703mm,41.022mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29132.138mil|Location2.X=29365.748mil|Location1.Y=23325.343mil|Location2.Y=23882.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29132.138mil|Location2.X=29365.748mil|Location1.Y=23325.343mil|Location2.Y=23882.48mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (51mm,63mm)(53.496mm,60.504mm) on TOP SIG And Track (54.35mm,69.5mm)(54.35mm,69.575mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29060.785mil|Location2.X=29326.378mil|Location1.Y=24667.525mil|Location2.Y=25496.654mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29060.785mil|Location2.X=29326.378mil|Location1.Y=24667.525mil|Location2.Y=25496.654mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (51.684mm,94.595mm) from TOP SIG to BOT SIG And Track (53.35mm,110.5mm)(53.35mm,110.575mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27425.591mil|Location2.X=29362.633mil|Location1.Y=25802.559mil|Location2.Y=25545.43mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27425.591mil|Location2.X=29362.633mil|Location1.Y=25802.559mil|Location2.Y=25545.43mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (9.229mm,122.504mm)(10.15mm,123.425mm) on BOT SIG And Track (54.271mm,111.496mm)(54.271mm,111.814mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28797.638mil|Location2.X=29365.748mil|Location1.Y=23659.842mil|Location2.Y=23882.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28797.638mil|Location2.X=29365.748mil|Location1.Y=23659.842mil|Location2.Y=23882.48mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (45mm,69mm) from TOP SIG to BOT SIG And Track (54.35mm,69.5mm)(54.35mm,69.575mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=21494.494mil|Location2.Y=21891.344mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=21494.494mil|Location2.Y=21891.344mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,14.905mm)(87mm,14mm) on TOP SIG And Track (86.095mm,18.095mm)(87mm,19mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=22124.415mil|Location2.Y=22521.266mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=22124.415mil|Location2.Y=22521.266mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,30.905mm)(87mm,30mm) on TOP SIG And Track (86.095mm,34.095mm)(87mm,35mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=22754.337mil|Location2.Y=23151.187mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30451.181mil|Location2.X=30651.181mil|Location1.Y=22754.337mil|Location2.Y=23151.187mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,46.905mm)(87mm,46mm) on TOP SIG And Track (86.095mm,50.095mm)(87mm,51mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28048.234mil|Location2.X=28073.825mil|Location1.Y=22378.937mil|Location2.Y=22493.11mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28048.234mil|Location2.X=28073.825mil|Location1.Y=22378.937mil|Location2.Y=22493.11mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (23.75mm,34.25mm) from TOP SIG to BOT SIG And Via (23.75mm,36.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28048.234mil|Location2.X=28073.825mil|Location1.Y=22467.52mil|Location2.Y=22585.088mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28048.234mil|Location2.X=28073.825mil|Location1.Y=22467.52mil|Location2.Y=22585.088mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (23.75mm,36.5mm) from TOP SIG to BOT SIG And Via (23.75mm,38.836mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28207.677mil|Location2.X=28634.843mil|Location1.Y=24109.252mil|Location2.Y=24176.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28207.677mil|Location2.X=28634.843mil|Location1.Y=24109.252mil|Location2.Y=24176.181mil|Absolute=True">Un-Routed Net Constraint: Net ADC_IN4_ADC_0 Between Via (27.8mm,78.2mm) from TOP SIG to BOT SIG And Via (38mm,79.25mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28786.417mil|Location2.X=28910.433mil|Location1.Y=23747.047mil|Location2.Y=23772.638mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28786.417mil|Location2.X=28910.433mil|Location1.Y=23747.047mil|Location2.Y=23772.638mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (42.5mm,69mm) from TOP SIG to BOT SIG And Via (45mm,69mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29062.008mil|Location2.X=29166.339mil|Location1.Y=22142.716mil|Location2.Y=22168.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29062.008mil|Location2.X=29166.339mil|Location1.Y=22142.716mil|Location2.Y=22168.307mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (49.5mm,28.25mm) from TOP SIG to BOT SIG And Via (51.5mm,28.25mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29330.357mil|Location2.X=30433.423mil|Location1.Y=25305.911mil|Location2.Y=25481.502mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29330.357mil|Location2.X=30433.423mil|Location1.Y=25305.911mil|Location2.Y=25481.502mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (56.316mm,112.405mm) from TOP SIG to BOT SIG And Via (83.684mm,108.595mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=21876.975mil|Location2.Y=21941.935mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=21876.975mil|Location2.Y=21941.935mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (71mm,22.5mm) from TOP SIG to BOT SIG And Via (82.5mm,21.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=22506.896mil|Location2.Y=22571.856mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=22506.896mil|Location2.Y=22571.856mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (71mm,38.5mm) from TOP SIG to BOT SIG And Via (82.5mm,37.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=23136.817mil|Location2.Y=23201.778mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=23136.817mil|Location2.Y=23201.778mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (71mm,54.5mm) from TOP SIG to BOT SIG And Via (82.5mm,53.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=21247.053mil|Location2.Y=21312.014mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29908.465mil|Location2.X=30386.811mil|Location1.Y=21247.053mil|Location2.Y=21312.014mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (71mm,6.5mm) from TOP SIG to BOT SIG And Via (82.5mm,5.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=21247.053mil|Location2.Y=21548.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=21247.053mil|Location2.Y=21548.234mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,5.5mm) from TOP SIG to BOT SIG And Via (82.5mm,12.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=21876.975mil|Location2.Y=22178.156mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=21876.975mil|Location2.Y=22178.156mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,21.5mm) from TOP SIG to BOT SIG And Via (82.5mm,28.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=22506.896mil|Location2.Y=22808.077mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=22506.896mil|Location2.Y=22808.077mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,37.5mm) from TOP SIG to BOT SIG And Via (82.5mm,44.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=23136.817mil|Location2.Y=23437.998mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30361.22mil|Location2.X=30386.811mil|Location1.Y=23136.817mil|Location2.Y=23437.998mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,53.5mm) from TOP SIG to BOT SIG And Via (82.5mm,60.5mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=25305.911mil|Location2.Y=25882.683mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=25305.911mil|Location2.Y=25882.683mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,108.595mm) from TOP SIG to BOT SIG And Via (83.684mm,122.595mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=25857.092mil|Location2.Y=26433.864mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=25857.092mil|Location2.Y=26433.864mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,122.595mm) from TOP SIG to BOT SIG And Via (83.684mm,136.595mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=26408.273mil|Location2.Y=26985.045mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30407.832mil|Location2.X=30433.423mil|Location1.Y=26408.273mil|Location2.Y=26985.045mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,136.595mm) from TOP SIG to BOT SIG And Via (83.684mm,150.595mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3JPREXNZDFL5DVGCEAABCBAOTCFNDLGT1AOQYRODAMOZF32RHV4C"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24022.965mil|Location2.Y=24028.215mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24022.965mil|Location2.Y=24028.215mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (29.8mm,75.9mm) on Bottom Overlay And Pad D30_ADC_0-1(29.84mm,75.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24062.336mil|Location2.Y=24067.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24062.336mil|Location2.Y=24067.586mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (29.8mm,76.9mm) on Bottom Overlay And Pad D31_ADC_0-1(29.84mm,76.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24101.706mil|Location2.Y=24106.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28296.588mil|Location2.X=28301.838mil|Location1.Y=24101.706mil|Location2.Y=24106.956mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (29.8mm,77.9mm) on Bottom Overlay And Pad D32_ADC_0-1(29.84mm,77.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24042.65mil|Location2.Y=24047.9mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24042.65mil|Location2.Y=24047.9mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (37.2mm,76.1mm) on Bottom Overlay And Pad D28_ADC_0-1(37.16mm,76.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24082.021mil|Location2.Y=24087.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24082.021mil|Location2.Y=24087.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (37.2mm,77.1mm) on Bottom Overlay And Pad D27_ADC_0-1(37.16mm,77.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24121.391mil|Location2.Y=24126.641mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28587.926mil|Location2.X=28593.176mil|Location1.Y=24121.391mil|Location2.Y=24126.641mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (37.2mm,78.1mm) on Bottom Overlay And Pad D26_ADC_0-1(37.16mm,78.5mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28806.43mil|Location2.X=28811.68mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28806.43mil|Location2.X=28811.68mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (42.9mm,59.7mm) on Bottom Overlay And Pad D30_ADC_1-1(42.5mm,59.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28826.115mil|Location2.X=28831.365mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28826.115mil|Location2.X=28831.365mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (43.1mm,52.3mm) on Bottom Overlay And Pad D28_ADC_1-1(43.5mm,52.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28845.8mil|Location2.X=28851.05mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28845.8mil|Location2.X=28851.05mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (43.9mm,59.7mm) on Bottom Overlay And Pad D31_ADC_1-1(43.5mm,59.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28865.485mil|Location2.X=28870.735mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28865.485mil|Location2.X=28870.735mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (44.1mm,52.3mm) on Bottom Overlay And Pad D27_ADC_1-1(44.5mm,52.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28885.17mil|Location2.X=28890.42mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28885.17mil|Location2.X=28890.42mil|Location1.Y=23391.076mil|Location2.Y=23396.326mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (44.9mm,59.7mm) on Bottom Overlay And Pad D32_ADC_1-1(44.5mm,59.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28904.855mil|Location2.X=28910.105mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28904.855mil|Location2.X=28910.105mil|Location1.Y=23099.737mil|Location2.Y=23104.987mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (45.1mm,52.3mm) on Bottom Overlay And Pad D26_ADC_1-1(45.5mm,52.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23570.21mil|Location2.Y=23575.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23570.21mil|Location2.Y=23575.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,64.4mm) on Bottom Overlay And Pad D36-1(48.59mm,64mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23609.58mil|Location2.Y=23614.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23609.58mil|Location2.Y=23614.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,65.4mm) on Bottom Overlay And Pad D35-1(48.59mm,65mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23648.95mil|Location2.Y=23654.2mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23648.95mil|Location2.Y=23654.2mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,66.4mm) on Bottom Overlay And Pad D34-1(48.59mm,66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23688.32mil|Location2.Y=23693.57mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23688.32mil|Location2.Y=23693.57mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,67.4mm) on Bottom Overlay And Pad D8-1(48.59mm,67mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23727.69mil|Location2.Y=23732.94mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23727.69mil|Location2.Y=23732.94mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,68.4mm) on Bottom Overlay And Pad D40-1(48.59mm,68mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23767.06mil|Location2.Y=23772.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23767.06mil|Location2.Y=23772.31mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,69.4mm) on Bottom Overlay And Pad D39-1(48.59mm,69mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23806.43mil|Location2.Y=23811.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29034.777mil|Location2.X=29040.027mil|Location1.Y=23806.43mil|Location2.Y=23811.68mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (48.55mm,70.4mm) on Bottom Overlay And Pad D38-1(48.59mm,70mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29068.526mil|Location2.X=29072.193mil|Location1.Y=21788.015mil|Location2.Y=21791.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29068.526mil|Location2.X=29072.193mil|Location1.Y=21788.015mil|Location2.Y=21791.681mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (49.337mm,18.962mm) on Bottom Overlay And Pad D24-1(49.5mm,18.65mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29146.979mil|Location2.X=29152.229mil|Location1.Y=23729.659mil|Location2.Y=23734.909mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29146.979mil|Location2.X=29152.229mil|Location1.Y=23729.659mil|Location2.Y=23734.909mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (51.1mm,68.3mm) on Top Overlay And Pad R126-1(51.85mm,68mm) on TOP SIG [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29226.007mil|Location2.X=29229.673mil|Location1.Y=21788.015mil|Location2.Y=21791.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29226.007mil|Location2.X=29229.673mil|Location1.Y=21788.015mil|Location2.Y=21791.681mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Arc (53.337mm,18.962mm) on Bottom Overlay And Pad D25-1(53.5mm,18.65mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29229.659mil|Location2.X=29234.909mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29229.659mil|Location2.X=29234.909mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (53.65mm,26.2mm) on Bottom Overlay And Pad D19_IO_CHECKER_1-1(53.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29229.659mil|Location2.X=29234.909mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29229.659mil|Location2.X=29234.909mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (53.65mm,48.7mm) on Bottom Overlay And Pad D19_IO_CHECKER_0-1(53.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29249.343mil|Location2.X=29254.593mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29249.343mil|Location2.X=29254.593mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (53.85mm,40.8mm) on Bottom Overlay And Pad D14_IO_CHECKER_1-1(54.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29249.343mil|Location2.X=29254.593mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29249.343mil|Location2.X=29254.593mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (53.85mm,63.3mm) on Bottom Overlay And Pad D14_IO_CHECKER_0-1(54.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29269.029mil|Location2.X=29274.279mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29269.029mil|Location2.X=29274.279mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (54.65mm,26.2mm) on Bottom Overlay And Pad D18_IO_CHECKER_1-1(54.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29269.029mil|Location2.X=29274.279mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29269.029mil|Location2.X=29274.279mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (54.65mm,48.7mm) on Bottom Overlay And Pad D18_IO_CHECKER_0-1(54.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29288.714mil|Location2.X=29293.964mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29288.714mil|Location2.X=29293.964mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (54.85mm,40.8mm) on Bottom Overlay And Pad D15_IO_CHECKER_1-1(55.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29288.714mil|Location2.X=29293.964mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29288.714mil|Location2.X=29293.964mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (54.85mm,63.3mm) on Bottom Overlay And Pad D15_IO_CHECKER_0-1(55.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29308.399mil|Location2.X=29313.649mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29308.399mil|Location2.X=29313.649mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (55.65mm,26.2mm) on Bottom Overlay And Pad D17_IO_CHECKER_1-1(55.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29308.399mil|Location2.X=29313.649mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29308.399mil|Location2.X=29313.649mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (55.65mm,48.7mm) on Bottom Overlay And Pad D17_IO_CHECKER_0-1(55.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29328.084mil|Location2.X=29333.334mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29328.084mil|Location2.X=29333.334mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (55.85mm,40.8mm) on Bottom Overlay And Pad D9_IO_CHECKER_1-1(56.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29328.084mil|Location2.X=29333.334mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29328.084mil|Location2.X=29333.334mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (55.85mm,63.3mm) on Bottom Overlay And Pad D9_IO_CHECKER_0-1(56.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29347.769mil|Location2.X=29353.019mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29347.769mil|Location2.X=29353.019mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (56.65mm,26.2mm) on Bottom Overlay And Pad D16_IO_CHECKER_1-1(56.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29347.769mil|Location2.X=29353.019mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29347.769mil|Location2.X=29353.019mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (56.65mm,48.7mm) on Bottom Overlay And Pad D16_IO_CHECKER_0-1(56.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29367.454mil|Location2.X=29372.704mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29367.454mil|Location2.X=29372.704mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (56.85mm,40.8mm) on Bottom Overlay And Pad D10_IO_CHECKER_1-1(57.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29367.454mil|Location2.X=29372.704mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29367.454mil|Location2.X=29372.704mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (56.85mm,63.3mm) on Bottom Overlay And Pad D10_IO_CHECKER_0-1(57.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29387.139mil|Location2.X=29392.389mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29387.139mil|Location2.X=29392.389mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (57.65mm,26.2mm) on Bottom Overlay And Pad D22_IO_CHECKER_1-1(57.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29387.139mil|Location2.X=29392.389mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29387.139mil|Location2.X=29392.389mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (57.65mm,48.7mm) on Bottom Overlay And Pad D22_IO_CHECKER_0-1(57.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29406.824mil|Location2.X=29412.074mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29406.824mil|Location2.X=29412.074mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (57.85mm,40.8mm) on Bottom Overlay And Pad D11_IO_CHECKER_1-1(58.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29406.824mil|Location2.X=29412.074mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29406.824mil|Location2.X=29412.074mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (57.85mm,63.3mm) on Bottom Overlay And Pad D11_IO_CHECKER_0-1(58.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29426.509mil|Location2.X=29431.759mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29426.509mil|Location2.X=29431.759mil|Location1.Y=22072.184mil|Location2.Y=22077.434mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (58.65mm,26.2mm) on Bottom Overlay And Pad D21_IO_CHECKER_1-1(58.25mm,26.16mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29426.509mil|Location2.X=29431.759mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29426.509mil|Location2.X=29431.759mil|Location1.Y=22958.005mil|Location2.Y=22963.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (58.65mm,48.7mm) on Bottom Overlay And Pad D21_IO_CHECKER_0-1(58.25mm,48.66mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29446.194mil|Location2.X=29451.444mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29446.194mil|Location2.X=29451.444mil|Location1.Y=22646.987mil|Location2.Y=22652.237mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (58.85mm,40.8mm) on Bottom Overlay And Pad D12_IO_CHECKER_1-1(59.25mm,40.84mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29446.194mil|Location2.X=29451.444mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29446.194mil|Location2.X=29451.444mil|Location1.Y=23532.808mil|Location2.Y=23538.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Arc (58.85mm,63.3mm) on Bottom Overlay And Pad D12_IO_CHECKER_0-1(59.25mm,63.34mm) on BOT SIG [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28445.652mil|Location2.X=28450.902mil|Location1.Y=24126.312mil|Location2.Y=24131.562mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28445.652mil|Location2.X=28450.902mil|Location1.Y=24126.312mil|Location2.Y=24131.562mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C50_ADC_0-1(33.229mm,78.75mm) on BOT SIG And Track (31.914mm,78.236mm)(33.586mm,78.236mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28379.807mil|Location2.X=28385.057mil|Location1.Y=24126.312mil|Location2.Y=24131.562mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28379.807mil|Location2.X=28385.057mil|Location1.Y=24126.312mil|Location2.Y=24131.562mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C50_ADC_0-2(32.271mm,78.75mm) on BOT SIG And Track (31.914mm,78.236mm)(33.586mm,78.236mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28909.777mil|Location2.X=28915.027mil|Location1.Y=23242.012mil|Location2.Y=23247.262mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28909.777mil|Location2.X=28915.027mil|Location1.Y=23242.012mil|Location2.Y=23247.262mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C50_ADC_1-1(45.75mm,56.271mm) on BOT SIG And Track (45.236mm,55.914mm)(45.236mm,57.586mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28909.777mil|Location2.X=28915.027mil|Location1.Y=23279.694mil|Location2.Y=23284.944mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28909.777mil|Location2.X=28915.027mil|Location1.Y=23279.694mil|Location2.Y=23284.944mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C50_ADC_1-2(45.75mm,57.229mm) on BOT SIG And Track (45.236mm,55.914mm)(45.236mm,57.586mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28417.489mil|Location2.X=28422.739mil|Location1.Y=24106.627mil|Location2.Y=24111.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28417.489mil|Location2.X=28422.739mil|Location1.Y=24106.627mil|Location2.Y=24111.877mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C51_ADC_0-1(33.229mm,77.5mm) on BOT SIG And Track (31.914mm,78.014mm)(33.586mm,78.014mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28379.807mil|Location2.X=28385.057mil|Location1.Y=24106.627mil|Location2.Y=24111.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28379.807mil|Location2.X=28385.057mil|Location1.Y=24106.627mil|Location2.Y=24111.877mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C51_ADC_0-2(32.271mm,77.5mm) on BOT SIG And Track (31.914mm,78.014mm)(33.586mm,78.014mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28890.092mil|Location2.X=28895.342mil|Location1.Y=23242.012mil|Location2.Y=23247.262mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28890.092mil|Location2.X=28895.342mil|Location1.Y=23242.012mil|Location2.Y=23247.262mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C51_ADC_1-1(44.5mm,56.271mm) on BOT SIG And Track (45.014mm,55.914mm)(45.014mm,57.586mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28890.092mil|Location2.X=28895.342mil|Location1.Y=23279.694mil|Location2.Y=23284.944mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28890.092mil|Location2.X=28895.342mil|Location1.Y=23279.694mil|Location2.Y=23284.944mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.102mm) Between Pad C51_ADC_1-2(44.5mm,57.229mm) on BOT SIG And Track (45.014mm,55.914mm)(45.014mm,57.586mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28523.619mil|Location2.X=28530.54mil|Location1.Y=24118.538mil|Location2.Y=24127.733mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28523.619mil|Location2.X=28530.54mil|Location1.Y=24118.538mil|Location2.Y=24127.733mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.08mm &lt; 0.102mm) Between Pad D26_ADC_0-2(35.84mm,78.5mm) on BOT SIG And Track (35.45mm,77.8mm)(35.45mm,78.2mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.08mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28905.947mil|Location2.X=28915.142mil|Location1.Y=23164.044mil|Location2.Y=23170.965mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28905.947mil|Location2.X=28915.142mil|Location1.Y=23164.044mil|Location2.Y=23170.965mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.08mm &lt; 0.102mm) Between Pad D26_ADC_1-2(45.5mm,53.66mm) on BOT SIG And Track (44.8mm,54.05mm)(45.2mm,54.05mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.08mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28523.619mil|Location2.X=28530.457mil|Location1.Y=24100.614mil|Location2.Y=24109.864mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28523.619mil|Location2.X=28530.457mil|Location1.Y=24100.614mil|Location2.Y=24109.864mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.08mm &lt; 0.102mm) Between Pad D27_ADC_0-2(35.84mm,77.5mm) on BOT SIG And Track (35.45mm,77.8mm)(35.45mm,78.2mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.08mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28884.078mil|Location2.X=28893.328mil|Location1.Y=23162.457mil|Location2.Y=23169.294mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28884.078mil|Location2.X=28893.328mil|Location1.Y=23162.457mil|Location2.Y=23169.294mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.08mm &lt; 0.102mm) Between Pad D27_ADC_1-2(44.5mm,53.66mm) on BOT SIG And Track (44.8mm,54.05mm)(45.2mm,54.05mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.08mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27562.532mil|Location2.X=27566.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27562.532mil|Location2.X=27566.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-1(11.46mm,24.27mm) on TOP SIG And Track (7.65mm,23.5mm)(20.35mm,23.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27762.532mil|Location2.X=27766.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27762.532mil|Location2.X=27766.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-10(16.54mm,27.73mm) on TOP SIG And Track (7.65mm,28.5mm)(20.35mm,28.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27562.532mil|Location2.X=27566.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27562.532mil|Location2.X=27566.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-2(11.46mm,27.73mm) on TOP SIG And Track (7.65mm,28.5mm)(20.35mm,28.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27612.532mil|Location2.X=27616.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27612.532mil|Location2.X=27616.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-3(12.73mm,24.27mm) on TOP SIG And Track (7.65mm,23.5mm)(20.35mm,23.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27612.532mil|Location2.X=27616.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27612.532mil|Location2.X=27616.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-4(12.73mm,27.73mm) on TOP SIG And Track (7.65mm,28.5mm)(20.35mm,28.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27662.532mil|Location2.X=27666.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27662.532mil|Location2.X=27666.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-5(14mm,24.27mm) on TOP SIG And Track (7.65mm,23.5mm)(20.35mm,23.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27662.532mil|Location2.X=27666.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27662.532mil|Location2.X=27666.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-6(14mm,27.73mm) on TOP SIG And Track (7.65mm,28.5mm)(20.35mm,28.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27712.532mil|Location2.X=27716.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27712.532mil|Location2.X=27716.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-7(15.27mm,24.27mm) on TOP SIG And Track (7.65mm,23.5mm)(20.35mm,23.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27712.532mil|Location2.X=27716.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27712.532mil|Location2.X=27716.198mil|Location1.Y=22163.521mil|Location2.Y=22167.188mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-8(15.27mm,27.73mm) on TOP SIG And Track (7.65mm,28.5mm)(20.35mm,28.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27762.532mil|Location2.X=27766.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27762.532mil|Location2.X=27766.198mil|Location1.Y=21966.671mil|Location2.Y=21970.337mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad J4-9(16.54mm,24.27mm) on TOP SIG And Track (7.65mm,23.5mm)(20.35mm,23.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDE3M4MZEHPPEDI0IWPJK0MZU3BJVQFAVJY4K0H2JYPTWAFTWR4TAJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28612.642mil|Location2.X=28638.202mil|Location1.Y=24016.185mil|Location2.Y=24053.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28612.642mil|Location2.X=28638.202mil|Location1.Y=24016.185mil|Location2.Y=24053.635mil|Absolute=True">Net Antennae: Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27470.91mil|Location2.X=27496.469mil|Location1.Y=24272.091mil|Location2.Y=24309.541mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27470.91mil|Location2.X=27496.469mil|Location1.Y=24272.091mil|Location2.Y=24309.541mil|Absolute=True">Net Antennae: Track (8.75mm,82mm)(9mm,82.25mm) on TOP SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28881.342mil|Location2.X=28921.901mil|Location1.Y=23743.547mil|Location2.Y=23805.919mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=28881.342mil|Location2.X=28921.901mil|Location1.Y=23743.547mil|Location2.Y=23805.919mil|Absolute=True">Net Antennae: Via (45mm,69mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29058.508mil|Location2.X=29099.067mil|Location1.Y=22139.216mil|Location2.Y=22201.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29058.508mil|Location2.X=29099.067mil|Location1.Y=22139.216mil|Location2.Y=22201.589mil|Absolute=True">Net Antennae: Via (49.5mm,28.25mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29137.248mil|Location2.X=29177.807mil|Location1.Y=22139.216mil|Location2.Y=22201.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29137.248mil|Location2.X=29177.807mil|Location1.Y=22139.216mil|Location2.Y=22201.589mil|Absolute=True">Net Antennae: Via (51.5mm,28.25mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29137.248mil|Location2.X=29177.807mil|Location1.Y=23025.037mil|Location2.Y=23087.41mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29137.248mil|Location2.X=29177.807mil|Location1.Y=23025.037mil|Location2.Y=23087.41mil|Absolute=True">Net Antennae: Via (51.5mm,50.75mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29176.618mil|Location2.X=29217.177mil|Location1.Y=21899.248mil|Location2.Y=21961.62mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29176.618mil|Location2.X=29217.177mil|Location1.Y=21899.248mil|Location2.Y=21961.62mil|Absolute=True">Net Antennae: Via (52.5mm,22.155mm) from TOP SIG to BOT SIG </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDU3IP5W5IP0L1P4N3U4LUR1JY1LVVV3WW2YUZZBFKFVB0ZTCDU5CC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30904.356mil|Location2.X=30910.605mil|Location1.Y=21034.186mil|Location2.Y=21040.435mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=30904.356mil|Location2.X=30910.605mil|Location1.Y=21034.186mil|Location2.Y=21040.435mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Arc (96.05mm,-0.05mm) on Top Overlay And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=31387.21mil|Location2.X=31393.459mil|Location1.Y=21057.905mil|Location2.Y=21064.154mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=31387.21mil|Location2.X=31393.459mil|Location1.Y=21057.905mil|Location2.Y=21064.154mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (93.85mm,0.45mm)(108.9mm,0.45mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=31387.21mil|Location2.X=31393.459mil|Location1.Y=27164.204mil|Location2.Y=27170.453mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=31387.21mil|Location2.X=31393.459mil|Location1.Y=27164.204mil|Location2.Y=27170.453mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (93.85mm,155.55mm)(108.9mm,155.55mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
