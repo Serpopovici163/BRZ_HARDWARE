@@ -1,108 +1,22 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\1_BCM_ECU\3_BCM_ECU_revA\BCM_ECU_revA_V3.PcbDoc
-Date     : 06/28/2025
-Time     : 12:18:53 PM
+Date     : 07/02/2025
+Time     : 5:03:58 PM
 
 WARNING: Zero hole size multi-layer pad(s) detected
    Pad L3-1(40.5mm,90.5mm) on Multi-Layer on Net NetL3_1
    Pad L3-2(28.5mm,90.5mm) on Multi-Layer on Net NetC63_1
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad SW1-1(3.375mm,45mm) on TOP SIG And Via (4mm,44.5mm) from TOP SIG to BOT SIG 
-   Violation between Clearance Constraint: (0.085mm < 0.102mm) Between Pad U17_IO_CHECKER_0-17(51.575mm,52.55mm) on TOP SIG And Track (50.864mm,54.736mm)(52.225mm,53.375mm) on TOP SIG 
-   Violation between Clearance Constraint: (0.242mm < 0.25mm) Between Hole of Via (12.25mm,43.25mm) from TOP SIG to BOT SIG And Track (10.542mm,42.708mm)(16.904mm,42.708mm) on BOT SIG 
-   Violation between Clearance Constraint: (Collision < 0.102mm) Between Track (37.16mm,75.5mm)(38.846mm,75.5mm) on BOT SIG And Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Track (9mm,35.5mm)(19.5mm,35.5mm) on PWR And Via (12.25mm,35mm) from TOP SIG to BOT SIG 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (37.16mm,75.5mm)(38.846mm,75.5mm) on BOT SIG And Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG Location : [X = 727mm][Y = 610mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (35.615mm,75.385mm)(36.29mm,75.385mm) on TOP SIG And Pad C114-1(42.5mm,70.021mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad SW2-2(3.375mm,39mm) on TOP SIG And Pad C22-2(6.5mm,38.521mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C22-2(6.5mm,38.521mm) on BOT SIG And Via (12.25mm,34.25mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad FB1-1(20.75mm,40.021mm) on BOT SIG And Pad C24-1(22.25mm,38.479mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C26-1(23.75mm,45.479mm) on BOT SIG And Track (23.968mm,39mm)(25.576mm,39mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (12.25mm,34.25mm) from TOP SIG to BOT SIG And Pad C27-1(12.25mm,45.479mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (11.48mm,25.33mm)(11.5mm,25.35mm) on BOT SIG And Pad C28-1(12.25mm,33.979mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U10-74(10.425mm,34.5mm) on TOP SIG And Pad C28-2(12.25mm,33.021mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C29-1(23.75mm,33.979mm) on BOT SIG And Pad D5-2(24.2mm,26.45mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (12.25mm,34.25mm) from TOP SIG to BOT SIG And Pad C36-1(22.25mm,36.229mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net AMP_VCC Between Pad C89-1(22mm,138.826mm) on TOP SIG And Pad C90-1(22mm,138.826mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net AMP_VCC Between Pad C93-1(22mm,131.175mm) on TOP SIG And Pad C94-1(22mm,131.175mm) on BOT SIG 
    Violation between Un-Routed Net Constraint: Net AMP_12V Between Track (2.936mm,124.586mm)(2.936mm,125.914mm) on TOP SIG And Pad C97-2(3.979mm,141mm) on TOP SIG 
    Violation between Un-Routed Net Constraint: Net AMP_12V Between Track (2.936mm,144.086mm)(2.936mm,145.414mm) on TOP SIG And Pad C97-2(3.979mm,141mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R103_IO_CHECKER_1-1(48mm,25.5mm) on TOP SIG And Pad D19_IO_CHECKER_1-2(53.25mm,24.84mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U13_ADC_1-12(44.325mm,58.8mm) on TOP SIG And Pad D32_ADC_1-2(44.5mm,58.34mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad D4-3(29.2mm,25.55mm) on TOP SIG And Pad D4-2(29.2mm,26.45mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad D5-2(24.2mm,26.45mm) on TOP SIG And Pad D4-2(29.2mm,26.45mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad D4-2(29.2mm,26.45mm) on TOP SIG And Track (36.497mm,31.545mm)(36.5mm,31.543mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad D5-3(24.2mm,25.55mm) on TOP SIG And Pad D5-2(24.2mm,26.45mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R49_PWR_PROT_2-2(81.5mm,112.15mm) on TOP SIG And Pad D6_PWR_PROT_2-2(81.5mm,112.16mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R49_PWR_PROT_4-2(81.5mm,140.15mm) on TOP SIG And Pad D6_PWR_PROT_4-2(81.5mm,140.16mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_1-1(86.5mm,66.325mm) on BOT SIG And Pad Q8_BYPASS_0-1(86.5mm,71.175mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_0-1(86.5mm,71.175mm) on TOP SIG And Pad Q8_BYPASS_3-1(86.5mm,73.825mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Q8_BYPASS_3-1(86.5mm,73.825mm) on BOT SIG And Pad Q8_BYPASS_2-1(86.5mm,78.675mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net NetC52_1 Between Pad U19-1(51.684mm,112.405mm) on TOP SIG And Pad R109-1(58.5mm,112.65mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (42.375mm,53.2mm)(42.385mm,53.21mm) on TOP SIG And Pad R121_IO_CHECKER_0-2(48.5mm,50.85mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R121_IO_CHECKER_0-2(48.5mm,50.85mm) on TOP SIG And Via (51.5mm,50.75mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 5V Between Track (38mm,34mm)(38.021mm,34mm) on TOP SIG And Pad R125-1(53.15mm,69.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_0 Between Pad U4_MOSFET_BANK_0-7(84.316mm,54.635mm) on TOP SIG And Pad R14_MOSFET_BANK_0-2(89.35mm,55mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_1 Between Pad U4_MOSFET_BANK_1-7(84.316mm,38.635mm) on TOP SIG And Pad R14_MOSFET_BANK_1-2(89.35mm,39mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_2 Between Pad U4_MOSFET_BANK_2-7(84.316mm,22.635mm) on TOP SIG And Pad R14_MOSFET_BANK_2-2(89.35mm,23mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net M3_I_SENSE_MOSFET_BANK_3 Between Pad U4_MOSFET_BANK_3-7(84.316mm,6.635mm) on TOP SIG And Pad R14_MOSFET_BANK_3-2(89.35mm,7mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R26-2(85.35mm,95mm) on BOT SIG And Pad U7-8(88.416mm,98.405mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net PRE_SHUNT Between Via (81.5mm,96mm) from TOP SIG to BOT SIG And Pad R29-2(81.65mm,98mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R53-2(39.65mm,38mm) on TOP SIG And Pad R36-2(41.35mm,38mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R36-2(41.35mm,38mm) on TOP SIG And Track (42.853mm,44.442mm)(45.463mm,44.442mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad SW2-2(3.375mm,39mm) on TOP SIG And Pad R42-1(3.5mm,32.35mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net BCM_VCC Between Pad R47_PWR_PROT_1-1(49.5mm,94.35mm) on TOP SIG And Via (58.5mm,92.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (36.497mm,31.545mm)(36.497mm,33.981mm) on TOP SIG And Pad R53-2(39.65mm,38mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_0-2(61.85mm,55.5mm) on TOP SIG And Pad R7_MOSFET_BANK_0-2(61.85mm,61.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (51mm,63mm)(53.496mm,60.504mm) on TOP SIG And Pad R7_MOSFET_BANK_0-2(61.85mm,61.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG And Pad R7_MOSFET_BANK_1-2(61.85mm,45.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_2-2(61.85mm,23.5mm) on TOP SIG And Pad R7_MOSFET_BANK_2-2(61.85mm,29.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_3-2(61.85mm,7.5mm) on TOP SIG And Pad R7_MOSFET_BANK_3-2(61.85mm,13.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_0-2(61.85mm,55.5mm) on TOP SIG And Track (69.15mm,54.925mm)(69.15mm,55mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (51.5mm,41mm)(53.525mm,38.975mm) on TOP SIG And Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_1-2(61.85mm,39.5mm) on TOP SIG And Track (69.15mm,38.925mm)(69.15mm,39mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_2-2(61.85mm,23.5mm) on TOP SIG And Track (69.15mm,22.925mm)(69.15mm,23mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R8_MOSFET_BANK_3-2(61.85mm,7.5mm) on TOP SIG And Track (69.15mm,6.925mm)(69.15mm,7mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net NetR87_2 Between Track (8.75mm,82mm)(9mm,82.25mm) on TOP SIG And Pad R87-2(9.85mm,83mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (51.5mm,41mm)(53.525mm,38.975mm) on TOP SIG And Pad R97_IO_CHECKER_0-2(51.65mm,46.5mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U12_PWR_PROT_1-8(51.684mm,94.595mm) on TOP SIG And Pad U11-4(61mm,81.2mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net NetC52_1 Between Pad U14-8(15mm,83.775mm) on TOP SIG And Pad U14-1(16.775mm,81mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U14-10(14mm,83.775mm) on TOP SIG And Via (14.45mm,82.55mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (51.5mm,28.25mm) from TOP SIG to BOT SIG And Pad U17_IO_CHECKER_1-9(53.525mm,36.95mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,108.595mm) from TOP SIG to BOT SIG And Pad U7-8(88.416mm,98.405mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (42.853mm,44.442mm)(45.463mm,44.442mm) on TOP SIG And Track (49.575mm,42.15mm)(50.703mm,41.022mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (51mm,63mm)(53.496mm,60.504mm) on TOP SIG And Track (54.35mm,69.5mm)(54.35mm,69.575mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (51.684mm,94.595mm) from TOP SIG to BOT SIG And Track (53.35mm,110.5mm)(53.35mm,110.575mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (9.229mm,122.504mm)(10.15mm,123.425mm) on BOT SIG And Track (54.271mm,111.496mm)(54.271mm,111.814mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (45mm,69mm) from TOP SIG to BOT SIG And Track (54.35mm,69.5mm)(54.35mm,69.575mm) on TOP SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,14.905mm)(87mm,14mm) on TOP SIG And Track (86.095mm,18.095mm)(87mm,19mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,30.905mm)(87mm,30mm) on TOP SIG And Track (86.095mm,34.095mm)(87mm,35mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (86.095mm,46.905mm)(87mm,46mm) on TOP SIG And Track (86.095mm,50.095mm)(87mm,51mm) on BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (23.75mm,34.25mm) from TOP SIG to BOT SIG And Via (23.75mm,36.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (23.75mm,36.5mm) from TOP SIG to BOT SIG And Via (23.75mm,38.836mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net ADC_IN4_ADC_0 Between Via (27.8mm,78.2mm) from TOP SIG to BOT SIG And Via (38mm,79.25mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (42.5mm,69mm) from TOP SIG to BOT SIG And Via (45mm,69mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (49.5mm,28.25mm) from TOP SIG to BOT SIG And Via (51.5mm,28.25mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (56.316mm,112.405mm) from TOP SIG to BOT SIG And Via (83.684mm,108.595mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (71mm,22.5mm) from TOP SIG to BOT SIG And Via (82.5mm,21.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (71mm,38.5mm) from TOP SIG to BOT SIG And Via (82.5mm,37.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (71mm,54.5mm) from TOP SIG to BOT SIG And Via (82.5mm,53.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (71mm,6.5mm) from TOP SIG to BOT SIG And Via (82.5mm,5.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,5.5mm) from TOP SIG to BOT SIG And Via (82.5mm,12.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,21.5mm) from TOP SIG to BOT SIG And Via (82.5mm,28.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,37.5mm) from TOP SIG to BOT SIG And Via (82.5mm,44.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (82.5mm,53.5mm) from TOP SIG to BOT SIG And Via (82.5mm,60.5mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,108.595mm) from TOP SIG to BOT SIG And Via (83.684mm,122.595mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,122.595mm) from TOP SIG to BOT SIG And Via (83.684mm,136.595mm) from TOP SIG to BOT SIG 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (83.684mm,136.595mm) from TOP SIG to BOT SIG And Via (83.684mm,150.595mm) from TOP SIG to BOT SIG 
-Rule Violations :82
+Rule Violations :2
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -203,14 +117,7 @@ Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (38mm,64.614mm)(38mm,75.75mm) on BOT SIG 
-   Violation between Net Antennae: Track (8.75mm,82mm)(9mm,82.25mm) on TOP SIG 
-   Violation between Net Antennae: Via (45mm,69mm) from TOP SIG to BOT SIG 
-   Violation between Net Antennae: Via (49.5mm,28.25mm) from TOP SIG to BOT SIG 
-   Violation between Net Antennae: Via (51.5mm,28.25mm) from TOP SIG to BOT SIG 
-   Violation between Net Antennae: Via (51.5mm,50.75mm) from TOP SIG to BOT SIG 
-   Violation between Net Antennae: Via (52.5mm,22.155mm) from TOP SIG to BOT SIG 
-Rule Violations :7
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (96.05mm,-0.05mm) on Top Overlay And Board Edge 
@@ -222,6 +129,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm)
 Rule Violations :0
 
 
-Violations Detected : 166
+Violations Detected : 73
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
