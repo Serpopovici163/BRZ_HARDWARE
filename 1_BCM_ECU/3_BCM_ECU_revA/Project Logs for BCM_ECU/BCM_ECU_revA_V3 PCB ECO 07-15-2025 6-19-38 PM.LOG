@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=3V3 Pin=C8-1
+Removed Pin From Net: NetName=3V3 Pin=U7-8
+Added Pin To Net: NetName=PWR_SENSE_3V3 Pin=C8-1
+Added Pin To Net: NetName=PWR_SENSE_3V3 Pin=U7-8
