@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=3V3 Pin=R88-1
+Added Pin To Net: NetName=PWR_SENSE_3V3 Pin=R88-1

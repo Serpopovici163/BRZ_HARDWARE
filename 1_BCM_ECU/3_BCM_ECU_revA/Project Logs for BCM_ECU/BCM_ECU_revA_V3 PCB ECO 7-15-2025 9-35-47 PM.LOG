@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=3V3 Pin=R67-2
+Removed Pin From Net: NetName=3V3 Pin=R68-2
+Added Pin To Net: NetName=IO_CHECKER_3V3 Pin=R67-2
+Added Pin To Net: NetName=IO_CHECKER_3V3 Pin=R68-2

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MOS_SENSE_3V3 Pin=R12_MOSFET_BANK_0-1
+Removed Pin From Net: NetName=MOS_SENSE_3V3 Pin=R12_MOSFET_BANK_1-1
+Removed Pin From Net: NetName=MOS_SENSE_3V3 Pin=R12_MOSFET_BANK_2-1
+Removed Pin From Net: NetName=MOS_SENSE_3V3 Pin=R12_MOSFET_BANK_3-1
+Added Pin To Net: NetName=ADC_3V3 Pin=R12_MOSFET_BANK_0-1
+Added Pin To Net: NetName=ADC_3V3 Pin=R12_MOSFET_BANK_1-1
+Added Pin To Net: NetName=ADC_3V3 Pin=R12_MOSFET_BANK_2-1
+Added Pin To Net: NetName=ADC_3V3 Pin=R12_MOSFET_BANK_3-1
