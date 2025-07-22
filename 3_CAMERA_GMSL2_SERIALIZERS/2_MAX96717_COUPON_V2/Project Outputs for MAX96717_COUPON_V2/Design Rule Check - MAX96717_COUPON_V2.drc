@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc
-Date     : 05/13/2025
-Time     : 8:12:33 PM
+PCB File : C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc
+Date     : 07/21/2025
+Time     : 8:56:31 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -12,10 +12,10 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net CAM_SCL Between Pad J1-13(20mm,4mm) on Top Layer And Track (20.2mm,6.973mm)(20.2mm,7.55mm) on Top Layer 
    Violation between Un-Routed Net Constraint: Net CAM_SDA Between Pad J1-14(21mm,4mm) on Top Layer And Pad J1-14(21mm,7.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D0_N Between Pad J1-2(9mm,4mm) on Top Layer And Track (9mm,7.225mm)(9mm,7.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D0_P Between Pad J1-3(10mm,4mm) on Top Layer And Track (9.765mm,6.99mm)(10mm,7.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D1_N Between Pad J1-5(12mm,4mm) on Top Layer And Track (12.125mm,5.5mm)(12.125mm,5.526mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D1_P Between Pad J1-6(13mm,4mm) on Top Layer And Track (13.484mm,4.261mm)(13.484mm,4.261mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D0_N Between Pad J1-2(9mm,4mm) on Top Layer And Track (9mm,7.225mm)(9.235mm,6.99mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D0_P Between Pad J1-3(10mm,4mm) on Top Layer And Track (10.521mm,10.479mm)(10.784mm,10.479mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D1_N Between Pad J1-5(12mm,4mm) on Top Layer And Via (12.125mm,5.5mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D1_P Between Pad J1-6(13mm,4mm) on Top Layer And Track (13.484mm,4.261mm)(13.53mm,4.215mm) on Bottom Layer 
    Violation between Un-Routed Net Constraint: Net CSI_CLK_N Between Pad J1-8(15mm,4mm) on Top Layer And Via (15.125mm,5.5mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net CSI_CLK_P Between Via (15.875mm,5.5mm) from Top Layer to Bottom Layer And Pad J1-9(16mm,4mm) on Top Layer 
 Rule Violations :8
@@ -23,10 +23,10 @@ Rule Violations :8
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.186mm) (Max=0.199mm) (Preferred=0.199mm) (InNetClass('50SINGLE'))
+Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
+Processing Rule : Width Constraint (Min=0.186mm) (Max=0.199mm) (Preferred=0.199mm) (InNetClass('50SINGLE'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
@@ -74,4 +74,4 @@ Rule Violations :0
 
 Violations Detected : 8
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
