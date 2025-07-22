@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\se097192\Documents\0_PERSONAL\BRZ\0_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc
-Date     : 05/13/2025
-Time     : 7:23:27 PM
+PCB File : C:\Users\Trololololol\Documents\Projects\0_BRZ_PARENT\1_BRZ_HARDWARE\9_HU_SUPPORT_BOARD\HU_MAIN_PCB_revA\HU_MAIN_PCB_revA.PcbDoc
+Date     : 7/18/2025
+Time     : 11:09:11 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -41,49 +41,18 @@ Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Arc (13.8mm,58mm) on Bottom Overlay And Pad C55-1(14mm,58.521mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-Rule Violations :1
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad C60-1(28.326mm,77mm) on Bottom Layer And Track (24.95mm,77.45mm)(30.05mm,77.45mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad C60-2(26.674mm,77mm) on Bottom Layer And Track (24.95mm,77.45mm)(30.05mm,77.45mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad L6-1(29.3mm,80mm) on Bottom Layer And Track (26.047mm,78.128mm)(28.953mm,78.128mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad L6-2(25.7mm,80mm) on Bottom Layer And Track (25.128mm,78.547mm)(25.128mm,81.453mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad L6-2(25.7mm,80mm) on Bottom Layer And Track (26.047mm,78.128mm)(28.953mm,78.128mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+Rule Violations :6
 
 Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (104.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (104.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (104.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (105.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (105.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (105.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (106.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (106.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (106.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (107.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (107.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (107.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (108.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (108.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (108.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (109.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (109.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (109.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (110.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (110.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (110.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (111.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (111.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (111.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (112.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (112.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (112.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (113.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (113.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (113.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (114.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (114.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (114.5mm,63.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (115.5mm,61.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (115.5mm,62.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (115.5mm,63.5mm) from Top Layer to Bottom Layer 
-Rule Violations :36
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (101.983mm,0.743mm) on Top Overlay And Board Edge 
@@ -119,10 +88,13 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (88.85mm,0mm)(88.85mm,0.9mm) on Top Overlay 
 Rule Violations :31
 
+Processing Rule : Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSI0'))
+Rule Violations :0
+
 Processing Rule : Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSI0_PRE'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSI0'))
+Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSI0_PRE') OR InDifferentialPairClass('CSI0') OR InDifferentialPairClass('100DIFF'))
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Delay Tolerance=5ps) (All)
@@ -130,20 +102,17 @@ Processing Rule : Matched Lengths(Delay Tolerance=5ps) (All)
    Violation between Matched Net Lengths: Between Net X25_N And Net X25_P Actual Difference against X25_P is: 5.039ps, Delay Tolerance : 5ps. 
 Rule Violations :2
 
-Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSI0_PRE') OR InDifferentialPairClass('CSI0') OR InDifferentialPairClass('100DIFF'))
-Rule Violations :0
-
-Processing Rule : Room 5V_REG_1 (Bounding Region = (258mm, 160mm, 317mm, 180.5mm) (InComponentClass('5V_REG_1'))
-Rule Violations :0
-
 Processing Rule : Room 5V_REG_0 (Bounding Region = (258mm, 181mm, 317mm, 201.5mm) (InComponentClass('5V_REG_0'))
    Violation between Room Definition: Between Room 5V_REG_0 (Bounding Region = (258mm, 181mm, 317mm, 201.5mm) (InComponentClass('5V_REG_0')) And SMT Small Component C10_5V_REG_0-100n (64.5mm,40.5mm) on Top Layer 
 Rule Violations :1
+
+Processing Rule : Room 5V_REG_1 (Bounding Region = (258mm, 160mm, 317mm, 180.5mm) (InComponentClass('5V_REG_1'))
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 71
+Violations Detected : 40
 Waived Violations : 0
 Time Elapsed        : 00:00:01

@@ -1,0 +1,100 @@
+Removed Pin From Net: NetName=3V3 Pin=C10_5V_REG_0-2
+Removed Pin From Net: NetName=3V3 Pin=C10_5V_REG_1-2
+Removed Pin From Net: NetName=3V3 Pin=C42-1
+Removed Pin From Net: NetName=3V3 Pin=C45-1
+Removed Pin From Net: NetName=3V3 Pin=C47-1
+Removed Pin From Net: NetName=3V3 Pin=C55-1
+Removed Pin From Net: NetName=PWR_MOSFET Pin=Q5-3
+Removed Pin From Net: NetName=3V3 Pin=R21-1
+Removed Pin From Net: NetName=3V3 Pin=R22-1
+Removed Pin From Net: NetName=3V3 Pin=R23-1
+Removed Pin From Net: NetName=PWR_MOSFET Pin=R26-1
+Removed Pin From Net: NetName=3V3 Pin=R35-1
+Removed Pin From Net: NetName=3V3 Pin=U2_5V_REG_0-8
+Removed Pin From Net: NetName=3V3 Pin=U2_5V_REG_1-8
+Removed Pin From Net: NetName=3V3 Pin=U6-14
+Removed Pin From Net: NetName=3V3 Pin=U7-8
+Removed Pin From Net: NetName=3V3 Pin=U8-5
+Removed Pin From Net: NetName=3V3 Pin=U10-2
+Change Component Footprint: Designator=L6 Old Footprint=FP-LQH32PB_N0-MFG New Footprint=FP-NR5040-H_4_1-MFG
+Change Component Comment : Designator=L6 Old Comment=LQH32PN4R7NN0L New Comment=NR5040T4R7N
+Change Managed Component Library Link : Designator=L6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=F9B37DEF-2A94-4E60-87EC-933965BD7063 New ItemGUID=7735354B-F8B4-4E10-B253-223F6C9CEE3B Old RevisionGUID=7A5440C1-1417-41DD-9877-00EDB5C83CD4 New RevisionGUID=5C20D6C1-26B3-4801-8513-67A64B37758B
+Change component parameters: Designator = "L6" ("L6"); Footprint = "FP-LQH32PB_N0-MFG"; UniqueID = "\LMWJUUJR\UTEKJRZH" ("\LMWJUUJR\UTEKJRZH")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Nonstandard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "3.1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "37.7mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "5.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.161inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "4.7uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.193inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max DC Current"; Value = "3.3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "120°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Wirewound"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RMS Current (Irms)"; Value = "3.1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current"; Value = "3.3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Self Resonant Frequency"; Value = "28MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "NR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Test Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "4.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=R41(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5VA Pin=C10_5V_REG_0-2
+Added Pin To Net: NetName=5VA Pin=C10_5V_REG_1-2
+Added Pin To Net: NetName=5VA Pin=C42-1
+Added Pin To Net: NetName=5VA Pin=C45-1
+Added Pin To Net: NetName=5VA Pin=C47-1
+Added Pin To Net: NetName=5VA Pin=C55-1
+Added Pin To Net: NetName=5VA Pin=R21-1
+Added Pin To Net: NetName=5VA Pin=R22-1
+Added Pin To Net: NetName=5VA Pin=R23-1
+Added Pin To Net: NetName=5VA Pin=R35-1
+Added Pin To Net: NetName=PWR_MOSFET Pin=R41-2
+Added Pin To Net: NetName=5VA Pin=U2_5V_REG_0-8
+Added Pin To Net: NetName=5VA Pin=U2_5V_REG_1-8
+Added Pin To Net: NetName=5VA Pin=U6-14
+Added Pin To Net: NetName=5VA Pin=U7-8
+Added Pin To Net: NetName=5VA Pin=U8-5
+Added Pin To Net: NetName=5VA Pin=U10-2
+Added Pin To Net: NetName=NetQ5_3 Pin=Q5-3
+Added Pin To Net: NetName=NetQ5_3 Pin=R26-1
+Added Pin To Net: NetName=NetQ5_3 Pin=R41-1
+Added Net: Name=NetQ5_3
+Added Member To Class: ClassName=PWR_MGMT Member=Component R41 1k
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
