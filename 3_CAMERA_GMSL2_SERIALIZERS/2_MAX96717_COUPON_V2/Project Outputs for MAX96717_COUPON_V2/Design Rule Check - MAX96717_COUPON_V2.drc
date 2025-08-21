@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc
-Date     : 07/21/2025
-Time     : 8:56:31 PM
+PCB File : C:\Users\se097192\Documents\0_BRZ\BRZ_HARDWARE_V2\3_CAMERA_GMSL2_SERIALIZERS\2_MAX96717_COUPON_V2\MAX96717_COUPON_V2.PcbDoc
+Date     : 08/21/2025
+Time     : 7:12:20 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InDifferentialPairClass('100DIFF') or InDifferentialPairClass('CSI') or InDifferentialPairClass('PRECSI')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -10,29 +13,27 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net CAM_SCL Between Pad J1-13(20mm,4mm) on Top Layer And Track (20.2mm,6.973mm)(20.2mm,7.55mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CAM_SDA Between Pad J1-14(21mm,4mm) on Top Layer And Pad J1-14(21mm,7.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D0_N Between Pad J1-2(9mm,4mm) on Top Layer And Track (9mm,7.225mm)(9.235mm,6.99mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D0_P Between Pad J1-3(10mm,4mm) on Top Layer And Track (10.521mm,10.479mm)(10.784mm,10.479mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D1_N Between Pad J1-5(12mm,4mm) on Top Layer And Via (12.125mm,5.5mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_D1_P Between Pad J1-6(13mm,4mm) on Top Layer And Track (13.484mm,4.261mm)(13.53mm,4.215mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_CLK_N Between Pad J1-8(15mm,4mm) on Top Layer And Via (15.125mm,5.5mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net CSI_CLK_P Between Via (15.875mm,5.5mm) from Top Layer to Bottom Layer And Pad J1-9(16mm,4mm) on Top Layer 
-Rule Violations :8
+   Violation between Un-Routed Net Constraint: Net CSI_D0_N Between Track (8mm,2.875mm)(8.224mm,2.651mm) on Top Layer And Pad J1-2(8mm,7.25mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D0_P Between Pad J1-3(9mm,7.25mm) on Top Layer And Via (10.625mm,9.5mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D1_N Between Track (11mm,2.875mm)(11mm,3.5mm) on Top Layer And Pad J1-5(11mm,7.25mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_D1_P Between Track (11.875mm,1.5mm)(11.875mm,1.539mm) on Top Layer And Pad J1-6(12mm,7.25mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_CLK_N Between Pad J1-8(14mm,7.25mm) on Top Layer And Via (14.875mm,9.5mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net CSI_CLK_P Between Via (14.125mm,9.5mm) from Top Layer to Bottom Layer And Pad J1-9(15mm,7.25mm) on Top Layer 
+Rule Violations :6
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.187mm) (Max=0.261mm) (Preferred=0.261mm) (InNetClass('50SINGLE'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.186mm) (Max=0.199mm) (Preferred=0.199mm) (InNetClass('50SINGLE'))
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
@@ -72,6 +73,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm)
 Rule Violations :0
 
 
-Violations Detected : 8
+Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00

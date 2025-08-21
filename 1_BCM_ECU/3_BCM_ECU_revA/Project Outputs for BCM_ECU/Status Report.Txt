@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BCM_ECU_revA_V3.PcbDoc]
+   Generated File[BCM_ECU_revA_V3.TXT]
+   Generated File[BCM_ECU_revA_V3.LDP]
+   Generated File[BCM_ECU_revA_V3.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:18:37 PM On 08/21/2025
