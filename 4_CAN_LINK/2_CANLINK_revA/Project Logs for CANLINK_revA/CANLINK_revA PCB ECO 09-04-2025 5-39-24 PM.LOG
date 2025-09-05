@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CAN0_P Pin=D1_CAN_0-1
+Removed Pin From Net: NetName=CAN0_N Pin=D1_CAN_0-2
+Removed Pin From Net: NetName=CAN1_P Pin=D1_CAN_1-1
+Removed Pin From Net: NetName=CAN1_N Pin=D1_CAN_1-2
+Added Pin To Net: NetName=CAN0_N Pin=D1_CAN_0-1
+Added Pin To Net: NetName=CAN0_P Pin=D1_CAN_0-2
+Added Pin To Net: NetName=CAN1_N Pin=D1_CAN_1-1
+Added Pin To Net: NetName=CAN1_P Pin=D1_CAN_1-2
