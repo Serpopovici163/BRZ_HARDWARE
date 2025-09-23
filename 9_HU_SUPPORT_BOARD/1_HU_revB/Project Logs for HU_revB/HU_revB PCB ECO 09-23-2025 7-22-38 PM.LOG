@@ -1,0 +1,146 @@
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=GND Pin=J1-20
+Added Pin To Net: NetName=GND Pin=J1-21
+Added Pin To Net: NetName=GND Pin=J1-22
+Added Pin To Net: NetName=GND Pin=J1-23
+Added Pin To Net: NetName=GND Pin=J1-30
+Added Pin To Net: NetName=GND Pin=J1-33
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetF?_2" already exists
+Add Net: Net with name "NetF?_2" already exists
+Add Net: Net with name "NetF?_2" already exists
+Add Net: Net with name "NetF?_2" already exists
+Add Net: Net with name "NetF?_2" already exists
+Add Net: Net with name "NetQ?_1" already exists
+Add Net: Net with name "NetQ?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetU?_1" already exists
+Add Net: Net with name "NetU?_9" already exists
+Add Net: Net with name "NetU?_10" already exists
+Add Net: Net with name "PWR_MOSFET" already exists
+Added Pin To Net: NetName=SUB_N Pin=J1-35
+Added Net: Name=SUB_N
+Added Pin To Net: NetName=SUB_P Pin=J1-34
+Added Net: Name=SUB_P
+Add Net: Net with name "VBUS_EN" already exists
+Change Class Name : Old Net Name=ADC_0 New Net Name=USB2_HUB_0
+Change Class Name : Old Net Name=USB New Net Name=NVME_0
+Added Class: Name=ADC_0
+Added Class: Name=USB
+Added Member To Class: ClassName=5V_0 Member=Component C? 20SVP33M
+Added Member To Class: ClassName=5V_0 Member=Component C? 20SVP33M
+Added Member To Class: ClassName=5V_0 Member=Component C? EEE-1AA101WR
+Added Member To Class: ClassName=5V_0 Member=Component C? EEE-1AA101WR
+Added Member To Class: ClassName=5V_0 Member=Component C? EEE-1AA101WR
+Added Member To Class: ClassName=5V_0 Member=Component C? 20SVP33M
+Added Member To Class: ClassName=5V_0 Member=Component C? EEE-1AA101WR
+Added Member To Class: ClassName=5V_0 Member=Component C? 10n
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 10u
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 30p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 10u
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 100n
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 100n
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component C? 22p
+Added Member To Class: ClassName=MCP2515 Member=Component C? 100n
+Added Member To Class: ClassName=MCP2515 Member=Component C? 100n
+Added Member To Class: ClassName=MCP2515 Member=Component C? 100n
+Added Member To Class: ClassName=MCP2515 Member=Component C? 100n
+Added Member To Class: ClassName=SD Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 10u
+Added Member To Class: ClassName=NVME_0 Member=Component C? 10u
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component C? 100n
+Added Member To Class: ClassName=NVME_0 Member=Component D? 150066RG54050
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F? .25
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F? .25
+Added Member To Class: ClassName=GMSL_DESERIALIZER_0 Member=Component F? .25
+Added Member To Class: ClassName=HU_revB Member=Component F? 2.5
+Added Member To Class: ClassName=HU_revB Member=Component F? 2.5
+Added Member To Class: ClassName=HU_revB Member=Component F? 1.5
+Added Member To Class: ClassName=DISP_0 Member=Component J?_DISP_0 (J?) 208658-1052
+Added Member To Class: ClassName=DISP_1 Member=Component J?_DISP_1 (J?) 208658-1052
+Added Member To Class: ClassName=RPI_0 Member=Component J? 10164227-1001A1RLF
+Added Member To Class: ClassName=NVME_0 Member=Component J? 1-2199230-6
+Added Member To Class: ClassName=NVME_0 Member=Component J? 1-2199230-6
+Added Member To Class: ClassName=NVME_0 Member=Component J? 1-2199230-6
+Added Member To Class: ClassName=NVME_0 Member=Component MP? 9774025243R
+Added Member To Class: ClassName=PWR_SW_0 Member=Component Q? SISH615ADN-T1-GE3
+Added Member To Class: ClassName=PWR_SW_0 Member=Component Q? SISH615ADN-T1-GE3
+Added Member To Class: ClassName=5V_0 Member=Component R? 1k
+Added Member To Class: ClassName=5V_0 Member=Component R? 100k
+Added Member To Class: ClassName=5V_0 Member=Component R? 10k
+Added Member To Class: ClassName=5V_0 Member=Component R? 100k
+Added Member To Class: ClassName=5V_0 Member=Component R? ERT-J1VR103J
+Added Member To Class: ClassName=5V_0 Member=Component R? 1k
+Added Member To Class: ClassName=5V_0 Member=Component R? 1k
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component R? 33
+Added Member To Class: ClassName=MCP2515 Member=Component R? 1k
+Added Member To Class: ClassName=MCP2515 Member=Component R? ERJ3EKF1002V
+Added Member To Class: ClassName=PWR_MGMT Member=Component R? 100k
+Added Member To Class: ClassName=PWR_SW_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_SW_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_SW_0 Member=Component R? 1k
+Added Member To Class: ClassName=PWR_SW_0 Member=Component R? 100k
+Added Member To Class: ClassName=PWR_SW_0 Member=Component R? 1k
+Added Member To Class: ClassName=NVME_0 Member=Component R? 330
+Added Member To Class: ClassName=NVME_0 Member=Component R? 100k
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 1k
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 0402 JUMPER
+Added Member To Class: ClassName=NVME_0 Member=Component R? 1k
+Added Member To Class: ClassName=NVME_0 Member=Component R? 100k
+Added Member To Class: ClassName=NVME_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=NVME_0 Member=Component TP? TPAD6R
+Added Member To Class: ClassName=5V_0 Member=Component U? LM2678S-5.0
+Added Member To Class: ClassName=USB2_HUB_0 Member=Component Y? ABMM-6.000MHZ-B2-T
+Added Member To Class: ClassName=NVME_0 Member=Component Y? ASDK-32.768KHZ-LRT
