@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=VBUS_EN New Net Name=NetQ11_3
+Added Pin To Net: NetName=VBUS_EN Pin=J8-111
+Added Pin To Net: NetName=VBUS_EN Pin=R63-2
+Added Net: Name=VBUS_EN

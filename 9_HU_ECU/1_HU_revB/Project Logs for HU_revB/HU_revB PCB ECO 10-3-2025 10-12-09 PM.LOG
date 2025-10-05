@@ -1,0 +1,5 @@
+Added Component: Designator=F16(FP-0685T-MFG)
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT_12V Pin=F16-1
+Added Pin To Net: NetName=NetF8_2 Pin=F16-2
+Added Member To Class: ClassName=PWR_MGMT Member=Component F16 20

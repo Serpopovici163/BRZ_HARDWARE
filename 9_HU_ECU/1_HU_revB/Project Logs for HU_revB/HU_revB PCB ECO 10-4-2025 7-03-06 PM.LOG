@@ -1,0 +1,16 @@
+Added Component: Designator=MH?(PTHV6 M2.5 Tight)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-1
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-2
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-3
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-4
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-5
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-6
+Added Pin To Net: NetName=NetMH?_1 Pin=MH?-7
+Added Net: Name=NetMH?_1
+Added Member To Class: ClassName=HU_revB Member=Component MH? PTHV6

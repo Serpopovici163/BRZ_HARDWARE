@@ -1,0 +1,15 @@
+Added Component: Designator=MH?(PTHV6 M2)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=MH?-1
+Add Pin To Net: Unknown Pin: Pin MH?-2
+Add Pin To Net: Unknown Pin: Pin MH?-3
+Add Pin To Net: Unknown Pin: Pin MH?-4
+Add Pin To Net: Unknown Pin: Pin MH?-5
+Add Pin To Net: Unknown Pin: Pin MH?-6
+Add Pin To Net: Unknown Pin: Pin MH?-7
+Added Member To Class: ClassName=HU_revB Member=Component MH? PTHV6

@@ -1,0 +1,7 @@
+Add Net: Net with name "CAN_INH" already exists
+Added Pin To Net: NetName=PWR_SW_MOS_GATE Pin=Q4-4
+Added Pin To Net: NetName=PWR_SW_MOS_GATE Pin=Q6-4
+Added Pin To Net: NetName=PWR_SW_MOS_GATE Pin=R15-1
+Added Pin To Net: NetName=PWR_SW_MOS_GATE Pin=R16-2
+Added Net: Name=PWR_SW_MOS_GATE
+Add Net: Net with name "VBUS_EN" already exists

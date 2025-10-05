@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=F9 Old Footprint=FP-0685T-MFG New Footprint=FP-0ZCK0010FF2G-MFG
+Change Component Comment : Designator=F9 Old Comment=.1 New Comment=0ZCK0010FF2G
+Change Managed Component Library Link : Designator=F9 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=A2D2F0C0-CEC7-4258-B713-78AF29A4019A New ItemGUID=8B8DB3BA-9633-4E06-A919-6D384539CCE1 Old RevisionGUID=3DB375D4-BB9D-4BF5-9007-1EC38148C3A0 New RevisionGUID=5E2C395D-DD27-488D-9B1B-7DD13638862C
+Change component parameters: Designator = "F9" ("F9"); Footprint = "FP-0685T-MFG"; UniqueID = "\SAJXEUQR\UJNXYVLH" ("\SAJXEUQR\UJNXYVLH")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Hold Current"; Value = "100mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "100A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Time to Trip"; Value = "1.5s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Trip Current"; Value = "300mA"; VariantName = "[No Variations]"

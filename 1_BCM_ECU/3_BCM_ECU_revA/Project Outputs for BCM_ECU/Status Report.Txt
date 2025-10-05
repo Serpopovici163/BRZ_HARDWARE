@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [BCM_ECU_revA_V3.PcbDoc]
-   Generated File[BCM_ECU_revA_V3.TXT]
-   Generated File[BCM_ECU_revA_V3.LDP]
-   Generated File[BCM_ECU_revA_V3.DRR]
+Output: Export PARASOLID
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [BCM_ECU_revA_V3.PcbDoc]
+   Generated File[BCM_ECU_revA_V3.x_t]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 8:35:21 PM On 9/18/2025
+Finished Output Generation At 9:19:45 PM On 10/3/2025

@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=CAN_INH New Net Name=TCAN_CAN_INH
+Added Pin To Net: NetName=CAN_INH Pin=R29-2
+Added Net: Name=CAN_INH
+Add Net: Net with name "VBUS_EN" already exists

@@ -1,0 +1,201 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=nETH_G_LED Pin=J6-L1
+Removed Pin From Net: NetName=nETH_Y_LED Pin=J6-L3
+Removed Pin From Net: NetName=GND Pin=J6-P1
+Removed Pin From Net: NetName=TRD0_P Pin=J6-P2
+Removed Pin From Net: NetName=TRD0_N Pin=J6-P3
+Removed Pin From Net: NetName=TRD1_P Pin=J6-P4
+Removed Pin From Net: NetName=TRD1_N Pin=J6-P5
+Removed Pin From Net: NetName=TRD2_P Pin=J6-P7
+Removed Pin From Net: NetName=TRD2_N Pin=J6-P8
+Removed Pin From Net: NetName=TRD3_P Pin=J6-P9
+Removed Pin From Net: NetName=TRD3_N Pin=J6-P10
+Removed Pin From Net: NetName=GND Pin=J6-S1
+Removed Pin From Net: NetName=GND Pin=J6-S2
+Removed Pin From Net: NetName=NetC42_1 Pin=J11-1
+Removed Pin From Net: NetName=USB3_0_D_N Pin=J11-2
+Removed Pin From Net: NetName=USB3_0_D_P Pin=J11-3
+Removed Pin From Net: NetName=GND Pin=J11-4
+Removed Pin From Net: NetName=USB3_0_RX_N Pin=J11-5
+Removed Pin From Net: NetName=USB3_0_RX_P Pin=J11-6
+Removed Pin From Net: NetName=GND Pin=J11-7
+Removed Pin From Net: NetName=USB3_0_TX_N Pin=J11-8
+Removed Pin From Net: NetName=USB3_0_TX_P Pin=J11-9
+Removed Pin From Net: NetName=GND Pin=J11-10
+Removed Pin From Net: NetName=GND Pin=J11-11
+Removed Pin From Net: NetName=NetC44_1 Pin=J12-1
+Removed Pin From Net: NetName=USB3_1_D_N Pin=J12-2
+Removed Pin From Net: NetName=USB3_1_D_P Pin=J12-3
+Removed Pin From Net: NetName=GND Pin=J12-4
+Removed Pin From Net: NetName=USB3_1_RX_N Pin=J12-5
+Removed Pin From Net: NetName=USB3_1_RX_P Pin=J12-6
+Removed Pin From Net: NetName=GND Pin=J12-7
+Removed Pin From Net: NetName=USB3_1_TX_N Pin=J12-8
+Removed Pin From Net: NetName=USB3_1_TX_P Pin=J12-9
+Removed Pin From Net: NetName=GND Pin=J12-10
+Removed Pin From Net: NetName=GND Pin=J12-11
+Removed Pin From Net: NetName=3V3_AUX Pin=Q11-5
+Removed Pin From Net: NetName=3V3_AUX Pin=Q11-6
+Removed Pin From Net: NetName=3V3_AUX Pin=Q12-5
+Removed Pin From Net: NetName=3V3_AUX Pin=Q12-6
+Removed Pin From Net: NetName=3V3_AUX Pin=R8-2
+Removed Pin From Net: NetName=3V3_AUX Pin=R9-2
+Removed Pin From Net: NetName=3V3_AUX Pin=R62-2
+Removed Member From Class: ClassName=HU_revB Member=C1
+Removed Member From Class: ClassName=HU_revB Member=J6
+Added Component: Designator=R126(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=T1(7497110616)
+Add component (AddParameter): Name = "Case/Package"; Value = "Metal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "RJ45, Socket, USB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Ferrite, Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "32mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Thermoplastic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "350µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insertion Loss (dB)"; Value = "-1dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "33mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "19667826"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Ports"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "20mm"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Added Pin To Net: NetName=5V_MAIN Pin=Q11-5
+Added Pin To Net: NetName=5V_MAIN Pin=Q11-6
+Added Pin To Net: NetName=5V_MAIN Pin=Q12-5
+Added Pin To Net: NetName=5V_MAIN Pin=Q12-6
+Added Pin To Net: NetName=3V3_AUX Pin=R8-1
+Added Pin To Net: NetName=3V3_AUX Pin=R9-1
+Added Pin To Net: NetName=5V_MAIN Pin=R62-2
+Added Pin To Net: NetName=3V3_MAIN Pin=R126-2
+Added Pin To Net: NetName=TRD0_P Pin=T1-2
+Added Pin To Net: NetName=TRD0_N Pin=T1-3
+Added Pin To Net: NetName=TRD1_P Pin=T1-4
+Added Pin To Net: NetName=TRD1_N Pin=T1-5
+Added Pin To Net: NetName=TRD2_P Pin=T1-6
+Added Pin To Net: NetName=TRD2_N Pin=T1-7
+Added Pin To Net: NetName=TRD3_P Pin=T1-8
+Added Pin To Net: NetName=TRD3_N Pin=T1-9
+Added Pin To Net: NetName=GND Pin=T1-10
+Added Pin To Net: NetName=nETH_Y_LED Pin=T1-11
+Added Pin To Net: NetName=nETH_G_LED Pin=T1-13
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=GND Pin=T1-Shell
+Added Pin To Net: NetName=NetC42_1 Pin=T1-U1
+Added Pin To Net: NetName=USB3_0_D_N Pin=T1-U2
+Added Pin To Net: NetName=USB3_0_D_P Pin=T1-U3
+Added Pin To Net: NetName=GND Pin=T1-U4
+Added Pin To Net: NetName=USB3_0_RX_N Pin=T1-U5
+Added Pin To Net: NetName=USB3_0_RX_P Pin=T1-U6
+Added Pin To Net: NetName=GND Pin=T1-U7
+Added Pin To Net: NetName=USB3_0_TX_N Pin=T1-U8
+Added Pin To Net: NetName=USB3_0_TX_P Pin=T1-U9
+Added Pin To Net: NetName=NetC44_1 Pin=T1-U10
+Added Pin To Net: NetName=USB3_1_D_N Pin=T1-U11
+Added Pin To Net: NetName=USB3_1_D_P Pin=T1-U12
+Added Pin To Net: NetName=GND Pin=T1-U13
+Added Pin To Net: NetName=USB3_1_RX_N Pin=T1-U14
+Added Pin To Net: NetName=USB3_1_RX_P Pin=T1-U15
+Added Pin To Net: NetName=GND Pin=T1-U16
+Added Pin To Net: NetName=USB3_1_TX_N Pin=T1-U17
+Added Pin To Net: NetName=USB3_1_TX_P Pin=T1-U18
+Change Net Name : Old Net Name=NetC42_1 New Net Name=USB_VBUS_0
+Change Net Name : Old Net Name=NetC44_1 New Net Name=USB_VBUS_1
+Change Net Name : Old Net Name=VBUS_EN New Net Name=USB_VBUS_EN
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=T1-12
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=T1-14
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR126_1 Pin=R126-1
+Added Pin To Net: NetName=NetR126_1 Pin=T1-1
+Added Net: Name=NetR126_1
+Added Member To Class: ClassName=HU_revB Member=Component C42 10u
+Added Member To Class: ClassName=HU_revB Member=Component C43 100n
+Added Member To Class: ClassName=HU_revB Member=Component C44 10u
+Added Member To Class: ClassName=HU_revB Member=Component C45 100n
+Added Member To Class: ClassName=HU_revB Member=Component Q11 SIP32510DT-T1-GE3
+Added Member To Class: ClassName=HU_revB Member=Component Q12 SIP32510DT-T1-GE3
+Added Member To Class: ClassName=HU_revB Member=Component R62 DNP
+Added Member To Class: ClassName=HU_revB Member=Component R63 1k
+Added Member To Class: ClassName=HU_revB Member=Component R64 100k
+Added Member To Class: ClassName=HU_revB Member=Component R126 10
+Added Member To Class: ClassName=HU_revB Member=Component T1 7497110616

@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=MH1 Old DesignItemId=CMP-00028-00001-10 New DesignItemId=CMP-00028-00001-11
+Change Component Footprint: Designator=MH1 Old Footprint=PTHV6 M2 New Footprint=PTHV6 M2
+Change Managed Component Library Link : Designator=MH1 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=e4f4bb60-1eac-4887-bda5-a94fee3db65b New RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
