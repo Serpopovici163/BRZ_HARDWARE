@@ -1,0 +1,102 @@
+Change Component DesignItemId : Designator=C62 Old DesignItemId=CMP-001-00066-1 New DesignItemId=CMP-001-00066-2
+Change Component DesignItemId : Designator=C63 Old DesignItemId=CMP-001-00066-1 New DesignItemId=CMP-001-00066-2
+Change Component DesignItemId : Designator=C64 Old DesignItemId=CMP-001-00066-1 New DesignItemId=CMP-001-00066-2
+Change Component DesignItemId : Designator=C65 Old DesignItemId=CMP-001-00066-1 New DesignItemId=CMP-001-00066-2
+Change Component DesignItemId : Designator=C66 Old DesignItemId=CMP-001-00067-1 New DesignItemId=CMP-001-00067-2
+Change Component DesignItemId : Designator=C67 Old DesignItemId=CMP-001-00067-1 New DesignItemId=CMP-001-00067-2
+Change Component DesignItemId : Designator=C68 Old DesignItemId=CMP-001-00067-1 New DesignItemId=CMP-001-00067-2
+Change Component DesignItemId : Designator=C69 Old DesignItemId=CMP-001-00067-1 New DesignItemId=CMP-001-00067-2
+Change Component Footprint: Designator=C66 Old Footprint=T495D337K010ATE150-Footprint-1 New Footprint=T495D337K010ATE150-Footprint-1
+Change Component Footprint: Designator=C67 Old Footprint=T495D337K010ATE150-Footprint-1 New Footprint=T495D337K010ATE150-Footprint-1
+Change Component Footprint: Designator=C68 Old Footprint=T495D337K010ATE150-Footprint-1 New Footprint=T495D337K010ATE150-Footprint-1
+Change Component Footprint: Designator=C69 Old Footprint=T495D337K010ATE150-Footprint-1 New Footprint=T495D337K010ATE150-Footprint-1
+Change Component Footprint: Designator=C62 Old Footprint=T495D475K050ATE300-Footprint-1 New Footprint=T495D475K050ATE300-Footprint-1
+Change Component Footprint: Designator=C63 Old Footprint=T495D475K050ATE300-Footprint-1 New Footprint=T495D475K050ATE300-Footprint-1
+Change Component Footprint: Designator=C64 Old Footprint=T495D475K050ATE300-Footprint-1 New Footprint=T495D475K050ATE300-Footprint-1
+Change Component Footprint: Designator=C65 Old Footprint=T495D475K050ATE300-Footprint-1 New Footprint=T495D475K050ATE300-Footprint-1
+Change Managed Component Library Link : Designator=C62 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 New ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 Old RevisionGUID=5dfb4ce9-f75a-4a24-9585-590952bfd643 New RevisionGUID=65b87bcc-6a1e-46ec-9c6d-8674f4f09ac8
+Change Managed Component Library Link : Designator=C63 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 New ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 Old RevisionGUID=5dfb4ce9-f75a-4a24-9585-590952bfd643 New RevisionGUID=65b87bcc-6a1e-46ec-9c6d-8674f4f09ac8
+Change Managed Component Library Link : Designator=C64 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 New ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 Old RevisionGUID=5dfb4ce9-f75a-4a24-9585-590952bfd643 New RevisionGUID=65b87bcc-6a1e-46ec-9c6d-8674f4f09ac8
+Change Managed Component Library Link : Designator=C65 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 New ItemGUID=0a5ea57c-766b-4264-9ac2-6e17d9076ef8 Old RevisionGUID=5dfb4ce9-f75a-4a24-9585-590952bfd643 New RevisionGUID=65b87bcc-6a1e-46ec-9c6d-8674f4f09ac8
+Change Managed Component Library Link : Designator=C66 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a New ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a Old RevisionGUID=80d08929-9106-4dbe-8d03-6e036c03a8c9 New RevisionGUID=0a517223-a587-4d47-9c0d-efc8fd02e504
+Change Managed Component Library Link : Designator=C67 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a New ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a Old RevisionGUID=80d08929-9106-4dbe-8d03-6e036c03a8c9 New RevisionGUID=0a517223-a587-4d47-9c0d-efc8fd02e504
+Change Managed Component Library Link : Designator=C68 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a New ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a Old RevisionGUID=80d08929-9106-4dbe-8d03-6e036c03a8c9 New RevisionGUID=0a517223-a587-4d47-9c0d-efc8fd02e504
+Change Managed Component Library Link : Designator=C69 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a New ItemGUID=e13e1f90-1d2e-4c62-b32a-5e961f6d638a Old RevisionGUID=80d08929-9106-4dbe-8d03-6e036c03a8c9 New RevisionGUID=0a517223-a587-4d47-9c0d-efc8fd02e504
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
