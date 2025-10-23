@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=R_LED Pin=U4-44
+Removed Pin From Net: NetName=G_LED Pin=U4-45
+Added Pin To Net: NetName=NetU1_CAN_0_14 Pin=U4-41
+Added Pin To Net: NetName=NetU1_CAN_0_8 Pin=U4-42
+Added Pin To Net: NetName=NetU1_CAN_0_6 Pin=U4-43
+Added Pin To Net: NetName=NetU1_CAN_0_11 Pin=U4-44
+Added Pin To Net: NetName=R_LED Pin=U4-45
+Added Pin To Net: NetName=G_LED Pin=U4-46
+Added Pin To Net: NetName=NetU4_97 Pin=U4-97
+Added Net: Name=NetU4_97
+Added Pin To Net: NetName=NetU4_98 Pin=U4-98
+Added Net: Name=NetU4_98
