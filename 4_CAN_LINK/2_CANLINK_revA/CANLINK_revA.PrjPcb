@@ -151,6 +151,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MVUDDUOV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CANLINK_revA\Design Rule Check - CANLINK_revA.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
