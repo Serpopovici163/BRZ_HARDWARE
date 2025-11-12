@@ -186,6 +186,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KCLCTFSD
 
 [Document9]
+DocumentPath=..\CHILD_BOARD\ETHERNET.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QSWOINPE
+
+[Document10]
 DocumentPath=RAIL_DISCHARGE.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GCZAGKPD
 
-[Document10]
+[Document11]
 DocumentPath=RECOVERY_USBC.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNGVDDMF
 
-[Document11]
+[Document12]
 DocumentPath=ADAS_ECU_MB_revA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DEAIKRGK
 
-[Document12]
+[Document13]
 DocumentPath=WIFI_NVME.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DSNFWRMN
 
-[Document13]
+[Document14]
 DocumentPath=HDMI_TO_GMSL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVKAZCOP
 
-[Document14]
+[Document15]
 DocumentPath=JETSON_V2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUBXLZOP
 
-[Document15]
+[Document16]
 DocumentPath=HD3SS215_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
