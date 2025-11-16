@@ -101,23 +101,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ATWPHOMP
 
 [Document4]
-DocumentPath=USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NHGIUPJC
-
-[Document5]
 DocumentPath=CHILD_BOARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SIDLOPKQ
 
-[Document6]
+[Document5]
 DocumentPath=ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IGYOPPVK
 
-[Document7]
+[Document6]
 DocumentPath=PWR_MGMT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ANUEJXRW
 
-[Document8]
+[Document7]
 DocumentPath=STM32G473CET6_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GPOALQNJ
 
-[Document9]
+[Document8]
 DocumentPath=TCAN1146_PWR_MGMT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRCLDNAZ
 
-[Document10]
+[Document9]
 DocumentPath=INT_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QYTNWBGB
 
-[Document11]
+[Document10]
 DocumentPath=CHILD_BOARD_revA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPJLGEWN
 
-[Document12]
+[Document11]
 DocumentPath=LM74910H_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KVXUURMK
 
-[Document13]
+[Document12]
 DocumentPath=PWR_PROT_AND_VI_SENSE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UWPYOMHG
 
-[Document14]
+[Document13]
 DocumentPath=JETSON_RAW_PWR_FILTER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -951,6 +934,14 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1035,6 +1026,11 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1198,6 +1194,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
