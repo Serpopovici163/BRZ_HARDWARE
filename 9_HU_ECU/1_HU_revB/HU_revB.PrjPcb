@@ -322,23 +322,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PZEYSHKJ
 
 [Document17]
-DocumentPath=TS3USB221A_PINOUT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=15
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MRBHRKRV
-
-[Document18]
 DocumentPath=MAX_M10M_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XFJMCSHS
 
-[Document19]
+[Document18]
 DocumentPath=HU_revB.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1

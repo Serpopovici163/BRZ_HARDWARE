@@ -14,5 +14,4 @@ Record=SheetSymbol|SourceDocument=HU_revB.SchDoc|Designator=RPI_0|SchDesignator=
 Record=SheetSymbol|SourceDocument=HU_revB.SchDoc|Designator=SD|SchDesignator=SD|FileName=SD.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=SD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=HU_revB.SchDoc|Designator=USB2_HUB_0|SchDesignator=USB2_HUB_0|FileName=TUSB2036_PINOUT.SchDoc|SheetNumber=11|SymbolType=Normal|RawFileName=TUSB2036_PINOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=HU_revB.SchDoc|Designator=USB_DAC_0|SchDesignator=USB_DAC_0|FileName=CM6206_PINOUT.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=CM6206_PINOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=HU_revB.SchDoc|FileName=TS3USB221A_PINOUT.SchDoc|SheetNumber=17
 Record=NoMainPathDocument|SourceDocument=HU_revB.SchDoc|FileName=USB.SchDoc|SheetNumber=16
