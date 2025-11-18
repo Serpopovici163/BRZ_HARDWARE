@@ -1,0 +1,19 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbt,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbb,Vishay-Dale,TNPW040232K0BEED,1,0.11,3,Resistance: 32 kΩ  Tolerance: 0.1%  Power: 63 mW  
+Ccomp,MuRata,GRM155R61A472KA01D,1,0.01,3,Cap: 4.7 nF  Total Derated Cap: 4.7 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+Rcomp,Vishay-Dale,CRCW04029K31FKED,1,0.01,3,Resistance: 9.31 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ccomp2,Taiyo Yuden,UMK105CG560JV-F,1,0.01,3,Cap: 56 pF  Total Derated Cap: 56 pF  VDC: 5 V  ESR: 0 Ω  Package: 0402  
+Rboot,Vishay-Dale,CRCW04021R00FKED,1,0.01,3,Resistance: 1 Ω  Tolerance: 1.0%  Power: 63 mW  
+Rt,Vishay-Dale,CRCW060354K9FKEA,1,0.01,4.68,Resistance: 54.9 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rconfig,Vishay-Dale,CRCW060341K2FKEA,1,0.01,4.68,Resistance: 41.2 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cvcc,MuRata,GRM188R71A225KE15D,1,0.02,4.68,Cap: 2.2 µF  Total Derated Cap: 2.2 µF  VDC: 10 V  ESR: 9 mΩ  Package: 0603  
+Cinx,TDK,C2012X7R2A104K125AA,1,0.03,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 100 V  ESR: 20.73 mΩ  Package: 0805  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cout,MuRata,GRM32EC80J107ME20L,4,0.17,14.7,Cap: 100 µF  Total Derated Cap: 250 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 1210  
+Cin,TDK,C3225X7R1H106M250AC,4,0.27,14.7,Cap: 10 µF  Total Derated Cap: 12 µF  VDC: 50 V  ESR: 1 mΩ  Package: 1210  
+U1,Texas Instruments,LM704A0RRXRQ1,1,2.45,64,
+Rsense,Panasonic,ERJ-M1WTF4M0U,1,0.17,43.16,Resistance: 4 mΩ  Tolerance: 1.0%  Power: 1 W  
+Cboot,MuRata,GRM155R71A473KA01D,1,0.01,3,Cap: 47 nF  Total Derated Cap: 47 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+L1,Wurth Elektronik,7443320330,1,1.93,188.94,L: 3.3 µH  DCR: 5.7 mΩ  IDC: 17 A  
+Cvdda,MuRata,GRM155R61A474KE15D,1,0.02,3,Cap: 470 nF  Total Derated Cap: 470 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  

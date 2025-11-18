@@ -1,0 +1,32 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+M4,Texas Instruments,CSD16327Q3,1,0.32,18.49,VdsMax: 25 V  IdsMax: 22 Amps  
+M3,Texas Instruments,CSD17575Q3,1,0.28,18.49,VdsMax: 30 V  IdsMax: 60 Amps  
+Cvcc,MuRata,GRM188R60J226MEA0D,1,0.04,4.68,Cap: 22 µF  Total Derated Cap: 22 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0603  
+L1,Coilcraft,XAL1010-472MEB,1,1.71,159.6,L: 4.7 µH  DCR: 5.2 mΩ  IDC: 24 A  
+Cout,Panasonic,20SVPF120M,3,0.57,73.96,Cap: 120 µF  Total Derated Cap: 360 µF  VDC: 20 V  ESR: 25 mΩ  Package: 6.3x6  
+Css,MuRata,GRM155R71H822KA88D,1,0.01,3,Cap: 8.2 nF  Total Derated Cap: 8.2 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0402  
+Renb,Vishay-Dale,CRCW040215K0FKED,1,0.01,3,Resistance: 15 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cbias,TDK,C1005X7R1H104K050BB,1,0.01522,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 39.03 mΩ  Package: 0402  
+Rfbb,Vishay-Dale,CRCW04025K62FKED,1,0.01,3,Resistance: 5.62 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rent,Vishay-Dale,CRCW060375K0FKEA,1,0.01,4.68,Resistance: 75 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cboot1,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+M1,Texas Instruments,CSD18540Q5B,1,0.75,56,VdsMax: 60 V  IdsMax: 100 Amps  
+Rslope,Panasonic,ERJ-6ENF1183V,1,0.01,6.75,Resistance: 118 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Coutx,TDK,CGA9P2X7R1E226M250KA,3,0.93,53.9,Cap: 22 µF  Total Derated Cap: 56 µF  VDC: 25 V  ESR: 1.89 mΩ  Package: 2220_280  
+M2,Texas Instruments,CSD18540Q5B,1,0.75,56,VdsMax: 60 V  IdsMax: 100 Amps  
+Rt,Vishay-Dale,CRCW060376K8FKEA,1,0.01,4.68,Resistance: 76.8 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rfbt,Vishay-Dale,CRCW040261K9FKED,1,0.01,3,Resistance: 61.9 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cboot2,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Ccomp,MuRata,GRM155R71C183KA01D,1,0.01,3,Cap: 18 nF  Total Derated Cap: 18 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Ccomp2,TDK,CGA2B2X7R1H331K050BA,1,0.01,3,Cap: 330 pF  Total Derated Cap: 330 pF  VDC: 50 V  ESR: 6.53 Ω  Package: 0402  
+Rcomp,Vishay-Dale,CRCW04029K53FKED,1,0.01,3,Resistance: 9.53 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rsns,Stackpole Electronics Inc,CSNL1206FT2L00,1,0.19,10.92,Resistance: 2 mΩ  Tolerance: 1.0%  Power: 1 W  
+U1,Texas Instruments,LM5177DCPR,1,3.22,74.88,
+Cinx,Taiyo Yuden,MSASU32MSB5106KPNA01,1,0.16148,14.7,Cap: 10 µF  Total Derated Cap: 8.9 µF  VDC: 50 V  ESR: 3.98 mΩ  Package: 1210  
+Rimon,Vishay-Dale,CRCW04024K42FKED,1,0.01,3,Resistance: 4.42 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cimon,MuRata,GRM155R71C183KA01D,1,0.01,3,Cap: 18 nF  Total Derated Cap: 18 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Rdiff2,Vishay-Dale,CRCW060310R0FKEA,1,0.01,4.68,Resistance: 10 Ω  Tolerance: 1.0%  Power: 100 mW  
+Cdiff,Kemet,C0805C181K5GACTU,1,0.01,6.75,Cap: 180 pF  Total Derated Cap: 180 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Rdiff1,Vishay-Dale,CRCW060310R0FKEA,1,0.01,4.68,Resistance: 10 Ω  Tolerance: 1.0%  Power: 100 mW  
+Cin,CUSTOM,CUSTOM,1,NA,NA,Cap: 184.5 µF  Total Derated Cap: 180 µF  VDC: 54 V  ESR: 1 mΩ  Package: null  
+Rcfg,Vishay-Dale,CRCW04028K25FKED,1,0.01,3,Resistance: 8.25 kΩ  Tolerance: 1.0%  Power: 63 mW  
