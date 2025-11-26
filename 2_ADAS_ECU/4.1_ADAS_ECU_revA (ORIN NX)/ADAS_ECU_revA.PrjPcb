@@ -407,7 +407,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GPOALQNJ
 
 [Document22]
-DocumentPath=TCAN1146_PWR_MGMT.SchDoc
+DocumentPath=TCAN1146_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -473,6 +473,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IAJPCTLU
+
+[Document26]
+DocumentPath=FUSE_AND_VI_SENSE.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LRQXJLLH
 
 [Configuration1]
 Name=Sources
