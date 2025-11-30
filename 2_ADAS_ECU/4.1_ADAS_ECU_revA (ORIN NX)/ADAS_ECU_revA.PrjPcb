@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EVGIIPMI
 
 [Document6]
-DocumentPath=GMSL_DESERIALIZER.SchDoc
+DocumentPath=MAX96724_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
