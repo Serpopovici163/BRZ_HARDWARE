@@ -220,7 +220,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DSNFWRMN
 
 [Document11]
-DocumentPath=HDMI_TO_GMSL.SchDoc
+DocumentPath=MAX96751_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1473,6 +1473,23 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=12V0_MAIN|NetColor=clLime
+Net2=NetName=3V3_MAIN|NetColor=$000099FF
+Net3=NetName=5V0_MAIN|NetColor=clRed
+Net4=NetName=INT_VCC|NetColor=clYellow
+Net5=NetName=NetC?_1|NetColor=clBlack
+Net6=NetName=NetC60_1|NetColor=clYellow
+Net7=NetName=NetF?_1|NetColor=clYellow
+Net8=NetName=NetF?_PWR_PROT_0_1|NetColor=clYellow
+Net9=NetName=NetF?_PWR_PROT_1_1|NetColor=clYellow
+Net10=NetName=NetF?_PWR_PROT_2_1|NetColor=clYellow
+Net11=NetName=NetR?_1|NetColor=clBlack
+Net12=NetName=NetR?_2|NetColor=clBlack
+Net13=NetName=NetR?_RAIL_DISCH_0_1|NetColor=clLime
+Net14=NetName=NetR?_RAIL_DISCH_1_1|NetColor=clRed
+Net15=NetName=NetR?_RAIL_DISCH_2_1|NetColor=$000099FF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
