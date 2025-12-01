@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GCZAGKPD
 
 [Document8]
-DocumentPath=RECOVERY_USBC.SchDoc
+DocumentPath=RECOVERY_USB.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1486,7 +1486,7 @@ Net8=NetName=NetF?_PWR_PROT_0_1|NetColor=clYellow
 Net9=NetName=NetF?_PWR_PROT_1_1|NetColor=clYellow
 Net10=NetName=NetF?_PWR_PROT_2_1|NetColor=clYellow
 Net11=NetName=NetR?_1|NetColor=clBlack
-Net12=NetName=NetR?_2|NetColor=clBlack
+Net12=NetName=NetR?_2|NetColor=clYellow
 Net13=NetName=NetR?_RAIL_DISCH_0_1|NetColor=clLime
 Net14=NetName=NetR?_RAIL_DISCH_1_1|NetColor=clRed
 Net15=NetName=NetR?_RAIL_DISCH_2_1|NetColor=$000099FF
