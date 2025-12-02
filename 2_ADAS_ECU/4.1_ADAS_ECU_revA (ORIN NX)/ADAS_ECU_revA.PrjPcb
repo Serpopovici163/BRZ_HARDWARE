@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AHDKNGNP
 
 [Document5]
-DocumentPath=NVME.SchDoc
+DocumentPath=M2_NVME.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -203,7 +203,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DEAIKRGK
 
 [Document10]
-DocumentPath=WIFI_NVME.SchDoc
+DocumentPath=M2_WIFI.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
