@@ -288,7 +288,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QSWOINPE
 
 [Document15]
-DocumentPath=3V3_REG.SchDoc
+DocumentPath=LM704A0_3V3_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -305,7 +305,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EREUEEEG
 
 [Document16]
-DocumentPath=5V_REG.SchDoc
+DocumentPath=LM704A0_5V0_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -424,7 +424,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WRCLDNAZ
 
 [Document23]
-DocumentPath=12V_REG.SchDoc
+DocumentPath=LM5177_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
