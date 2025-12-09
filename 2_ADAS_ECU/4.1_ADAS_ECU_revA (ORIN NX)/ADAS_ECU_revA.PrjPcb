@@ -51,7 +51,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=ADAS_ECU_revA.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -59,7 +59,7 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -68,7 +68,7 @@ DocumentUniqueId=GNVIZCLJ
 
 [Document2]
 DocumentPath=M2_NVME.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -76,7 +76,7 @@ AnnotateScope=All
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -102,7 +102,7 @@ DocumentUniqueId=KFXVRMAU
 
 [Document4]
 DocumentPath=RAIL_DISCHARGE.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -110,7 +110,7 @@ AnnotateScope=All
 AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -136,7 +136,7 @@ DocumentUniqueId=DEAIKRGK
 
 [Document6]
 DocumentPath=M2_WIFI.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -144,7 +144,7 @@ AnnotateScope=All
 AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -153,7 +153,7 @@ DocumentUniqueId=DSNFWRMN
 
 [Document7]
 DocumentPath=MAX96751_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -161,7 +161,7 @@ AnnotateScope=All
 AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -170,7 +170,7 @@ DocumentUniqueId=BVKAZCOP
 
 [Document8]
 DocumentPath=JETSON_V2.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -178,7 +178,7 @@ AnnotateScope=All
 AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -187,7 +187,7 @@ DocumentUniqueId=TUBXLZOP
 
 [Document9]
 DocumentPath=LM704A0_3V3_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -195,7 +195,7 @@ AnnotateScope=All
 AnnotateOrder=15
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -204,7 +204,7 @@ DocumentUniqueId=EREUEEEG
 
 [Document10]
 DocumentPath=LM704A0_5V0_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -212,7 +212,7 @@ AnnotateScope=All
 AnnotateOrder=16
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -221,7 +221,7 @@ DocumentUniqueId=ATWPHOMP
 
 [Document11]
 DocumentPath=ADC.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -229,7 +229,7 @@ AnnotateScope=All
 AnnotateOrder=17
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -238,7 +238,7 @@ DocumentUniqueId=IGYOPPVK
 
 [Document12]
 DocumentPath=INT_REG.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -246,7 +246,7 @@ AnnotateScope=All
 AnnotateOrder=18
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -255,7 +255,7 @@ DocumentUniqueId=QYTNWBGB
 
 [Document13]
 DocumentPath=LM74910H_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -263,7 +263,7 @@ AnnotateScope=All
 AnnotateOrder=19
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -272,7 +272,7 @@ DocumentUniqueId=KVXUURMK
 
 [Document14]
 DocumentPath=FUSE_AND_I_SENSE.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -280,7 +280,7 @@ AnnotateScope=All
 AnnotateOrder=20
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -289,7 +289,7 @@ DocumentUniqueId=UWPYOMHG
 
 [Document15]
 DocumentPath=STM32G473RET6_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -297,7 +297,7 @@ AnnotateScope=All
 AnnotateOrder=21
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -306,7 +306,7 @@ DocumentUniqueId=GPOALQNJ
 
 [Document16]
 DocumentPath=TCAN1146_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -314,7 +314,7 @@ AnnotateScope=All
 AnnotateOrder=22
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -323,7 +323,7 @@ DocumentUniqueId=WRCLDNAZ
 
 [Document17]
 DocumentPath=LM5177_PINOUT.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -331,7 +331,7 @@ AnnotateScope=All
 AnnotateOrder=23
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -340,7 +340,7 @@ DocumentUniqueId=JBEWOSHS
 
 [Document18]
 DocumentPath=DP_TO_HDMI.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -348,7 +348,7 @@ AnnotateScope=All
 AnnotateOrder=24
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -357,7 +357,7 @@ DocumentUniqueId=OUZVFJLG
 
 [Document19]
 DocumentPath=JETSON_PWR_MUX.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -365,7 +365,7 @@ AnnotateScope=All
 AnnotateOrder=25
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -374,7 +374,7 @@ DocumentUniqueId=IAJPCTLU
 
 [Document20]
 DocumentPath=FUSE_AND_VI_SENSE.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -382,7 +382,7 @@ AnnotateScope=All
 AnnotateOrder=26
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
