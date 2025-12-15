@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=GND Pin=J5-SH1
+Removed Pin From Net: NetName=GND Pin=J5-SH2
+Removed Pin From Net: NetName=GND Pin=J5-SH3
+Removed Pin From Net: NetName=GND Pin=J5-SH4
+Change Component Footprint: Designator=J5 Old Footprint=208658-1052-Footprint-1 New Footprint=FP-47659-1100-MFG
+Change Footprint: Cannot match pads with new footprint in component :MH1 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH2 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH3 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH4 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH5 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH6 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH7 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH8 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH9 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH10 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH11 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH12 Footprint:PTHV6 M2
+Change Component Comment : Designator=J5 Old Comment=208658-1052 New Comment=47659-1100
+Change Managed Component Library Link : Designator=J5 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=21b34258-d42d-4051-ab47-2a4e1151e726 New ItemGUID=0448ae45-9bae-4d70-9cad-fb817af76b05 Old RevisionGUID=55108eff-5d2f-4cb3-bb35-f6244ca8ebb5 New RevisionGUID=77264b10-fcbf-42cd-bc3a-3093859fe2be
+Added Pin To Net: NetName=GND Pin=J5-20
+Added Pin To Net: NetName=GND Pin=J5-21
+Added Pin To Net: NetName=GND Pin=J5-22
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
