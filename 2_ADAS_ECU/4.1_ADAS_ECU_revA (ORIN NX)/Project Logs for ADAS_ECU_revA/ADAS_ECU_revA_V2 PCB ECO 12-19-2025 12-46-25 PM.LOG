@@ -1,0 +1,171 @@
+Removed Pin From Net: NetName=GND Pin=C89-1
+Removed Pin From Net: NetName=5V0_MAIN_PWR_IN Pin=C89-2
+Removed Pin From Net: NetName=GND Pin=C90-1
+Removed Pin From Net: NetName=5V0_MAIN_PWR_IN Pin=C90-2
+Removed Pin From Net: NetName=GND Pin=C91-1
+Removed Pin From Net: NetName=5V0_MAIN_PWR_IN Pin=C91-2
+Change Component Footprint: Designator=C89 Old Footprint=FP-OS-CON-SMT-C6-MFG New Footprint=FP-C3225-250-0_4-MFG
+Change Component Footprint: Designator=C90 Old Footprint=FP-OS-CON-SMT-C6-MFG New Footprint=FP-C3225-250-0_4-MFG
+Change Component Footprint: Designator=C91 Old Footprint=FP-OS-CON-SMT-C6-MFG New Footprint=FP-C3225-250-0_4-MFG
+Change Footprint: Cannot match pads with new footprint in component :MH1 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH2 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH3 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH4 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH5 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH6 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH7 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH9 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH10 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH11 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH12 Footprint:PTHV6 M2
+Change Component Comment : Designator=C89 Old Comment=50SVPF10M New Comment=C3225X7R1H106M250AC
+Change Component Comment : Designator=C90 Old Comment=50SVPF10M New Comment=C3225X7R1H106M250AC
+Change Component Comment : Designator=C91 Old Comment=50SVPF10M New Comment=C3225X7R1H106M250AC
+Change Managed Component Library Link : Designator=C89 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B9890BAD-4D46-4623-B44A-4EF0A4D42AF1 New ItemGUID=D5C7ED76-9990-457C-A0A0-5635B6A5A1B6 Old RevisionGUID=F1C25D8F-FFA9-4197-918A-A036D31C70F9 New RevisionGUID=B4EBFCE7-DBF8-4E68-AFBF-86A5ACA9BD92
+Change Managed Component Library Link : Designator=C90 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B9890BAD-4D46-4623-B44A-4EF0A4D42AF1 New ItemGUID=D5C7ED76-9990-457C-A0A0-5635B6A5A1B6 Old RevisionGUID=F1C25D8F-FFA9-4197-918A-A036D31C70F9 New RevisionGUID=B4EBFCE7-DBF8-4E68-AFBF-86A5ACA9BD92
+Change Managed Component Library Link : Designator=C91 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B9890BAD-4D46-4623-B44A-4EF0A4D42AF1 New ItemGUID=D5C7ED76-9990-457C-A0A0-5635B6A5A1B6 Old RevisionGUID=F1C25D8F-FFA9-4197-918A-A036D31C70F9 New RevisionGUID=B4EBFCE7-DBF8-4E68-AFBF-86A5ACA9BD92
+Change component parameters: Designator = "C89" ("C89"); Footprint = "FP-OS-CON-SMT-C6-MFG"; UniqueID = "\XTJHAGYH\KEXCJWXI" ("\XTJHAGYH\KEXCJWXI")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3225"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.126inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.11inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.000564oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.098inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C90" ("C90"); Footprint = "FP-OS-CON-SMT-C6-MFG"; UniqueID = "\XTJHAGYH\RJCHIWRN" ("\XTJHAGYH\RJCHIWRN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3225"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.126inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.11inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.000564oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.098inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C91" ("C91"); Footprint = "FP-OS-CON-SMT-C6-MFG"; UniqueID = "\XTJHAGYH\RLOSVNFF" ("\XTJHAGYH\RLOSVNFF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3225"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.126inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.11inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.000564oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.098inch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V0_MAIN_PWR_IN Pin=C89-1
+Added Pin To Net: NetName=GND Pin=C89-2
+Added Pin To Net: NetName=5V0_MAIN_PWR_IN Pin=C90-1
+Added Pin To Net: NetName=GND Pin=C90-2
+Added Pin To Net: NetName=5V0_MAIN_PWR_IN Pin=C91-1
+Added Pin To Net: NetName=GND Pin=C91-2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Added Member To Class: ClassName=PWR_PROT_0 Member=Component U7_PWR_PROT_0 (U7) ACS711KEXLT-15AB-T
