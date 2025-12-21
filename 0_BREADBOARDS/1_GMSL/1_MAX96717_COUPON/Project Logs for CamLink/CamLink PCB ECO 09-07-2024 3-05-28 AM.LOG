@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=TP? NewDesignator=TP17
+Change Component Designator: OldDesignator=TP? NewDesignator=TP18
+Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2
+Added Member To Class: ClassName=CAM_IF Member=Component TP18 TPAD6R

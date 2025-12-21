@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=PRECSI Member=CSI_D2
+Removed Member From Class: ClassName=PRECSI Member=CSI_D3
+Removed Member From Class: ClassName=100DIFF Member=DA2
+Removed Member From Class: ClassName=100DIFF Member=DA3
+Added Member To Class: ClassName=100DIFF Member=CSI_D2
+Added Member To Class: ClassName=100DIFF Member=CSI_D3
+Added Member To Class: ClassName=CSI Member=DA2
+Added Member To Class: ClassName=CSI Member=DA3

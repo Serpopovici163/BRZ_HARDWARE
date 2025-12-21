@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=NetC23_1 Pin=C25-2
+Change Component Footprint: Designator=C25 Old Footprint=FP-C1005-050-0_05-IPC_C New Footprint=FP-0402-L_1_0_0_05-W_0_5-IPC_A
+Change Component Comment : Designator=C25 Old Comment=C1005X7R1H104K050BB New Comment=100n
+Change Managed Component Library Link : Designator=C25 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=DCC25F0D-1AD3-4AC4-A967-BFD66DBFFEFB New ItemGUID=43a49740-5c66-4506-9ea2-07741095c73f Old RevisionGUID=85611F8B-9D2E-40BA-BA4A-95905B714B89 New RevisionGUID=687d763b-7f8a-412e-93a6-e138853d33ff
+Change component parameters: Designator = "C25" ("C25"); Footprint = "FP-C1005-050-0_05-IPC_C"; UniqueID = "\QSEWTHKY\AFVCBVVK" ("\QSEWTHKY\AFVCBVVK")
+Change component parameters (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC23_1 Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [CamLink.PcbDoc]
+   Generated File[CamLink.TXT]
+   Generated File[CamLink.LDP]
+   Generated File[CamLink.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:00:22 PM On 02/11/2025

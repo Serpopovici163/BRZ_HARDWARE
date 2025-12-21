@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=J8 Old DesignItemId=CMP-002-00044-2 New DesignItemId=CMP-002-00044-3
+Change Component Footprint: Designator=J8 Old Footprint=FM4-NZRP-PCB-1-Footprint-1 New Footprint=FM4-NZRP-PCB-1-Footprint-1
+Change Managed Component Library Link : Designator=J8 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=9B13C35A-2478-4A2D-A418-1C3DA3555F5F New ItemGUID=9B13C35A-2478-4A2D-A418-1C3DA3555F5F Old RevisionGUID=c280fcc0-db61-4388-9631-1d6d383c827e New RevisionGUID=596a0ccf-d34f-4811-a781-9809a02ee378

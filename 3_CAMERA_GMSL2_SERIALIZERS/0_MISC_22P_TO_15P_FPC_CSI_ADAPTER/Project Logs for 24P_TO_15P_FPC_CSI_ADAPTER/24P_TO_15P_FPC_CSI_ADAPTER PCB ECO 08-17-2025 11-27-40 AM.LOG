@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=SER_1V2 Pin=C1-2
-Added Pin To Net: NetName=SER_1V2 Pin=C2-2
-Added Pin To Net: NetName=CAM_1V8 Pin=C8-1
-Added Pin To Net: NetName=SER_1V2 Pin=J2-18B
-Added Pin To Net: NetName=CAM_1V8 Pin=U1-2
-Added Pin To Net: NetName=CAM_1V8 Pin=U1-4
-Change Net Name : Old Net Name=SER_1V2 New Net Name=CAM_1V2

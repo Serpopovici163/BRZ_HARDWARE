@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=R39-1
+Removed Pin From Net: NetName=I2C2_SDA Pin=TP21-1
+Removed Pin From Net: NetName=I2C2_SCL Pin=TP23-1
+Added Pin To Net: NetName=CAM_IO0 Pin=R39-1
+Added Pin To Net: NetName=CONF_SDA Pin=TP21-1
+Added Pin To Net: NetName=CONF_SCL Pin=TP23-1
+Change Net Name : Old Net Name=NetC7_1 New Net Name=CSI_D2_P
+Change Net Name : Old Net Name=NetC8_1 New Net Name=CSI_D2_N
+Change Net Name : Old Net Name=NetC10_1 New Net Name=CSI_D3_P
+Change Net Name : Old Net Name=NetC11_1 New Net Name=CSI_D3_N
+Added Differential Pair: Name=CSI_D2
+Added Differential Pair: Name=CSI_D3
+Add Class: Class already exists: 100DIFF
+Added Class: Name=PRECSI
+Change Class Name : Old Net Name=100DIFF New Net Name=CSI
+Removed Member From Class: ClassName=CSI Member=CSI_CLK
+Removed Member From Class: ClassName=CSI Member=CSI_D0
+Removed Member From Class: ClassName=CSI Member=CSI_D1
+Removed Member From Class: ClassName=CSI Member=SIO

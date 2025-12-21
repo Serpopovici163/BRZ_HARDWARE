@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [24P_TO_15P_FPC_CSI_ADAPTER.PcbDoc]
+   Generated File[24P_TO_15P_FPC_CSI_ADAPTER.TXT]
+   Generated File[24P_TO_15P_FPC_CSI_ADAPTER.LDP]
+   Generated File[24P_TO_15P_FPC_CSI_ADAPTER.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:04:34 PM On 08/21/2025

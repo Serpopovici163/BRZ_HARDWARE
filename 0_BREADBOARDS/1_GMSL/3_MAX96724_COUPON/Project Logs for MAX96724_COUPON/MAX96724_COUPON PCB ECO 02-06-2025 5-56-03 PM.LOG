@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=CSI1_CK_N Pin=R19-2
+Removed Pin From Net: NetName=CSI1_CK_N Pin=R20-2
+Removed Pin From Net: NetName=CSI1_CK_P Pin=R21-2
+Removed Pin From Net: NetName=CSI1_CK_P Pin=R22-2
+Removed Member From Class: ClassName=MAX96724_COUPON Member=R19
+Removed Member From Class: ClassName=MAX96724_COUPON Member=R20
+Removed Member From Class: ClassName=MAX96724_COUPON Member=R21
+Removed Member From Class: ClassName=MAX96724_COUPON Member=R22
+Removed Member From Class: ClassName=GMSL_DESERIALIZER_0 Member=TP20
+Removed Member From Class: ClassName=GMSL_DESERIALIZER_0 Member=TP21
+Added Pin To Net: NetName=CSI1_CK_N Pin=J3-8
+Added Pin To Net: NetName=CSI1_CK_N Pin=J3-8
+Added Pin To Net: NetName=CSI1_CK_P Pin=J3-9
+Added Pin To Net: NetName=CSI1_CK_P Pin=J3-9
+Added Pin To Net: NetName=CSI1_CKALT_N Pin=C71-1
+Added Pin To Net: NetName=CSI1_CKALT_N Pin=J4-8
+Added Pin To Net: NetName=CSI1_CKALT_N Pin=J4-8
+Added Net: Name=CSI1_CKALT_N
+Added Pin To Net: NetName=CSI1_CKALT_P Pin=C70-1
+Added Pin To Net: NetName=CSI1_CKALT_P Pin=J4-9
+Added Pin To Net: NetName=CSI1_CKALT_P Pin=J4-9
+Added Net: Name=CSI1_CKALT_P
+Added Differential Pair: Name=CSI1_CKALT
+Removed Member From Class: ClassName=100DIFF Member=CKB
+Removed Member From Class: ClassName=100DIFF Member=DB0
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Added Member To Class: ClassName=CSI1_PRE Member=CSI1_CKALT

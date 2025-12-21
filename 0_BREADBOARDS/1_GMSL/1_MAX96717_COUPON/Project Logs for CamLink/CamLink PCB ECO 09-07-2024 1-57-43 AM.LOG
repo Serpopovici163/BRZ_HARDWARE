@@ -1,0 +1,16 @@
+Added Component: Designator=TP13(TP06R)
+Added Component: Designator=TP14(TP06R)
+Added Component: Designator=TP15(TP06R)
+Added Component: Designator=TP16(TP06R)
+Add Pin To Net: Unknown Pin: Pin TP13-1
+Add Pin To Net: Unknown Pin: Pin TP14-1
+Add Pin To Net: Unknown Pin: Pin TP15-1
+Add Pin To Net: Unknown Pin: Pin TP16-1
+Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2
+Add Class Member: Failed to add class member : Component TP13 TPAD6R
+Add Class Member: Failed to add class member : Component TP14 TPAD6R
+Add Class Member: Failed to add class member : Component TP15 TPAD6R
+Add Class Member: Failed to add class member : Component TP16 TPAD6R

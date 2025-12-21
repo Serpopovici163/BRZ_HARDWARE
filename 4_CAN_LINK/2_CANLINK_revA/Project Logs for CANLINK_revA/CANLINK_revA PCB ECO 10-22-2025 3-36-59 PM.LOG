@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=EXT_IN_A Pin=J1-5
-Removed Pin From Net: NetName=PWR_B Pin=J1-9
-Added Pin To Net: NetName=PWR_B Pin=J1-5
-Added Pin To Net: NetName=EXT_IN_A Pin=J1-9

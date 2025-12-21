@@ -1,0 +1,154 @@
+Removed Pin From Net: NetName=CSI0_D0_P Pin=C5_DES_0-1
+Removed Pin From Net: NetName=CSI2_D0_P Pin=C5_DES_1-1
+Removed Pin From Net: NetName=CSI0_D0_N Pin=C6_DES_0-1
+Removed Pin From Net: NetName=CSI2_D0_N Pin=C6_DES_1-1
+Removed Pin From Net: NetName=CSI0_D1_N Pin=C7_DES_0-1
+Removed Pin From Net: NetName=CSI2_D1_P Pin=C7_DES_1-1
+Removed Pin From Net: NetName=CSI0_D1_P Pin=C8_DES_0-1
+Removed Pin From Net: NetName=CSI2_D1_N Pin=C8_DES_1-1
+Removed Pin From Net: NetName=CSI1_D0_N Pin=C10_DES_0-1
+Removed Pin From Net: NetName=CSI3_D0_P Pin=C10_DES_1-1
+Removed Pin From Net: NetName=CSI1_D0_P Pin=C11_DES_0-1
+Removed Pin From Net: NetName=CSI3_D0_N Pin=C11_DES_1-1
+Removed Pin From Net: NetName=CSI1_D1_P Pin=C12_DES_0-1
+Removed Pin From Net: NetName=CSI3_D1_P Pin=C12_DES_1-1
+Removed Pin From Net: NetName=CSI1_D1_N Pin=C13_DES_0-1
+Removed Pin From Net: NetName=CSI3_D1_N Pin=C13_DES_1-1
+Removed Pin From Net: NetName=CSI0_CLK_P Pin=C17_DES_0-1
+Removed Pin From Net: NetName=CSI2_CLK_P Pin=C17_DES_1-1
+Removed Pin From Net: NetName=CSI0_CLK_N Pin=C18_DES_0-1
+Removed Pin From Net: NetName=CSI2_CLK_N Pin=C18_DES_1-1
+Removed Member From Class: ClassName=DES_0 Member=C5_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C5_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C6_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C6_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C7_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C7_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C8_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C8_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C10_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C10_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C11_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C11_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C12_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C12_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C13_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C13_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C17_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C17_DES_1
+Removed Member From Class: ClassName=DES_0 Member=C18_DES_0
+Removed Member From Class: ClassName=DES_1 Member=C18_DES_1
+Change Footprint: Cannot match pads with new footprint in component :MH1 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH2 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH3 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH4 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH5 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH6 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH7 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH8 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH9 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH10 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH11 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH12 Footprint:PTHV6 M2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Added Pin To Net: NetName=CSI0_D0_P Pin=U1_DES_0-31
+Added Pin To Net: NetName=CSI0_D0_N Pin=U1_DES_0-32
+Added Pin To Net: NetName=CSI0_D1_N Pin=U1_DES_0-35
+Added Pin To Net: NetName=CSI0_D1_P Pin=U1_DES_0-36
+Added Pin To Net: NetName=CSI1_D0_N Pin=U1_DES_0-37
+Added Pin To Net: NetName=CSI1_D0_P Pin=U1_DES_0-38
+Added Pin To Net: NetName=CSI0_CLK_P Pin=U1_DES_0-39
+Added Pin To Net: NetName=CSI0_CLK_N Pin=U1_DES_0-40
+Added Pin To Net: NetName=CSI1_D1_P Pin=U1_DES_0-41
+Added Pin To Net: NetName=CSI1_D1_N Pin=U1_DES_0-42
+Added Pin To Net: NetName=CSI2_D0_P Pin=U1_DES_1-31
+Added Pin To Net: NetName=CSI2_D0_N Pin=U1_DES_1-32
+Added Pin To Net: NetName=CSI2_D1_P Pin=U1_DES_1-35
+Added Pin To Net: NetName=CSI2_D1_N Pin=U1_DES_1-36
+Added Pin To Net: NetName=CSI3_D0_P Pin=U1_DES_1-37
+Added Pin To Net: NetName=CSI3_D0_N Pin=U1_DES_1-38
+Added Pin To Net: NetName=CSI2_CLK_P Pin=U1_DES_1-39
+Added Pin To Net: NetName=CSI2_CLK_N Pin=U1_DES_1-40
+Added Pin To Net: NetName=CSI3_D1_P Pin=U1_DES_1-41
+Added Pin To Net: NetName=CSI3_D1_N Pin=U1_DES_1-42
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member

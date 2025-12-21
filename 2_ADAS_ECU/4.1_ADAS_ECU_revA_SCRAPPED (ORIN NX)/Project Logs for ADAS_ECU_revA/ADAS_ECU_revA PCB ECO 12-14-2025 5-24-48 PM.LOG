@@ -1,0 +1,121 @@
+Change Component DesignItemId : Designator=MH1 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH2 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH3 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH4 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH5 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH6 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH7 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH8 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH9 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH10 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH11 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Component DesignItemId : Designator=MH12 Old DesignItemId=CMP-00028-00001-11 New DesignItemId=CMP-00028-00001-12
+Change Footprint: Cannot match pads with new footprint in component :MH1 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH2 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH3 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH4 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH5 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH6 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH7 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH8 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH9 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH10 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH11 Footprint:PTHV6 M2
+Change Footprint: Cannot match pads with new footprint in component :MH12 Footprint:PTHV6 M2
+Change Managed Component Library Link : Designator=MH1 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH2 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH3 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH4 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH5 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH6 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH7 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH8 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH9 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH10 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH11 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Change Managed Component Library Link : Designator=MH12 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e New ItemGUID=6d867053-a71a-45bf-9230-be304a923f3e Old RevisionGUID=84f4c8a0-4794-4be5-8608-6548d1f0d1a0 New RevisionGUID=48538697-408e-4721-ac6b-05b855ee8ab9
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Added Member To Class: ClassName=PWR Member=Wire 3V3_HDMI
+Added Member To Class: ClassName=PWR Member=Wire 3V3_INT
+Added Member To Class: ClassName=PWR Member=Wire 3V3_M2_NVME
+Added Member To Class: ClassName=PWR Member=Wire 3V3_M2_WIFI
+Added Member To Class: ClassName=PWR Member=Wire 3V3_MISC
+Added Member To Class: ClassName=PWR Member=Wire 3V3_SER_0
+Added Member To Class: ClassName=PWR Member=Wire 5V0_HDMI
+Added Member To Class: ClassName=PWR Member=Wire 5V0_INT
+Added Member To Class: ClassName=PWR Member=Wire 5V0_MISC
+Added Member To Class: ClassName=PWR Member=Wire 5V0_USB
+Added Member To Class: ClassName=PWR Member=Wire 12V0_PoC_2
+Added Member To Class: ClassName=PWR Member=Wire MAX96724_3V3_DES_0
+Added Member To Class: ClassName=PWR Member=Wire MAX96724_3V3_DES_1

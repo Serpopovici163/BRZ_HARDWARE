@@ -1,7 +1,0 @@
-Change Component Footprint: Designator=L9 Old Footprint=WE-TPC_1038 New Footprint=WE-TPC_1038
-Change Component Footprint: Designator=L10 Old Footprint=WE-TPC_1038 New Footprint=WE-TPC_1038
-Change Component Footprint: Designator=L11 Old Footprint=WE-TPC_1038 New Footprint=WE-TPC_1038
-Change Component Footprint: Designator=L12 Old Footprint=WE-TPC_1038 New Footprint=WE-TPC_1038
-Added Member To Class: ClassName=PWR Member=Wire 3V3_AUX
-Added Member To Class: ClassName=PWR Member=Wire LO_VCC
-Added Member To Class: ClassName=PWR Member=Wire VCC

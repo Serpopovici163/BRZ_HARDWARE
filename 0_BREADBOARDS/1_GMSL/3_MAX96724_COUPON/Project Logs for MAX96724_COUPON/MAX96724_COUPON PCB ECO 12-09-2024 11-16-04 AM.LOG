@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=J9 Old Footprint=FP-CES-109-01-G-S-MFG New Footprint=FP-CES-109-01-G-S-MFG
+Added Pin To Net: NetName=MFP0 Pin=J9-1
+Added Pin To Net: NetName=MFP1 Pin=J9-2
+Added Pin To Net: NetName=MFP2 Pin=J9-3
+Added Pin To Net: NetName=MFP3 Pin=J9-4
+Added Pin To Net: NetName=MFP4 Pin=J9-5
+Added Pin To Net: NetName=MFP5 Pin=J9-6
+Added Pin To Net: NetName=MFP7 Pin=J9-7
+Added Pin To Net: NetName=MFP8 Pin=J9-8
+Added Pin To Net: NetName=nPWDN Pin=J9-9

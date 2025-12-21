@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=nPWDN Pin=R33-2
-Removed Member From Class: ClassName=GMSL_DESERIALIZER_0 Member=R33
-Added Pin To Net: NetName=nPWDN Pin=R28-1
-Added Pin To Net: NetName=nPWDN Pin=U1-11

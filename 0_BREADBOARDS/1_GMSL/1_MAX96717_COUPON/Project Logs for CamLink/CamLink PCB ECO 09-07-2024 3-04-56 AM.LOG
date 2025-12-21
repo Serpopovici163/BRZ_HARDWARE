@@ -1,0 +1,10 @@
+Added Component: Designator=TP?(New footprint 1)
+Added Component: Designator=TP?(New footprint 1)
+Added Pin To Net: NetName=1V2 Pin=TP?-1
+Added Pin To Net: NetName=1V8 Pin=TP?-1
+Add Differential Pair: Number of nets in differential pair NetC7_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC8_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC10_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetC11_1 is 1 instead of 2
+Added Member To Class: ClassName=CAM_IF Member=Component TP? TPAD6R
+Added Member To Class: ClassName=CAM_IF Member=Component TP? TPAD6R
