@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=1000BASET1_MEDIA_CONVERTER.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=1000BASET1_MEDIA_CONVERTER.SchDoc|Designator=1000_BASE_T1_PHY|SchDesignator=1000_BASE_T1_PHY|FileName=LAN8870_PINOUT.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=LAN8870_PINOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=1000BASET1_MEDIA_CONVERTER.SchDoc|Designator=1000_BASE_T_PHY|SchDesignator=1000_BASE_T_PHY|FileName=LAN8830_PINOUT.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=LAN8830_PINOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
