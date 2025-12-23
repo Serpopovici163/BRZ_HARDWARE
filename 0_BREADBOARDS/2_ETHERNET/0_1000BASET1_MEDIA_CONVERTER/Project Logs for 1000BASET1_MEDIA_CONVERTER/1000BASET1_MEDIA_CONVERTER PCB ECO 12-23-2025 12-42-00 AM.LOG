@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetJ3_2 New Net Name=USB_CONN_N
+Change Net Name : Old Net Name=NetJ3_3 New Net Name=USB_CONN_P
+Added Differential Pair: Name=USB_CONN
+Added Class: Name=90DIFF
