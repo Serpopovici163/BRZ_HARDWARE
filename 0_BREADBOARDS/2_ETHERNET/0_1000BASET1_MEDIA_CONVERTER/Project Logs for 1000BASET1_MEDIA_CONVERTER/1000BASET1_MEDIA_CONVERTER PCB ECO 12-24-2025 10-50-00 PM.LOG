@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_CLK125_EN
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_MODE0
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_MODE1
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_MODE2
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_MODE3
+Removed Member From Class: ClassName=LAN8830_RGMII Member=LAN8830_MODE4
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_CLK125_EN
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_MODE0
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_MODE1
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_MODE2
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_MODE3
+Added Member To Class: ClassName=LAN8870_RGMII Member=Wire LAN8830_MODE4

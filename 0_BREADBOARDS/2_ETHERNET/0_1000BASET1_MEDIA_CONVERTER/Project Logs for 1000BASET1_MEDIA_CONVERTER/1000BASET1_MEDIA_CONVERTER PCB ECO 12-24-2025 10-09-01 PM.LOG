@@ -1,0 +1,14 @@
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_CLK125_EN
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_MODE0
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_MODE1
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_MODE2
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_MODE3
+Removed Member From Class: ClassName=50SINGLE Member=LAN8830_MODE4
+Removed Member From Class: ClassName=50SINGLE Member=NetR1_1
+Removed Member From Class: ClassName=50SINGLE Member=NetR2_1
+Removed Member From Class: ClassName=50SINGLE Member=NetR3_1
+Removed Member From Class: ClassName=50SINGLE Member=NetR4_1
+Removed Member From Class: ClassName=50SINGLE Member=NetR5_1
+Removed Member From Class: ClassName=50SINGLE Member=NetR6_1
+Change Class Name : Old Net Name=50SINGLE New Net Name=LAN8870_RGMII
+Added Class: Name=LAN8830_RGMII

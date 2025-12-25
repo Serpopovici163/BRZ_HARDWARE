@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MCU_G_LED Pin=D8-1
+Removed Pin From Net: NetName=MCU_R_LED Pin=D8-4
+Removed Pin From Net: NetName=3V3 Pin=R75-2
+Removed Pin From Net: NetName=3V3 Pin=R76-2
+Added Pin To Net: NetName=3V3 Pin=D8-2
+Added Pin To Net: NetName=3V3 Pin=D8-3
+Added Pin To Net: NetName=MCU_G_LED Pin=R75-1
+Added Pin To Net: NetName=MCU_R_LED Pin=R76-1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=R75-2
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetD8_4 Pin=D8-4
+Added Pin To Net: NetName=NetD8_4 Pin=R76-2
+Added Net: Name=NetD8_4
