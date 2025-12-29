@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WTHPHTUA
 
 [Document5]
-DocumentPath=STM32G473RET6_PINOUT.SchDoc
+DocumentPath=PIC18LF25K50_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
