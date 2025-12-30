@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\se097192\Documents\0_BRZ\1_BRZ_HARDWARE\4_CAN_LINK\2_CANLINK_revA\CANLINK_revA.PcbDoc
-Date     : 11/03/2025
-Time     : 12:19:28 PM
+PCB File : C:\Users\Trololololol\Documents\Projects\0_BRZ_PARENT\1_BRZ_HARDWARE\4_CAN_LINK_ECU\2_CANLINK_revA\CANLINK_revA.PcbDoc
+Date     : 12/29/2025
+Time     : 8:56:51 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -60,8 +60,7 @@ Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (45mm,49mm) from Top Layer to Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (0mm,0.6mm)(0mm,49.4mm) on Top Overlay 
@@ -87,6 +86,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm)
 Rule Violations :0
 
 
-Violations Detected : 26
+Violations Detected : 25
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
