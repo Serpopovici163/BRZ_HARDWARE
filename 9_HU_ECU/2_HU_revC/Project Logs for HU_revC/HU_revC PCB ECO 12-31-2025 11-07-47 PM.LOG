@@ -1,0 +1,121 @@
+Change Component Comment : Designator=L2 Old Comment=SRR1260-150M New Comment=SRR1260-220M
+Change Component Comment : Designator=C144 Old Comment=T495D157K010ATE100 New Comment=T495D686K020ATE150
+Change Component Comment : Designator=C145 Old Comment=T495D157K010ATE100 New Comment=T495D686K020ATE150
+Change Component Comment : Designator=C146 Old Comment=T495D157K010ATE100 New Comment=T495D686K020ATE150
+Change Component Comment : Designator=C64 Old Comment=T495D337K010ATE150 New Comment=DNP
+Change Component Comment : Designator=C61 Old Comment=T495D337K010ATE150 New Comment=T495X107K020ATE150
+Change Component Comment : Designator=C62 Old Comment=T495D337K010ATE150 New Comment=T495X107K020ATE150
+Change Component Comment : Designator=C63 Old Comment=T495D337K010ATE150 New Comment=T495X107K020ATE150
+Change Component Description : Designator=C64 Old Description=330uF Solid MnO2 Tantalum Capacitor, 10 V dc +/-10%, T495 Series New Description=DNP
+Change Component Description : Designator=C61 Old Description=330uF Solid MnO2 Tantalum Capacitor, 10 V dc +/-10%, T495 Series New Description=T495X107K020ATE150 diff p/n
+Change Component Description : Designator=C62 Old Description=330uF Solid MnO2 Tantalum Capacitor, 10 V dc +/-10%, T495 Series New Description=T495X107K020ATE150 diff p/n
+Change Component Description : Designator=C63 Old Description=330uF Solid MnO2 Tantalum Capacitor, 10 V dc +/-10%, T495 Series New Description=T495X107K020ATE150 diff p/n
+Change Component Description : Designator=C144 Old Description=Capacitor, Tantalum, 150 uF, +/- 10%, 10 V, -55 to 125 degC, 2-Pin SMD, RoHS, Tape and Reel New Description=T495D686K020ATE150 - diff p/n (68U 20V)
+Change Component Description : Designator=C145 Old Description=Capacitor, Tantalum, 150 uF, +/- 10%, 10 V, -55 to 125 degC, 2-Pin SMD, RoHS, Tape and Reel New Description=T495D686K020ATE150 - diff p/n (68U 20V)
+Change Component Description : Designator=C146 Old Description=Capacitor, Tantalum, 150 uF, +/- 10%, 10 V, -55 to 125 degC, 2-Pin SMD, RoHS, Tape and Reel New Description=T495D686K020ATE150 - diff p/n (68U 20V)
+Change Component Description : Designator=L2 Old Description=FIXED IND 15UH 5A 27 MOHM SMD New Description=DIFF P/N: SRR1260-220M
+
+FIXED IND 22UH 5A 27 MOHM SMD
+Added Component: Designator=C248(KEMT-T495-D_L)
+Add component (AddParameter): Name = "Capacitance"; Value = "150µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitor Case Style"; Value = "2917"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitor Terminals"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://capacitoredge.kemet.com/capedge2/DataSheet/Datasheet-T495D157K010ATE100.pdf?pn=T495D157K010ATE100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "09/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "0.1ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MSL"; Value = "MSL1-Unlimited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-55°Cto+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 7.3 x 4.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "T495-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V0_REG_FB Pin=C248-1
+Added Pin To Net: NetName=GND Pin=C248-2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Member To Class: ClassName=REG_0 Member=Component C248 T495D686K020ATE150

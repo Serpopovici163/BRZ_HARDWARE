@@ -1,0 +1,119 @@
+Removed Pin From Net: NetName=M2_3V3 Pin=Q1-1
+Removed Pin From Net: NetName=M2_3V3 Pin=Q1-2
+Removed Pin From Net: NetName=NetQ1_3 Pin=Q1-3
+Removed Pin From Net: NetName=GND Pin=Q1-4
+Removed Pin From Net: NetName=NetF1_2 Pin=Q1-5
+Removed Pin From Net: NetName=NetF1_2 Pin=Q1-6
+Removed Pin From Net: NetName=M2_3V3 Pin=R52-1
+Removed Pin From Net: NetName=GND Pin=R53-1
+Removed Pin From Net: NetName=SUSCLK_32 Pin=R53-2
+Removed Pin From Net: NetName=GND Pin=R55-1
+Removed Member From Class: ClassName=NVME_0 Member=Q1
+Removed Member From Class: ClassName=NVME_0 Member=R52
+Removed Member From Class: ClassName=NVME_0 Member=R53
+Removed Member From Class: ClassName=NVME_0 Member=R54
+Removed Member From Class: ClassName=NVME_0 Member=R55
+Added Component: Designator=U?(SOT95P285X140-5N)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "2.7V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=M2_3V3 Pin=C45-1
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=M2_3V3 Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=NetQ1_3 Pin=U?-4
+Added Pin To Net: NetName=NetF1_2 Pin=U?-5
+Added Pin To Net: NetName=M2_3V3 Pin=Y2-1
+Added Pin To Net: NetName=M2_3V3 Pin=Y2-4
+Change Net Name : Old Net Name=NetQ1_3 New Net Name=NetR48_1
+Added Member To Class: ClassName=NVME_0 Member=Component U? AP22804AW5-7

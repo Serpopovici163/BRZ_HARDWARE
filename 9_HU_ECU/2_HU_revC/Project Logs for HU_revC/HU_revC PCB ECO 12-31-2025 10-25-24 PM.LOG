@@ -1,0 +1,108 @@
+Removed Pin From Net: NetName=DISP0_5V Pin=F7-1
+Removed Pin From Net: NetName=DISP0_5V Pin=F13-1
+Removed Pin From Net: NetName=DISP1_5V Pin=F16-1
+Removed Pin From Net: NetName=DISP1_5V Pin=F17-1
+Removed Pin From Net: NetName=NetF7_2 Pin=J4-18
+Removed Pin From Net: NetName=NetF13_2 Pin=J5-1
+Removed Pin From Net: NetName=5V0_DISP Pin=U18-5
+Removed Pin From Net: NetName=5V0_DISP Pin=U20-5
+Removed Member From Class: ClassName=HU_revC Member=F16
+Removed Member From Class: ClassName=HU_revC Member=F17
+Change Component Comment : Designator=F7 Old Comment=.25 New Comment=2
+Change Component Comment : Designator=F13 Old Comment=.25 New Comment=2
+Added Pin To Net: NetName=5V0_DISP Pin=F7-1
+Added Pin To Net: NetName=5V0_DISP Pin=F13-1
+Added Pin To Net: NetName=DISP0_5V Pin=J4-18
+Added Pin To Net: NetName=DISP0_5V Pin=J5-1
+Added Pin To Net: NetName=DISP1_5V Pin=J6-18
+Added Pin To Net: NetName=DISP1_5V Pin=J7-1
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=NetF7_2 Pin=U18-5
+Added Pin To Net: NetName=NetF13_2 Pin=U20-5
+Add Net: Net with name "PRE_CAN_N" already exists
+Add Net: Net with name "PRE_CAN_P" already exists
+Add Net: Net with name "PRE_VCC" already exists
+Add Net: Net with name "PWR_SW_GATE" already exists
