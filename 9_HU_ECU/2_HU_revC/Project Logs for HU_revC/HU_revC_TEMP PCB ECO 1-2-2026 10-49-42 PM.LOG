@@ -1,0 +1,260 @@
+Removed Pin From Net: NetName=3V3_AUX Pin=F1-1
+Removed Pin From Net: NetName=3V3_MISC Pin=F14-1
+Removed Pin From Net: NetName=M2_3V3 Pin=R46-1
+Removed Pin From Net: NetName=3V3_MISC Pin=R59-2
+Removed Pin From Net: NetName=5V0_RPI Pin=R214-1
+Removed Pin From Net: NetName=3V3_MISC Pin=U6-5
+Removed Member From Class: ClassName=NVME_0 Member=F1
+Removed Member From Class: ClassName=PWR Member=M2_3V3
+Removed Member From Class: ClassName=PWR Member=NetC53_1
+Removed Member From Class: ClassName=PWR Member=NetF1_2
+Change Component Footprint: Designator=U23_OR_0 Old Footprint=QFN50P400X400X100_HS-25N New Footprint=QFN50P400X400X100_HS-25N
+Change Component Footprint: Designator=U23_OR_1 Old Footprint=QFN50P400X400X100_HS-25N New Footprint=QFN50P400X400X100_HS-25N
+Change Component Comment : Designator=F1 Old Comment=1 New Comment=2
+Change Component Comment : Designator=R214 Old Comment=90.9k New Comment=56k
+Change Component Comment : Designator=R176 Old Comment=100k New Comment=DNP
+Change Component Comment : Designator=R178 Old Comment=100k New Comment=DNP
+Change Managed Component Library Link : Designator=U23_OR_0 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=3409ba56-5387-4c79-bc63-0ed428a612db New ItemGUID=3409ba56-5387-4c79-bc63-0ed428a612db Old RevisionGUID=76825588-4b93-4e74-a2c5-7d5de0ed653c New RevisionGUID=84a29b2a-2882-44e7-aa82-28945c2c3308
+Change Managed Component Library Link : Designator=U23_OR_1 Old VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 New VaultGUID=275DD9A0-BDD9-47D7-8C38-F690E90B05B9 Old ItemGUID=3409ba56-5387-4c79-bc63-0ed428a612db New ItemGUID=3409ba56-5387-4c79-bc63-0ed428a612db Old RevisionGUID=76825588-4b93-4e74-a2c5-7d5de0ed653c New RevisionGUID=84a29b2a-2882-44e7-aa82-28945c2c3308
+Change component parameters: Designator = "R176" ("R176"); Footprint = "R0603B"; UniqueID = "\WCFZTZYS" ("\WCFZTZYS")
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "DNP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R178" ("R178"); Footprint = "R0603B"; UniqueID = "\KPWPHCAK" ("\KPWPHCAK")
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "DNP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R214" ("R214"); Footprint = "R0603B"; UniqueID = "\ATXJEPLG\YZGNIOGT" ("\ATXJEPLG\YZGNIOGT")
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "56k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C34(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C35(FP-0402-L_1_0_0_05-W_0_5-IPC_A)
+Add component (AddParameter): Name = "Capacitor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3_MISC Pin=C119-1
+Added Pin To Net: NetName=3V3_MISC Pin=D2-2
+Added Pin To Net: NetName=3V3_MISC Pin=D2-3
+Added Pin To Net: NetName=3V3_AUX Pin=F1-2
+Added Pin To Net: NetName=3V3_MISC Pin=J1-84
+Added Pin To Net: NetName=3V3_MISC Pin=J1-86
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=3V3_MISC Pin=R24-2
+Added Pin To Net: NetName=3V3_PCIE_nRST Pin=R46-1
+Added Pin To Net: NetName=M2_3V3 Pin=R46-2
+Added Pin To Net: NetName=3V3_MISC Pin=R160-1
+Added Pin To Net: NetName=3V3_MISC Pin=R162-1
+Added Pin To Net: NetName=3V3_VBUS_EN Pin=R214-1
+Added Pin To Net: NetName=3V3_MISC Pin=U17-5
+Change Net Name : Old Net Name=3V3_MISC New Net Name=3V3_MAIN
+Change Net Name : Old Net Name=ACT_LED New Net Name=M2_ACT_LED
+Change Net Name : Old Net Name=M2_3V3 New Net Name=3V3_M2_SF
+Change Net Name : Old Net Name=NetC53_1 New Net Name=3V3_SD_PWR
+Change Net Name : Old Net Name=NetTP5_1 New Net Name=TUSB4041_TEST
+Change Net Name : Old Net Name=NetTP6_1 New Net Name=TUSB4041_SDA
+Change Net Name : Old Net Name=NetTP7_1 New Net Name=TUSB4041_SCL
+Change Net Name : Old Net Name=nPCIE_CLKREQ New Net Name=NetJ2_52
+Change Net Name : Old Net Name=nPCIE_WAKE New Net Name=NetJ2_54
+Change Net Name : Old Net Name=PCIE_RX0_N New Net Name=PCIE_RX_N
+Change Net Name : Old Net Name=PCIE_RX0_P New Net Name=PCIE_RX_P
+Change Net Name : Old Net Name=SMB_CLK New Net Name=M2_SMB_CLK
+Change Net Name : Old Net Name=SMB_DATA New Net Name=M2_SMB_DATA
+Change Net Name : Old Net Name=SMB_nALERT New Net Name=M2_SMB_nALERT
+Change Net Name : Old Net Name=SUSCLK_32 New Net Name=M2_SUSCLK_32
+Added Pin To Net: NetName=3V3_M2 Pin=F1-1
+Added Pin To Net: NetName=3V3_M2 Pin=R48-2
+Added Pin To Net: NetName=3V3_M2 Pin=U31-5
+Added Net: Name=3V3_M2
+Added Pin To Net: NetName=3V3_MISC Pin=F14-1
+Added Pin To Net: NetName=3V3_MISC Pin=R59-2
+Added Pin To Net: NetName=3V3_MISC Pin=U6-5
+Added Net: Name=3V3_MISC
+Added Pin To Net: NetName=M2_PCIE_TX0_N Pin=C35-2
+Added Pin To Net: NetName=M2_PCIE_TX0_N Pin=J2-49
+Added Net: Name=M2_PCIE_TX0_N
+Added Pin To Net: NetName=M2_PCIE_TX0_P Pin=C34-2
+Added Pin To Net: NetName=M2_PCIE_TX0_P Pin=J2-47
+Added Net: Name=M2_PCIE_TX0_P
+Added Pin To Net: NetName=NetJ2_50 Pin=J2-50
+Added Pin To Net: NetName=NetJ2_50 Pin=R41-1
+Added Net: Name=NetJ2_50
+Added Pin To Net: NetName=PCIE_TX_N Pin=C35-1
+Added Pin To Net: NetName=PCIE_TX_N Pin=J1-124
+Added Net: Name=PCIE_TX_N
+Added Pin To Net: NetName=PCIE_TX_P Pin=C34-1
+Added Pin To Net: NetName=PCIE_TX_P Pin=J1-122
+Added Net: Name=PCIE_TX_P
+Added Differential Pair: Name=M2_PCIE_TX0
+Added Differential Pair: Name=PCIE_RX
+Added Differential Pair: Name=PCIE_TX
+Added Member To Class: ClassName=NVME_0 Member=Component C34 220n
+Added Member To Class: ClassName=NVME_0 Member=Component C35 220n
+Added Member To Class: ClassName=HU_revC Member=Component F1 2
+Added Member To Class: ClassName=PWR Member=Wire 3V3_M2_SF
+Added Member To Class: ClassName=PWR Member=Wire 3V3_M2
+Added Member To Class: ClassName=PWR Member=Wire 3V3_MISC
+Added Member To Class: ClassName=PWR Member=Wire 3V3_SD_PWR
+Added Member To Class: ClassName=PWR Member=Wire 3V3_USB
+Added Member To Class: ClassName=PWR Member=Wire 5V0_DAC
+Added Member To Class: ClassName=PWR Member=Wire 5V0_DISP
+Added Member To Class: ClassName=PWR Member=Wire 5V0_RPI
+Added Member To Class: ClassName=PWR Member=Wire MAX96724_3V3
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Added Member To Class: ClassName=85DIFF Member=M2_PCIE_TX0
+Added Member To Class: ClassName=85DIFF Member=PCIE_RX
+Added Member To Class: ClassName=85DIFF Member=PCIE_TX
