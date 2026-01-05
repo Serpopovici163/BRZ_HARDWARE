@@ -1,0 +1,197 @@
+Removed Pin From Net: NetName=3V3_MAIN Pin=C50_ADC_0-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=C50_ADC_1-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=C115-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=C116-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=C118-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=D8-2
+Removed Pin From Net: NetName=3V3_MAIN Pin=D8-3
+Removed Pin From Net: NetName=3V3_MAIN Pin=R58_ADC_0-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=R58_ADC_1-1
+Removed Pin From Net: NetName=3V3_MISC Pin=R59-2
+Removed Pin From Net: NetName=3V3_MAIN Pin=R125-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=R131-1
+Removed Pin From Net: NetName=3V3_MAIN Pin=U5_ADC_0-2
+Removed Pin From Net: NetName=3V3_MAIN Pin=U5_ADC_1-2
+Removed Pin From Net: NetName=3V3_MISC Pin=U6-5
+Removed Pin From Net: NetName=3V3_MAIN Pin=U14-7
+Removed Pin From Net: NetName=3V3_MAIN Pin=U14-8
+Removed Pin From Net: NetName=3V3_MAIN Pin=U15-6
+Removed Member From Class: ClassName=PWR Member=3V3_AUX
+Removed Member From Class: ClassName=PWR Member=5V0_MAIN
+Added Component: Designator=F21(FP-0ZCK0010FF2G-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "100mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "100A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "1.5s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "300mA"; VariantName = "[No Variations]"
+Added Component: Designator=F22(FP-0ZCK0010FF2G-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "100mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "100A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "1.5s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "300mA"; VariantName = "[No Variations]"
+Added Component: Designator=F23(FP-0ZCK0010FF2G-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "100mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "100A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "1.5s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "300mA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V0_MAIN Pin=C31-1
+Added Pin To Net: NetName=5V0_MAIN Pin=C32-1
+Added Pin To Net: NetName=5V0_MAIN Pin=C33-1
+Added Pin To Net: NetName=3V3_AUX Pin=C61-1
+Added Pin To Net: NetName=3V3_AUX Pin=C62-1
+Added Pin To Net: NetName=3V3_AUX Pin=C63-1
+Added Pin To Net: NetName=3V3_AUX Pin=C64-1
+Added Pin To Net: NetName=3V3_MAIN Pin=F21-1
+Added Pin To Net: NetName=3V3_MAIN Pin=F22-1
+Added Pin To Net: NetName=3V3_MAIN Pin=F23-1
+Added Pin To Net: NetName=5V0_MAIN Pin=L1-2
+Added Pin To Net: NetName=3V3_AUX Pin=L2-2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=5V0_MAIN Pin=R39-2
+Added Pin To Net: NetName=3V3_AUX Pin=R68-2
+Added Pin To Net: NetName=5V0_MAIN Pin=U2-6
+Added Pin To Net: NetName=3V3_AUX Pin=U8-6
+Change Net Name : Old Net Name=3V3_AUX New Net Name=3V3_REG_FB
+Change Net Name : Old Net Name=5V0_MAIN New Net Name=5V_REG_FB
+Change Net Name : Old Net Name=NetD21_1 New Net Name=3V3_5V0_MAIN_V_SENSE
+Change Net Name : Old Net Name=NetR33_2 New Net Name=3V3_5V0_MAIN_T_SENSE
+Change Net Name : Old Net Name=NetR62_2 New Net Name=3V3_3V3_MAIN_T_SENSE
+Change Net Name : Old Net Name=NetR68_1 New Net Name=3V3_3V3_MAIN_V_SENSE
+Added Pin To Net: NetName=3V3_ADC Pin=C50_ADC_0-1
+Added Pin To Net: NetName=3V3_ADC Pin=C50_ADC_1-1
+Added Pin To Net: NetName=3V3_ADC Pin=F22-2
+Added Pin To Net: NetName=3V3_ADC Pin=R58_ADC_0-1
+Added Pin To Net: NetName=3V3_ADC Pin=R58_ADC_1-1
+Added Pin To Net: NetName=3V3_ADC Pin=U5_ADC_0-2
+Added Pin To Net: NetName=3V3_ADC Pin=U5_ADC_1-2
+Added Net: Name=3V3_ADC
+Added Pin To Net: NetName=3V3_GPS Pin=C115-1
+Added Pin To Net: NetName=3V3_GPS Pin=C116-1
+Added Pin To Net: NetName=3V3_GPS Pin=C118-1
+Added Pin To Net: NetName=3V3_GPS Pin=D8-2
+Added Pin To Net: NetName=3V3_GPS Pin=D8-3
+Added Pin To Net: NetName=3V3_GPS Pin=F21-2
+Added Pin To Net: NetName=3V3_GPS Pin=R125-1
+Added Pin To Net: NetName=3V3_GPS Pin=R131-1
+Added Pin To Net: NetName=3V3_GPS Pin=U14-7
+Added Pin To Net: NetName=3V3_GPS Pin=U14-8
+Added Pin To Net: NetName=3V3_GPS Pin=U15-6
+Added Net: Name=3V3_GPS
+Added Pin To Net: NetName=3V3_SD Pin=F23-2
+Added Pin To Net: NetName=3V3_SD Pin=R59-2
+Added Pin To Net: NetName=3V3_SD Pin=U6-5
+Added Net: Name=3V3_SD
+Added Member To Class: ClassName=HU_revC Member=Component F21 0ZCK0010FF2G
+Added Member To Class: ClassName=HU_revC Member=Component F22 0ZCK0010FF2G
+Added Member To Class: ClassName=HU_revC Member=Component F23 0ZCK0010FF2G
+Added Member To Class: ClassName=PWR Member=Wire 3V3_ADC
+Added Member To Class: ClassName=PWR Member=Wire 3V3_GPS
+Added Member To Class: ClassName=PWR Member=Wire 3V3_SD
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_14
+Added Rule: Name=Schematic Supply Nets_29
+Added Rule: Name=Schematic Supply Nets_36

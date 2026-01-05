@@ -1,0 +1,161 @@
+Removed Pin From Net: NetName=3V3_AUX Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=3V3_AUX Pin=C55-1
+Removed Pin From Net: NetName=GND Pin=C55-2
+Removed Pin From Net: NetName=3V3_AUX Pin=C138-1
+Removed Pin From Net: NetName=GND Pin=C138-2
+Removed Pin From Net: NetName=3V3_AUX Pin=R38-2
+Removed Pin From Net: NetName=5V0_MAIN Pin=R39-2
+Removed Pin From Net: NetName=3V3_AUX Pin=R67-2
+Removed Pin From Net: NetName=3V3_AUX Pin=R68-2
+Removed Pin From Net: NetName=3V3_AMP_I_SENSE Pin=R118-1
+Removed Pin From Net: NetName=3V3_AUX Pin=R184-2
+Removed Pin From Net: NetName=5V_REG_FB Pin=U3-1
+Removed Pin From Net: NetName=5V_REG_FB Pin=U3-2
+Removed Pin From Net: NetName=5V0_MAIN Pin=U3-3
+Removed Pin From Net: NetName=5V0_MAIN Pin=U3-4
+Removed Pin From Net: NetName=GND Pin=U3-5
+Removed Pin From Net: NetName=3V3_AUX Pin=U3-8
+Removed Pin From Net: NetName=3V3_AUX Pin=U7-1
+Removed Pin From Net: NetName=3V3_AUX Pin=U7-2
+Removed Pin From Net: NetName=3V3_REG_FB Pin=U7-3
+Removed Pin From Net: NetName=3V3_REG_FB Pin=U7-4
+Removed Pin From Net: NetName=GND Pin=U7-5
+Removed Pin From Net: NetName=3V3_AUX Pin=U7-8
+Removed Pin From Net: NetName=3V3_AUX Pin=U13-8
+Removed Pin From Net: NetName=12V0_REG_FB Pin=U22-1
+Removed Pin From Net: NetName=12V0_REG_FB Pin=U22-2
+Removed Pin From Net: NetName=GND Pin=U22-5
+Removed Pin From Net: NetName=3V3_AUX Pin=U22-8
+Removed Member From Class: ClassName=REG_1 Member=C25
+Removed Member From Class: ClassName=REG_2 Member=C55
+Removed Member From Class: ClassName=REG_0 Member=C138
+Removed Member From Class: ClassName=REG_1 Member=R37
+Removed Member From Class: ClassName=REG_1 Member=R38
+Removed Member From Class: ClassName=REG_2 Member=R66
+Removed Member From Class: ClassName=REG_2 Member=R67
+Removed Member From Class: ClassName=PWR_SW_0 Member=R118
+Removed Member From Class: ClassName=REG_0 Member=R183
+Removed Member From Class: ClassName=REG_0 Member=R184
+Removed Member From Class: ClassName=REG_1 Member=U3
+Removed Member From Class: ClassName=REG_2 Member=U7
+Removed Member From Class: ClassName=REG_0 Member=U22
+Removed Member From Class: ClassName=PWR Member=12V0_MAIN
+Change Component Footprint: Designator=U13 Old Footprint=FP-LC-8-IPC_A New Footprint=ALEG-EX-12_V
+Change Component Comment : Designator=U13 Old Comment=ACS711KLCTR-25AB-T New Comment=ACS711KEXLT-15AB-T
+Change Managed Component Library Link : Designator=U13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=945B006C-75B0-4699-9709-B0F7FEC9F68F New ItemGUID=A11DEBC0-C230-4D0B-885E-1803A433E9EA Old RevisionGUID=3BE6B239-60CD-4024-ADB9-8C83234C0F9F New RevisionGUID=833B1267-473F-4534-B631-016AC7EFE4C3
+Change component parameters: Designator = "U13" ("U13"); Footprint = "FP-LC-8-IPC_A"; UniqueID = "\HFOOHYXL\CTPOXGAF" ("\HFOOHYXL\CTPOXGAF")
+Change component parameters (AddParameter): Name = "-3dB Bandwidth"; Value = "0.1 MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.allegromicro.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.allegromicro.com/~/media/Files/Datasheets/ACS711-Datasheet.ashx?la=en"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.allegromicro.com/~/media/Files/Datasheets/ACS711-Datasheet.ashx?la=en"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IP Max"; Value = "15.5 A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IP Min"; Value = "-15.5 A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "12-Pin Quad Flat No-Lead, Body 3 x 3 mm, Height 0.8 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ACS711KEXLT-15AB-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Max"; Value = "125 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Min"; Value = "-40 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC Max"; Value = "5.5 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC Min"; Value = "3 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V0_REG_FB Pin=F7-2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=5V_REG_FB Pin=R39-2
+Added Pin To Net: NetName=3V3_REG_FB Pin=R68-2
+Added Pin To Net: NetName=12V0_REG_FB Pin=R185-2
+Added Pin To Net: NetName=3V3_AMP_I_SENSE Pin=U13-11
+Added Pin To Net: NetName=3V3_AUX Pin=U13-12
+Change Net Name : Old Net Name=3V3_3V3_MAIN_T_SENSE New Net Name=NetR62_2
+Change Net Name : Old Net Name=3V3_3V3_MAIN_V_SENSE New Net Name=NetR68_1
+Change Net Name : Old Net Name=3V3_5V0_MAIN_T_SENSE New Net Name=NetR33_2
+Change Net Name : Old Net Name=3V3_5V0_MAIN_V_SENSE New Net Name=NetR39_1
+Added Rule: Name=Schematic Supply Nets_11
