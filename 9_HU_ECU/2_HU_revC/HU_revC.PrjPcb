@@ -424,23 +424,6 @@ GenerateClassCluster=0
 DocumentUniqueId=QWAQTYIY
 
 [Document23]
-DocumentPath=HU_revC_temp.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TFQWCLFP
-
-[Document24]
 DocumentPath=1V1_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
