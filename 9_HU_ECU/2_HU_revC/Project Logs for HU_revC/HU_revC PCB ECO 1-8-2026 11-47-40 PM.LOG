@@ -1,0 +1,210 @@
+Removed Pin From Net: NetName=GND Pin=J8-3
+Removed Pin From Net: NetName=FL_N Pin=J8-5
+Removed Pin From Net: NetName=FL_P Pin=J8-6
+Removed Pin From Net: NetName=FR_N Pin=J8-7
+Removed Pin From Net: NetName=FR_P Pin=J8-8
+Removed Pin From Net: NetName=GND Pin=J9-3
+Removed Pin From Net: NetName=RR_P Pin=J9-5
+Removed Pin From Net: NetName=RR_N Pin=J9-6
+Removed Pin From Net: NetName=RL_P Pin=J9-7
+Removed Pin From Net: NetName=RL_N Pin=J9-8
+Removed Pin From Net: NetName=LL_FR_L Pin=J10-1
+Removed Pin From Net: NetName=GND Pin=J10-2
+Removed Pin From Net: NetName=LL_FR_R Pin=J10-3
+Removed Pin From Net: NetName=LL_RR_L Pin=J11-1
+Removed Pin From Net: NetName=GND Pin=J11-2
+Removed Pin From Net: NetName=LL_RR_R Pin=J11-3
+Change Component Footprint: Designator=J10 Old Footprint=FP-B3B-XH-AM_LF_SN-MFG New Footprint=FP-B4B-XH-A_LF_SN-MFG
+Change Component Footprint: Designator=J11 Old Footprint=FP-B3B-XH-AM_LF_SN-MFG New Footprint=FP-B4B-XH-A_LF_SN-MFG
+Change Component Comment : Designator=J10 Old Comment=B3B-XH-AM(LF)(SN) New Comment=B4B-XH-A(LF)(SN)
+Change Component Comment : Designator=J11 Old Comment=B3B-XH-AM(LF)(SN) New Comment=B4B-XH-A(LF)(SN)
+Change Managed Component Library Link : Designator=J10 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=D68AFE0B-A13A-4815-B8A4-D545DF81F359 New ItemGUID=6612D765-7A59-4B7B-807B-DC2F7FB50E47 Old RevisionGUID=64FA7DFD-D3F4-43F6-8FC4-AD031DC428C2 New RevisionGUID=7A7A3922-1DD3-47E1-8ADB-FC5517DBD77E
+Change Managed Component Library Link : Designator=J11 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=D68AFE0B-A13A-4815-B8A4-D545DF81F359 New ItemGUID=6612D765-7A59-4B7B-807B-DC2F7FB50E47 Old RevisionGUID=64FA7DFD-D3F4-43F6-8FC4-AD031DC428C2 New RevisionGUID=7A7A3922-1DD3-47E1-8ADB-FC5517DBD77E
+Change component parameters: Designator = "J10" ("J10"); Footprint = "FP-B3B-XH-AM_LF_SN-MFG"; UniqueID = "\YBPOTJYX" ("\YBPOTJYX")
+Change component parameters (AddParameter): Name = "Color"; Value = "Natural"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "TIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "5.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Detent"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "12.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mated Stacking Heights"; Value = "9.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "XH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire/Cable Gauge"; Value = "22AWG"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J11" ("J11"); Footprint = "FP-B3B-XH-AM_LF_SN-MFG"; UniqueID = "\ZRZMFVHS" ("\ZRZMFVHS")
+Change component parameters (AddParameter): Name = "Color"; Value = "Natural"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "TIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "5.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Detent"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "12.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mated Stacking Heights"; Value = "9.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "XH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire/Cable Gauge"; Value = "22AWG"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AMP_VCC Pin=J8-3
+Added Pin To Net: NetName=GND Pin=J8-5
+Added Pin To Net: NetName=LL_RR_L Pin=J8-6
+Added Pin To Net: NetName=GND Pin=J8-7
+Added Pin To Net: NetName=LL_RR_R Pin=J8-8
+Added Pin To Net: NetName=AMP_VCC Pin=J9-3
+Added Pin To Net: NetName=GND Pin=J9-5
+Added Pin To Net: NetName=LL_FR_L Pin=J9-6
+Added Pin To Net: NetName=GND Pin=J9-7
+Added Pin To Net: NetName=LL_FR_R Pin=J9-8
+Added Pin To Net: NetName=RR_P Pin=J10-1
+Added Pin To Net: NetName=RR_N Pin=J10-2
+Added Pin To Net: NetName=RL_P Pin=J10-3
+Added Pin To Net: NetName=RL_N Pin=J10-4
+Added Pin To Net: NetName=FL_N Pin=J11-1
+Added Pin To Net: NetName=FL_P Pin=J11-2
+Added Pin To Net: NetName=FR_N Pin=J11-3
+Added Pin To Net: NetName=FR_P Pin=J11-4
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7

@@ -1,0 +1,149 @@
+Removed Pin From Net: NetName=3V3_REG_FB Pin=F20-2
+Removed Pin From Net: NetName=3V3_CAN Pin=R57-1
+Removed Pin From Net: NetName=3V3_CAN_TX Pin=U4-1
+Removed Pin From Net: NetName=3V3_CAN_RX Pin=U4-2
+Removed Pin From Net: NetName=MCP2515_X_N Pin=U4-7
+Removed Pin From Net: NetName=MCP2515_X_P Pin=U4-8
+Removed Pin From Net: NetName=GND Pin=U4-9
+Removed Pin From Net: NetName=3V3_SPI0_SCLK (GPIO11) Pin=U4-13
+Removed Member From Class: ClassName=MCP2515 Member=R57
+Change Component Footprint: Designator=U4 Old Footprint=FP-C04-051-MFG New Footprint=FP-C04-126-MFG
+Change Component Comment : Designator=U4 Old Comment=MCP2515-I/SO New Comment=MCP2515T-I/ML
+Change Managed Component Library Link : Designator=U4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=EE688DBF-7A00-4669-8C87-F0B8802677C4 New ItemGUID=0AD0ADC2-305F-4CD3-81D1-BBEBE4FA0FFE Old RevisionGUID=A0C86072-B76A-4D77-AEAB-F78F3B87ECBD New RevisionGUID=07CB8145-DDC0-4E56-B0FE-0D5C02826497
+Change component parameters: Designator = "U4" ("U4"); Footprint = "FP-C04-051-MFG"; UniqueID = "\ARLBYRVA\LXFTUPXD" ("\ARLBYRVA\LXFTUPXD")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "QFN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Data Rate"; Value = "1000Kbps"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "SPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Current"; Value = "10mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "2.7V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Supply Current"; Value = "10mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Transceivers"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "3300"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603B)
+Add component (AddParameter): Name = "Contact Finish"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FIT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Materials"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR PN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3_LAN Pin=F20-2
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=3V3_CAN Pin=R?-1
+Added Pin To Net: NetName=MCP2515_X_N Pin=U4-6
+Added Pin To Net: NetName=MCP2515_X_P Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=3V3_SPI0_SCLK (GPIO11) Pin=U4-12
+Added Pin To Net: NetName=3V3_CAN_TX Pin=U4-19
+Added Pin To Net: NetName=3V3_CAN_RX Pin=U4-20
+Added Pin To Net: NetName=GND Pin=U4-21
+Added Pin To Net: NetName=NetR146_1 Pin=R146-1
+Added Pin To Net: NetName=NetR146_1 Pin=R?-2
+Added Pin To Net: NetName=NetR146_1 Pin=U4-11
+Added Net: Name=NetR146_1
+Added Member To Class: ClassName=MCP2515 Member=Component R? 100k
