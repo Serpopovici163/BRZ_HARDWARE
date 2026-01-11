@@ -424,7 +424,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QWAQTYIY
 
 [Document23]
-DocumentPath=1V1_REG.SchDoc
+DocumentPath=ADJ_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
