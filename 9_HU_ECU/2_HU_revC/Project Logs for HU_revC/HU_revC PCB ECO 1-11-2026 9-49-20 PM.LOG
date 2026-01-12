@@ -1,0 +1,145 @@
+Removed Pin From Net: NetName=GND Pin=C134-2
+Removed Pin From Net: NetName=GND Pin=C135-2
+Removed Pin From Net: NetName=GND Pin=C136-2
+Removed Pin From Net: NetName=GND Pin=C137-2
+Removed Pin From Net: NetName=GND Pin=C140-2
+Removed Pin From Net: NetName=GND Pin=C141-2
+Removed Pin From Net: NetName=GND Pin=C142-2
+Removed Pin From Net: NetName=GND Pin=C143-2
+Removed Pin From Net: NetName=GND Pin=C144-2
+Removed Pin From Net: NetName=GND Pin=C145-2
+Removed Pin From Net: NetName=GND Pin=C146-2
+Removed Pin From Net: NetName=GND Pin=C248-2
+Removed Pin From Net: NetName=GND Pin=D9-2
+Removed Pin From Net: NetName=GND Pin=D10-2
+Removed Pin From Net: NetName=GND Pin=D22-2
+Removed Pin From Net: NetName=GND Pin=J18-4
+Removed Pin From Net: NetName=GND Pin=J18-7
+Removed Pin From Net: NetName=GND Pin=J18-13
+Removed Pin From Net: NetName=GND Pin=J18-16
+Removed Pin From Net: NetName=GND Pin=J18-19
+Removed Pin From Net: NetName=GND Pin=J18-20
+Removed Pin From Net: NetName=GND Pin=J18-21
+Removed Pin From Net: NetName=GND Pin=J18-22
+Removed Pin From Net: NetName=GND Pin=R169-2
+Removed Pin From Net: NetName=GND Pin=R170-2
+Removed Pin From Net: NetName=3V3_VBUS_EN Pin=R175-2
+Removed Pin From Net: NetName=GND Pin=R176-1
+Removed Pin From Net: NetName=3V3_VBUS_EN Pin=R177-2
+Removed Pin From Net: NetName=GND Pin=R178-1
+Removed Pin From Net: NetName=3V3_PWR Pin=R179-1
+Removed Pin From Net: NetName=GND Pin=R181-1
+Removed Pin From Net: NetName=GND Pin=R186-1
+Removed Pin From Net: NetName=GND Pin=U19-2
+Removed Pin From Net: NetName=GND Pin=U20-2
+Removed Pin From Net: NetName=GND Pin=U21-4
+Removed Pin From Net: NetName=GND Pin=U21-8
+Removed Member From Class: ClassName=HU_revC Member=C134
+Removed Member From Class: ClassName=HU_revC Member=C135
+Removed Member From Class: ClassName=HU_revC Member=C136
+Removed Member From Class: ClassName=HU_revC Member=C137
+Removed Member From Class: ClassName=HU_revC Member=J18
+Removed Member From Class: ClassName=HU_revC Member=R171
+Removed Member From Class: ClassName=HU_revC Member=R172
+Removed Member From Class: ClassName=HU_revC Member=R173
+Removed Member From Class: ClassName=HU_revC Member=R174
+Removed Member From Class: ClassName=HU_revC Member=R175
+Removed Member From Class: ClassName=HU_revC Member=R176
+Removed Member From Class: ClassName=HU_revC Member=R177
+Removed Member From Class: ClassName=HU_revC Member=R178
+Removed Member From Class: ClassName=HU_revC Member=U19
+Removed Member From Class: ClassName=HU_revC Member=U20
+Removed Member From Class: ClassName=PWR Member=12V0_REG_FB
+Removed Member From Class: ClassName=PWR Member=NetC139_2
+Removed Member From Class: ClassName=PWR Member=NetC140_1
+Removed Member From Class: ClassName=PWR Member=USBA0_5V
+Removed Member From Class: ClassName=PWR Member=USBA1_5V
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=3V3_VBUS_EN Pin=R138-2
+Added Pin To Net: NetName=3V3_VBUS_EN Pin=R150-2
+Added Pin To Net: NetName=NetR169_2 Pin=R169-2
+Added Pin To Net: NetName=NetR169_2 Pin=R170-2
+Added Net: Name=NetR169_2
