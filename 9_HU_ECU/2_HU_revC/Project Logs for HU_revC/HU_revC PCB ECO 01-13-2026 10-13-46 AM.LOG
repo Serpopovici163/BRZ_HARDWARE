@@ -1,0 +1,122 @@
+Removed Pin From Net: NetName=NetF6_2 Pin=Q7-1
+Removed Pin From Net: NetName=NetF6_2 Pin=Q7-2
+Removed Pin From Net: NetName=NetF6_2 Pin=Q7-3
+Removed Pin From Net: NetName=PWR_SW_GATE Pin=Q7-4
+Removed Pin From Net: NetName=NetQ7_5-6-7-8 Pin=Q7-5-6-7-8
+Removed Pin From Net: NetName=3V3_SPI1_nCS2 (GPIO16) Pin=R143-2
+Removed Pin From Net: NetName=3V3_SPI0_nCS2 (GPIO3) Pin=R146-2
+Removed Pin From Net: NetName=3V3_SPI0_nCS3 (GPIO2) Pin=R148-2
+Removed Pin From Net: NetName=3V3_SPI0_SCLK (GPIO11) Pin=U4-12
+Removed Pin From Net: NetName=3V3_SPI0_MOSI (GPIO10) Pin=U4-14
+Removed Pin From Net: NetName=3V3_SPI0_MISO (GPIO9) Pin=U4-15
+Removed Pin From Net: NetName=3V3_SPI0_nCS0 (GPIO8) Pin=U4-16
+Removed Pin From Net: NetName=3V3_SPI1_nCS0 (GPIO18) Pin=U5_ADC_0-1
+Removed Pin From Net: NetName=3V3_SPI1_MOSI (GPIO20) Pin=U5_ADC_0-14
+Removed Pin From Net: NetName=3V3_SPI1_MISO (GPIO19) Pin=U5_ADC_0-15
+Removed Pin From Net: NetName=3V3_SPI1_SCLK (GPIO21) Pin=U5_ADC_0-16
+Removed Pin From Net: NetName=3V3_SPI1_nCS1 (GPIO27) Pin=U5_ADC_1-1
+Removed Pin From Net: NetName=3V3_SPI1_MOSI (GPIO20) Pin=U5_ADC_1-14
+Removed Pin From Net: NetName=3V3_SPI1_MISO (GPIO19) Pin=U5_ADC_1-15
+Removed Pin From Net: NetName=3V3_SPI1_SCLK (GPIO21) Pin=U5_ADC_1-16
+Removed Member From Class: ClassName=PWR_SW_0 Member=Q7
+Removed Member From Class: ClassName=PWR Member=NetQ7_5-6-7-8
+Add Pin To Net: Unknown Pin: Pin MH1-2
+Add Pin To Net: Unknown Pin: Pin MH1-3
+Add Pin To Net: Unknown Pin: Pin MH1-4
+Add Pin To Net: Unknown Pin: Pin MH1-5
+Add Pin To Net: Unknown Pin: Pin MH1-6
+Add Pin To Net: Unknown Pin: Pin MH1-7
+Add Pin To Net: Unknown Pin: Pin MH2-2
+Add Pin To Net: Unknown Pin: Pin MH2-3
+Add Pin To Net: Unknown Pin: Pin MH2-4
+Add Pin To Net: Unknown Pin: Pin MH2-5
+Add Pin To Net: Unknown Pin: Pin MH2-6
+Add Pin To Net: Unknown Pin: Pin MH2-7
+Add Pin To Net: Unknown Pin: Pin MH3-2
+Add Pin To Net: Unknown Pin: Pin MH3-3
+Add Pin To Net: Unknown Pin: Pin MH3-4
+Add Pin To Net: Unknown Pin: Pin MH3-5
+Add Pin To Net: Unknown Pin: Pin MH3-6
+Add Pin To Net: Unknown Pin: Pin MH3-7
+Add Pin To Net: Unknown Pin: Pin MH4-2
+Add Pin To Net: Unknown Pin: Pin MH4-3
+Add Pin To Net: Unknown Pin: Pin MH4-4
+Add Pin To Net: Unknown Pin: Pin MH4-5
+Add Pin To Net: Unknown Pin: Pin MH4-6
+Add Pin To Net: Unknown Pin: Pin MH4-7
+Add Pin To Net: Unknown Pin: Pin MH5-2
+Add Pin To Net: Unknown Pin: Pin MH5-3
+Add Pin To Net: Unknown Pin: Pin MH5-4
+Add Pin To Net: Unknown Pin: Pin MH5-5
+Add Pin To Net: Unknown Pin: Pin MH5-6
+Add Pin To Net: Unknown Pin: Pin MH5-7
+Add Pin To Net: Unknown Pin: Pin MH6-2
+Add Pin To Net: Unknown Pin: Pin MH6-3
+Add Pin To Net: Unknown Pin: Pin MH6-4
+Add Pin To Net: Unknown Pin: Pin MH6-5
+Add Pin To Net: Unknown Pin: Pin MH6-6
+Add Pin To Net: Unknown Pin: Pin MH6-7
+Add Pin To Net: Unknown Pin: Pin MH7-2
+Add Pin To Net: Unknown Pin: Pin MH7-3
+Add Pin To Net: Unknown Pin: Pin MH7-4
+Add Pin To Net: Unknown Pin: Pin MH7-5
+Add Pin To Net: Unknown Pin: Pin MH7-6
+Add Pin To Net: Unknown Pin: Pin MH7-7
+Add Pin To Net: Unknown Pin: Pin MH8-2
+Add Pin To Net: Unknown Pin: Pin MH8-3
+Add Pin To Net: Unknown Pin: Pin MH8-4
+Add Pin To Net: Unknown Pin: Pin MH8-5
+Add Pin To Net: Unknown Pin: Pin MH8-6
+Add Pin To Net: Unknown Pin: Pin MH8-7
+Add Pin To Net: Unknown Pin: Pin MH9-2
+Add Pin To Net: Unknown Pin: Pin MH9-3
+Add Pin To Net: Unknown Pin: Pin MH9-4
+Add Pin To Net: Unknown Pin: Pin MH9-5
+Add Pin To Net: Unknown Pin: Pin MH9-6
+Add Pin To Net: Unknown Pin: Pin MH9-7
+Add Pin To Net: Unknown Pin: Pin MH10-2
+Add Pin To Net: Unknown Pin: Pin MH10-3
+Add Pin To Net: Unknown Pin: Pin MH10-4
+Add Pin To Net: Unknown Pin: Pin MH10-5
+Add Pin To Net: Unknown Pin: Pin MH10-6
+Add Pin To Net: Unknown Pin: Pin MH10-7
+Add Pin To Net: Unknown Pin: Pin MH11-2
+Add Pin To Net: Unknown Pin: Pin MH11-3
+Add Pin To Net: Unknown Pin: Pin MH11-4
+Add Pin To Net: Unknown Pin: Pin MH11-5
+Add Pin To Net: Unknown Pin: Pin MH11-6
+Add Pin To Net: Unknown Pin: Pin MH11-7
+Add Pin To Net: Unknown Pin: Pin MH12-2
+Add Pin To Net: Unknown Pin: Pin MH12-3
+Add Pin To Net: Unknown Pin: Pin MH12-4
+Add Pin To Net: Unknown Pin: Pin MH12-5
+Add Pin To Net: Unknown Pin: Pin MH12-6
+Add Pin To Net: Unknown Pin: Pin MH12-7
+Add Pin To Net: Unknown Pin: Pin MH13-2
+Add Pin To Net: Unknown Pin: Pin MH13-3
+Add Pin To Net: Unknown Pin: Pin MH13-4
+Add Pin To Net: Unknown Pin: Pin MH13-5
+Add Pin To Net: Unknown Pin: Pin MH13-6
+Add Pin To Net: Unknown Pin: Pin MH13-7
+Add Pin To Net: Unknown Pin: Pin MH14-2
+Add Pin To Net: Unknown Pin: Pin MH14-3
+Add Pin To Net: Unknown Pin: Pin MH14-4
+Add Pin To Net: Unknown Pin: Pin MH14-5
+Add Pin To Net: Unknown Pin: Pin MH14-6
+Add Pin To Net: Unknown Pin: Pin MH14-7
+Added Pin To Net: NetName=3V3_SPI1_nCS1 (GPIO27) Pin=R143-2
+Added Pin To Net: NetName=3V3_SPI1_nCS2 (GPIO16) Pin=R146-2
+Added Pin To Net: NetName=3V3_SPI1_SCLK (GPIO21) Pin=U4-12
+Added Pin To Net: NetName=3V3_SPI1_MOSI (GPIO20) Pin=U4-14
+Added Pin To Net: NetName=3V3_SPI1_MISO (GPIO19) Pin=U4-15
+Added Pin To Net: NetName=3V3_SPI1_nCS0 (GPIO18) Pin=U4-16
+Added Pin To Net: NetName=3V3_SPI0_nCS0 (GPIO8) Pin=U5_ADC_0-1
+Added Pin To Net: NetName=3V3_SPI0_MOSI (GPIO10) Pin=U5_ADC_0-14
+Added Pin To Net: NetName=3V3_SPI0_MISO (GPIO9) Pin=U5_ADC_0-15
+Added Pin To Net: NetName=3V3_SPI0_SCLK (GPIO11) Pin=U5_ADC_0-16
+Added Pin To Net: NetName=3V3_SPI0_nCS2 (GPIO3) Pin=U5_ADC_1-1
+Added Pin To Net: NetName=3V3_SPI0_MOSI (GPIO10) Pin=U5_ADC_1-14
+Added Pin To Net: NetName=3V3_SPI0_MISO (GPIO9) Pin=U5_ADC_1-15
+Added Pin To Net: NetName=3V3_SPI0_SCLK (GPIO11) Pin=U5_ADC_1-16
+Change Net Name : Old Net Name=NetQ7_5-6-7-8 New Net Name=NetQ8_5-6-7-8
+Added Member To Class: ClassName=PWR Member=Wire NetQ8_5-6-7-8
