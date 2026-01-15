@@ -271,23 +271,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=12V0_REG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=18
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XUZKLASU
-
-[Document15]
 DocumentPath=LM74910H_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NAVFQVYB
 
-[Document16]
+[Document15]
 DocumentPath=TCAN1146_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XWMJZOJE
 
-[Document17]
+[Document16]
 DocumentPath=PWR_SW_AND_VI_SENSE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNSCOFGM
 
-[Document18]
+[Document17]
 DocumentPath=FUSE_AND_I_SENSE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XXLIETOY
 
-[Document19]
+[Document18]
 DocumentPath=TUSB4041_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SORMIOIB
 
-[Document20]
+[Document19]
 DocumentPath=LAN8830_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJSQVRVW
 
-[Document21]
+[Document20]
 DocumentPath=LAN8870_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SCHGOVLD
 
-[Document22]
+[Document21]
 DocumentPath=HU_revC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QWAQTYIY
 
-[Document23]
+[Document22]
 DocumentPath=ADJ_REG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
