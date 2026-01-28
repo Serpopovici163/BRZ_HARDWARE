@@ -1,0 +1,70 @@
+Removed Member From Class: ClassName=PWR Member=3V3
+Added Component: Designator=MH1(PTHV6 M2)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=MH2(PTHV6 M2)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=MH3(PTHV6 M2)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=MH4(PTHV6 M2)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-2
+Added Pin To Net: NetName=GND Pin=MH1-3
+Added Pin To Net: NetName=GND Pin=MH1-4
+Added Pin To Net: NetName=GND Pin=MH1-5
+Added Pin To Net: NetName=GND Pin=MH1-6
+Added Pin To Net: NetName=GND Pin=MH1-7
+Added Pin To Net: NetName=GND Pin=MH1-7
+Added Pin To Net: NetName=GND Pin=MH1-7
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-2
+Added Pin To Net: NetName=GND Pin=MH2-3
+Added Pin To Net: NetName=GND Pin=MH2-4
+Added Pin To Net: NetName=GND Pin=MH2-5
+Added Pin To Net: NetName=GND Pin=MH2-6
+Added Pin To Net: NetName=GND Pin=MH2-7
+Added Pin To Net: NetName=GND Pin=MH2-7
+Added Pin To Net: NetName=GND Pin=MH2-7
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-2
+Added Pin To Net: NetName=GND Pin=MH3-3
+Added Pin To Net: NetName=GND Pin=MH3-4
+Added Pin To Net: NetName=GND Pin=MH3-5
+Added Pin To Net: NetName=GND Pin=MH3-6
+Added Pin To Net: NetName=GND Pin=MH3-7
+Added Pin To Net: NetName=GND Pin=MH3-7
+Added Pin To Net: NetName=GND Pin=MH3-7
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-2
+Added Pin To Net: NetName=GND Pin=MH4-3
+Added Pin To Net: NetName=GND Pin=MH4-4
+Added Pin To Net: NetName=GND Pin=MH4-5
+Added Pin To Net: NetName=GND Pin=MH4-6
+Added Pin To Net: NetName=GND Pin=MH4-7
+Added Pin To Net: NetName=GND Pin=MH4-7
+Added Pin To Net: NetName=GND Pin=MH4-7
+Added Member To Class: ClassName=MAX96724_EVB_revB Member=Component MH1 PTHV6
+Added Member To Class: ClassName=MAX96724_EVB_revB Member=Component MH2 PTHV6
+Added Member To Class: ClassName=MAX96724_EVB_revB Member=Component MH3 PTHV6
+Added Member To Class: ClassName=MAX96724_EVB_revB Member=Component MH4 PTHV6
+Added Member To Class: ClassName=PWR Member=Wire 1V8
