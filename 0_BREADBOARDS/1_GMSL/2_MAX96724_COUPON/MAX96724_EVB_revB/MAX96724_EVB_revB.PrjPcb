@@ -134,6 +134,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XWDAYDVF
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MAX96724_EVB_revB\Design Rule Check - MAX96724_EVB_revB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

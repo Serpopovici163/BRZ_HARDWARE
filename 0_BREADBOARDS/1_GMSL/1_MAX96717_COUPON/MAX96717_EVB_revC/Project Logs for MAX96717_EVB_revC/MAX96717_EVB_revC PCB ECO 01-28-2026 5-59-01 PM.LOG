@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=GND Pin=MH5-1
+Added Pin To Net: NetName=GND Pin=MH5-2
+Added Pin To Net: NetName=GND Pin=MH5-3
+Added Pin To Net: NetName=GND Pin=MH5-4
+Added Pin To Net: NetName=GND Pin=MH5-5
+Added Pin To Net: NetName=GND Pin=MH5-6
+Added Pin To Net: NetName=GND Pin=MH5-7
+Added Pin To Net: NetName=GND Pin=MH5-7
+Added Pin To Net: NetName=GND Pin=MH5-7
+Added Member To Class: ClassName=MAX96717_EVB_revC Member=Component MH5 PTHV6

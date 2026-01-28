@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Member From Class: ClassName=MAX96724_EVB_revB Member=C1
+Removed Member From Class: ClassName=MAX96724_EVB_revB Member=C2
+Removed Member From Class: ClassName=MAX96724_EVB_revB Member=C3
+Removed Member From Class: ClassName=MAX96724_EVB_revB Member=C4
+Removed Member From Class: ClassName=PWR Member=FAKRA_0_GND
+Added Pin To Net: NetName=GND Pin=J10-MH1
+Added Pin To Net: NetName=GND Pin=J10-MH2
+Added Pin To Net: NetName=GND Pin=J10-MH3
+Added Pin To Net: NetName=GND Pin=J10-MH4
+Added Pin To Net: NetName=GND Pin=J10-MH5
