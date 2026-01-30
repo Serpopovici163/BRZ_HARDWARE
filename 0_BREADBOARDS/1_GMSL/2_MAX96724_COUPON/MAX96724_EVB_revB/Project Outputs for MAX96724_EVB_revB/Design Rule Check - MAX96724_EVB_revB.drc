@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\se097192\Documents\0_BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\1_GMSL\2_MAX96724_COUPON\MAX96724_EVB_revB\MAX96724_EVB_revB.PcbDoc
-Date     : 01/28/2026
-Time     : 6:20:56 PM
+Date     : 01/29/2026
+Time     : 7:48:41 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -77,10 +77,10 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (81.25mm,24.5mm)(81.25mm,37.5mm) on Top Overlay 
 Rule Violations :20
 
-Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('CSIA'))
+Processing Rule : Matched Lengths(Tolerance=0.1mm) (InDifferentialPairClass('CSIA'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Delay Tolerance=5ps) (InDifferentialPairClass('CSIA'))
+Processing Rule : Matched Lengths(Tolerance=0.11mm) (InDifferentialPairClass('CSIA'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)

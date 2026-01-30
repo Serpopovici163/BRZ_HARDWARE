@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PoC_PWR Pin=F2-1
+Removed Member From Class: ClassName=GMSL_SERIALIZER Member=F2
+Removed Member From Class: ClassName=PWR Member=NetF2_2
+Change Component Comment : Designator=C10_REG_1 Old Comment=DNP New Comment=HMK325B7105KN-T
+Change Component Comment : Designator=C10_REG_2 Old Comment=DNP New Comment=HMK325B7105KN-T
+Added Pin To Net: NetName=PoC_PWR Pin=F2-2
+Added Pin To Net: NetName=NetF2_1 Pin=F2-1
+Added Pin To Net: NetName=NetF2_1 Pin=L4-1
+Added Net: Name=NetF2_1
+Added Member To Class: ClassName=MAX96717_EVB_revC Member=Component F2 2920L050DR
+Added Member To Class: ClassName=50SINGLE Member=Wire NetC14_2
+Added Member To Class: ClassName=PWR Member=Wire NetF2_1

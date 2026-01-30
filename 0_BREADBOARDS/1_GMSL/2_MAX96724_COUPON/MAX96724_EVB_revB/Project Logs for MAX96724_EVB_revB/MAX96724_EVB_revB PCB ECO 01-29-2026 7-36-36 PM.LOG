@@ -1,0 +1,3 @@
+Change Component Comment : Designator=R4 Old Comment=2.7k New Comment=DNP
+Change Component Comment : Designator=R5 Old Comment=2.7k New Comment=DNP
+Added Member To Class: ClassName=PWR Member=Wire NetC50_2
