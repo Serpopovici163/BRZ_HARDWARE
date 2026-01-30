@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MAX96717_EVB_revC.PcbDoc]
+   Generated File[MAX96717_EVB_revC-RoundHoles.TXT]
+   Generated File[MAX96717_EVB_revC-SlotHoles.TXT]
+   Generated File[MAX96717_EVB_revC.LDP]
+   Generated File[MAX96717_EVB_revC.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 8:59:11 PM On 1/29/2026

@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MAX96724_EVB_revB.PcbDoc   1/29/2026  9:00:21 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MAX96724_EVB_revB-RoundHoles.TXT
+ASCII SlotHoles File : MAX96724_EVB_revB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             245       PTH        1046.37mm (41.20inch)
+T2      0.33mm (13mil)                                            Round             4         PTH        8.20mm (0.32inch)
+T3      0.7mm (28mil)                                             Round             4         PTH        12.00mm (0.47inch)
+T4      0.81mm (32mil)                                            Round             9         PTH        20.32mm (0.80inch)
+T5      0.89mm (35mil)                                            Round             12        PTH        92.56mm (3.64inch)
+T6      1mm (39mil)                                               Slot              3         PTH        29.14mm (1.15inch)
+T7      1.016mm (40mil)                                           Round             10        PTH        113.78mm (4.48inch)
+T8      1.067mm (42mil)                                           Round             4         PTH        22.54mm (0.89inch)
+T9      1.4mm (55mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T10     1.7mm (67mil)                                             Round             4         PTH        25.35mm (1.00inch)
+T11     2.5mm (98mil)                                             Round             5         PTH        265.90mm (10.47inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              301
+
+Total Processing Time (hh:mm:ss) : 00:00:00

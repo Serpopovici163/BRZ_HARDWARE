@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\se097192\Documents\0_BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\1_GMSL\2_MAX96724_COUPON\MAX96724_EVB_revB\MAX96724_EVB_revB.PcbDoc
-Date     : 01/29/2026
-Time     : 7:48:41 PM
+PCB File : C:\Users\Trololololol\Documents\Projects\0_BRZ_PARENT\1_BRZ_HARDWARE\0_BREADBOARDS\1_GMSL\2_MAX96724_COUPON\MAX96724_EVB_revB\MAX96724_EVB_revB.PcbDoc
+Date     : 1/29/2026
+Time     : 8:47:07 PM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
 Rule Violations :0
@@ -89,4 +89,4 @@ Rule Violations :0
 
 Violations Detected : 20
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00

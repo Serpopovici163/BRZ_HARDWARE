@@ -134,8 +134,97 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YUILMKPW
 
+[Document6]
+DocumentPath=MAX96717_EVB_revC.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MAX96717_EVB_revC\Design Rule Check - MAX96717_EVB_revC.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\NC Drill\MAX96717_EVB_revC-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\NC Drill\MAX96717_EVB_revC-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\NC Drill\MAX96717_EVB_revC.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.G1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.G2
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GM
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\NC Drill\MAX96717_EVB_revC.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MAX96717_EVB_revC\2026_01_29_JLC\Gerber\MAX96717_EVB_revC.REP
 DItemRevisionGUID=
 
 [Configuration1]
