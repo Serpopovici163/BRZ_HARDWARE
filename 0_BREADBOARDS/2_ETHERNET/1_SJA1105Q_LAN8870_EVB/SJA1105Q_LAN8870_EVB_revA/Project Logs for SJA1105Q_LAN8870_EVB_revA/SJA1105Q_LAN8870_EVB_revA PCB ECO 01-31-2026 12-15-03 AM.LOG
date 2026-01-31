@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=3V3 Pin=D9-2
+Removed Pin From Net: NetName=3V3 Pin=D9-3
+Removed Pin From Net: NetName=LAN8830_PHYAD1 Pin=R38-2
+Removed Member From Class: ClassName=PHY_0 Member=D9
+Removed Member From Class: ClassName=PHY_0 Member=R38
+Removed Member From Class: ClassName=PHY_0 Member=R40

@@ -1,0 +1,13 @@
+Added Member To Class: ClassName=PWR Member=Wire LM61495Q3_VCC
+Added Member To Class: ClassName=PWR Member=Wire NetC120_2
+Added Member To Class: ClassName=PWR Member=Wire STM32_VDDA
+Added Member To Class: ClassName=PWR Member=Wire SW_VDD_CORE
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDA_OSC
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDA_PLL
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_CLO
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_HOST
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_MII0
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_MII1
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_MII2
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_MII3
+Added Member To Class: ClassName=PWR Member=Wire SW_VDDIO_MII4
