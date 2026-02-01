@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=FB23 Old Footprint=FP-BLM15-0_05-MFG New Footprint=FP-BLM18-0_15-t0_8-IPC_B
+Change Component Comment : Designator=FB23 Old Comment=BLM15PX601SN1D New Comment=BLM18KG331SH1D
+Change Managed Component Library Link : Designator=FB23 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=ADE2437E-73E0-443D-A175-D257598BBE2F New ItemGUID=73DC8499-10AB-4E48-869E-65CC0A4236A4 Old RevisionGUID=609B1F88-1C57-4DF8-B6F5-B5882224836E New RevisionGUID=EA01E757-731F-4DCE-8C67-961C96B36DFB
+Change component parameters: Designator = "FB23" ("FB23"); Footprint = "FP-BLM15-0_05-MFG"; UniqueID = "\JIMNQDQU\MHESGCYW" ("\JIMNQDQU\MHESGCYW")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "80mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.037inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.063inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "1.7A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.032inch"; VariantName = "[No Variations]"

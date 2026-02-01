@@ -1,0 +1,84 @@
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_A7
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_A8
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_A9
+Removed Member From Class: ClassName=P1_RXD Member=NetU1_B6
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_B7
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_B8
+Removed Member From Class: ClassName=P1_TXD Member=NetU1_B9
+Removed Member From Class: ClassName=P2_RXD Member=NetU1_B14
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_C13
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_C14
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_D13
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_D14
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_E13
+Removed Member From Class: ClassName=P2_TXD Member=NetU1_E14
+Removed Member From Class: ClassName=P3_RXD Member=NetU1_J13
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_K13
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_K14
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_L13
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_L14
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_M13
+Removed Member From Class: ClassName=P3_TXD Member=NetU1_M14
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_N7
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_N8
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_N9
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_P7
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_P8
+Removed Member From Class: ClassName=P4_TXD Member=NetU1_P9
+Removed Member From Class: ClassName=P4_RXD Member=NetU1_P10
+Change Net Name : Old Net Name=NetU1_A7 New Net Name=LAN8870_TX_CLK_PHY_1
+Change Net Name : Old Net Name=NetU1_A8 New Net Name=LAN8870_TXD3_PHY_1
+Change Net Name : Old Net Name=NetU1_A9 New Net Name=LAN8870_TXD1_PHY_1
+Change Net Name : Old Net Name=NetU1_B6 New Net Name=LAN8870_RX_CLK_PHY_1
+Change Net Name : Old Net Name=NetU1_B7 New Net Name=LAN8870_TX_CTL_PHY_1
+Change Net Name : Old Net Name=NetU1_B8 New Net Name=LAN8870_TXD2_PHY_1
+Change Net Name : Old Net Name=NetU1_B9 New Net Name=LAN8870_TXD0_PHY_1
+Change Net Name : Old Net Name=NetU1_B14 New Net Name=LAN8870_RX_CLK_PHY_2
+Change Net Name : Old Net Name=NetU1_C13 New Net Name=LAN8870_TX_CTL_PHY_2
+Change Net Name : Old Net Name=NetU1_C14 New Net Name=LAN8870_TX_CLK_PHY_2
+Change Net Name : Old Net Name=NetU1_D13 New Net Name=LAN8870_TXD2_PHY_2
+Change Net Name : Old Net Name=NetU1_D14 New Net Name=LAN8870_TXD3_PHY_2
+Change Net Name : Old Net Name=NetU1_E13 New Net Name=LAN8870_TXD0_PHY_2
+Change Net Name : Old Net Name=NetU1_E14 New Net Name=LAN8870_TXD1_PHY_2
+Change Net Name : Old Net Name=NetU1_J13 New Net Name=LAN8870_RX_CLK_PHY_3
+Change Net Name : Old Net Name=NetU1_K13 New Net Name=LAN8870_TX_CTL_PHY_3
+Change Net Name : Old Net Name=NetU1_K14 New Net Name=LAN8870_TX_CLK_PHY_3
+Change Net Name : Old Net Name=NetU1_L13 New Net Name=LAN8870_TXD2_PHY_3
+Change Net Name : Old Net Name=NetU1_L14 New Net Name=LAN8870_TXD3_PHY_3
+Change Net Name : Old Net Name=NetU1_M13 New Net Name=LAN8870_TXD0_PHY_3
+Change Net Name : Old Net Name=NetU1_M14 New Net Name=LAN8870_TXD1_PHY_3
+Change Net Name : Old Net Name=NetU1_N7 New Net Name=LAN8870_TXD1_PHY_4
+Change Net Name : Old Net Name=NetU1_N8 New Net Name=LAN8870_TXD3_PHY_4
+Change Net Name : Old Net Name=NetU1_N9 New Net Name=LAN8870_TX_CLK_PHY_4
+Change Net Name : Old Net Name=NetU1_P7 New Net Name=LAN8870_TXD0_PHY_4
+Change Net Name : Old Net Name=NetU1_P8 New Net Name=LAN8870_TXD2_PHY_4
+Change Net Name : Old Net Name=NetU1_P9 New Net Name=LAN8870_TX_CTL_PHY_4
+Change Net Name : Old Net Name=NetU1_P10 New Net Name=LAN8870_RX_CLK_PHY_4
+Added Member To Class: ClassName=P1_RXD Member=Wire LAN8870_RX_CLK_PHY_1
+Added Member To Class: ClassName=P2_RXD Member=Wire LAN8870_RX_CLK_PHY_2
+Added Member To Class: ClassName=P3_RXD Member=Wire LAN8870_RX_CLK_PHY_3
+Added Member To Class: ClassName=P4_RXD Member=Wire LAN8870_RX_CLK_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TX_CLK_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TX_CLK_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TX_CLK_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TX_CLK_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TX_CTL_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TX_CTL_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TX_CTL_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TX_CTL_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TXD0_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TXD0_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TXD0_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TXD0_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TXD1_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TXD1_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TXD1_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TXD1_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TXD2_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TXD2_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TXD2_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TXD2_PHY_4
+Added Member To Class: ClassName=P1_TXD Member=Wire LAN8870_TXD3_PHY_1
+Added Member To Class: ClassName=P2_TXD Member=Wire LAN8870_TXD3_PHY_2
+Added Member To Class: ClassName=P3_TXD Member=Wire LAN8870_TXD3_PHY_3
+Added Member To Class: ClassName=P4_TXD Member=Wire LAN8870_TXD3_PHY_4

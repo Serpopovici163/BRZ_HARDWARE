@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=SJA1150Q_X25_P Pin=R9-2
+Removed Member From Class: ClassName=SJA1150Q_PINOUT_0 Member=R9
+Added Pin To Net: NetName=SJA1150Q_X25_P Pin=U1-K2

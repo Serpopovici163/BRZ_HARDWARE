@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=1V1 Pin=FB14_PHY_1-2
+Removed Pin From Net: NetName=1V1 Pin=FB14_PHY_2-2
+Removed Pin From Net: NetName=1V1 Pin=FB14_PHY_3-2
+Removed Pin From Net: NetName=1V1 Pin=FB14_PHY_4-2
+Removed Pin From Net: NetName=1V1 Pin=FB19-1
+Removed Pin From Net: NetName=1V1 Pin=FB20-1
+Removed Pin From Net: NetName=1V1 Pin=FB22-1
+Added Pin To Net: NetName=1V1 Pin=C117_REG_5-1
+Added Pin To Net: NetName=1V1 Pin=C118_REG_5-1
+Added Pin To Net: NetName=8830_1V1 Pin=FB19-1
+Added Pin To Net: NetName=8830_1V1 Pin=FB20-1
+Added Pin To Net: NetName=8830_1V1 Pin=FB22-1
+Added Pin To Net: NetName=1V1 Pin=R44_REG_5-2
+Added Pin To Net: NetName=1V1 Pin=U4_REG_5-8
+Change Net Name : Old Net Name=1V1 New Net Name=8870_1V1
+Added Pin To Net: NetName=1V1 Pin=FB14_PHY_1-2
+Added Pin To Net: NetName=1V1 Pin=FB14_PHY_2-2
+Added Pin To Net: NetName=1V1 Pin=FB14_PHY_3-2
+Added Pin To Net: NetName=1V1 Pin=FB14_PHY_4-2
+Added Net: Name=1V1
