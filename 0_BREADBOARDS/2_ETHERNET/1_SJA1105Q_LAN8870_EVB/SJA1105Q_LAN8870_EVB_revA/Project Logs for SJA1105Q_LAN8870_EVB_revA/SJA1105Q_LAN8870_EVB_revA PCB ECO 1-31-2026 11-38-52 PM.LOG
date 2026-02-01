@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=3V3 Pin=C115_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C115_REG_1-2
+Removed Pin From Net: NetName=3V3 Pin=C116_REG_1-1
+Removed Pin From Net: NetName=GND Pin=C116_REG_1-2
+Removed Pin From Net: NetName=GND Pin=C117_REG_1-2
+Removed Pin From Net: NetName=GND Pin=C118_REG_1-2
+Removed Pin From Net: NetName=GND Pin=C119_REG_1-2
+Removed Pin From Net: NetName=3V3 Pin=R45_REG_1-1
+Removed Pin From Net: NetName=GND Pin=R46_REG_1-1
+Removed Pin From Net: NetName=3V3 Pin=U4_REG_1-1
+Removed Pin From Net: NetName=3V3 Pin=U4_REG_1-2
+Removed Pin From Net: NetName=GND Pin=U4_REG_1-4
+Removed Pin From Net: NetName=GND Pin=U4_REG_1-9
+Removed Member From Class: ClassName=PWR Member=1V8
+Removed Member From Class: ClassName=MCP1726_PINOUT Member=REG_5
+Change Component Designator: OldDesignator=C115_REG_2 NewDesignator=C115_REG_1
+Change Component Designator: OldDesignator=C115_REG_3 NewDesignator=C115_REG_2
+Change Component Designator: OldDesignator=C115_REG_5 NewDesignator=C115_REG_3
+Change Component Designator: OldDesignator=C116_REG_2 NewDesignator=C116_REG_1
+Change Component Designator: OldDesignator=C116_REG_3 NewDesignator=C116_REG_2
+Change Component Designator: OldDesignator=C116_REG_5 NewDesignator=C116_REG_3
+Change Component Designator: OldDesignator=C117_REG_2 NewDesignator=C117_REG_1
+Change Component Designator: OldDesignator=C117_REG_3 NewDesignator=C117_REG_2
+Change Component Designator: OldDesignator=C117_REG_5 NewDesignator=C117_REG_3
+Change Component Designator: OldDesignator=C118_REG_2 NewDesignator=C118_REG_1
+Change Component Designator: OldDesignator=C118_REG_3 NewDesignator=C118_REG_2
+Change Component Designator: OldDesignator=C118_REG_5 NewDesignator=C118_REG_3
+Change Component Designator: OldDesignator=C119_REG_2 NewDesignator=C119_REG_1
+Change Component Designator: OldDesignator=C119_REG_3 NewDesignator=C119_REG_2
+Change Component Designator: OldDesignator=C119_REG_5 NewDesignator=C119_REG_3
+Change Component Designator: OldDesignator=R44_REG_2 NewDesignator=R44_REG_1
+Change Component Designator: OldDesignator=R44_REG_3 NewDesignator=R44_REG_2
+Change Component Designator: OldDesignator=R44_REG_5 NewDesignator=R44_REG_3
+Change Component Designator: OldDesignator=R45_REG_2 NewDesignator=R45_REG_1
+Change Component Designator: OldDesignator=R45_REG_3 NewDesignator=R45_REG_2
+Change Component Designator: OldDesignator=R45_REG_5 NewDesignator=R45_REG_3
+Change Component Designator: OldDesignator=R46_REG_2 NewDesignator=R46_REG_1
+Change Component Designator: OldDesignator=R46_REG_3 NewDesignator=R46_REG_2
+Change Component Designator: OldDesignator=R46_REG_5 NewDesignator=R46_REG_3
+Change Component Designator: OldDesignator=U4_REG_2 NewDesignator=U4_REG_1
+Change Component Designator: OldDesignator=U4_REG_3 NewDesignator=U4_REG_2
+Change Component Designator: OldDesignator=U4_REG_5 NewDesignator=U4_REG_3
+Change Net Name : Old Net Name=NetC119_REG_2_1 New Net Name=NetC119_REG_1_1
+Change Net Name : Old Net Name=NetC119_REG_3_1 New Net Name=NetC119_REG_2_1
+Change Net Name : Old Net Name=NetC119_REG_5_1 New Net Name=NetC119_REG_3_1
+Change Net Name : Old Net Name=NetR44_REG_2_1 New Net Name=NetR44_REG_1_1
+Change Net Name : Old Net Name=NetR44_REG_3_1 New Net Name=NetR44_REG_2_1
+Change Net Name : Old Net Name=NetR44_REG_5_1 New Net Name=NetR44_REG_3_1
+Change Net Name : Old Net Name=NetR45_REG_2_2 New Net Name=NetR45_REG_1_2
+Change Net Name : Old Net Name=NetR45_REG_3_2 New Net Name=NetR45_REG_2_2
+Change Net Name : Old Net Name=NetR45_REG_5_2 New Net Name=NetR45_REG_3_2
+Change Net Name : Old Net Name=NetU4_REG_2_5 New Net Name=NetU4_REG_1_5
+Change Net Name : Old Net Name=NetU4_REG_3_5 New Net Name=NetU4_REG_2_5
+Change Net Name : Old Net Name=NetU4_REG_5_5 New Net Name=NetU4_REG_3_5

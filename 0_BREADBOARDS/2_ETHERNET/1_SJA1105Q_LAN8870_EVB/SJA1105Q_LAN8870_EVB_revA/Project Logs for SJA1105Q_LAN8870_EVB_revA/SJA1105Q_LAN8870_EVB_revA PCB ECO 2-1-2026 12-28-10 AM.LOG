@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=3V3 Pin=R49-2
+Removed Member From Class: ClassName=REG_0 Member=R49
+Change Class Name : Old Net Name=REG_3 New Net Name=REG_2
+Added Class: Name=REG_3
+Added Member To Class: ClassName=REG_1 Member=Component C115_REG_1 (C115) C0805C475J4RACAUTO
+Added Member To Class: ClassName=REG_1 Member=Component C116_REG_1 (C116) DNP
+Added Member To Class: ClassName=REG_2 Member=Component C116_REG_2 (C116) DNP
+Added Member To Class: ClassName=REG_1 Member=Component C117_REG_1 (C117) HMK325B7105KN-T
+Added Member To Class: ClassName=REG_1 Member=Component C118_REG_1 (C118) DNP
+Added Member To Class: ClassName=REG_2 Member=Component C118_REG_2 (C118) DNP
+Added Member To Class: ClassName=REG_1 Member=Component C119_REG_1 (C119) DNP
+Added Member To Class: ClassName=REG_1 Member=Component R44_REG_1 (R44) VARIES
+Added Member To Class: ClassName=REG_2 Member=Component R44_REG_2 (R44) VARIES
+Added Member To Class: ClassName=REG_1 Member=Component R45_REG_1 (R45) 100k
+Added Member To Class: ClassName=REG_1 Member=Component R46_REG_1 (R46) 100k
+Added Member To Class: ClassName=REG_2 Member=Component R46_REG_2 (R46) 100k
+Added Member To Class: ClassName=REG_1 Member=Component U4_REG_1 (U4) MCP1726T-ADJE/MF
