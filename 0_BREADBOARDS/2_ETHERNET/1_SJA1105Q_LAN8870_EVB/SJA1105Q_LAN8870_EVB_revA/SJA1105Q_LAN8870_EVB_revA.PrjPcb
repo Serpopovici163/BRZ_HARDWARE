@@ -185,6 +185,187 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NPJSFJAU
 
+[Document9]
+DocumentPath=SJA1105Q_LAN8870_EVB_revA.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\Design Rule Check - SJA1105Q_LAN8870_EVB_revA.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SJA1105Q_LAN8870_EVB_revA-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\NC Drill\SJA1105Q_LAN8870_EVB_revA-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SJA1105Q_LAN8870_EVB_revA-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\NC Drill\SJA1105Q_LAN8870_EVB_revA-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SJA1105Q_LAN8870_EVB_revA.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\NC Drill\SJA1105Q_LAN8870_EVB_revA.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.G1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.G1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.G2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.G2
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.G3
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.G3
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.G4
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.G4
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GM
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GM
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SJA1105Q_LAN8870_EVB_revA.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\NC Drill\SJA1105Q_LAN8870_EVB_revA.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for Free Documents\Gerber\SJA1105Q_LAN8870_EVB_revA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for SJA1105Q_LAN8870_EVB_revA\2026_02_01_EXPORT\Gerber\SJA1105Q_LAN8870_EVB_revA.REP
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

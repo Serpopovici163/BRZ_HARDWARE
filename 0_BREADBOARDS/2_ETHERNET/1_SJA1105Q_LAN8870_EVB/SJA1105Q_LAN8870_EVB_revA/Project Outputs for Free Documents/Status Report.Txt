@@ -1,0 +1,25 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [SJA1105Q_LAN8870_EVB_revA.PcbDoc]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GTO]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GTP]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GTS]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GTL]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.G1]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.G2]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.G3]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.G4]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GBL]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GBS]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GBP]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GBO]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GM1]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.GM]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.EXTREP]
+   Generated File[SJA1105Q_LAN8870_EVB_revA.REP]
+
+
+Files Generated   : 16
+Documents Printed : 0
+
+Finished Output Generation At 10:03:21 PM On 2/1/2026

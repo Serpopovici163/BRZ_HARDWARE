@@ -1,0 +1,745 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2/1/2026</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9:56:09 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc" class="file"><acronym title="D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc">D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">115</td></tr>
+</table>
+</td>
+</table><a name="ID2G212OP1HRZACPAEUMJEUNARBEHNBYWZXFN5CBOI5XCFG0G4ZICD"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJN2IYNCE24NQLUIGC4CTPNQBCLA4E33CP4GCF5NIIEVEFQ1UDY1P">Clearance Constraint (Gap=0.089mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1IRRZVXSQV34MUNF520MR024YHUKDVUMBXFWYIKPHMQOZHIM1ZUC">Clearance Constraint (Gap=0.5mm) (InDifferentialPairClass('100DIFF') or InNetClass('P0_RXD') or InNetClass('P0_TXD') or InNetClass('P1_RXD') or InNetClass('P1_TXD') or InNetClass('P2_RXD') or InNetClass('P2_TXD') or InNetClass('P3_RXD') or InNetClass('P3_TXD') or InNetClass('P4_RXD') or InNetClass('P4_TXD')),(InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4KUVDXICG45Y22G1POM430KUO0HPPSKGH3JOZBQNIWQVL41VMJN">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKFKQL13U1SYINYM5EMYL1MFUM1B3SO5X3GKJUIJHZWI1Q1SWFAM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLAOBOHSOPMS4F4CQPRTJ0UJR2II1EP2D0IXDTDB0GN5PY1AG1VED">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUCGGRUOSEUH0MCNW3QPKDEKMRK3OZ2CVYAKHL0I1KHQERFOYDP2I">Width Constraint (Min=0.089mm) (Max=1816.048mm) (Preferred=0.089mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVA0QCZN0Q1GQHRGZA1FBXZYCBFXVDQGY5DDWJ4JXA1P1LKQXUYDM">Width Constraint (Min=0.108mm) (Max=0.156mm) (Preferred=0.117mm) (InNetClass('P0_RXD') OR InNetClass('P0_TXD') OR InNetClass('P1_RXD') OR InNetClass('P1_TXD') OR  InNetClass('P2_RXD') OR InNetClass('P2_TXD') OR  InNetClass('P3_RXD') OR InNetClass('P3_TXD') OR  InNetClass('P4_RXD') OR InNetClass('P4_TXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4TTH4CLKPFPKJ3OZM21JSPDPINFSSXADLNSG1YPX5W2V5SKU352C">Routing Topology Rule(Topology=Shortest) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZIDNVUGAXGSPMCAIP2XCCSR4YJLNYPW3OYSZ2JOTBNJ4YSIFEURH">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.089mm) (Air Gap=0.089mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAYPSK3APTW35BN1MDMLFJNM3CO3BLP2TKQSRA5DSMG1XRCUL22DJ">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXUTNVUDMZMSVCVF30G0ATHBBJCW2FX35SM25OPZKRJBBVOUZUAC">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">44</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWYUD5DUKYT5XENZMDQON3BYTGK1EITATJVNKJEEHPFZVRSCY0IYK">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCJQS2W1CDNQTINLTYJKMEXG2ZJIRUDZAG3JRRVNSTHYLQJMNBC0E">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0DDT1DSO31OAKVG2MKIOCRDN1PMESVX2OPYZGPFIOUSIW1XSOCXC">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGJYPDXZRLV4MCPBMUBJSUL0M0NQBPIAK2UXT5VEH22OLFJF3KDVO">Silk To Solder Mask (Clearance=0.089mm) (IsPad),(All)</a></td>
+<td class="column2">62</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1H50UA14SQHCMA2TOJQAUKTEGMRDWY3RXX4BFKCSDM4ALRQFMN0M">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1NGVBVYTO0SUEFPWA5I3YW25UNM2QLB21NEPBCFBETJTIDZRY3VD">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0SRBDFMZRYB3PIRHQ04UIKEYUEWWXUIQ3RNYBHFFX41RCRMI1JEK">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">9</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHL3VV50AQQZFLDEB4AJWYCMDRIVSESTWEBXLIGEY1BLBVPW0QMEC">Matched Lengths(Tolerance=0.5mm) (InNetClass('P2_TXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYBNTCIXN1PNHDGOGQR2RN1GSTFC5KWJ4YHZ40SOH04F5EMN5UABM">Matched Lengths(Tolerance=0.5mm) (InxSignalClass('xSignals_U1_U2_PHY_4_MatchLengthsClass_2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCMSMAYCT03QOMAC01G3OO1HYDHZW23XPNV0M2BHHZQFWLG215G2H">Matched Lengths(Tolerance=0.5mm) (InNetClass('P2_RXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0MIOQZPMLQTGDLIMUMEAPOZWMC115ZJDKA3VJ2IA2SZEH3GCLIKK">Matched Lengths(Tolerance=0.5mm) (InxSignalClass('xSignals_U1_U2_PHY_4_MatchLengthsClass_3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNQZZTDS0VSXACWMM03YX255KTMIDRIBCTVLQCMLRIOLAXDXXKDWJ">Matched Lengths(Tolerance=0.5mm) (InNetClass('P3_TXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEPTLWAOD3U4OKALISQFAQCYAJFTFYTL0NOOA3ZE4SKZWZI2R5PZF">Matched Lengths(Tolerance=0.5mm) (InxSignalClass('xSignals_U1_U2_PHY_4_MatchLengthsClass_1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQX3NQDBLOOK4LS4JXHJ1VBP0KNZVZJ2QQ0KGYKN2JN4WK4HBRZE">Matched Lengths(Tolerance=0.5mm) (InxSignalClass('xSignals_U1_U2_PHY_4_MatchLengthsClass'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMBR2QM4DXPYZO31QARYU2MTXXPHYAHU5DIRR3KOZ2E2MXUQDZQRI">Matched Lengths(Tolerance=0.5mm) (InNetClass('P3_RXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSZWH2HFNOGALOIRRWLO0IRTA0FXIGZRFLK24ACJS5EJ3OEBCLILE">Matched Lengths(Tolerance=0.5mm) (InNetClass('P1_RXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQMF5EBQIYPF0BYOE1YOI5MPIWEKSBDXYUPKFPVIGOXFCK4R0GTVD">Matched Lengths(Tolerance=0.5mm) (InNetClass('P1_TXD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA1J55HOBNB5ZJ4BGCO4S4ZC4LLOGOOMZASXK2JJIAEJBA1LLSGPP">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">115</td>
+</tr>
+</table><br><a name="IDXUTNVUDMZMSVCVF30G0ATHBBJCW2FX35SM25OPZKRJBBVOUZUAC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.076mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22982.127mil|Location2.X=22986.377mil|Location1.Y=10508.702mil|Location2.Y=10512.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22982.127mil|Location2.X=22986.377mil|Location1.Y=10508.702mil|Location2.Y=10512.952mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (58.8mm,44.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22982.127mil|Location2.X=22986.377mil|Location1.Y=10918.15mil|Location2.Y=10922.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22982.127mil|Location2.X=22986.377mil|Location1.Y=10918.15mil|Location2.Y=10922.4mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (58.8mm,55.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23003.443mil|Location2.X=23007.693mil|Location1.Y=10802.347mil|Location2.Y=10806.597mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23003.443mil|Location2.X=23007.693mil|Location1.Y=10802.347mil|Location2.Y=10806.597mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (59.341mm,52.259mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23013.623mil|Location2.X=23017.873mil|Location1.Y=10571.694mil|Location2.Y=10575.944mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23013.623mil|Location2.X=23017.873mil|Location1.Y=10571.694mil|Location2.Y=10575.944mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (59.6mm,46.4mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10615.001mil|Location2.Y=10619.251mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10615.001mil|Location2.Y=10619.251mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (60.5mm,47.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10674.056mil|Location2.Y=10678.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10674.056mil|Location2.Y=10678.306mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (60.5mm,49mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10733.111mil|Location2.Y=10737.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10733.111mil|Location2.Y=10737.361mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (60.5mm,50.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23049.056mil|Location2.X=23053.306mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (60.5mm,52mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23076.615mil|Location2.X=23080.865mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23076.615mil|Location2.X=23080.865mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (61.2mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23076.615mil|Location2.X=23080.865mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23076.615mil|Location2.X=23080.865mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (61.2mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23068.741mil|Location2.X=23072.991mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23068.741mil|Location2.X=23072.991mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (61mm,46.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23068.741mil|Location2.X=23072.991mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23068.741mil|Location2.X=23072.991mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (61mm,53.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23127.796mil|Location2.X=23132.046mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23127.796mil|Location2.X=23132.046mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.5mm,46.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23127.796mil|Location2.X=23132.046mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23127.796mil|Location2.X=23132.046mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.5mm,53.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,47.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,49.6mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,50.4mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23139.607mil|Location2.X=23143.857mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62.8mm,52mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23108.111mil|Location2.X=23112.361mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23108.111mil|Location2.X=23112.361mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (62mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (63.6mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (63.6mm,49.6mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (63.6mm,50.4mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (63.6mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23171.103mil|Location2.X=23175.353mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (63.6mm,52mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (64.4mm,47.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (64.4mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23202.599mil|Location2.X=23206.849mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (64.4mm,49.6mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23186.851mil|Location2.X=23191.101mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23186.851mil|Location2.X=23191.101mil|Location1.Y=10575.631mil|Location2.Y=10579.881mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (64mm,46.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23186.851mil|Location2.X=23191.101mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23186.851mil|Location2.X=23191.101mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (64mm,53.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10603.19mil|Location2.Y=10607.44mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.2mm,47.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.2mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10697.678mil|Location2.Y=10701.928mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.2mm,49.6mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.2mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10823.662mil|Location2.Y=10827.912mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23234.095mil|Location2.X=23238.345mil|Location1.Y=10823.662mil|Location2.Y=10827.912mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.2mm,52.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23255.749mil|Location2.X=23259.999mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23255.749mil|Location2.X=23259.999mil|Location1.Y=10851.221mil|Location2.Y=10855.471mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (65.75mm,53.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10666.182mil|Location2.Y=10670.432mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (66.8mm,48.8mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10729.174mil|Location2.Y=10733.424mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (66.8mm,50.4mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23297.088mil|Location2.X=23301.338mil|Location1.Y=10760.67mil|Location2.Y=10764.92mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (66.8mm,51.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23324.647mil|Location2.X=23328.897mil|Location1.Y=10615.001mil|Location2.Y=10619.251mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23324.647mil|Location2.X=23328.897mil|Location1.Y=10615.001mil|Location2.Y=10619.251mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (67.5mm,47.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23324.647mil|Location2.X=23328.897mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23324.647mil|Location2.X=23328.897mil|Location1.Y=10792.166mil|Location2.Y=10796.416mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (67.5mm,52mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23391.576mil|Location2.X=23395.826mil|Location1.Y=10918.15mil|Location2.Y=10922.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23391.576mil|Location2.X=23395.826mil|Location1.Y=10918.15mil|Location2.Y=10922.4mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (69.2mm,55.2mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23403.387mil|Location2.X=23407.637mil|Location1.Y=10496.891mil|Location2.Y=10501.141mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23403.387mil|Location2.X=23407.637mil|Location1.Y=10496.891mil|Location2.Y=10501.141mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Via (69.5mm,44.5mm) from Top Layer to Bottom Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDGJYPDXZRLV4MCPBMUBJSUL0M0NQBPIAK2UXT5VEH22OLFJF3KDVO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.089mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10242.395mil|Location2.Y=10245.728mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10242.395mil|Location2.Y=10245.728mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C121-1(43mm,39.051mm) on Top Layer And Track (44.25mm,36.098mm)(44.25mm,39.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10159.669mil|Location2.Y=10163.002mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10159.669mil|Location2.Y=10163.002mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C121-2(43mm,36.949mm) on Top Layer And Track (44.25mm,36.098mm)(44.25mm,39.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10395.89mil|Location2.Y=10399.223mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10395.89mil|Location2.Y=10399.223mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C122-1(43mm,42.949mm) on Top Layer And Track (44.25mm,42.098mm)(44.25mm,45.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10478.615mil|Location2.Y=10481.948mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22409.751mil|Location2.X=22413.084mil|Location1.Y=10478.615mil|Location2.Y=10481.948mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C122-2(43mm,45.051mm) on Top Layer And Track (44.25mm,42.098mm)(44.25mm,45.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10395.89mil|Location2.Y=10399.223mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10395.89mil|Location2.Y=10399.223mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C123-1(46mm,42.949mm) on Top Layer And Track (44.75mm,42.098mm)(44.75mm,45.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10478.615mil|Location2.Y=10481.948mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10478.615mil|Location2.Y=10481.948mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C123-2(46mm,45.051mm) on Top Layer And Track (44.75mm,42.098mm)(44.75mm,45.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10242.395mil|Location2.Y=10245.728mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10242.395mil|Location2.Y=10245.728mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C124-1(46mm,39.051mm) on Top Layer And Track (44.75mm,36.098mm)(44.75mm,39.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10159.669mil|Location2.Y=10163.002mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=22429.436mil|Location2.X=22432.769mil|Location1.Y=10159.669mil|Location2.Y=10163.002mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad C124-2(46mm,36.949mm) on Top Layer And Track (44.75mm,36.098mm)(44.75mm,39.902mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23114.308mil|Location2.X=23119.058mil|Location1.Y=10573.412mil|Location2.Y=10578.162mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23114.308mil|Location2.X=23119.058mil|Location1.Y=10573.412mil|Location2.Y=10578.162mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.089mm) Between Pad C46-1(62.5mm,46.229mm) on Bottom Layer And Track (61.164mm,46.764mm)(62.836mm,46.764mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23081.729mil|Location2.X=23086.479mil|Location1.Y=10573.412mil|Location2.Y=10578.162mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23081.729mil|Location2.X=23086.479mil|Location1.Y=10573.412mil|Location2.Y=10578.162mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.078mm &lt; 0.089mm) Between Pad C47-1(61mm,46.229mm) on Bottom Layer And Track (61.164mm,46.764mm)(62.836mm,46.764mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-1(80.73mm,38.46mm) on Top Layer And Track (81.5mm,34.65mm)(81.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-10(77.27mm,43.54mm) on Top Layer And Track (76.5mm,34.65mm)(76.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-2(77.27mm,38.46mm) on Top Layer And Track (76.5mm,34.65mm)(76.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-3(80.73mm,39.73mm) on Top Layer And Track (81.5mm,34.65mm)(81.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-4(77.27mm,39.73mm) on Top Layer And Track (76.5mm,34.65mm)(76.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-5(80.73mm,41mm) on Top Layer And Track (81.5mm,34.65mm)(81.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-6(77.27mm,41mm) on Top Layer And Track (76.5mm,34.65mm)(76.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-7(80.73mm,42.27mm) on Top Layer And Track (81.5mm,34.65mm)(81.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23679.436mil|Location2.X=23682.769mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-8(77.27mm,42.27mm) on Top Layer And Track (76.5mm,34.65mm)(76.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23876.286mil|Location2.X=23879.619mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J8-9(80.73mm,43.54mm) on Top Layer And Track (81.5mm,34.65mm)(81.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-1(116.73mm,38.46mm) on Top Layer And Track (117.5mm,34.65mm)(117.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-10(113.27mm,43.54mm) on Top Layer And Track (112.5mm,34.65mm)(112.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10239.864mil|Location2.Y=10243.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-2(113.27mm,38.46mm) on Top Layer And Track (112.5mm,34.65mm)(112.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-3(116.73mm,39.73mm) on Top Layer And Track (117.5mm,34.65mm)(117.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10289.864mil|Location2.Y=10293.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-4(113.27mm,39.73mm) on Top Layer And Track (112.5mm,34.65mm)(112.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-5(116.73mm,41mm) on Top Layer And Track (117.5mm,34.65mm)(117.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10339.864mil|Location2.Y=10343.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-6(113.27mm,41mm) on Top Layer And Track (112.5mm,34.65mm)(112.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-7(116.73mm,42.27mm) on Top Layer And Track (117.5mm,34.65mm)(117.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25096.758mil|Location2.X=25100.092mil|Location1.Y=10389.864mil|Location2.Y=10393.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-8(113.27mm,42.27mm) on Top Layer And Track (112.5mm,34.65mm)(112.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25293.609mil|Location2.X=25296.942mil|Location1.Y=10439.864mil|Location2.Y=10443.197mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.089mm) Between Pad J9-9(116.73mm,43.54mm) on Top Layer And Track (117.5mm,34.65mm)(117.5mm,47.35mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25087.634mil|Location2.X=25094.515mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25087.634mil|Location2.X=25094.515mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R19_PHY_4-1(112.75mm,68.85mm) on Top Layer And Track (112.2mm,69.3mm)(112.2mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25124.151mil|Location2.X=25131.108mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25124.151mil|Location2.X=25131.108mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R19_PHY_4-1(112.75mm,68.85mm) on Top Layer And Track (113.3mm,69.3mm)(113.3mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25087.634mil|Location2.X=25094.59mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25087.634mil|Location2.X=25094.59mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R19_PHY_4-2(112.75mm,70.15mm) on Top Layer And Track (112.2mm,69.3mm)(112.2mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25124.151mil|Location2.X=25131.034mil|Location1.Y=11484.885mil|Location2.Y=11492.886mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25124.151mil|Location2.X=25131.034mil|Location1.Y=11484.885mil|Location2.Y=11492.886mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R19_PHY_4-2(112.75mm,70.15mm) on Top Layer And Track (113.3mm,69.3mm)(113.3mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25136.846mil|Location2.X=25143.728mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25136.846mil|Location2.X=25143.728mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R20_PHY_4-1(114mm,68.85mm) on Top Layer And Track (113.45mm,69.3mm)(113.45mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25173.364mil|Location2.X=25180.321mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25173.364mil|Location2.X=25180.321mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R20_PHY_4-1(114mm,68.85mm) on Top Layer And Track (114.55mm,69.3mm)(114.55mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25136.846mil|Location2.X=25143.803mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25136.846mil|Location2.X=25143.803mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R20_PHY_4-2(114mm,70.15mm) on Top Layer And Track (113.45mm,69.3mm)(113.45mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25173.364mil|Location2.X=25180.246mil|Location1.Y=11484.885mil|Location2.Y=11492.886mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25173.364mil|Location2.X=25180.246mil|Location1.Y=11484.885mil|Location2.Y=11492.886mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R20_PHY_4-2(114mm,70.15mm) on Top Layer And Track (114.55mm,69.3mm)(114.55mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25186.059mil|Location2.X=25192.94mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25186.059mil|Location2.X=25192.94mil|Location1.Y=11463.121mil|Location2.Y=11471.122mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R22_PHY_4-1(115.25mm,68.85mm) on Top Layer And Track (114.7mm,69.3mm)(114.7mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25186.059mil|Location2.X=25193.015mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25186.059mil|Location2.X=25193.015mil|Location1.Y=11481.7mil|Location2.Y=11489.635mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R22_PHY_4-2(115.25mm,70.15mm) on Top Layer And Track (114.7mm,69.3mm)(114.7mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25074.939mil|Location2.X=25081.821mil|Location1.Y=11484.885mil|Location2.Y=11492.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25074.939mil|Location2.X=25081.821mil|Location1.Y=11484.885mil|Location2.Y=11492.885mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R26_PHY_4-1(111.5mm,70.15mm) on Top Layer And Track (112.05mm,69.3mm)(112.05mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25074.939mil|Location2.X=25081.895mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25074.939mil|Location2.X=25081.895mil|Location1.Y=11459.936mil|Location2.Y=11467.871mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R26_PHY_4-2(111.5mm,68.85mm) on Top Layer And Track (112.05mm,69.3mm)(112.05mm,69.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9625.035mil|Location2.Y=9631.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9625.035mil|Location2.Y=9631.992mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R33-1(83.85mm,23mm) on Top Layer And Track (84.3mm,22.45mm)(84.7mm,22.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9622.904mil|Location2.Y=9629.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9622.904mil|Location2.Y=9629.785mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R33-2(85.15mm,23mm) on Top Layer And Track (84.3mm,22.45mm)(84.7mm,22.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9526.61mil|Location2.Y=9533.567mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9526.61mil|Location2.Y=9533.567mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R34-1(83.85mm,20.5mm) on Top Layer And Track (84.3mm,19.95mm)(84.7mm,19.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9560.996mil|Location2.Y=9567.878mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9560.996mil|Location2.Y=9567.878mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R34-1(83.85mm,20.5mm) on Top Layer And Track (84.3mm,21.05mm)(84.7mm,21.05mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9524.479mil|Location2.Y=9531.36mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9524.479mil|Location2.Y=9531.36mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R34-2(85.15mm,20.5mm) on Top Layer And Track (84.3mm,19.95mm)(84.7mm,19.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9563.128mil|Location2.Y=9570.085mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9563.128mil|Location2.Y=9570.085mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R34-2(85.15mm,20.5mm) on Top Layer And Track (84.3mm,21.05mm)(84.7mm,21.05mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9477.398mil|Location2.Y=9484.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9477.398mil|Location2.Y=9484.354mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R35-1(83.85mm,19.25mm) on Top Layer And Track (84.3mm,18.7mm)(84.7mm,18.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9511.783mil|Location2.Y=9518.665mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9511.783mil|Location2.Y=9518.665mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R35-1(83.85mm,19.25mm) on Top Layer And Track (84.3mm,19.8mm)(84.7mm,19.8mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9475.266mil|Location2.Y=9482.148mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9475.266mil|Location2.Y=9482.148mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R35-2(85.15mm,19.25mm) on Top Layer And Track (84.3mm,18.7mm)(84.7mm,18.7mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9513.915mil|Location2.Y=9520.872mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9513.915mil|Location2.Y=9520.872mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R35-2(85.15mm,19.25mm) on Top Layer And Track (84.3mm,19.8mm)(84.7mm,19.8mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9428.185mil|Location2.Y=9435.141mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9428.185mil|Location2.Y=9435.141mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R36-1(83.85mm,18mm) on Top Layer And Track (84.3mm,17.45mm)(84.7mm,17.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9462.571mil|Location2.Y=9469.453mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9462.571mil|Location2.Y=9469.453mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R36-1(83.85mm,18mm) on Top Layer And Track (84.3mm,18.55mm)(84.7mm,18.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9426.054mil|Location2.Y=9432.935mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9426.054mil|Location2.Y=9432.935mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R36-2(85.15mm,18mm) on Top Layer And Track (84.3mm,17.45mm)(84.7mm,17.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9464.703mil|Location2.Y=9471.66mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9464.703mil|Location2.Y=9471.66mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R36-2(85.15mm,18mm) on Top Layer And Track (84.3mm,18.55mm)(84.7mm,18.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9413.358mil|Location2.Y=9420.24mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9413.358mil|Location2.Y=9420.24mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R37-1(83.85mm,16.75mm) on Top Layer And Track (84.3mm,17.3mm)(84.7mm,17.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9415.49mil|Location2.Y=9422.447mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.505mil|Location1.Y=9415.49mil|Location2.Y=9422.447mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R37-2(85.15mm,16.75mm) on Top Layer And Track (84.3mm,17.3mm)(84.7mm,17.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9575.823mil|Location2.Y=9582.779mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.741mil|Location1.Y=9575.823mil|Location2.Y=9582.779mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R42-1(83.85mm,21.75mm) on Top Layer And Track (84.3mm,21.2mm)(84.7mm,21.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9610.209mil|Location2.Y=9617.091mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23982.806mil|Location2.X=23990.807mil|Location1.Y=9610.209mil|Location2.Y=9617.091mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R42-1(83.85mm,21.75mm) on Top Layer And Track (84.3mm,22.3mm)(84.7mm,22.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9573.692mil|Location2.Y=9580.573mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.571mil|Location1.Y=9573.692mil|Location2.Y=9580.573mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R42-2(85.15mm,21.75mm) on Top Layer And Track (84.3mm,21.2mm)(84.7mm,21.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.504mil|Location1.Y=9612.341mil|Location2.Y=9619.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=24004.57mil|Location2.X=24012.504mil|Location1.Y=9612.341mil|Location2.Y=9619.298mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.03mm &lt; 0.089mm) Between Pad R42-2(85.15mm,21.75mm) on Top Layer And Track (84.3mm,22.3mm)(84.7mm,22.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.03mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0SRBDFMZRYB3PIRHQ04UIKEYUEWWXUIQ3RNYBHFFX41RCRMI1JEK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10740.806mil|Location2.Y=10747.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10740.806mil|Location2.Y=10747.056mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.021mm,46.273mm)(-0.021mm,55.519mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10558.806mil|Location2.Y=10565.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10558.806mil|Location2.Y=10565.056mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.021mm,46.273mm)(12.527mm,46.273mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10922.806mil|Location2.Y=10929.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20664.137mil|Location2.X=20670.387mil|Location1.Y=10922.806mil|Location2.Y=10929.056mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.021mm,55.519mm)(12.527mm,55.519mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20654.356mil|Location2.X=20660.605mil|Location1.Y=10351.206mil|Location2.Y=10357.455mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20654.356mil|Location2.X=20660.605mil|Location1.Y=10351.206mil|Location2.Y=10357.455mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.3mm,36.4mm)(-0.3mm,45.6mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20658.13mil|Location2.X=20664.379mil|Location1.Y=10170.104mil|Location2.Y=10176.353mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20658.13mil|Location2.X=20664.379mil|Location1.Y=10170.104mil|Location2.Y=10176.353mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.3mm,36.4mm)(8.525mm,36.4mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20658.13mil|Location2.X=20664.379mil|Location1.Y=10532.309mil|Location2.Y=10538.558mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20658.13mil|Location2.X=20664.379mil|Location1.Y=10532.309mil|Location2.Y=10538.558mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (-0.3mm,45.6mm)(14.3mm,45.6mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25782.48mil|Location2.X=25788.729mil|Location1.Y=9135.655mil|Location2.Y=9141.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25782.48mil|Location2.X=25788.729mil|Location1.Y=9135.655mil|Location2.Y=9141.904mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (119.47mm,10.125mm)(131.84mm,10.125mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25782.48mil|Location2.X=25788.729mil|Location1.Y=9755.734mil|Location2.Y=9761.983mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25782.48mil|Location2.X=25788.729mil|Location1.Y=9755.734mil|Location2.Y=9761.983mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (119.47mm,25.875mm)(131.84mm,25.875mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25856.718mil|Location2.X=25862.967mil|Location1.Y=9445.694mil|Location2.Y=9451.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\BRZ\1_BRZ_HARDWARE\0_BREADBOARDS\2_ETHERNET\1_SJA1105Q_LAN8870_EVB\SJA1105Q_LAN8870_EVB_revA\SJA1105Q_LAN8870_EVB_revA.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=25856.718mil|Location2.X=25862.967mil|Location1.Y=9445.694mil|Location2.Y=9451.943mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Track (131.84mm,10.125mm)(131.84mm,25.875mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
