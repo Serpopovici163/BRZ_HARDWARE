@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AOLYBPYZ
 
 [Document2]
-DocumentPath=ADJ_REG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TEPAOPKO
-
-[Document3]
 DocumentPath=IMX385_PINOUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,6 +82,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PKNJVXLE
+
+[Document3]
+DocumentPath=TLV751_PINOUT.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IKQKBMSD
 
 [Configuration1]
 Name=Sources
