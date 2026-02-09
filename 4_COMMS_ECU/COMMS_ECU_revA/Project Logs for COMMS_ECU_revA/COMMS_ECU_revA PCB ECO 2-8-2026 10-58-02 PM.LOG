@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=P5_TRX_P Pin=J1-3-1
+Removed Pin From Net: NetName=P5_TRX_N Pin=J1-3-2
+Removed Pin From Net: NetName=P4_TRX_P Pin=J1-4-1
+Removed Pin From Net: NetName=P4_TRX_N Pin=J1-4-2
+Added Pin To Net: NetName=P4_TRX_P Pin=J1-3-1
+Added Pin To Net: NetName=P4_TRX_N Pin=J1-3-2
+Added Pin To Net: NetName=P5_TRX_P Pin=J1-4-1
+Added Pin To Net: NetName=P5_TRX_N Pin=J1-4-2

@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=LAN8870_VDDIO_PHY_0 New Net Name=3V3
+Added Member To Class: ClassName=PWR Member=Wire 3V3
+Added Member To Class: ClassName=PWR Member=Wire 8830_1V1
+Added Member To Class: ClassName=PWR Member=Wire 8870_1V1
+Added Rule: Name=Schematic Supply Nets_2
